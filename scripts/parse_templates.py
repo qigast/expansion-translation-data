@@ -90,6 +90,16 @@ def parse_from_file(filename: str) -> list[str]:
     return templates
 
 if __name__ == "__main__":
-    templates = parse_from_file('en.battle.messages.txt')
+    import sys
+
+    if len(sys.argv) != 2:
+        print("Usage: python parse_templates.py <filename>")
+        sys.exit(1)
+
+    filename = sys.argv[1]
+    templates = parse_from_file(filename)
+
+    i = 0
     for template in templates:
-        print(Template(template))
+        print(f"Template {i}:", template)
+        i += 1
