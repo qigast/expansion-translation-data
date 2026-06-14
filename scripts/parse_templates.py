@@ -56,6 +56,35 @@ class Template:
                 # Regular character, we advance by one.
                 i += 1
 
+    def extract_buffer_values(self, input_string: str) -> bool:
+        '''
+            Tries to extract buffer values from the given
+            input string based on the raw_string template.
+        '''
+
+        if len(self.buffers) == 1 and self.raw_string.strip() == f"{{{self.buffers[0]}}}":
+            return False
+        
+        placeholder_pattern = r'\{[^\}]+\}'
+        literal_chunks = re.split(placeholder_pattern, self.raw_string)
+
+        regex_pattern = "^"
+        for i, chunk in enumerate(literal_chunks):
+            if chunk:
+                regex_pattern += re.escape(chunk)
+
+            if i < len(literal_chunks) - 1:
+                regex_pattern += r'(.*)'
+        regex_pattern += "$"
+
+        match = re.match(regex_pattern, input_string, flags=re.DOTALL)
+    
+        if match:
+            self.buffer_values = list(match.groups())
+            return True
+        
+        return False
+
     def __str__(self):
         '''
             Returns a string representation of the Template object.
@@ -99,7 +128,19 @@ if __name__ == "__main__":
     filename = sys.argv[1]
     templates = parse_from_file(filename)
 
-    i = 0
+    s = "1's fervent wish has reached Rayquaza!"
+    found = False
+    
     for template in templates:
-        print(f"Template {i}:", template)
-        i += 1
+        t = Template(template)
+
+        if t.extract_buffer_values(s):
+            print(f"Template: {t.raw_string}")
+            for buffer, value in zip(t.buffers, t.buffer_values):
+                print(f"  {buffer}: {value}")
+            print()
+            found = True
+            break
+
+    if not found:
+        print("No matching template found.")
