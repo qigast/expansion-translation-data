@@ -59,8 +59,8 @@ static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_LINK_OPPONENT1_NAME} re
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_LINK_OPPONENT2_NAME} retire\n{B_BUFF1}!");
 static const u8 sText_WildPkmnPrefix[] = _(" sauvage");
 static const u8 sText_FoePkmnPrefix[] = _(" ennemi");
-
-
+static const u8 sText_WildPkmnPrefixLower[] = _(" sauvage"); // To keep indexes matching.
+static const u8 sText_FoePkmnPrefixLower[] = _(" ennemi");   // To keep indexes matching.
 static const u8 sText_EmptyString8[] = _("");
 static const u8 sText_FoePkmnPrefix2[] = _("ennemi");
 static const u8 sText_AllyPkmnPrefix[] = _("ami");
@@ -778,7 +778,6 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_BLOCKEDBYSLEEPCLAUSE]                 = COMPOUND_STRING("La clause de sommeil tient {B_DEF_NAME_WITH_PREFIX2} éveillé!"),
     [STRINGID_SUPEREFFECTIVETWOFOES]                = COMPOUND_STRING("C'est super efficace sur {B_DEF_NAME_WITH_PREFIX2} et {B_DEF_PARTNER_NAME}!"),
     [STRINGID_NOTVERYEFFECTIVETWOFOES]              = COMPOUND_STRING("Ce n'est pas très efficace sur {B_DEF_NAME_WITH_PREFIX2} et {B_DEF_PARTNER_NAME}…"),
-    [STRINGID_ITDOESNTAFFECTTWOFOES]                = COMPOUND_STRING("Ça n'affecte pas {B_DEF_NAME_WITH_PREFIX2} et {B_DEF_PARTNER_NAME}…"),
     [STRINGID_SENDCAUGHTMONPARTYORBOX]              = COMPOUND_STRING("Ajouter {B_DEF_NAME} à votre équipe?"),
     [STRINGID_PKMNSENTTOPCAFTERCATCH]               = gText_PkmnSentToPCAfterCatch,
     [STRINGID_PKMNDYNAMAXED]                        = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} prend sa Forme Dynamax!"),
@@ -916,7 +915,6 @@ const u8 gText_RecordBattleToPass[] = _("Voulez-vous enregistrer votre\ncombat s
 const u8 gText_BattleRecordedOnPass[] = _("Le résultat de {B_PLAYER_NAME} est\nenregistré sur le PASSE ZONE.");
 static const u8 sText_LinkTrainerWantsToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}\nveut se battre!{PAUSE 49}");
 static const u8 sText_TwoLinkTrainersWantToBattlePause[] = _("{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}\nveulent se battre!{PAUSE 49}");
-
 static const u8 sText_Your1[] = _("Votre équipe");
 static const u8 sText_Opposing1[] = _("L'équipe ennemie");
 static const u8 sText_Your2[] = _("votre équipe");
