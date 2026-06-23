@@ -48,8 +48,9 @@ class Template:
                 
                 buffer_name = self.raw_string[i+1:end_index]
 
-                self.buffers.append(buffer_name)
-                self.buffer_values.append("")  # Placeholder for buffer value
+                if buffer_name.startswith("B_"):
+                    self.buffers.append(buffer_name)
+                    self.buffer_values.append("")  # Placeholder for buffer value
                 
                 i = end_index + 1
             else:
@@ -65,7 +66,7 @@ class Template:
         if len(self.buffers) == 1 and self.raw_string.strip() == f"{{{self.buffers[0]}}}":
             return False
         
-        placeholder_pattern = r'\{[^\}]+\}'
+        placeholder_pattern = r'\{B_[^\}]+\}'
         literal_chunks = re.split(placeholder_pattern, self.raw_string)
 
         regex_pattern = "^"
@@ -84,6 +85,18 @@ class Template:
             return True
         
         return False
+    
+    def compose_string(self) -> str:
+        '''
+            Composes a string by replacing the buffers in the raw_string
+            with their corresponding values from buffer_values.
+        '''
+        composed_string = self.raw_string
+
+        for buffer, value in zip(self.buffers, self.buffer_values):
+            composed_string = composed_string.replace(f"{{{buffer}}}", value)
+
+        return composed_string
 
     def __str__(self):
         '''
@@ -128,7 +141,7 @@ if __name__ == "__main__":
     filename = sys.argv[1]
     templates = parse_from_file(filename)
 
-    s = "1's fervent wish has reached Rayquaza!"
+    s = "Wobbuffet's Defense rose drastically!"
     found = False
     
     for template in templates:
@@ -138,7 +151,7 @@ if __name__ == "__main__":
             print(f"Template: {t.raw_string}")
             for buffer, value in zip(t.buffers, t.buffer_values):
                 print(f"  {buffer}: {value}")
-            print()
+            print(f"Composed string: {t.compose_string()}")
             found = True
             break
 
