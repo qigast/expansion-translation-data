@@ -1,0 +1,1862 @@
+{
+    "ABILITY_STENCH": {
+        "id": 1,
+        "code": "ABILITY_STENCH",
+        "name": "Puanteur",
+        "description": "Repousse POKéMON sauvage."
+    },
+    "ABILITY_VOLT_ABSORB": {
+        "id": 10,
+        "code": "ABILITY_VOLT_ABSORB",
+        "name": "Absorbe-Volt",
+        "description": "Change l'électricité en PV."
+    },
+    "ABILITY_STALL": {
+        "id": 100,
+        "code": "ABILITY_STALL",
+        "name": "Frein",
+        "description": "Attaque toujours après l'ennemi, même plus lent."
+    },
+    "ABILITY_TECHNICIAN": {
+        "id": 101,
+        "code": "ABILITY_TECHNICIAN",
+        "name": "Technicien",
+        "description": "Augmente la puissance des capacités les plus faibles."
+    },
+    "ABILITY_LEAF_GUARD": {
+        "id": 102,
+        "code": "ABILITY_LEAF_GUARD",
+        "name": "Feuille Garde",
+        "description": "Empêche les problèmes de statut au soleil."
+    },
+    "ABILITY_KLUTZ": {
+        "id": 103,
+        "code": "ABILITY_KLUTZ",
+        "name": "Maladresse",
+        "description": "Le Pokémon ne peut utiliser aucun objet tenu."
+    },
+    "ABILITY_MOLD_BREAKER": {
+        "id": 104,
+        "code": "ABILITY_MOLD_BREAKER",
+        "name": "Brise Moule",
+        "description": "Cap. utilisables quelles que soient les cap. spé."
+    },
+    "ABILITY_SUPER_LUCK": {
+        "id": 105,
+        "code": "ABILITY_SUPER_LUCK",
+        "name": "Chanceux",
+        "description": "Augmente la fréquence des coups critiques."
+    },
+    "ABILITY_AFTERMATH": {
+        "id": 106,
+        "code": "ABILITY_AFTERMATH",
+        "name": "Boom Final",
+        "description": "Blesse l'ennemi qui porte le coup de grâce."
+    },
+    "ABILITY_ANTICIPATION": {
+        "id": 107,
+        "code": "ABILITY_ANTICIPATION",
+        "name": "Anticipation",
+        "description": "Prévoit les capacités ennemies dangereuses."
+    },
+    "ABILITY_FOREWARN": {
+        "id": 108,
+        "code": "ABILITY_FOREWARN",
+        "name": "Prédiction",
+        "description": "Découvre la capacité ennemie la plus puissante."
+    },
+    "ABILITY_UNAWARE": {
+        "id": 109,
+        "code": "ABILITY_UNAWARE",
+        "name": "Inconscient",
+        "description": "Ignore les changements de stats de l'ennemi."
+    },
+    "ABILITY_WATER_ABSORB": {
+        "id": 11,
+        "code": "ABILITY_WATER_ABSORB",
+        "name": "Absorbe-Eau",
+        "description": "Change l'eau en PV."
+    },
+    "ABILITY_TINTED_LENS": {
+        "id": 110,
+        "code": "ABILITY_TINTED_LENS",
+        "name": "Lentiteintée",
+        "description": "Améliore les capacités “pas très efficaces”."
+    },
+    "ABILITY_FILTER": {
+        "id": 111,
+        "code": "ABILITY_FILTER",
+        "name": "Filtre",
+        "description": "Affaiblit les capacités “super efficaces”."
+    },
+    "ABILITY_SLOW_START": {
+        "id": 112,
+        "code": "ABILITY_SLOW_START",
+        "name": "Début Calme",
+        "description": "Divise temporairement Vitesse et Attaque par 2."
+    },
+    "ABILITY_SCRAPPY": {
+        "id": 113,
+        "code": "ABILITY_SCRAPPY",
+        "name": "Querelleur",
+        "description": "Les capacités touchent les Pokémon Spectre."
+    },
+    "ABILITY_STORM_DRAIN": {
+        "id": 114,
+        "code": "ABILITY_STORM_DRAIN",
+        "name": "Lavabo",
+        "description": "Attire l'eau et augmente l'Atq. Spé."
+    },
+    "ABILITY_ICE_BODY": {
+        "id": 115,
+        "code": "ABILITY_ICE_BODY",
+        "name": "Corps Gel",
+        "description": "Récupère des PV lors des tempêtes de grêle."
+    },
+    "ABILITY_SOLID_ROCK": {
+        "id": 116,
+        "code": "ABILITY_SOLID_ROCK",
+        "name": "Solide Roc",
+        "description": "Affaiblit les capacités “super efficaces”."
+    },
+    "ABILITY_SNOW_WARNING": {
+        "id": 117,
+        "code": "ABILITY_SNOW_WARNING",
+        "name": "Alerte Neige",
+        "description": "Déclenche une tempête de grêle pendant un combat."
+    },
+    "ABILITY_HONEY_GATHER": {
+        "id": 118,
+        "code": "ABILITY_HONEY_GATHER",
+        "name": "Cherche Miel",
+        "description": "Le Pokémon peut parfois trouver du Miel."
+    },
+    "ABILITY_FRISK": {
+        "id": 119,
+        "code": "ABILITY_FRISK",
+        "name": "Fouille",
+        "description": "Permet de connaître l'objet tenu par l'ennemi."
+    },
+    "ABILITY_OBLIVIOUS": {
+        "id": 12,
+        "code": "ABILITY_OBLIVIOUS",
+        "name": "Benêt",
+        "description": "Empêche l'attirance."
+    },
+    "ABILITY_RECKLESS": {
+        "id": 120,
+        "code": "ABILITY_RECKLESS",
+        "name": "Téméraire",
+        "description": "Booste les cap. ayant des dégâts de contrecoups."
+    },
+    "ABILITY_MULTITYPE": {
+        "id": 121,
+        "code": "ABILITY_MULTITYPE",
+        "name": "Multi-Type",
+        "description": "Modifie le type en fonction de la Plaque tenue."
+    },
+    "ABILITY_FLOWER_GIFT": {
+        "id": 122,
+        "code": "ABILITY_FLOWER_GIFT",
+        "name": "Don Floral",
+        "description": "Pokémon de l'équipe plus puissants au soleil."
+    },
+    "ABILITY_BAD_DREAMS": {
+        "id": 123,
+        "code": "ABILITY_BAD_DREAMS",
+        "name": "Mauvais Rêve",
+        "description": "Réduit les PV d'un ennemi endormi."
+    },
+    "ABILITY_PICKPOCKET": {
+        "id": 124,
+        "code": "ABILITY_PICKPOCKET",
+        "name": "Pickpocket",
+        "description": "Vole l'objet de l'ennemi si son attaque touche."
+    },
+    "ABILITY_SHEER_FORCE": {
+        "id": 125,
+        "code": "ABILITY_SHEER_FORCE",
+        "name": "Sans Limite",
+        "description": "Frappe plus fort mais annule les effets cumulés."
+    },
+    "ABILITY_CONTRARY": {
+        "id": 126,
+        "code": "ABILITY_CONTRARY",
+        "name": "Contestation",
+        "description": "Inverse les variations de stats."
+    },
+    "ABILITY_UNNERVE": {
+        "id": 127,
+        "code": "ABILITY_UNNERVE",
+        "name": "Tension",
+        "description": "L'ennemi stresse et ne peut plus manger de Baies."
+    },
+    "ABILITY_DEFIANT": {
+        "id": 128,
+        "code": "ABILITY_DEFIANT",
+        "name": "Acharné",
+        "description": "Monte l'Attaque quand les stats baissent."
+    },
+    "ABILITY_DEFEATIST": {
+        "id": 129,
+        "code": "ABILITY_DEFEATIST",
+        "name": "Défaitiste",
+        "description": "Baisse les stats quand les PV tombent à la moitié."
+    },
+    "ABILITY_CLOUD_NINE": {
+        "id": 13,
+        "code": "ABILITY_CLOUD_NINE",
+        "name": "Ciel Gris",
+        "description": "Ignore les effets du climat."
+    },
+    "ABILITY_CURSED_BODY": {
+        "id": 130,
+        "code": "ABILITY_CURSED_BODY",
+        "name": "Corps Maudit",
+        "description": "Peut empêcher l'ennemi de réutiliser une attaque."
+    },
+    "ABILITY_HEALER": {
+        "id": 131,
+        "code": "ABILITY_HEALER",
+        "name": "Cœur Soin",
+        "description": "Guérit parfois le statut des alliés alentour."
+    },
+    "ABILITY_FRIEND_GUARD": {
+        "id": 132,
+        "code": "ABILITY_FRIEND_GUARD",
+        "name": "Garde-Ami",
+        "description": "Diminue les dégâts subis par les alliés."
+    },
+    "ABILITY_WEAK_ARMOR": {
+        "id": 133,
+        "code": "ABILITY_WEAK_ARMOR",
+        "name": "Armurouillée",
+        "description": "Un coup physique baisse la Défense, monte la Vitesse."
+    },
+    "ABILITY_HEAVY_METAL": {
+        "id": 134,
+        "code": "ABILITY_HEAVY_METAL",
+        "name": "Heavy Metal",
+        "description": "Double le poids du Pokémon."
+    },
+    "ABILITY_LIGHT_METAL": {
+        "id": 135,
+        "code": "ABILITY_LIGHT_METAL",
+        "name": "Light Metal",
+        "description": "Divise par 2 le poids du Pokémon."
+    },
+    "ABILITY_MULTISCALE": {
+        "id": 136,
+        "code": "ABILITY_MULTISCALE",
+        "name": "Multiécaille",
+        "description": "Reçoit moins de dégâts si les PV sont au maximum."
+    },
+    "ABILITY_TOXIC_BOOST": {
+        "id": 137,
+        "code": "ABILITY_TOXIC_BOOST",
+        "name": "Rage Poison",
+        "description": "Booste les att. physiques si le statut est poison."
+    },
+    "ABILITY_FLARE_BOOST": {
+        "id": 138,
+        "code": "ABILITY_FLARE_BOOST",
+        "name": "Rage Brûlure",
+        "description": "Booste les att. spéciales si le statut est brûlure."
+    },
+    "ABILITY_HARVEST": {
+        "id": 139,
+        "code": "ABILITY_HARVEST",
+        "name": "Récolte",
+        "description": "Les Baies utilisées peuvent repousser."
+    },
+    "ABILITY_COMPOUND_EYES": {
+        "id": 14,
+        "code": "ABILITY_COMPOUND_EYES",
+        "name": "Œil Composé",
+        "description": "Augmente la précision."
+    },
+    "ABILITY_TELEPATHY": {
+        "id": 140,
+        "code": "ABILITY_TELEPATHY",
+        "name": "Télépathe",
+        "description": "Anticipe et évite les attaques de ses alliés."
+    },
+    "ABILITY_MOODY": {
+        "id": 141,
+        "code": "ABILITY_MOODY",
+        "name": "Lunatique",
+        "description": "Monte une stat tout en en baissant une autre."
+    },
+    "ABILITY_OVERCOAT": {
+        "id": 142,
+        "code": "ABILITY_OVERCOAT",
+        "name": "Envelocape",
+        "description": "Neutralise les dégâts dus à la météo."
+    },
+    "ABILITY_POISON_TOUCH": {
+        "id": 143,
+        "code": "ABILITY_POISON_TOUCH",
+        "name": "Toxitouche",
+        "description": "Peut empoisonner l'ennemi par simple contact."
+    },
+    "ABILITY_REGENERATOR": {
+        "id": 144,
+        "code": "ABILITY_REGENERATOR",
+        "name": "Régé-Force",
+        "description": "Restaure un peu de PV si le Pokémon est retiré."
+    },
+    "ABILITY_BIG_PECKS": {
+        "id": 145,
+        "code": "ABILITY_BIG_PECKS",
+        "name": "Cœur de Coq",
+        "description": "Protège des effets qui baissent la Défense."
+    },
+    "ABILITY_SAND_RUSH": {
+        "id": 146,
+        "code": "ABILITY_SAND_RUSH",
+        "name": "Baigne Sable",
+        "description": "Augmente la Vitesse lors des tempêtes de sable."
+    },
+    "ABILITY_WONDER_SKIN": {
+        "id": 147,
+        "code": "ABILITY_WONDER_SKIN",
+        "name": "Peau Miracle",
+        "description": "Résiste mieux aux attaques de statut."
+    },
+    "ABILITY_ANALYTIC": {
+        "id": 148,
+        "code": "ABILITY_ANALYTIC",
+        "name": "Analyste",
+        "description": "Booste les capacités s'il attaque en dernier."
+    },
+    "ABILITY_ILLUSION": {
+        "id": 149,
+        "code": "ABILITY_ILLUSION",
+        "name": "Illusion",
+        "description": "Prend l'apparence du dernier Pokémon de l'équipe."
+    },
+    "ABILITY_INSOMNIA": {
+        "id": 15,
+        "code": "ABILITY_INSOMNIA",
+        "name": "Insomnia",
+        "description": "Empêche de s'endormir."
+    },
+    "ABILITY_IMPOSTER": {
+        "id": 150,
+        "code": "ABILITY_IMPOSTER",
+        "name": "Imposteur",
+        "description": "Donne l'apparence du Pokémon adverse."
+    },
+    "ABILITY_INFILTRATOR": {
+        "id": 151,
+        "code": "ABILITY_INFILTRATOR",
+        "name": "Infiltration",
+        "description": "Traverse les barrières de l'ennemi pour attaquer."
+    },
+    "ABILITY_MUMMY": {
+        "id": 152,
+        "code": "ABILITY_MUMMY",
+        "name": "Momie",
+        "description": "Momifie le talent de l'ennemi qui le touche."
+    },
+    "ABILITY_MOXIE": {
+        "id": 153,
+        "code": "ABILITY_MOXIE",
+        "name": "Impudence",
+        "description": "Monte l'Attaque quand il met un ennemi K.O."
+    },
+    "ABILITY_JUSTIFIED": {
+        "id": 154,
+        "code": "ABILITY_JUSTIFIED",
+        "name": "Cœur Noble",
+        "description": "Monte l'Attaque si une att. Ténèbres le touche."
+    },
+    "ABILITY_RATTLED": {
+        "id": 155,
+        "code": "ABILITY_RATTLED",
+        "name": "Phobique",
+        "description": "Sa peur de certains types augmente sa Vitesse."
+    },
+    "ABILITY_MAGIC_BOUNCE": {
+        "id": 156,
+        "code": "ABILITY_MAGIC_BOUNCE",
+        "name": "Miroir Magik",
+        "description": "Renvoie les attaques de statut."
+    },
+    "ABILITY_SAP_SIPPER": {
+        "id": 157,
+        "code": "ABILITY_SAP_SIPPER",
+        "name": "Herbivore",
+        "description": "Augmente l'Attaque après une attaque Plante."
+    },
+    "ABILITY_PRANKSTER": {
+        "id": 158,
+        "code": "ABILITY_PRANKSTER",
+        "name": "Farceur",
+        "description": "Utilise les attaques de statut en premier."
+    },
+    "ABILITY_SAND_FORCE": {
+        "id": 159,
+        "code": "ABILITY_SAND_FORCE",
+        "name": "Force Sable",
+        "description": "Renforce des capacités en cas de tempête de sable."
+    },
+    "ABILITY_COLOR_CHANGE": {
+        "id": 16,
+        "code": "ABILITY_COLOR_CHANGE",
+        "name": "Homochromie",
+        "description": "Le Pokémon adopte le type de la capacité ennemie."
+    },
+    "ABILITY_IRON_BARBS": {
+        "id": 160,
+        "code": "ABILITY_IRON_BARBS",
+        "name": "Épine de Fer",
+        "description": "Blesse l'ennemi au moindre contact."
+    },
+    "ABILITY_ZEN_MODE": {
+        "id": 161,
+        "code": "ABILITY_ZEN_MODE",
+        "name": "Mode Transe",
+        "description": "Transforme le Pokémon dans les moments délicats."
+    },
+    "ABILITY_VICTORY_STAR": {
+        "id": 162,
+        "code": "ABILITY_VICTORY_STAR",
+        "name": "Victorieux",
+        "description": "Monte la Précision des Pokémon de l'équipe."
+    },
+    "ABILITY_TURBOBLAZE": {
+        "id": 163,
+        "code": "ABILITY_TURBOBLAZE",
+        "name": "Turbo Brasier",
+        "description": "Les cap. spé. adverses ne bloquent pas ses cap."
+    },
+    "ABILITY_TERAVOLT": {
+        "id": 164,
+        "code": "ABILITY_TERAVOLT",
+        "name": "Téra-Voltage",
+        "description": "Les cap. spé. adverses ne bloquent pas ses cap."
+    },
+    "ABILITY_AROMA_VEIL": {
+        "id": 165,
+        "code": "ABILITY_AROMA_VEIL",
+        "name": "Aroma-Voile",
+        "description": "Protège l'équipe des effets limitant le libre arbitre."
+    },
+    "ABILITY_FLOWER_VEIL": {
+        "id": 166,
+        "code": "ABILITY_FLOWER_VEIL",
+        "name": "Flora-Voile",
+        "description": "Empêche les alliés de type Plante de subir des diminutions de stats."
+    },
+    "ABILITY_CHEEK_POUCH": {
+        "id": 167,
+        "code": "ABILITY_CHEEK_POUCH",
+        "name": "Bajoues",
+        "description": "Rend des PV lorsque le Pokémon consomme une Baie."
+    },
+    "ABILITY_PROTEAN": {
+        "id": 168,
+        "code": "ABILITY_PROTEAN",
+        "name": "Protéen",
+        "description": "Le Pokémon prend le type de la capacité qu'il utilise."
+    },
+    "ABILITY_FUR_COAT": {
+        "id": 169,
+        "code": "ABILITY_FUR_COAT",
+        "name": "Toison Épaisse",
+        "description": "Divise les dégâts des attaques physiques par deux."
+    },
+    "ABILITY_IMMUNITY": {
+        "id": 17,
+        "code": "ABILITY_IMMUNITY",
+        "name": "Vaccin",
+        "description": "Empêche l'empoisonnement."
+    },
+    "ABILITY_MAGICIAN": {
+        "id": 170,
+        "code": "ABILITY_MAGICIAN",
+        "name": "Magicien",
+        "description": "Les capacités volent aussi l'objet tenu par la cible."
+    },
+    "ABILITY_BULLETPROOF": {
+        "id": 171,
+        "code": "ABILITY_BULLETPROOF",
+        "name": "Pare-Balles",
+        "description": "Protège de certaines capacités projetant des bombes, balles…"
+    },
+    "ABILITY_COMPETITIVE": {
+        "id": 172,
+        "code": "ABILITY_COMPETITIVE",
+        "name": "Battant",
+        "description": "Monte l'Attaque quand les stats baissent."
+    },
+    "ABILITY_STRONG_JAW": {
+        "id": 173,
+        "code": "ABILITY_STRONG_JAW",
+        "name": "Prognathe",
+        "description": "Grâce à une puissante mâchoire, les morsures sont plus fortes."
+    },
+    "ABILITY_REFRIGERATE": {
+        "id": 174,
+        "code": "ABILITY_REFRIGERATE",
+        "name": "Peau Gelée",
+        "description": "Les capacités de type Normal deviennent de type Glace."
+    },
+    "ABILITY_SWEET_VEIL": {
+        "id": 175,
+        "code": "ABILITY_SWEET_VEIL",
+        "name": "Gluco-Voile",
+        "description": "Les Pokémon de l'équipe ne peuvent pas s'endormir."
+    },
+    "ABILITY_STANCE_CHANGE": {
+        "id": 176,
+        "code": "ABILITY_STANCE_CHANGE",
+        "name": "Déclic Tactique",
+        "description": "Change de forme selon la façon dont le Pokémon se bat."
+    },
+    "ABILITY_GALE_WINGS": {
+        "id": 177,
+        "code": "ABILITY_GALE_WINGS",
+        "name": "Ailes Bourrasque",
+        "description": "Les attaques de type Vol sont prioritaires."
+    },
+    "ABILITY_MEGA_LAUNCHER": {
+        "id": 178,
+        "code": "ABILITY_MEGA_LAUNCHER",
+        "name": "Méga Blaster",
+        "description": "Augmente la puissance de certaines capacités de type aura."
+    },
+    "ABILITY_GRASS_PELT": {
+        "id": 179,
+        "code": "ABILITY_GRASS_PELT",
+        "name": "Toison Herbue",
+        "description": "Augmente la Défense si Champ Herbu est actif."
+    },
+    "ABILITY_FLASH_FIRE": {
+        "id": 18,
+        "code": "ABILITY_FLASH_FIRE",
+        "name": "Torche",
+        "description": "Puissance monte si brûlé."
+    },
+    "ABILITY_SYMBIOSIS": {
+        "id": 180,
+        "code": "ABILITY_SYMBIOSIS",
+        "name": "Symbiose",
+        "description": "Permet aux alliés d'utiliser l'objet porté par ce Pokémon."
+    },
+    "ABILITY_TOUGH_CLAWS": {
+        "id": 181,
+        "code": "ABILITY_TOUGH_CLAWS",
+        "name": "Griffe Dure",
+        "description": "Augmente la puissance des attaques directes."
+    },
+    "ABILITY_PIXILATE": {
+        "id": 182,
+        "code": "ABILITY_PIXILATE",
+        "name": "Peau Féérique",
+        "description": "Les capacités de type Normal deviennent de type Fée."
+    },
+    "ABILITY_GOOEY": {
+        "id": 183,
+        "code": "ABILITY_GOOEY",
+        "name": "Poisseux",
+        "description": "Diminue la Vitesse de l'attaquant qui le touche."
+    },
+    "ABILITY_AERILATE": {
+        "id": 184,
+        "code": "ABILITY_AERILATE",
+        "name": "Peau Céleste",
+        "description": "Les capacités de type Normal deviennent de type Vol."
+    },
+    "ABILITY_PARENTAL_BOND": {
+        "id": 185,
+        "code": "ABILITY_PARENTAL_BOND",
+        "name": "Amour Filial",
+        "description": "Attaque en famille."
+    },
+    "ABILITY_DARK_AURA": {
+        "id": 186,
+        "code": "ABILITY_DARK_AURA",
+        "name": "Aura Ténébreuse",
+        "description": "Renforce les attaques de type Ténèbres de tous les Pokémon."
+    },
+    "ABILITY_FAIRY_AURA": {
+        "id": 187,
+        "code": "ABILITY_FAIRY_AURA",
+        "name": "Aura Féérique",
+        "description": "Renforce les attaques de type Fée de tous les Pokémon."
+    },
+    "ABILITY_AURA_BREAK": {
+        "id": 188,
+        "code": "ABILITY_AURA_BREAK",
+        "name": "Aura Inversée",
+        "description": "L'effet des auras est inversé."
+    },
+    "ABILITY_PRIMORDIAL_SEA": {
+        "id": 189,
+        "code": "ABILITY_PRIMORDIAL_SEA",
+        "name": "Mer Primaire",
+        "description": "Altère les conditions météo et rend inefficaces les attaques Feu."
+    },
+    "ABILITY_SHIELD_DUST": {
+        "id": 19,
+        "code": "ABILITY_SHIELD_DUST",
+        "name": "Écran Poudre",
+        "description": "Empêche le cumul d'effets."
+    },
+    "ABILITY_DESOLATE_LAND": {
+        "id": 190,
+        "code": "ABILITY_DESOLATE_LAND",
+        "name": "Terre Finale",
+        "description": "Altère les conditions météo et rend inefficaces les attaques Eau."
+    },
+    "ABILITY_DELTA_STREAM": {
+        "id": 191,
+        "code": "ABILITY_DELTA_STREAM",
+        "name": "Souffle Delta",
+        "description": "Altère les conditions météo et annule les faiblesses du type Vol."
+    },
+    "ABILITY_STAMINA": {
+        "id": 192,
+        "code": "ABILITY_STAMINA",
+        "name": "Endurance",
+        "description": "Augmente la Défense du Pokémon lorsqu'il subit une attaque."
+    },
+    "ABILITY_WIMP_OUT": {
+        "id": 193,
+        "code": "ABILITY_WIMP_OUT",
+        "name": "Escampette",
+        "description": "Le Pokémon perd confiance quand ses PV tombent à la moitié et s'enfuit dans sa Poké Ball."
+    },
+    "ABILITY_EMERGENCY_EXIT": {
+        "id": 194,
+        "code": "ABILITY_EMERGENCY_EXIT",
+        "name": "Repli Tactique",
+        "description": "Le Pokémon évite les situations inutilement dangereuses. Quand ses PV tombent à la moitié, il se réfugie dans sa Poké Ball."
+    },
+    "ABILITY_WATER_COMPACTION": {
+        "id": 195,
+        "code": "ABILITY_WATER_COMPACTION",
+        "name": "Sable Humide",
+        "description": "Augmente beaucoup la Défense du Pokémon quand il subit une capacité de type Eau."
+    },
+    "ABILITY_MERCILESS": {
+        "id": 196,
+        "code": "ABILITY_MERCILESS",
+        "name": "Cruauté",
+        "description": "Lorsque le Pokémon attaque un adversaire empoisonné, le coup est forcément critique."
+    },
+    "ABILITY_SHIELDS_DOWN": {
+        "id": 197,
+        "code": "ABILITY_SHIELDS_DOWN",
+        "name": "Bouclier-Carcan",
+        "description": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise et il adopte une posture offensive."
+    },
+    "ABILITY_STAKEOUT": {
+        "id": 198,
+        "code": "ABILITY_STAKEOUT",
+        "name": "Filature",
+        "description": "Lorsque le Pokémon attaque une cible qui vient d'entrer sur le terrain en remplacement d'un autre Pokémon, les dégâts infligés sont doublés."
+    },
+    "ABILITY_WATER_BUBBLE": {
+        "id": 199,
+        "code": "ABILITY_WATER_BUBBLE",
+        "name": "Aquabulle",
+        "description": "Réduit les dégâts des capacités de type Feu subies par le Pokémon. Il est également immunisé contre les brûlures."
+    },
+    "ABILITY_DRIZZLE": {
+        "id": 2,
+        "code": "ABILITY_DRIZZLE",
+        "name": "Crachin",
+        "description": "Le Pokémon invoque la pluie quand il entre au combat."
+    },
+    "ABILITY_OWN_TEMPO": {
+        "id": 20,
+        "code": "ABILITY_OWN_TEMPO",
+        "name": "Tempo Perso",
+        "description": "Empêche la confusion."
+    },
+    "ABILITY_STEELWORKER": {
+        "id": 200,
+        "code": "ABILITY_STEELWORKER",
+        "name": "Expert Acier",
+        "description": "Augmente la puissance des attaques de type Acier."
+    },
+    "ABILITY_BERSERK": {
+        "id": 201,
+        "code": "ABILITY_BERSERK",
+        "name": "Folle Furie",
+        "description": "Augmente l'Attaque Spéciale du Pokémon lorsqu'il tombe à la moitié de ses PV à cause d'une attaque."
+    },
+    "ABILITY_SLUSH_RUSH": {
+        "id": 202,
+        "code": "ABILITY_SLUSH_RUSH",
+        "name": "Chasse-Neige",
+        "description": "Augmente la Vitesse du Pokémon quand il grêle."
+    },
+    "ABILITY_LONG_REACH": {
+        "id": 203,
+        "code": "ABILITY_LONG_REACH",
+        "name": "Longue Portée",
+        "description": "Le Pokémon est capable d'utiliser toutes ses capacités sans entrer en contact direct avec sa cible."
+    },
+    "ABILITY_LIQUID_VOICE": {
+        "id": 204,
+        "code": "ABILITY_LIQUID_VOICE",
+        "name": "Hydrata-Son",
+        "description": "Toutes les attaques sonores du Pokémon prennent le type Eau."
+    },
+    "ABILITY_TRIAGE": {
+        "id": 205,
+        "code": "ABILITY_TRIAGE",
+        "name": "Prioguérison",
+        "description": "Rend les capacités de soin prioritaires."
+    },
+    "ABILITY_GALVANIZE": {
+        "id": 206,
+        "code": "ABILITY_GALVANIZE",
+        "name": "Peau Électrique",
+        "description": "Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente légèrement."
+    },
+    "ABILITY_SURGE_SURFER": {
+        "id": 207,
+        "code": "ABILITY_SURGE_SURFER",
+        "name": "Surf Caudal",
+        "description": "La Vitesse du Pokémon est doublée sur un Champ Électrifié."
+    },
+    "ABILITY_SCHOOLING": {
+        "id": 208,
+        "code": "ABILITY_SCHOOLING",
+        "name": "Banc",
+        "description": "Le Pokémon se rassemble avec ses congénères quand ses PV sont élevés. Plus ses PV baissent, plus le banc s'amenuise."
+    },
+    "ABILITY_DISGUISE": {
+        "id": 209,
+        "code": "ABILITY_DISGUISE",
+        "name": "Fantômasque",
+        "description": "Le déguisement qui recouvre le corps du Pokémon est capable de le protéger d'une attaque."
+    },
+    "ABILITY_SUCTION_CUPS": {
+        "id": 21,
+        "code": "ABILITY_SUCTION_CUPS",
+        "name": "Ventouse",
+        "description": "Fixe solidement le corps."
+    },
+    "ABILITY_BATTLE_BOND": {
+        "id": 210,
+        "code": "ABILITY_BATTLE_BOND",
+        "name": "Synergie",
+        "description": "En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur, ce qui augmente son Attaque, son Attaque Spéciale et sa Vitesse."
+    },
+    "ABILITY_POWER_CONSTRUCT": {
+        "id": 211,
+        "code": "ABILITY_POWER_CONSTRUCT",
+        "name": "Rassemblement",
+        "description": "Lorsque le Pokémon perd la moitié de ses PV, ses Cellules se rassemblent pour l'encourager, ce qui lui permet de prendre sa Forme Parfaite."
+    },
+    "ABILITY_CORROSION": {
+        "id": 212,
+        "code": "ABILITY_CORROSION",
+        "name": "Corrosion",
+        "description": "Permet d'empoisonner les Pokémon de type Acier ou Poison."
+    },
+    "ABILITY_COMATOSE": {
+        "id": 213,
+        "code": "ABILITY_COMATOSE",
+        "name": "Hypersommeil",
+        "description": "Le Pokémon rêve en permanence et ne se réveille jamais. Il est capable d'attaquer normalement tout en dormant."
+    },
+    "ABILITY_QUEENLY_MAJESTY": {
+        "id": 214,
+        "code": "ABILITY_QUEENLY_MAJESTY",
+        "name": "Prestance Royale",
+        "description": "L'adversaire est impressionné par la majesté du Pokémon et ne peut pas le viser avec une attaque prioritaire."
+    },
+    "ABILITY_INNARDS_OUT": {
+        "id": 215,
+        "code": "ABILITY_INNARDS_OUT",
+        "name": "Expuls'Organes",
+        "description": "Le Pokémon inflige à l'adversaire l'ayant mis K.O. des dégâts égaux au nombre de PV qu'il lui restait avant le coup de grâce."
+    },
+    "ABILITY_DANCER": {
+        "id": 216,
+        "code": "ABILITY_DANCER",
+        "name": "Danseuse",
+        "description": "Si n'importe quel Pokémon utilise une capacité dansante, ce Pokémon peut se mettre aussi à danser."
+    },
+    "ABILITY_BATTERY": {
+        "id": 217,
+        "code": "ABILITY_BATTERY",
+        "name": "Batterie",
+        "description": "Augmente la puissance des capacités spéciales des alliés."
+    },
+    "ABILITY_FLUFFY": {
+        "id": 218,
+        "code": "ABILITY_FLUFFY",
+        "name": "Boule de Poils",
+        "description": "Divise par deux les dégâts des attaques directes subies par le Pokémon, mais double les dégâts des capacités de type Feu."
+    },
+    "ABILITY_DAZZLING": {
+        "id": 219,
+        "code": "ABILITY_DAZZLING",
+        "name": "Corps Coloré",
+        "description": "L'adversaire est abasourdi par le Pokémon et ne peut pas le viser avec une capacité prioritaire."
+    },
+    "ABILITY_INTIMIDATE": {
+        "id": 22,
+        "code": "ABILITY_INTIMIDATE",
+        "name": "Intimidation",
+        "description": "Baisse l'ATTAQUE ennemie."
+    },
+    "ABILITY_SOUL_HEART": {
+        "id": 220,
+        "code": "ABILITY_SOUL_HEART",
+        "name": "Animacœur",
+        "description": "Augmente l'Attaque Spéciale du Pokémon lorsqu'un autre Pokémon est mis K.O."
+    },
+    "ABILITY_TANGLING_HAIR": {
+        "id": 221,
+        "code": "ABILITY_TANGLING_HAIR",
+        "name": "Mèche Rebelle",
+        "description": "Baisse la Vitesse de l'attaquant lorsque le Pokémon subit une attaque directe."
+    },
+    "ABILITY_RECEIVER": {
+        "id": 222,
+        "code": "ABILITY_RECEIVER",
+        "name": "Receveur",
+        "description": "Le Pokémon reçoit le talent d'un allié mis K.O."
+    },
+    "ABILITY_POWER_OF_ALCHEMY": {
+        "id": 223,
+        "code": "ABILITY_POWER_OF_ALCHEMY",
+        "name": "Osmose",
+        "description": "Le Pokémon acquiert le talent d'un allié mis K.O."
+    },
+    "ABILITY_BEAST_BOOST": {
+        "id": 224,
+        "code": "ABILITY_BEAST_BOOST",
+        "name": "Boost Chimère",
+        "description": "Augmente la stat la plus élevée du Pokémon quand il met K.O. un autre Pokémon."
+    },
+    "ABILITY_RKS_SYSTEM": {
+        "id": 225,
+        "code": "ABILITY_RKS_SYSTEM",
+        "name": "Système Alpha",
+        "description": "Change le type du Pokémon en fonction de la ROM équipée."
+    },
+    "ABILITY_ELECTRIC_SURGE": {
+        "id": 226,
+        "code": "ABILITY_ELECTRIC_SURGE",
+        "name": "Créa-Élec",
+        "description": "Le Pokémon crée un Champ Électrifié au moment où il entre au combat."
+    },
+    "ABILITY_PSYCHIC_SURGE": {
+        "id": 227,
+        "code": "ABILITY_PSYCHIC_SURGE",
+        "name": "Créa-Psy",
+        "description": "Le Pokémon crée un Champ Psychique au moment où il entre au combat."
+    },
+    "ABILITY_MISTY_SURGE": {
+        "id": 228,
+        "code": "ABILITY_MISTY_SURGE",
+        "name": "Créa-Brume",
+        "description": "Le Pokémon crée un Champ Brumeux au moment où il entre au combat."
+    },
+    "ABILITY_GRASSY_SURGE": {
+        "id": 229,
+        "code": "ABILITY_GRASSY_SURGE",
+        "name": "Créa-Herbe",
+        "description": "Le Pokémon crée un Champ Herbu au moment où il entre au combat."
+    },
+    "ABILITY_SHADOW_TAG": {
+        "id": 23,
+        "code": "ABILITY_SHADOW_TAG",
+        "name": "Marque Ombre",
+        "description": "Empêche la fuite ennemie."
+    },
+    "ABILITY_FULL_METAL_BODY": {
+        "id": 230,
+        "code": "ABILITY_FULL_METAL_BODY",
+        "name": "Métallo-Garde",
+        "description": "Empêche les stats du Pokémon de baisser à cause d'une capacité ou d'un talent."
+    },
+    "ABILITY_SHADOW_SHIELD": {
+        "id": 231,
+        "code": "ABILITY_SHADOW_SHIELD",
+        "name": "Spectro-Bouclier",
+        "description": "Le Pokémon subit moins de dégâts quand ses PV sont au maximum."
+    },
+    "ABILITY_PRISM_ARMOR": {
+        "id": 232,
+        "code": "ABILITY_PRISM_ARMOR",
+        "name": "Prisme-Armure",
+        "description": "Diminue la puissance des attaques super efficaces subies."
+    },
+    "ABILITY_NEUROFORCE": {
+        "id": 233,
+        "code": "ABILITY_NEUROFORCE",
+        "name": "Cérébro-Force",
+        "description": "Augmente encore plus la puissance des attaques super efficaces."
+    },
+    "ABILITY_INTREPID_SWORD": {
+        "id": 234,
+        "code": "ABILITY_INTREPID_SWORD",
+        "name": "Lame Indomptable",
+        "description": "Augmente l'Attaque du Pokémon quand il entre au combat."
+    },
+    "ABILITY_DAUNTLESS_SHIELD": {
+        "id": 235,
+        "code": "ABILITY_DAUNTLESS_SHIELD",
+        "name": "Égide Inflexible",
+        "description": "Augmente la Défense du Pokémon quand il entre au combat."
+    },
+    "ABILITY_LIBERO": {
+        "id": 236,
+        "code": "ABILITY_LIBERO",
+        "name": "Libéro",
+        "description": "Le Pokémon prend le type de la capacité qu'il utilise."
+    },
+    "ABILITY_BALL_FETCH": {
+        "id": 237,
+        "code": "ABILITY_BALL_FETCH",
+        "name": "Ramasse Ball",
+        "description": "Si le Pokémon ne tient aucun objet, il ramassera la Poké Ball lors du premier lancer raté du combat."
+    },
+    "ABILITY_COTTON_DOWN": {
+        "id": 238,
+        "code": "ABILITY_COTTON_DOWN",
+        "name": "Effilochage",
+        "description": "Quand le Pokémon est touché par une attaque, il dissémine des aigrettes qui diminuent la Vitesse de tout le monde, sauf la sienne."
+    },
+    "ABILITY_PROPELLER_TAIL": {
+        "id": 239,
+        "code": "ABILITY_PROPELLER_TAIL",
+        "name": "Propulseur",
+        "description": "Permet d'ignorer l'effet des capacités ou des talents qui attirent les capacités."
+    },
+    "ABILITY_ROUGH_SKIN": {
+        "id": 24,
+        "code": "ABILITY_ROUGH_SKIN",
+        "name": "Peau Dure",
+        "description": "Blesse quand touché."
+    },
+    "ABILITY_MIRROR_ARMOR": {
+        "id": 240,
+        "code": "ABILITY_MIRROR_ARMOR",
+        "name": "Armure Miroir",
+        "description": "Le Pokémon renvoie les effets réducteurs de stats qu'il reçoit."
+    },
+    "ABILITY_GULP_MISSILE": {
+        "id": 241,
+        "code": "ABILITY_GULP_MISSILE",
+        "name": "Dégobage",
+        "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu'il subit des dégâts par la suite, il attaque en recrachant sa proie."
+    },
+    "ABILITY_STALWART": {
+        "id": 242,
+        "code": "ABILITY_STALWART",
+        "name": "Nerfs d'Acier",
+        "description": "Permet d'ignorer l'effet des capacités ou des talents qui attirent les capacités."
+    },
+    "ABILITY_STEAM_ENGINE": {
+        "id": 243,
+        "code": "ABILITY_STEAM_ENGINE",
+        "name": "Turbine",
+        "description": "Lorsque le Pokémon est touché par des capacités de type Eau ou Feu, sa Vitesse augmente énormément."
+    },
+    "ABILITY_PUNK_ROCK": {
+        "id": 244,
+        "code": "ABILITY_PUNK_ROCK",
+        "name": "Punk Rock",
+        "description": "Augmente la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
+    },
+    "ABILITY_SAND_SPIT": {
+        "id": 245,
+        "code": "ABILITY_SAND_SPIT",
+        "name": "Expul'Sable",
+        "description": "Le Pokémon déclenche une tempête de sable quand il subit une attaque."
+    },
+    "ABILITY_ICE_SCALES": {
+        "id": 246,
+        "code": "ABILITY_ICE_SCALES",
+        "name": "Écailles Glacées",
+        "description": "Le Pokémon est protégé par des écailles de glace. Les dégâts qu'il subit par des capacités spéciales sont divisés par deux."
+    },
+    "ABILITY_RIPEN": {
+        "id": 247,
+        "code": "ABILITY_RIPEN",
+        "name": "Mûrissement",
+        "description": "Le Pokémon fait mûrir la Baie qu'il tient et double ainsi son effet."
+    },
+    "ABILITY_ICE_FACE": {
+        "id": 248,
+        "code": "ABILITY_ICE_FACE",
+        "name": "Tête de Gel",
+        "description": "Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon, mais sa destruction modifie son apparence. Le glaçon se reforme quand il grêle."
+    },
+    "ABILITY_POWER_SPOT": {
+        "id": 249,
+        "code": "ABILITY_POWER_SPOT",
+        "name": "Cercle d'Énergie",
+        "description": "Augmente la puissance des capacités des Pokémon qui se trouvent à proximité."
+    },
+    "ABILITY_WONDER_GUARD": {
+        "id": 25,
+        "code": "ABILITY_WONDER_GUARD",
+        "name": "Garde Mystik",
+        "description": "Reçoit seul. \"sup. eff.\"."
+    },
+    "ABILITY_MIMICRY": {
+        "id": 250,
+        "code": "ABILITY_MIMICRY",
+        "name": "Mimétisme",
+        "description": "Le Pokémon adopte le même type que le terrain lorsqu'un champ est actif."
+    },
+    "ABILITY_SCREEN_CLEANER": {
+        "id": 251,
+        "code": "ABILITY_SCREEN_CLEANER",
+        "name": "Brise-Barrière",
+        "description": "Quand le Pokémon entre au combat, les effets de Mur Lumière, Protection et Voile Aurore disparaissent pour les alliés comme pour les ennemis."
+    },
+    "ABILITY_STEELY_SPIRIT": {
+        "id": 252,
+        "code": "ABILITY_STEELY_SPIRIT",
+        "name": "Boost Acier",
+        "description": "Augmente la puissance des attaques de type Acier du Pokémon et de ses alliés."
+    },
+    "ABILITY_PERISH_BODY": {
+        "id": 253,
+        "code": "ABILITY_PERISH_BODY",
+        "name": "Corps Condamné",
+        "description": "Lorsque le Pokémon est directement touché par une attaque, l'assaillant et lui tomberont K.O. dans trois tours, à moins qu'ils ne soient remplacés entre temps."
+    },
+    "ABILITY_WANDERING_SPIRIT": {
+        "id": 254,
+        "code": "ABILITY_WANDERING_SPIRIT",
+        "name": "Âme Vagabonde",
+        "description": "Lorsque le Pokémon est directement touché par une attaque, il échange son talent avec celui de l'assaillant."
+    },
+    "ABILITY_GORILLA_TACTICS": {
+        "id": 255,
+        "code": "ABILITY_GORILLA_TACTICS",
+        "name": "Entêtement",
+        "description": "Augmente l'Attaque, mais empêche d'utiliser toute autre capacité que celle utilisée en premier par le Pokémon."
+    },
+    "ABILITY_NEUTRALIZING_GAS": {
+        "id": 256,
+        "code": "ABILITY_NEUTRALIZING_GAS",
+        "name": "Gaz Inhibiteur",
+        "description": "Si un Pokémon avec Gaz Inhibiteur est sur le terrain, les effets des talents de tous les autres Pokémon sont annulés."
+    },
+    "ABILITY_PASTEL_VEIL": {
+        "id": 257,
+        "code": "ABILITY_PASTEL_VEIL",
+        "name": "Voile Pastel",
+        "description": "Protège le Pokémon et ses alliés contre toutes les altérations de statut liées à l'empoisonnement."
+    },
+    "ABILITY_HUNGER_SWITCH": {
+        "id": 258,
+        "code": "ABILITY_HUNGER_SWITCH",
+        "name": "Déclic Fringale",
+        "description": "À la fin de chaque tour, le Pokémon alterne entre ses formes Mode Rassasié et Mode Affamé."
+    },
+    "ABILITY_QUICK_DRAW": {
+        "id": 259,
+        "code": "ABILITY_QUICK_DRAW",
+        "name": "Tir Vif",
+        "description": "Permet parfois au Pokémon d'agir en premier."
+    },
+    "ABILITY_LEVITATE": {
+        "id": 26,
+        "code": "ABILITY_LEVITATE",
+        "name": "Lévitation",
+        "description": "Ignore les attaques SOL."
+    },
+    "ABILITY_UNSEEN_FIST": {
+        "id": 260,
+        "code": "ABILITY_UNSEEN_FIST",
+        "name": "Poing Invisible",
+        "description": "Si le Pokémon utilise une attaque directe, celle-ci pourra passer outre les protections de la cible."
+    },
+    "ABILITY_CURIOUS_MEDICINE": {
+        "id": 261,
+        "code": "ABILITY_CURIOUS_MEDICINE",
+        "name": "Breuvage Suspect",
+        "description": "Quand il entre au combat, le Pokémon répand une substance qui annule les changements de stats de ses alliés."
+    },
+    "ABILITY_TRANSISTOR": {
+        "id": 262,
+        "code": "ABILITY_TRANSISTOR",
+        "name": "Transistor",
+        "description": "Augmente la puissance des attaques de type Électrik."
+    },
+    "ABILITY_DRAGON_S_MAW": {
+        "id": 263,
+        "code": "ABILITY_DRAGON_S_MAW",
+        "name": "Dent de Dragon",
+        "description": "Augmente la puissance des attaques de type Dragon."
+    },
+    "ABILITY_CHILLING_NEIGH": {
+        "id": 264,
+        "code": "ABILITY_CHILLING_NEIGH",
+        "name": "Blanche Ruade",
+        "description": "Quand le Pokémon met un ennemi K.O., il émet un hennissement glaçant, ce qui augmente son Attaque."
+    },
+    "ABILITY_GRIM_NEIGH": {
+        "id": 265,
+        "code": "ABILITY_GRIM_NEIGH",
+        "name": "Sombre Ruade",
+        "description": "Quand le Pokémon met un ennemi K.O., il émet un hennissement terrifiant qui augmente son Attaque Spéciale."
+    },
+    "ABILITY_AS_ONE": {
+        "id": 267,
+        "code": "ABILITY_AS_ONE",
+        "name": "Osmose Équine",
+        "description": "Les talents Tension de Sylveroy et Sombre Ruade de Spectreval sont cumulés."
+    },
+    "ABILITY_LINGERING_AROMA": {
+        "id": 268,
+        "code": "ABILITY_LINGERING_AROMA",
+        "name": "Odeur Tenace",
+        "description": "Lorsque le Pokémon subit une attaque directe, le talent de l'attaquant est remplacé par Odeur Tenace."
+    },
+    "ABILITY_SEED_SOWER": {
+        "id": 269,
+        "code": "ABILITY_SEED_SOWER",
+        "name": "Semencier",
+        "description": "Le Pokémon crée un champ herbu quand il subit une attaque."
+    },
+    "ABILITY_EFFECT_SPORE": {
+        "id": 27,
+        "code": "ABILITY_EFFECT_SPORE",
+        "name": "Pose Spore",
+        "description": "Laisse spores si touché."
+    },
+    "ABILITY_THERMAL_EXCHANGE": {
+        "id": 270,
+        "code": "ABILITY_THERMAL_EXCHANGE",
+        "name": "Thermodynamique",
+        "description": "Lorsque le Pokémon est touché par une capacité de type Feu, son Attaque augmente. Il ne peut pas être brûlé."
+    },
+    "ABILITY_ANGER_SHELL": {
+        "id": 271,
+        "code": "ABILITY_ANGER_SHELL",
+        "name": "Courroupace",
+        "description": "Le Pokémon enrage s'il a moins de la moitié de ses PV après avoir subi une attaque. Sa Déf. et sa Déf. Spé. baissent, et son Atq., son Atq. Spé. et sa Vit. augmentent."
+    },
+    "ABILITY_PURIFYING_SALT": {
+        "id": 272,
+        "code": "ABILITY_PURIFYING_SALT",
+        "name": "Sel Purificateur",
+        "description": "Le sel pur immunise le Pokémon contre les altérations de statut, et diminue de moitié les dégâts des capacités de type Spectre."
+    },
+    "ABILITY_WELL_BAKED_BODY": {
+        "id": 273,
+        "code": "ABILITY_WELL_BAKED_BODY",
+        "name": "Bien Cuit",
+        "description": "Si le Pokémon est touché par une capacité de type Feu, il ne subit aucun dégât et sa Défense augmente beaucoup."
+    },
+    "ABILITY_WIND_RIDER": {
+        "id": 274,
+        "code": "ABILITY_WIND_RIDER",
+        "name": "Aéroporté",
+        "description": "L'Attaque du Pokémon augmente si un vent arrière souffle ou s'il est touché par une capacité faisant appel au vent. Dans ce dernier cas, il ne subit aucun dégât."
+    },
+    "ABILITY_GUARD_DOG": {
+        "id": 275,
+        "code": "ABILITY_GUARD_DOG",
+        "name": "Chien de Garde",
+        "description": "L'Attaque du Pokémon augmente s'il subit l'effet du talent Intimidation. Les capacités ou objets qui font changer de Pokémon n'ont aucun effet sur lui."
+    },
+    "ABILITY_ROCKY_PAYLOAD": {
+        "id": 276,
+        "code": "ABILITY_ROCKY_PAYLOAD",
+        "name": "Porte-Roche",
+        "description": "Augmente la puissance des capacités de type Roche."
+    },
+    "ABILITY_WIND_POWER": {
+        "id": 277,
+        "code": "ABILITY_WIND_POWER",
+        "name": "Turbine Éolienne",
+        "description": "Si le Pokémon est touché par une capacité faisant appel au vent, il se charge en électricité."
+    },
+    "ABILITY_ZERO_TO_HERO": {
+        "id": 278,
+        "code": "ABILITY_ZERO_TO_HERO",
+        "name": "Supermutation",
+        "description": "Le Pokémon prend sa Forme Super en quittant le combat."
+    },
+    "ABILITY_COMMANDER": {
+        "id": 279,
+        "code": "ABILITY_COMMANDER",
+        "name": "Commandant",
+        "description": "Si un Oyacata allié est sur le terrain quand ce Pokémon rejoint le combat, ce dernier entre dans sa bouche et devient son commandant."
+    },
+    "ABILITY_SYNCHRONIZE": {
+        "id": 28,
+        "code": "ABILITY_SYNCHRONIZE",
+        "name": "Synchro",
+        "description": "Transfère statuts."
+    },
+    "ABILITY_ELECTROMORPHOSIS": {
+        "id": 280,
+        "code": "ABILITY_ELECTROMORPHOSIS",
+        "name": "Grecharge",
+        "description": "Si le Pokémon subit des dégâts, il se charge en électricité."
+    },
+    "ABILITY_PROTOSYNTHESIS": {
+        "id": 281,
+        "code": "ABILITY_PROTOSYNTHESIS",
+        "name": "Paléosynthèse",
+        "description": "Quand le soleil brille ou que le Pokémon tient une capsule d'Énergie Booster, sa stat la plus élevée augmente."
+    },
+    "ABILITY_QUARK_DRIVE": {
+        "id": 282,
+        "code": "ABILITY_QUARK_DRIVE",
+        "name": "Charge Quantique",
+        "description": "Quand un champ électrifié est actif ou que le Pokémon tient une capsule d'Énergie Booster, sa stat la plus élevée augmente."
+    },
+    "ABILITY_GOOD_AS_GOLD": {
+        "id": 283,
+        "code": "ABILITY_GOOD_AS_GOLD",
+        "name": "Corps en Or",
+        "description": "Le corps en or pur et robuste du Pokémon l'immunise contre les capacités de statut des autres Pokémon."
+    },
+    "ABILITY_VESSEL_OF_RUIN": {
+        "id": 284,
+        "code": "ABILITY_VESSEL_OF_RUIN",
+        "name": "Urne du Fléau",
+        "description": "Le pouvoir de l'urne qui appelle le fléau affaiblit l'Attaque Spéciale de tous les autres Pokémon."
+    },
+    "ABILITY_SWORD_OF_RUIN": {
+        "id": 285,
+        "code": "ABILITY_SWORD_OF_RUIN",
+        "name": "Épée du Fléau",
+        "description": "Le pouvoir de l'épée qui appelle le fléau affaiblit la Défense de tous les autres Pokémon."
+    },
+    "ABILITY_TABLETS_OF_RUIN": {
+        "id": 286,
+        "code": "ABILITY_TABLETS_OF_RUIN",
+        "name": "Bois du Fléau",
+        "description": "Le pouvoir du bois qui appelle le fléau affaiblit l'Attaque de tous les autres Pokémon."
+    },
+    "ABILITY_BEADS_OF_RUIN": {
+        "id": 287,
+        "code": "ABILITY_BEADS_OF_RUIN",
+        "name": "Perles du Fléau",
+        "description": "Le pouvoir des perles qui appellent le fléau affaiblit la Défense Spéciale de tous les autres Pokémon."
+    },
+    "ABILITY_ORICHALCUM_PULSE": {
+        "id": 288,
+        "code": "ABILITY_ORICHALCUM_PULSE",
+        "name": "Pouls Orichalque",
+        "description": "Le Pokémon invoque le soleil quand il rejoint le combat. Quand le soleil brille, une pulsation primitive augmente son Attaque."
+    },
+    "ABILITY_HADRON_ENGINE": {
+        "id": 289,
+        "code": "ABILITY_HADRON_ENGINE",
+        "name": "Moteur à Hadrons",
+        "description": "Le Pokémon crée un champ électrifié quand il rejoint le combat. Une machine du futur fait monter son Attaque Spéciale si un champ électrifié est actif."
+    },
+    "ABILITY_CLEAR_BODY": {
+        "id": 29,
+        "code": "ABILITY_CLEAR_BODY",
+        "name": "Corps Sain",
+        "description": "Empêche réduction de cap."
+    },
+    "ABILITY_OPPORTUNIST": {
+        "id": 290,
+        "code": "ABILITY_OPPORTUNIST",
+        "name": "Opportuniste",
+        "description": "Quand les stats de l'ennemi augmentent, le Pokémon en profite pour augmenter ses stats de la même manière."
+    },
+    "ABILITY_CUD_CHEW": {
+        "id": 291,
+        "code": "ABILITY_CUD_CHEW",
+        "name": "Ruminant",
+        "description": "Quand le Pokémon mange une Baie, il la régurgite à la fin du tour suivant et la mange une nouvelle fois."
+    },
+    "ABILITY_SHARPNESS": {
+        "id": 292,
+        "code": "ABILITY_SHARPNESS",
+        "name": "Incisif",
+        "description": "Augmente la puissance des capacités tranchantes."
+    },
+    "ABILITY_SUPREME_OVERLORD": {
+        "id": 293,
+        "code": "ABILITY_SUPREME_OVERLORD",
+        "name": "Général Suprême",
+        "description": "Quand le Pokémon entre sur le terrain, son Attaque et son Attaque Spéciale augmentent légèrement pour chaque allié mis K.O. auparavant."
+    },
+    "ABILITY_COSTAR": {
+        "id": 294,
+        "code": "ABILITY_COSTAR",
+        "name": "Collab",
+        "description": "Quand le Pokémon entre sur le terrain, il copie les changements de stats de son allié."
+    },
+    "ABILITY_TOXIC_DEBRIS": {
+        "id": 295,
+        "code": "ABILITY_TOXIC_DEBRIS",
+        "name": "Dépôt Toxique",
+        "description": "Quand le Pokémon est touché par une capacité physique, il répand des pics toxiques dans le camp adverse."
+    },
+    "ABILITY_ARMOR_TAIL": {
+        "id": 296,
+        "code": "ABILITY_ARMOR_TAIL",
+        "name": "Armure Caudale",
+        "description": "Une étrange queue recouvre la tête du Pokémon, ce qui empêche ce dernier et ses alliés d'être visés par une capacité prioritaire."
+    },
+    "ABILITY_EARTH_EATER": {
+        "id": 297,
+        "code": "ABILITY_EARTH_EATER",
+        "name": "Absorbe-Terre",
+        "description": "Si le Pokémon est touché par une capacité de type Sol, il regagne des PV au lieu de subir des dégâts."
+    },
+    "ABILITY_MYCELIUM_MIGHT": {
+        "id": 298,
+        "code": "ABILITY_MYCELIUM_MIGHT",
+        "name": "Force Fongique",
+        "description": "Le Pokémon agit toujours plus lentement quand il utilise une capacité de statut, mais il ignore les talents adverses."
+    },
+    "ABILITY_MIND_S_EYE": {
+        "id": 299,
+        "code": "ABILITY_MIND_S_EYE",
+        "name": "Œil Révélateur",
+        "description": "Le Pokémon ignore les changements d'Esquive des cibles et peut toucher les Pokémon Spectre avec des capacités Normal ou Combat. Sa Précision ne peut pas baisser."
+    },
+    "ABILITY_SPEED_BOOST": {
+        "id": 3,
+        "code": "ABILITY_SPEED_BOOST",
+        "name": "Turbo",
+        "description": "Améliore la VITESSE."
+    },
+    "ABILITY_NATURAL_CURE": {
+        "id": 30,
+        "code": "ABILITY_NATURAL_CURE",
+        "name": "Médic Nature",
+        "description": "Soigne POKéMON changeant."
+    },
+    "ABILITY_SUPERSWEET_SYRUP": {
+        "id": 300,
+        "code": "ABILITY_SUPERSWEET_SYRUP",
+        "name": "Nectar Mielleux",
+        "description": "La première fois que le Pokémon entre au combat, une odeur de nectar sucré se répand sur le terrain, ce qui baisse l'Esquive de l'adversaire."
+    },
+    "ABILITY_HOSPITALITY": {
+        "id": 301,
+        "code": "ABILITY_HOSPITALITY",
+        "name": "Aux Petits Soins",
+        "description": "Quand il rejoint le combat, ce Pokémon est aux petits soins avec son allié et restaure quelques PV."
+    },
+    "ABILITY_TOXIC_CHAIN": {
+        "id": 302,
+        "code": "ABILITY_TOXIC_CHAIN",
+        "name": "Chaîne Toxique",
+        "description": "Grâce aux pouvoirs de sa chaîne imprégnée de toxines, le Pokémon peut empoisonner gravement sa cible en la touchant avec une capacité."
+    },
+    "ABILITY_EMBODY_ASPECT": {
+        "id": 303,
+        "code": "ABILITY_EMBODY_ASPECT",
+        "name": "Force Mémorielle",
+        "description": "Le Pokémon fait briller le Masque en puisant dans ses souvenirs, ce qui augmente ses stats."
+    },
+    "ABILITY_TERA_SHIFT": {
+        "id": 304,
+        "code": "ABILITY_TERA_SHIFT",
+        "name": "Téramorphose",
+        "description": "Quand le Pokémon rejoint le combat, il absorbe l'énergie alentour et prend sa Forme Téracristal."
+    },
+    "ABILITY_TERA_SHELL": {
+        "id": 305,
+        "code": "ABILITY_TERA_SHELL",
+        "name": "Téra-Carapace",
+        "description": "Grâce à sa carapace qui renferme l'énergie de tous les types, les capacités subies par ce Pokémon quand ses PV sont au maximum ne sont pas très efficaces."
+    },
+    "ABILITY_TERAFORM_ZERO": {
+        "id": 306,
+        "code": "ABILITY_TERAFORM_ZERO",
+        "name": "Téraformation 0",
+        "description": "Lorsque Terapagos prend sa Forme Stellaire, il utilise son pouvoir enfoui pour annuler les effets de la météo et des champs actifs."
+    },
+    "ABILITY_POISON_PUPPETEER": {
+        "id": 307,
+        "code": "ABILITY_POISON_PUPPETEER",
+        "name": "Emprise Toxique",
+        "description": "Lorsque Pêchaminus empoisonne un Pokémon grâce à l'une de ses capacités, ce dernier devient également confus."
+    },
+    "ABILITY_PIERCING_DRILL": {
+        "id": 308,
+        "code": "ABILITY_PIERCING_DRILL",
+        "name": "Transperceuse",
+        "description": ""
+    },
+    "ABILITY_DRAGONIZE": {
+        "id": 309,
+        "code": "ABILITY_DRAGONIZE",
+        "name": "Peau Draconique",
+        "description": ""
+    },
+    "ABILITY_LIGHTNING_ROD": {
+        "id": 31,
+        "code": "ABILITY_LIGHTNING_ROD",
+        "name": "Paratonnerre",
+        "description": "Attire l'électricité et augmente l'Atq. Spé."
+    },
+    "ABILITY_MEGA_SOL": {
+        "id": 310,
+        "code": "ABILITY_MEGA_SOL",
+        "name": "Méga-Soleil",
+        "description": ""
+    },
+    "ABILITY_SPICY_SPRAY": {
+        "id": 311,
+        "code": "ABILITY_SPICY_SPRAY",
+        "name": "Habanéruption",
+        "description": ""
+    },
+    "ABILITY_SERENE_GRACE": {
+        "id": 32,
+        "code": "ABILITY_SERENE_GRACE",
+        "name": "Sérénité",
+        "description": "Favorise le cumul d'effet."
+    },
+    "ABILITY_SWIFT_SWIM": {
+        "id": 33,
+        "code": "ABILITY_SWIFT_SWIM",
+        "name": "Glissade",
+        "description": "Monte VITESSE s'il pleut."
+    },
+    "ABILITY_CHLOROPHYLL": {
+        "id": 34,
+        "code": "ABILITY_CHLOROPHYLL",
+        "name": "Chlorophylle",
+        "description": "Augmente vitesse au soleil."
+    },
+    "ABILITY_ILLUMINATE": {
+        "id": 35,
+        "code": "ABILITY_ILLUMINATE",
+        "name": "Lumiattirance",
+        "description": "Augmente les rencontres."
+    },
+    "ABILITY_TRACE": {
+        "id": 36,
+        "code": "ABILITY_TRACE",
+        "name": "Calque",
+        "description": "Imite la capacité spéciale."
+    },
+    "ABILITY_HUGE_POWER": {
+        "id": 37,
+        "code": "ABILITY_HUGE_POWER",
+        "name": "Coloforce",
+        "description": "Augmente ATTAQUE."
+    },
+    "ABILITY_POISON_POINT": {
+        "id": 38,
+        "code": "ABILITY_POISON_POINT",
+        "name": "Point Poison",
+        "description": "Empoisonne quand touché."
+    },
+    "ABILITY_INNER_FOCUS": {
+        "id": 39,
+        "code": "ABILITY_INNER_FOCUS",
+        "name": "Attention",
+        "description": "Empêche la peur."
+    },
+    "ABILITY_BATTLE_ARMOR": {
+        "id": 4,
+        "code": "ABILITY_BATTLE_ARMOR",
+        "name": "Armurbaston",
+        "description": "Bloque les coups critiques."
+    },
+    "ABILITY_MAGMA_ARMOR": {
+        "id": 40,
+        "code": "ABILITY_MAGMA_ARMOR",
+        "name": "Armumagma",
+        "description": "Empêche le gel."
+    },
+    "ABILITY_WATER_VEIL": {
+        "id": 41,
+        "code": "ABILITY_WATER_VEIL",
+        "name": "Ignifu-Voile",
+        "description": "Empêche les brûlures."
+    },
+    "ABILITY_MAGNET_PULL": {
+        "id": 42,
+        "code": "ABILITY_MAGNET_PULL",
+        "name": "Magnépiège",
+        "description": "Piège les POKéMON ACIER."
+    },
+    "ABILITY_SOUNDPROOF": {
+        "id": 43,
+        "code": "ABILITY_SOUNDPROOF",
+        "name": "Anti-Bruit",
+        "description": "Évite les attaques sonores."
+    },
+    "ABILITY_RAIN_DISH": {
+        "id": 44,
+        "code": "ABILITY_RAIN_DISH",
+        "name": "Cuvette",
+        "description": "Gagne quelques PV si pluie."
+    },
+    "ABILITY_SAND_STREAM": {
+        "id": 45,
+        "code": "ABILITY_SAND_STREAM",
+        "name": "Sable Volant",
+        "description": "Lance une tempête de sable."
+    },
+    "ABILITY_PRESSURE": {
+        "id": 46,
+        "code": "ABILITY_PRESSURE",
+        "name": "Pression",
+        "description": "Force l'ennemi à dépenser plus de PP."
+    },
+    "ABILITY_THICK_FAT": {
+        "id": 47,
+        "code": "ABILITY_THICK_FAT",
+        "name": "Isograisse",
+        "description": "Contre chaleur et froid."
+    },
+    "ABILITY_EARLY_BIRD": {
+        "id": 48,
+        "code": "ABILITY_EARLY_BIRD",
+        "name": "Matinal",
+        "description": "Se réveille rapidement."
+    },
+    "ABILITY_FLAME_BODY": {
+        "id": 49,
+        "code": "ABILITY_FLAME_BODY",
+        "name": "Corps Ardent",
+        "description": "Brûle l'ennemi quand touché."
+    },
+    "ABILITY_STURDY": {
+        "id": 5,
+        "code": "ABILITY_STURDY",
+        "name": "Fermeté",
+        "description": "Protège des capacités mettant K.O. en un coup."
+    },
+    "ABILITY_RUN_AWAY": {
+        "id": 50,
+        "code": "ABILITY_RUN_AWAY",
+        "name": "Fuite",
+        "description": "Améliore chances de fuite."
+    },
+    "ABILITY_KEEN_EYE": {
+        "id": 51,
+        "code": "ABILITY_KEEN_EYE",
+        "name": "Regard Vif",
+        "description": "Empêche perte de précision."
+    },
+    "ABILITY_HYPER_CUTTER": {
+        "id": 52,
+        "code": "ABILITY_HYPER_CUTTER",
+        "name": "Hyper Cutter",
+        "description": "Empêche réduction ATTAQUE."
+    },
+    "ABILITY_PICKUP": {
+        "id": 53,
+        "code": "ABILITY_PICKUP",
+        "name": "Ramassage",
+        "description": "Permet parfois au Pokémon de ramasser des objets."
+    },
+    "ABILITY_TRUANT": {
+        "id": 54,
+        "code": "ABILITY_TRUANT",
+        "name": "Absentéisme",
+        "description": "Frappe tous les 2 tours."
+    },
+    "ABILITY_HUSTLE": {
+        "id": 55,
+        "code": "ABILITY_HUSTLE",
+        "name": "Agitation",
+        "description": "Substitue préc. par puiss."
+    },
+    "ABILITY_CUTE_CHARM": {
+        "id": 56,
+        "code": "ABILITY_CUTE_CHARM",
+        "name": "Joli Sourire",
+        "description": "Séduit quand touché."
+    },
+    "ABILITY_PLUS": {
+        "id": 57,
+        "code": "ABILITY_PLUS",
+        "name": "Plus",
+        "description": "Puissance + avec MINUS."
+    },
+    "ABILITY_MINUS": {
+        "id": 58,
+        "code": "ABILITY_MINUS",
+        "name": "Moins",
+        "description": "Puissance + avec PLUS."
+    },
+    "ABILITY_FORECAST": {
+        "id": 59,
+        "code": "ABILITY_FORECAST",
+        "name": "Météo",
+        "description": "Change selon le climat."
+    },
+    "ABILITY_DAMP": {
+        "id": 6,
+        "code": "ABILITY_DAMP",
+        "name": "Moiteur",
+        "description": "Empêche auto-destruction."
+    },
+    "ABILITY_STICKY_HOLD": {
+        "id": 60,
+        "code": "ABILITY_STICKY_HOLD",
+        "name": "Glu",
+        "description": "Empêche le vol d'objets."
+    },
+    "ABILITY_SHED_SKIN": {
+        "id": 61,
+        "code": "ABILITY_SHED_SKIN",
+        "name": "Mue",
+        "description": "Mue pour se soigner."
+    },
+    "ABILITY_GUTS": {
+        "id": 62,
+        "code": "ABILITY_GUTS",
+        "name": "Cran",
+        "description": "Augmente ATT. quand blessé."
+    },
+    "ABILITY_MARVEL_SCALE": {
+        "id": 63,
+        "code": "ABILITY_MARVEL_SCALE",
+        "name": "Écaille Spéciale",
+        "description": "Augmente DEF. quand blessé."
+    },
+    "ABILITY_LIQUID_OOZE": {
+        "id": 64,
+        "code": "ABILITY_LIQUID_OOZE",
+        "name": "Suintement",
+        "description": "Blesse quand drainé."
+    },
+    "ABILITY_OVERGROW": {
+        "id": 65,
+        "code": "ABILITY_OVERGROW",
+        "name": "Engrais",
+        "description": "Augmente attaques PLANTE."
+    },
+    "ABILITY_BLAZE": {
+        "id": 66,
+        "code": "ABILITY_BLAZE",
+        "name": "Brasier",
+        "description": "Augmente attaques feu."
+    },
+    "ABILITY_TORRENT": {
+        "id": 67,
+        "code": "ABILITY_TORRENT",
+        "name": "Torrent",
+        "description": "Augmente attaques EAU."
+    },
+    "ABILITY_SWARM": {
+        "id": 68,
+        "code": "ABILITY_SWARM",
+        "name": "Essaim",
+        "description": "Augmente attaques INSECT."
+    },
+    "ABILITY_ROCK_HEAD": {
+        "id": 69,
+        "code": "ABILITY_ROCK_HEAD",
+        "name": "Tête de Roc",
+        "description": "Empêche dégâts du recul."
+    },
+    "ABILITY_LIMBER": {
+        "id": 7,
+        "code": "ABILITY_LIMBER",
+        "name": "Échauffement",
+        "description": "Empêche la paralysie."
+    },
+    "ABILITY_DROUGHT": {
+        "id": 70,
+        "code": "ABILITY_DROUGHT",
+        "name": "Sécheresse",
+        "description": "Invoque le soleil."
+    },
+    "ABILITY_ARENA_TRAP": {
+        "id": 71,
+        "code": "ABILITY_ARENA_TRAP",
+        "name": "Piège Sable",
+        "description": "Empêche la fuite."
+    },
+    "ABILITY_VITAL_SPIRIT": {
+        "id": 72,
+        "code": "ABILITY_VITAL_SPIRIT",
+        "name": "Esprit Vital",
+        "description": "Empêche le sommeil."
+    },
+    "ABILITY_WHITE_SMOKE": {
+        "id": 73,
+        "code": "ABILITY_WHITE_SMOKE",
+        "name": "Écran Fumée",
+        "description": "Empêche réduction des cap."
+    },
+    "ABILITY_PURE_POWER": {
+        "id": 74,
+        "code": "ABILITY_PURE_POWER",
+        "name": "Force Pure",
+        "description": "Augmente l'ATTAQUE."
+    },
+    "ABILITY_SHELL_ARMOR": {
+        "id": 75,
+        "code": "ABILITY_SHELL_ARMOR",
+        "name": "Coque Armure",
+        "description": "Bloque les coups critiques."
+    },
+    "ABILITY_AIR_LOCK": {
+        "id": 76,
+        "code": "ABILITY_AIR_LOCK",
+        "name": "Air Lock",
+        "description": "Ignore les effets du climat."
+    },
+    "ABILITY_TANGLED_FEET": {
+        "id": 77,
+        "code": "ABILITY_TANGLED_FEET",
+        "name": "Pieds Confus",
+        "description": "Augmente l'esquive si le Pokémon est confus."
+    },
+    "ABILITY_MOTOR_DRIVE": {
+        "id": 78,
+        "code": "ABILITY_MOTOR_DRIVE",
+        "name": "Motorisé",
+        "description": "Augmente la Vit. si touché par une cap. Électrik."
+    },
+    "ABILITY_RIVALRY": {
+        "id": 79,
+        "code": "ABILITY_RIVALRY",
+        "name": "Rivalité",
+        "description": "Devient plus fort si l'ennemi est du même sexe."
+    },
+    "ABILITY_SAND_VEIL": {
+        "id": 8,
+        "code": "ABILITY_SAND_VEIL",
+        "name": "Voile Sable",
+        "description": "Evasion si tempête sable."
+    },
+    "ABILITY_STEADFAST": {
+        "id": 80,
+        "code": "ABILITY_STEADFAST",
+        "name": "Impassible",
+        "description": "Augmente la Vitesse quand le Pokémon a peur."
+    },
+    "ABILITY_SNOW_CLOAK": {
+        "id": 81,
+        "code": "ABILITY_SNOW_CLOAK",
+        "name": "Rideau Neige",
+        "description": "Augmente l'Esquive du Pokémon quand il neige."
+    },
+    "ABILITY_GLUTTONY": {
+        "id": 82,
+        "code": "ABILITY_GLUTTONY",
+        "name": "Gloutonnerie",
+        "description": "Encourage l'utilisation d'une Baie tenue."
+    },
+    "ABILITY_ANGER_POINT": {
+        "id": 83,
+        "code": "ABILITY_ANGER_POINT",
+        "name": "Colérique",
+        "description": "Monte l'Attaque au max après un coup critique."
+    },
+    "ABILITY_UNBURDEN": {
+        "id": 84,
+        "code": "ABILITY_UNBURDEN",
+        "name": "Délestage",
+        "description": "Augmente la Vit. si l'objet tenu est utilisé ou perdu."
+    },
+    "ABILITY_HEATPROOF": {
+        "id": 85,
+        "code": "ABILITY_HEATPROOF",
+        "name": "Ignifugé",
+        "description": "Réduit la puissance des capacités de type Feu."
+    },
+    "ABILITY_SIMPLE": {
+        "id": 86,
+        "code": "ABILITY_SIMPLE",
+        "name": "Simple",
+        "description": "Le Pokémon est sujet à des variations de stats."
+    },
+    "ABILITY_DRY_SKIN": {
+        "id": 87,
+        "code": "ABILITY_DRY_SKIN",
+        "name": "Peau Sèche",
+        "description": "Perd des PV à la chaleur. L'eau les restaure."
+    },
+    "ABILITY_DOWNLOAD": {
+        "id": 88,
+        "code": "ABILITY_DOWNLOAD",
+        "name": "Télécharge",
+        "description": "Ajuste la puissance selon l'ennemi."
+    },
+    "ABILITY_IRON_FIST": {
+        "id": 89,
+        "code": "ABILITY_IRON_FIST",
+        "name": "Poing de Fer",
+        "description": "Augmente la puissance des capacités coups de poing."
+    },
+    "ABILITY_STATIC": {
+        "id": 9,
+        "code": "ABILITY_STATIC",
+        "name": "Statik",
+        "description": "Paralyse au toucher."
+    },
+    "ABILITY_POISON_HEAL": {
+        "id": 90,
+        "code": "ABILITY_POISON_HEAL",
+        "name": "Soin Poison",
+        "description": "Restaure des PV si le Pokémon est empoisonné."
+    },
+    "ABILITY_ADAPTABILITY": {
+        "id": 91,
+        "code": "ABILITY_ADAPTABILITY",
+        "name": "Adaptabilité",
+        "description": "Augmente la puissance des capacités de même type."
+    },
+    "ABILITY_SKILL_LINK": {
+        "id": 92,
+        "code": "ABILITY_SKILL_LINK",
+        "name": "Multi-Coups",
+        "description": "Augmente la fréquence des attaques multiples."
+    },
+    "ABILITY_HYDRATION": {
+        "id": 93,
+        "code": "ABILITY_HYDRATION",
+        "name": "Hydratation",
+        "description": "Soigne les problèmes de statut s'il pleut."
+    },
+    "ABILITY_SOLAR_POWER": {
+        "id": 94,
+        "code": "ABILITY_SOLAR_POWER",
+        "name": "Force Soleil",
+        "description": "Augmente l'Atq. Spé. mais baisse les PV au soleil."
+    },
+    "ABILITY_QUICK_FEET": {
+        "id": 95,
+        "code": "ABILITY_QUICK_FEET",
+        "name": "Pied Véloce",
+        "description": "Augmente la Vitesse en cas de problème de statut."
+    },
+    "ABILITY_NORMALIZE": {
+        "id": 96,
+        "code": "ABILITY_NORMALIZE",
+        "name": "Normalise",
+        "description": "Toutes les capacités sont de type Normal."
+    },
+    "ABILITY_SNIPER": {
+        "id": 97,
+        "code": "ABILITY_SNIPER",
+        "name": "Sniper",
+        "description": "Augmente la puissance des coups critiques."
+    },
+    "ABILITY_MAGIC_GUARD": {
+        "id": 98,
+        "code": "ABILITY_MAGIC_GUARD",
+        "name": "Garde Magik",
+        "description": "Seules les attaques peuvent blesser le Pokémon."
+    },
+    "ABILITY_NO_GUARD": {
+        "id": 99,
+        "code": "ABILITY_NO_GUARD",
+        "name": "Annule Garde",
+        "description": "Attaques du Pokémon et de l'ennemi réussissent."
+    }
+}
