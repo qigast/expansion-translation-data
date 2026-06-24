@@ -1,6 +1,5 @@
 enum __attribute__((packed)) Species
 {
-    SPECIES_NONE = 0,
     SPECIES_BULBASAUR = 1,
     SPECIES_IVYSAUR = 2,
     SPECIES_VENUSAUR = 3,

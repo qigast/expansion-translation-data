@@ -83,8 +83,6 @@ Missing French description for SPECIES_MIRAIDON
 Missing French description for SPECIES_MUNKIDORI
 Missing French description for SPECIES_NACLI
 Missing French description for SPECIES_NACLSTACK
-Missing French name for SPECIES_NONE
-Missing French description for SPECIES_NONE
 Missing French description for SPECIES_NYMBLE
 Missing French description for SPECIES_OGERPON
 Missing French description for SPECIES_OGERPON_CORNERSTONE

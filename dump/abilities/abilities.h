@@ -1,6 +1,5 @@
 enum __attribute__((packed)) Ability
 {
-    ABILITY_NONE = 0,
     ABILITY_STENCH = 1,
     ABILITY_DRIZZLE = 2,
     ABILITY_SPEED_BOOST = 3,

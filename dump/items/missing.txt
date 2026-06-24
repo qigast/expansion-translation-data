@@ -207,8 +207,6 @@ Missing French description for ITEM_MUSCLE_FEATHER
 Missing French description for ITEM_MUSCLE_MOCHI
 Missing French name for ITEM_MYSTIC_TICKET
 Missing French description for ITEM_MYSTIC_TICKET
-Missing French name for ITEM_NONE
-Missing French description for ITEM_NONE
 Missing French name for ITEM_NORMALIUM_Z
 Missing French description for ITEM_NORMALIUM_Z
 Missing French description for ITEM_NORMAL_TERA_SHARD

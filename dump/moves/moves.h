@@ -1,6 +1,5 @@
 enum __attribute__((packed)) Move
 {
-    MOVE_NONE = 0,
     MOVE_POUND = 1,
     MOVE_KARATE_CHOP = 2,
     MOVE_DOUBLE_SLAP = 3,

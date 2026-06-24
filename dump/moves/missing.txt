@@ -67,8 +67,6 @@ Missing French description for MOVE_G_MAX_WILDFIRE
 Missing French name for MOVE_G_MAX_WIND_RAGE
 Missing French description for MOVE_G_MAX_WIND_RAGE
 Missing French description for MOVE_MAGICAL_TORQUE
-Missing French name for MOVE_NONE
-Missing French description for MOVE_NONE
 Missing French description for MOVE_NOXIOUS_TORQUE
 Missing French name for MOVE_VISE_GRIP
 Missing French description for MOVE_VISE_GRIP

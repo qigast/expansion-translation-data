@@ -8,7 +8,5 @@ Missing French name for ABILITY_317
 Missing French description for ABILITY_317
 Missing French description for ABILITY_DRAGONIZE
 Missing French description for ABILITY_MEGA_SOL
-Missing French name for ABILITY_NONE
-Missing French description for ABILITY_NONE
 Missing French description for ABILITY_PIERCING_DRILL
 Missing French description for ABILITY_SPICY_SPRAY
