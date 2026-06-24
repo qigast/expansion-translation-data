@@ -163,6 +163,11 @@
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
                 "beg": 17508
+            },
+            "SVPokemon": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 20347
             }
         }
     }
