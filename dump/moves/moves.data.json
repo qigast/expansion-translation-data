@@ -17,114 +17,6 @@
         "name": "Téléport",
         "description": "Permet de fuir une rencontre avec un Pokémon sauvage."
     },
-    "MOVE_SHADOW_RUSH": {
-        "id": 10001,
-        "code": "MOVE_SHADOW_RUSH",
-        "name": "Charge Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_BLAST": {
-        "id": 10002,
-        "code": "MOVE_SHADOW_BLAST",
-        "name": "Aéro Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_BLITZ": {
-        "id": 10003,
-        "code": "MOVE_SHADOW_BLITZ",
-        "name": "Assaut Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_BOLT": {
-        "id": 10004,
-        "code": "MOVE_SHADOW_BOLT",
-        "name": "Éclair Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_BREAK": {
-        "id": 10005,
-        "code": "MOVE_SHADOW_BREAK",
-        "name": "Bélier Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_CHILL": {
-        "id": 10006,
-        "code": "MOVE_SHADOW_CHILL",
-        "name": "Froid Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_END": {
-        "id": 10007,
-        "code": "MOVE_SHADOW_END",
-        "name": "Retour Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_FIRE": {
-        "id": 10008,
-        "code": "MOVE_SHADOW_FIRE",
-        "name": "Ardeur Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_RAVE": {
-        "id": 10009,
-        "code": "MOVE_SHADOW_RAVE",
-        "name": "Rage Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_STORM": {
-        "id": 10010,
-        "code": "MOVE_SHADOW_STORM",
-        "name": "Typhon Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_WAVE": {
-        "id": 10011,
-        "code": "MOVE_SHADOW_WAVE",
-        "name": "Ondo Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_DOWN": {
-        "id": 10012,
-        "code": "MOVE_SHADOW_DOWN",
-        "name": "Souffle Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_HALF": {
-        "id": 10013,
-        "code": "MOVE_SHADOW_HALF",
-        "name": "Chute Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_HOLD": {
-        "id": 10014,
-        "code": "MOVE_SHADOW_HOLD",
-        "name": "Blocage Noir",
-        "description": ""
-    },
-    "MOVE_SHADOW_MIST": {
-        "id": 10015,
-        "code": "MOVE_SHADOW_MIST",
-        "name": "Brume Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_PANIC": {
-        "id": 10016,
-        "code": "MOVE_SHADOW_PANIC",
-        "name": "Folie Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_SHED": {
-        "id": 10017,
-        "code": "MOVE_SHADOW_SHED",
-        "name": "Percée Noire",
-        "description": ""
-    },
-    "MOVE_SHADOW_SKY": {
-        "id": 10018,
-        "code": "MOVE_SHADOW_SKY",
-        "name": "Ciel Noir",
-        "description": ""
-    },
     "MOVE_NIGHT_SHADE": {
         "id": 101,
         "code": "MOVE_NIGHT_SHADE",
@@ -178,12 +70,6 @@
         "code": "MOVE_CONFUSE_RAY",
         "name": "Onde Folie",
         "description": "Un rayon sinistre qui plonge l'ennemi dans un état de confusion."
-    },
-    "MOVE_VICE_GRIP": {
-        "id": 11,
-        "code": "MOVE_VICE_GRIP",
-        "name": "Force Poigne",
-        "description": "L'ennemi est attrapé et compressé par les côtés."
     },
     "MOVE_WITHDRAW": {
         "id": 110,
@@ -3593,53 +3479,29 @@
         "name": "Furie Dimension",
         "description": "Le Pokémon utilise sa multitude de bras pour infliger une nuée de coups qui ignorent les capacités telles qu'Abri ou Détection. Baisse la Défense du lanceur."
     },
-    "MOVE_BREAKNECK_BLITZ_PHYSICAL": {
+    "MOVE_BREAKNECK_BLITZ": {
         "id": 622,
-        "code": "MOVE_BREAKNECK_BLITZ_PHYSICAL",
+        "code": "MOVE_BREAKNECK_BLITZ",
         "name": "Turbo-Charge Bulldozer",
         "description": "Le Pokémon utilise la Force Z pour s'élancer à toute vitesse sur l'adversaire. La puissance varie selon celle de la capacité originale."
     },
-    "MOVE_BREAKNECK_BLITZ_SPECIAL": {
-        "id": 623,
-        "code": "MOVE_BREAKNECK_BLITZ_SPECIAL",
-        "name": "Turbo-Charge Bulldozer",
-        "description": "Dummy"
-    },
-    "MOVE_ALL_OUT_PUMMELING_PHYSICAL": {
+    "MOVE_ALL_OUT_PUMMELING": {
         "id": 624,
-        "code": "MOVE_ALL_OUT_PUMMELING_PHYSICAL",
+        "code": "MOVE_ALL_OUT_PUMMELING",
         "name": "Combo Hyper-Furie",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_ALL_OUT_PUMMELING_SPECIAL": {
-        "id": 625,
-        "code": "MOVE_ALL_OUT_PUMMELING_SPECIAL",
-        "name": "Combo Hyper-Furie",
-        "description": "Dummy"
-    },
-    "MOVE_SUPERSONIC_SKYSTRIKE_PHYSICAL": {
+    "MOVE_SUPERSONIC_SKYSTRIKE": {
         "id": 626,
-        "code": "MOVE_SUPERSONIC_SKYSTRIKE_PHYSICAL",
+        "code": "MOVE_SUPERSONIC_SKYSTRIKE",
         "name": "Piqué Supersonique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_SUPERSONIC_SKYSTRIKE_SPECIAL": {
-        "id": 627,
-        "code": "MOVE_SUPERSONIC_SKYSTRIKE_SPECIAL",
-        "name": "Piqué Supersonique",
-        "description": "Dummy"
-    },
-    "MOVE_ACID_DOWNPOUR_PHYSICAL": {
+    "MOVE_ACID_DOWNPOUR": {
         "id": 628,
-        "code": "MOVE_ACID_DOWNPOUR_PHYSICAL",
+        "code": "MOVE_ACID_DOWNPOUR",
         "name": "Déluge Causti-Toxique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
-    },
-    "MOVE_ACID_DOWNPOUR_SPECIAL": {
-        "id": 629,
-        "code": "MOVE_ACID_DOWNPOUR_SPECIAL",
-        "name": "Déluge Causti-Toxique",
-        "description": "Dummy"
     },
     "MOVE_HYPER_BEAM": {
         "id": 63,
@@ -3647,65 +3509,35 @@
         "name": "Ultralaser",
         "description": "Projette un puissant rayon sur l'ennemi. Le lanceur doit se reposer au tour suivant."
     },
-    "MOVE_TECTONIC_RAGE_PHYSICAL": {
+    "MOVE_TECTONIC_RAGE": {
         "id": 630,
-        "code": "MOVE_TECTONIC_RAGE_PHYSICAL",
+        "code": "MOVE_TECTONIC_RAGE",
         "name": "Éruption Géo-Sismique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_TECTONIC_RAGE_SPECIAL": {
-        "id": 631,
-        "code": "MOVE_TECTONIC_RAGE_SPECIAL",
-        "name": "Éruption Géo-Sismique",
-        "description": "Dummy"
-    },
-    "MOVE_CONTINENTAL_CRUSH_PHYSICAL": {
+    "MOVE_CONTINENTAL_CRUSH": {
         "id": 632,
-        "code": "MOVE_CONTINENTAL_CRUSH_PHYSICAL",
+        "code": "MOVE_CONTINENTAL_CRUSH",
         "name": "Apocalypse Gigalithique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_CONTINENTAL_CRUSH_SPECIAL": {
-        "id": 633,
-        "code": "MOVE_CONTINENTAL_CRUSH_SPECIAL",
-        "name": "Apocalypse Gigalithique",
-        "description": "Dummy"
-    },
-    "MOVE_SAVAGE_SPIN_OUT_PHYSICAL": {
+    "MOVE_SAVAGE_SPIN_OUT": {
         "id": 634,
-        "code": "MOVE_SAVAGE_SPIN_OUT_PHYSICAL",
+        "code": "MOVE_SAVAGE_SPIN_OUT",
         "name": "Cocon Fatal",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_SAVAGE_SPIN_OUT_SPECIAL": {
-        "id": 635,
-        "code": "MOVE_SAVAGE_SPIN_OUT_SPECIAL",
-        "name": "Cocon Fatal",
-        "description": "Dummy"
-    },
-    "MOVE_NEVER_ENDING_NIGHTMARE_PHYSICAL": {
+    "MOVE_NEVER_ENDING_NIGHTMARE": {
         "id": 636,
-        "code": "MOVE_NEVER_ENDING_NIGHTMARE_PHYSICAL",
+        "code": "MOVE_NEVER_ENDING_NIGHTMARE",
         "name": "Appel des Ombres Éternelles",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_NEVER_ENDING_NIGHTMARE_SPECIAL": {
-        "id": 637,
-        "code": "MOVE_NEVER_ENDING_NIGHTMARE_SPECIAL",
-        "name": "Appel des Ombres Éternelles",
-        "description": "Dummy"
-    },
-    "MOVE_CORKSCREW_CRASH_PHYSICAL": {
+    "MOVE_CORKSCREW_CRASH": {
         "id": 638,
-        "code": "MOVE_CORKSCREW_CRASH_PHYSICAL",
+        "code": "MOVE_CORKSCREW_CRASH",
         "name": "Vrille Maximum",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
-    },
-    "MOVE_CORKSCREW_CRASH_SPECIAL": {
-        "id": 639,
-        "code": "MOVE_CORKSCREW_CRASH_SPECIAL",
-        "name": "Vrille Maximum",
-        "description": "Dummy"
     },
     "MOVE_PECK": {
         "id": 64,
@@ -3713,65 +3545,35 @@
         "name": "Picpic",
         "description": "Frappe l'ennemi d'un bec pointu ou d'une corne pour infliger des dégâts."
     },
-    "MOVE_INFERNO_OVERDRIVE_PHYSICAL": {
+    "MOVE_INFERNO_OVERDRIVE": {
         "id": 640,
-        "code": "MOVE_INFERNO_OVERDRIVE_PHYSICAL",
+        "code": "MOVE_INFERNO_OVERDRIVE",
         "name": "Pyro-Explosion Cataclysmique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_INFERNO_OVERDRIVE_SPECIAL": {
-        "id": 641,
-        "code": "MOVE_INFERNO_OVERDRIVE_SPECIAL",
-        "name": "Pyro-Explosion Cataclysmique",
-        "description": "Dummy"
-    },
-    "MOVE_HYDRO_VORTEX_PHYSICAL": {
+    "MOVE_HYDRO_VORTEX": {
         "id": 642,
-        "code": "MOVE_HYDRO_VORTEX_PHYSICAL",
+        "code": "MOVE_HYDRO_VORTEX",
         "name": "Super Tourbillon Abyssal",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_HYDRO_VORTEX_SPECIAL": {
-        "id": 643,
-        "code": "MOVE_HYDRO_VORTEX_SPECIAL",
-        "name": "Super Tourbillon Abyssal",
-        "description": "Dummy"
-    },
-    "MOVE_BLOOM_DOOM_PHYSICAL": {
+    "MOVE_BLOOM_DOOM": {
         "id": 644,
-        "code": "MOVE_BLOOM_DOOM_PHYSICAL",
+        "code": "MOVE_BLOOM_DOOM",
         "name": "Pétalexplosion Éblouissante",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_BLOOM_DOOM_SPECIAL": {
-        "id": 645,
-        "code": "MOVE_BLOOM_DOOM_SPECIAL",
-        "name": "Pétalexplosion Éblouissante",
-        "description": "Dummy"
-    },
-    "MOVE_GIGAVOLT_HAVOC_PHYSICAL": {
+    "MOVE_GIGAVOLT_HAVOC": {
         "id": 646,
-        "code": "MOVE_GIGAVOLT_HAVOC_PHYSICAL",
+        "code": "MOVE_GIGAVOLT_HAVOC",
         "name": "Fulguro-Lance Gigavolt",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_GIGAVOLT_HAVOC_SPECIAL": {
-        "id": 647,
-        "code": "MOVE_GIGAVOLT_HAVOC_SPECIAL",
-        "name": "Fulguro-Lance Gigavolt",
-        "description": "Dummy"
-    },
-    "MOVE_SHATTERED_PSYCHE_PHYSICAL": {
+    "MOVE_SHATTERED_PSYCHE": {
         "id": 648,
-        "code": "MOVE_SHATTERED_PSYCHE_PHYSICAL",
+        "code": "MOVE_SHATTERED_PSYCHE",
         "name": "Psycho-Pulvérisation EX",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
-    },
-    "MOVE_SHATTERED_PSYCHE_SPECIAL": {
-        "id": 649,
-        "code": "MOVE_SHATTERED_PSYCHE_SPECIAL",
-        "name": "Psycho-Pulvérisation EX",
-        "description": "Dummy"
     },
     "MOVE_DRILL_PECK": {
         "id": 65,
@@ -3779,53 +3581,29 @@
         "name": "Bec Vrille",
         "description": "Une attaque utilisant le bec comme une perceuse."
     },
-    "MOVE_SUBZERO_SLAMMER_PHYSICAL": {
+    "MOVE_SUBZERO_SLAMMER": {
         "id": 650,
-        "code": "MOVE_SUBZERO_SLAMMER_PHYSICAL",
+        "code": "MOVE_SUBZERO_SLAMMER",
         "name": "Laser Cryogénique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_SUBZERO_SLAMMER_SPECIAL": {
-        "id": 651,
-        "code": "MOVE_SUBZERO_SLAMMER_SPECIAL",
-        "name": "Laser Cryogénique",
-        "description": "Dummy"
-    },
-    "MOVE_DEVASTATING_DRAKE_PHYSICAL": {
+    "MOVE_DEVASTATING_DRAKE": {
         "id": 652,
-        "code": "MOVE_DEVASTATING_DRAKE_PHYSICAL",
+        "code": "MOVE_DEVASTATING_DRAKE",
         "name": "Chaos Draconique",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_DEVASTATING_DRAKE_SPECIAL": {
-        "id": 653,
-        "code": "MOVE_DEVASTATING_DRAKE_SPECIAL",
-        "name": "Chaos Draconique",
-        "description": "Dummy"
-    },
-    "MOVE_BLACK_HOLE_ECLIPSE_PHYSICAL": {
+    "MOVE_BLACK_HOLE_ECLIPSE": {
         "id": 654,
-        "code": "MOVE_BLACK_HOLE_ECLIPSE_PHYSICAL",
+        "code": "MOVE_BLACK_HOLE_ECLIPSE",
         "name": "Trou Noir des Ombres",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
-    "MOVE_BLACK_HOLE_ECLIPSE_SPECIAL": {
-        "id": 655,
-        "code": "MOVE_BLACK_HOLE_ECLIPSE_SPECIAL",
-        "name": "Trou Noir des Ombres",
-        "description": "Dummy"
-    },
-    "MOVE_TWINKLE_TACKLE_PHYSICAL": {
+    "MOVE_TWINKLE_TACKLE": {
         "id": 656,
-        "code": "MOVE_TWINKLE_TACKLE_PHYSICAL",
+        "code": "MOVE_TWINKLE_TACKLE",
         "name": "Impact Choupinova",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
-    },
-    "MOVE_TWINKLE_TACKLE_SPECIAL": {
-        "id": 657,
-        "code": "MOVE_TWINKLE_TACKLE_SPECIAL",
-        "name": "Impact Choupinova",
-        "description": "Dummy"
     },
     "MOVE_CATASTROPIKA": {
         "id": 658,
@@ -4235,12 +4013,6 @@
         "name": "Coup Varia-Type",
         "description": "Le Pokémon s'entoure d'une puissante énergie avant de foncer sur sa cible. Le type de la capacité dépend de la ROM installée."
     },
-    "MOVE_10_000_000_VOLT_THUNDERBOLT": {
-        "id": 719,
-        "code": "MOVE_10_000_000_VOLT_THUNDERBOLT",
-        "name": "Giga-Tonnerre",
-        "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
-    },
     "MOVE_MEGA_DRAIN": {
         "id": 72,
         "code": "MOVE_MEGA_DRAIN",
@@ -4396,12 +4168,6 @@
         "code": "MOVE_DOUBLE_IRON_BASH",
         "name": "Écrous d'Poing",
         "description": "Le lanceur fait pivoter l'écrou de sa poitrine deux fois d'affilée pour frapper l'adversaire avec ses bras. Peut apeurer l'ennemi."
-    },
-    "MOVE_MAX_GUARD": {
-        "id": 743,
-        "code": "MOVE_MAX_GUARD",
-        "name": "Gardomax",
-        "description": "Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite."
     },
     "MOVE_DYNAMAX_CANNON": {
         "id": 744,
