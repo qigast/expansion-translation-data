@@ -1,0 +1,14 @@
+Text file names inside Corpus dump files:
+Species names    -> monsname
+Ability names    -> tokusei
+Item names       -> itemname
+Move names       -> wazaname
+G-Max Move names -> gwazaname
+
+Ability descriptions    -> tokuseiinfo
+Item descriptions       -> iteminfo
+Move descriptions       -> wazainfo
+G-Max Move descriptions -> gwazainfo
+
+Species dex entries    -> zukan_comment_A, zukan_comment_B
+Species dex categories -> zkn_type
