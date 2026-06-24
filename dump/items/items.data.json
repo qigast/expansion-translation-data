@@ -945,7 +945,7 @@
         "id": 114,
         "code": "ITEM_GRASS_MAIL",
         "name": "Lettre Herbe",
-        "description": ""
+        "description": "Un papier à lettres représentant un champ d'herbe luxuriante. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_WISHING_STAR": {
         "id": 1140,
@@ -1011,7 +1011,7 @@
         "id": 115,
         "code": "ITEM_FLAME_MAIL",
         "name": "Lettre Feu",
-        "description": ""
+        "description": "Un papier à lettres orné de flammes d'un rouge flamboyant. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_MIXED_MUSHROOMS": {
         "id": 1150,
@@ -1077,7 +1077,7 @@
         "id": 116,
         "code": "ITEM_BUBBLE_MAIL",
         "name": "Lettre Mer",
-        "description": ""
+        "description": "Un papier à lettres représentant le bleu du monde sous-marin. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_CAMPING_GEAR": {
         "id": 1160,
@@ -1143,7 +1143,7 @@
         "id": 117,
         "code": "ITEM_BLOOM_MAIL",
         "name": "Lett. Pétale",
-        "description": ""
+        "description": "Un papier à lettres orné de ravissants motifs floraux. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_CLOVER_SWEET": {
         "id": 1170,
@@ -1209,7 +1209,7 @@
         "id": 118,
         "code": "ITEM_TUNNEL_MAIL",
         "name": "Lettre Mine",
-        "description": ""
+        "description": "Un papier à lettres représentant une mine de charbon peu éclairée. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_ROOM_SERVICE": {
         "id": 1180,
@@ -1275,7 +1275,7 @@
         "id": 119,
         "code": "ITEM_STEEL_MAIL",
         "name": "Lettre Acier",
-        "description": ""
+        "description": "Un papier à lettres orné de motifs mécaniques assez froids. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR02": {
         "id": 1190,
@@ -1347,7 +1347,7 @@
         "id": 120,
         "code": "ITEM_HEART_MAIL",
         "name": "Lettre Coeur",
-        "description": ""
+        "description": "Un papier à lettres orné de cœurs gigantesques. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR12": {
         "id": 1200,
@@ -1413,7 +1413,7 @@
         "id": 121,
         "code": "ITEM_SNOW_MAIL",
         "name": "Lettre Neige",
-        "description": ""
+        "description": "Un papier à lettres représentant un monde gelé, recouvert de neige. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR22": {
         "id": 1210,
@@ -1479,7 +1479,7 @@
         "id": 122,
         "code": "ITEM_SPACE_MAIL",
         "name": "Lettre Cosmo",
-        "description": ""
+        "description": "Un papier à lettres représentant le vide interstellaire. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR32": {
         "id": 1220,
@@ -1545,7 +1545,7 @@
         "id": 123,
         "code": "ITEM_AIR_MAIL",
         "name": "Lettre Avion",
-        "description": ""
+        "description": "Un papier à lettres orné de lignes colorées. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR42": {
         "id": 1230,
@@ -1611,7 +1611,7 @@
         "id": 124,
         "code": "ITEM_MOSAIC_MAIL",
         "name": "Lettremosaïk",
-        "description": ""
+        "description": "Un papier à lettres orné d'un motif multicolore éclatant. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR52": {
         "id": 1240,
@@ -1677,7 +1677,7 @@
         "id": 125,
         "code": "ITEM_BRICK_MAIL",
         "name": "Lettre Brik",
-        "description": ""
+        "description": "Un papier à lettres orné de briques qui ont vraiment l'air solides. Peut être tenu et livré par un Pokémon."
     },
     "ITEM_TR62": {
         "id": 1250,
@@ -13030,5 +13030,23 @@
         "code": "ITEM_ROTO_FRIENDSHIP",
         "name": "Moti-Cœur",
         "description": "Une des Motism'Auras. Elle permet d'augmenter plus rapidement l'Amitié que vous portent les Pokémon de votre équipe."
+    },
+    "ITEM_BLACK_AUGURITE": {
+        "id": 2230,
+        "code": "ITEM_BLACK_AUGURITE",
+        "name": "Obsidienne",
+        "description": ""
+    },
+    "ITEM_PEAT_BLOCK": {
+        "id": 2231,
+        "code": "ITEM_PEAT_BLOCK",
+        "name": "Bloc de Tourbe",
+        "description": ""
+    },
+    "ITEM_METAL_ALLOY": {
+        "id": 2232,
+        "code": "ITEM_METAL_ALLOY",
+        "name": "Métal Composite",
+        "description": ""
     }
 }

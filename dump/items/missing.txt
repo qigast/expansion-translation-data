@@ -1,15 +1,3 @@
-Missing French description for ITEM_GRASS_MAIL
-Missing French description for ITEM_FLAME_MAIL
-Missing French description for ITEM_BUBBLE_MAIL
-Missing French description for ITEM_BLOOM_MAIL
-Missing French description for ITEM_TUNNEL_MAIL
-Missing French description for ITEM_STEEL_MAIL
-Missing French description for ITEM_HEART_MAIL
-Missing French description for ITEM_SNOW_MAIL
-Missing French description for ITEM_SPACE_MAIL
-Missing French description for ITEM_AIR_MAIL
-Missing French description for ITEM_MOSAIC_MAIL
-Missing French description for ITEM_BRICK_MAIL
 Missing French description for ITEM_ADAMANT_CRYSTAL
 Missing French description for ITEM_LUSTROUS_GLOBE
 Missing French description for ITEM_GRISEOUS_CORE
@@ -576,11 +564,8 @@ Missing French description for ITEM_LAFEATHER_BALL
 Missing French description for ITEM_LAWING_BALL
 Missing French description for ITEM_LAJET_BALL
 Missing French description for ITEM_LAORIGIN_BALL
-Missing French name for ITEM_BLACK_AUGURITE
 Missing French description for ITEM_BLACK_AUGURITE
-Missing French name for ITEM_PEAT_BLOCK
 Missing French description for ITEM_PEAT_BLOCK
-Missing French name for ITEM_METAL_ALLOY
 Missing French description for ITEM_METAL_ALLOY
 Missing French description for ITEM_HM08
 Missing French description for ITEM_ORANGE_MAIL
@@ -615,4 +600,3 @@ Missing French description for ITEM_RUBY
 Missing French description for ITEM_SAPPHIRE
 Missing French description for ITEM_MAGMA_EMBLEM
 Missing French description for ITEM_OLD_SEA_MAP
-Missing French name for ITEM_GOD_STONE
