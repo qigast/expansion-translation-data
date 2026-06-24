@@ -13,10 +13,25 @@ def main() -> None:
     parser.add_argument("--c-constants", type=Path, required=True)
     parser.add_argument("--data", type=Path, required=True)
     parser.add_argument("--missing", type=Path, required=True)
+    parser.add_argument("--moves", action="store_true")
     args = parser.parse_args()
 
     with args.data.open("r", encoding="utf-8") as f:
         data: Dict[str, Any] = json.load(f)
+
+    if args.moves:
+        to_delete: Set[str] = set()
+        to_add: Dict[str, Any] = {}
+        for key, val in data.items():
+            if key.endswith(("_PHYSICAL", "_SPECIAL")):
+                to_delete.add(key)
+                if val.get("description") != "Dummy":
+                    base_key = key.replace("_PHYSICAL", "").replace("_SPECIAL", "")
+                    val["code"] = base_key
+                    to_add[base_key] = val
+        for key in to_delete:
+            data.pop(key, None)
+        data.update(to_add)
 
     json_keys: Set[str] = set(data.keys())
     prefixes: Set[str] = {k.split("_")[0] for k in json_keys if "_" in k}
