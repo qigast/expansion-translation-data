@@ -47,6 +47,13 @@
     },
     "schema": {
         "name": {
+            "UsUmPokemon": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 18516,
+                "end": 19322,
+                "prefix": "SPECIES_"
+            },
             "SwShPokemon": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
@@ -60,6 +67,13 @@
                 "beg": 15762,
                 "end": 16786,
                 "prefix": "SPECIES_"
+            },
+            "UsUmAbilities": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 24709,
+                "end": 24941,
+                "prefix": "ABILITY_"
             },
             "SwShAbilities": {
                 "en": "SwordShield/en_common.txt",
@@ -75,6 +89,13 @@
                 "end": 10542,
                 "prefix": "ABILITY_"
             },
+            "UsUmItems": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 11971,
+                "end": 12929,
+                "prefix": "ITEM_"
+            },
             "SwShItems": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
@@ -88,6 +109,12 @@
                 "beg": 13178,
                 "end": 15734,
                 "prefix": "ITEM_"
+            },
+            "UsUmMoves": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr":"UltraSunUltraMoon/fr_common.txt",
+                "beg": 29760,
+                "end": 30487
             },
             "SwShMoves": {
                 "en": "SwordShield/en_common.txt",
@@ -122,6 +149,11 @@
                 "fr": "ScarletViolet/fr_common.txt",
                 "beg": 43344
             },
+            "UsUmAbilities": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 24946
+            },
             "SwShAbilities": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
@@ -132,6 +164,11 @@
                 "fr": "ScarletViolet/fr_common.txt",
                 "beg": 32616
             },
+            "UsUmItems": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 11008
+            },
             "SwShItems": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
@@ -141,6 +178,11 @@
                 "en": "ScarletViolet/en_common.txt",
                 "fr": "ScarletViolet/fr_common.txt",
                 "beg": 32616
+            },
+            "UsUmMoves": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 29027
             },
             "SwShMoves": {
                 "en": "SwordShield/en_common.txt",
@@ -159,6 +201,11 @@
             }
         },
         "category": {
+            "UsUmPokemon": {
+                "en": "UltraSunUltraMoon/en_common.txt",
+                "fr": "UltraSunUltraMoon/fr_common.txt",
+                "beg": 32739
+            },
             "SwShPokemon": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
