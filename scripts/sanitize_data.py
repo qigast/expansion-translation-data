@@ -1,4 +1,5 @@
 import argparse
+import copy
 import json
 import re
 from pathlib import Path
@@ -14,6 +15,7 @@ def main() -> None:
     parser.add_argument("--data", type=Path, required=True)
     parser.add_argument("--missing", type=Path, required=True)
     parser.add_argument("--moves", action="store_true")
+    parser.add_argument("--species", action="store_true")
     args = parser.parse_args()
 
     with args.data.open("r", encoding="utf-8") as f:
@@ -42,8 +44,21 @@ def main() -> None:
     valid_keys: Set[str] = json_keys & c_keys
     sanitized_data: Dict[str, Any] = {k: data[k] for k in valid_keys}
 
+    if args.species:
+        # Search against ALL original json_keys so we don't miss base 
+        # entries that aren't in the C constants (like SPECIES_BURMY)
+        base_keys = sorted(list(json_keys), key=len, reverse=True)
+        for m_key in sorted(c_keys - valid_keys):
+            for base_key in base_keys:
+                if m_key.startswith(f"{base_key}_"):
+                    cloned = copy.deepcopy(data[base_key])
+                    cloned["code"] = m_key
+                    sanitized_data[m_key] = cloned
+                    valid_keys.add(m_key)
+                    break
+
     ordered_data: Dict[str, Any] = dict(
-        sorted(sanitized_data.items(), key=lambda item: str(item[1].get("id", "")))
+        sorted(sanitized_data.items(), key=lambda item: (str(item[1].get("id", "")), item[0]))
     )
 
     with args.data.open("w", encoding="utf-8") as f:
@@ -58,9 +73,9 @@ def main() -> None:
             missing_names.add(key)
             missing_desc.add(key)
         else:
-            if not data[key].get("name"):
+            if not sanitized_data[key].get("name"):
                 missing_names.add(key)
-            if not data[key].get("description"):
+            if not sanitized_data[key].get("description"):
                 missing_desc.add(key)
 
     existing_lines: List[str] = []
