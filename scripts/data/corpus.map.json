@@ -53,6 +53,13 @@
                 "end": 14243,
                 "prefix": "SPECIES_"
             },
+            "SVPokemon": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 15762,
+                "end": 16786,
+                "prefix": "SPECIES_"
+            },
             "SwShAbilities": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
@@ -60,11 +67,25 @@
                 "end": 8965,
                 "prefix": "ABILITY_"
             },
+            "SVAbilities": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 10233,
+                "end": 10542,
+                "prefix": "ABILITY_"
+            },
             "SwShItems": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
                 "beg": 11712,
                 "end": 13318,
+                "prefix": "ITEM_"
+            },
+            "SVItems": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 13178,
+                "end": 15734,
                 "prefix": "ITEM_"
             },
             "SwShMoves": {
@@ -80,6 +101,13 @@
                 "beg": 18652,
                 "end": 18684,
                 "prefix": "MOVE_"
+            },
+            "SVMoves": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 17947,
+                "end": 18865,
+                "prefix": "MOVE_"
             }
         },
         "description": {
@@ -88,15 +116,30 @@
                 "fr": "SwordShield/fr_common.txt",
                 "beg": 36030
             },
+            "SVPokemon": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 43344
+            },
             "SwShAbilities": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
                 "beg": 27203
             },
+            "SVAbilities": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 32616
+            },
             "SwShItems": {
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
                 "beg": 10101
+            },
+            "SVItems": {
+                "en": "ScarletViolet/en_common.txt",
+                "fr": "ScarletViolet/fr_common.txt",
+                "beg": 32616
             },
             "SwShMoves": {
                 "en": "SwordShield/en_common.txt",
@@ -107,6 +150,11 @@
                 "en": "SwordShield/en_common.txt",
                 "fr": "SwordShield/fr_common.txt",
                 "beg": 18616
+            },
+            "SVMoves": {
+                "en":"ScarletViolet/en_common.txt",
+                "fr":"ScarletViolet/fr_common.txt",
+                "beg": 17023
             }
         },
         "category": {
