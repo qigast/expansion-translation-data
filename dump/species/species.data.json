@@ -4997,6 +4997,55 @@
         "category": "Équilibre",
         "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
     },
+     "SPECIES_ZYGARDE_10": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_10",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
+     "SPECIES_ZYGARDE_10_AURA_BREAK": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_10_AURA_BREAK",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
+     "SPECIES_ZYGARDE_10_POWER_CONSTRUCT": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_10_POWER_CONSTRUCT",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
+    "SPECIES_ZYGARDE_50": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_50",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
+    "SPECIES_ZYGARDE_50_POWER_CONSTRUCT": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_50_POWER_CONSTRUCT",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
+    "SPECIES_ZYGARDE_MEGA": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_MEGA",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
+    "SPECIES_ZYGARDE_COMPLETE": {
+        "id": 718,
+        "code": "SPECIES_ZYGARDE_COMPLETE",
+        "name": "Zygarde",
+        "category": "Équilibre",
+        "description": "Lorsque l'écosystème de Kalos est menacé, ce Pokémon apparaît et utilise son mystérieux pouvoir."
+    },
     "SPECIES_DIANCIE": {
         "id": 719,
         "code": "SPECIES_DIANCIE",
