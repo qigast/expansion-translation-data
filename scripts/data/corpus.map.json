@@ -34,11 +34,12 @@
                 "’": "'"
             },
             "toStrip": true,
-            "keepShortest": true
+            "keepShortest": true,
+            "toDiscard": ["^Dummy.*"]
         },
         "category": {
             "hasReplace": {
-                "Pokémon ": "",
+                "Pokémon": "",
                 "’": "'"
             },
             "toStrip": true
