@@ -1,0 +1,120 @@
+{
+    "root": "~/Corpus",
+    "outputs": {
+        ".*Pokemon": [
+            "species.data.json",
+            "species.names.map.json"
+        ],
+        ".*Abilities": [
+            "abilities.data.json",
+            "ability.names.map.json"
+        ],
+        ".*Items": [
+            "items.data.json",
+            "item.names.map.json"
+        ],
+        ".*Moves": [
+            "moves.data.json",
+            "move.names.map.json"
+        ]
+    },
+    "rules": {
+        "name": {
+            "isKey": true,
+            "hasPrefix": true,
+            "hasReplace": {
+                "’": "'"
+            },
+            "toStrip": true
+        },
+        "description": {
+            "hasReplace": {
+                "\\n": "",
+                "\n": "",
+                "’": "'"
+            },
+            "toStrip": true,
+            "keepShortest": true
+        },
+        "category": {
+            "hasReplace": {
+                "Pokémon ": "",
+                "’": "'"
+            },
+            "toStrip": true
+        }
+    },
+    "schema": {
+        "name": {
+            "SwShPokemon": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 13346,
+                "end": 14243,
+                "prefix": "SPECIES_"
+            },
+            "SwShAbilities": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 8699,
+                "end": 8965,
+                "prefix": "ABILITY_"
+            },
+            "SwShItems": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 11712,
+                "end": 13318,
+                "prefix": "ITEM_"
+            },
+            "SwShMoves": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 15327,
+                "end": 16152,
+                "prefix": "MOVE_"
+            },
+            "SwShGMaxMoves": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 18652,
+                "end": 18684,
+                "prefix": "MOVE_"
+            }
+        },
+        "description": {
+            "SwShPokemon": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 36030
+            },
+            "SwShAbilities": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 27203
+            },
+            "SwShItems": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 10101
+            },
+            "SwShMoves": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 14497
+            },
+            "SwShGMaxMoves": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 18616
+            }
+        },
+        "category": {
+            "SwShPokemon": {
+                "en": "SwordShield/en_common.txt",
+                "fr": "SwordShield/fr_common.txt",
+                "beg": 17508
+            }
+        }
+    }
+}
