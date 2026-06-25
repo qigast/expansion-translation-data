@@ -29,8 +29,9 @@
         },
         "description": {
             "hasReplace": {
-                "\\n": "",
-                "\n": "",
+                "\\n": " ",
+                "\n": " ",
+                "  ": " ",
                 "’": "'"
             },
             "toStrip": true,
@@ -83,8 +84,8 @@
                 "prefix": "SPECIES_"
             },
             "ChampionsPokemon": {
-                "en": "Champions/en_common.txt",
-                "fr": "Champions/fr_common.txt",
+                "en": "Champions/en_ms.txt",
+                "fr": "Champions/fr_ms.txt",
                 "beg": 6114,
                 "end": 7138,
                 "prefix": "SPECIES_"
@@ -125,8 +126,8 @@
                 "prefix": "ABILITY_"
             },
             "ChampionsAbilities": {
-                "en": "Champions/en_common.txt",
-                "fr": "Champions/fr_common.txt",
+                "en": "Champions/en_ms.txt",
+                "fr": "Champions/fr_ms.txt",
                 "beg": 8395,
                 "end": 8712,
                 "prefix": "ABILITY_"
@@ -167,8 +168,8 @@
                 "prefix": "ITEM_"
             },
             "ChampionsItems": {
-                "en": "Champions/en_common.txt",
-                "fr": "Champions/fr_common.txt",
+                "en": "Champions/en_ms.txt",
+                "fr": "Champions/fr_ms.txt",
                 "beg": 3932,
                 "end": 4549,
                 "prefix": "ITEM_"
@@ -177,7 +178,8 @@
                 "en": "UltraSunUltraMoon/en_common.txt",
                 "fr":"UltraSunUltraMoon/fr_common.txt",
                 "beg": 29760,
-                "end": 30487
+                "end": 30487,
+                "prefix": "MOVE_"
             },
             "SwShMoves": {
                 "en": "SwordShield/en_common.txt",
@@ -215,8 +217,8 @@
                 "prefix": "MOVE_"
             },
             "ChampionsMoves": {
-                "en": "Champions/en_common.txt",
-                "fr": "Champions/fr_common.txt",
+                "en": "Champions/en_ms.txt",
+                "fr": "Champions/fr_ms.txt",
                 "beg": 10009,
                 "end": 10928,
                 "prefix": "MOVE_"
@@ -264,8 +266,8 @@
                 "beg": 30224
             },
             "ChampionsAbilities": {
-                "en": "Champions/en_common.txt",
-                "fr": "Champions/fr_common.txt",
+                "en": "Champions/en_ms.txt",
+                "fr": "Champions/fr_ms.txt",
                 "beg": 8716
             },
             "UsUmItems": {
@@ -281,7 +283,7 @@
             "SVItems": {
                 "en": "ScarletViolet/en_common.txt",
                 "fr": "ScarletViolet/fr_common.txt",
-                "beg": 32616
+                "beg": 10617
             },
             "LegendsArceusItems": {
                 "en": "LegendsArceus/en_common.txt",
