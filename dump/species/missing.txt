@@ -1,8 +1,0 @@
-Missing French description for SPECIES_ARCHALUDON
-Missing French description for SPECIES_PECHARUNT
-Missing French description for SPECIES_POLTCHAGEIST
-Missing French description for SPECIES_POLTCHAGEIST_ARTISAN
-Missing French description for SPECIES_POLTCHAGEIST_COUNTERFEIT
-Missing French description for SPECIES_SINISTCHA
-Missing French description for SPECIES_SINISTCHA_MASTERPIECE
-Missing French description for SPECIES_SINISTCHA_UNREMARKABLE

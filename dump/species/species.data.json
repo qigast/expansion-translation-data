@@ -130,42 +130,42 @@
         "code": "SPECIES_POLTCHAGEIST",
         "name": "Poltchageist",
         "category": "Matcha",
-        "description": ""
+        "description": "Ce Pokémon serait l'incarnation, sous la forme d'un pot de matcha, des regrets d'une personne décédée avant d'avoir maîtrisé l'art du thé."
     },
     "SPECIES_POLTCHAGEIST_ARTISAN": {
         "id": 1012,
         "code": "SPECIES_POLTCHAGEIST_ARTISAN",
         "name": "Poltchageist",
         "category": "Matcha",
-        "description": ""
+        "description": "Ce Pokémon serait l'incarnation, sous la forme d'un pot de matcha, des regrets d'une personne décédée avant d'avoir maîtrisé l'art du thé."
     },
     "SPECIES_POLTCHAGEIST_COUNTERFEIT": {
         "id": 1012,
         "code": "SPECIES_POLTCHAGEIST_COUNTERFEIT",
         "name": "Poltchageist",
         "category": "Matcha",
-        "description": ""
+        "description": "Ce Pokémon serait l'incarnation, sous la forme d'un pot de matcha, des regrets d'une personne décédée avant d'avoir maîtrisé l'art du thé."
     },
     "SPECIES_SINISTCHA": {
         "id": 1013,
         "code": "SPECIES_SINISTCHA",
         "name": "Théffroyable",
         "category": "Matcha",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_SINISTCHA_MASTERPIECE": {
         "id": 1013,
         "code": "SPECIES_SINISTCHA_MASTERPIECE",
         "name": "Théffroyable",
         "category": "Matcha",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_SINISTCHA_UNREMARKABLE": {
         "id": 1013,
         "code": "SPECIES_SINISTCHA_UNREMARKABLE",
         "name": "Théffroyable",
         "category": "Matcha",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_OKIDOGI": {
         "id": 1014,
@@ -256,7 +256,7 @@
         "code": "SPECIES_ARCHALUDON",
         "name": "Pondralugon",
         "category": "Alliage",
-        "description": ""
+        "description": "Il accumule l'électricité statique alentour. Le rayon qu'il tire quand il se met à quatre pattes est d'une puissance colossale."
     },
     "SPECIES_HYDRAPPLE": {
         "id": 1019,
@@ -333,7 +333,7 @@
         "code": "SPECIES_PECHARUNT",
         "name": "Pêchaminus",
         "category": "Emprise",
-        "description": ""
+        "description": "Il fait manger à sa cible un mochi empoisonné qui éveille les désirs et révèle le potentiel. Il la contrôle ensuite grâce à ses chaînes."
     },
     "SPECIES_EXEGGUTOR": {
         "id": 103,
