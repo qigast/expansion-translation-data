@@ -1,13 +1,4 @@
 {
-    "SPECIES_": {
-        "category": "Djinn",
-        "code": "SPECIES_",
-        "name": "~~~~~~~~~~~~~~~",
-        "source": {
-            "category": "UsUmPokemon",
-            "name": "UsUmPokemon"
-        }
-    },
     "SPECIES_ABOMASNOW": {
         "category": "Arbregelé",
         "code": "SPECIES_ABOMASNOW",
@@ -1025,6 +1016,17 @@
         "source": {
             "category": "UsUmPokemon",
             "description": "SVPokemon",
+            "name": "UsUmPokemon"
+        }
+    },
+    "SPECIES_BULBASAUR": {
+        "category": "Graine",
+        "code": "SPECIES_BULBASAUR",
+        "description": "Il y a une graine sur son dos depuis sa naissance. Elle grossit un peu chaque jour.",
+        "name": "Bulbizarre",
+        "source": {
+            "category": "UsUmPokemon",
+            "description": "SwShPokemon",
             "name": "UsUmPokemon"
         }
     },

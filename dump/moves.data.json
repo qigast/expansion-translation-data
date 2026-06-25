@@ -1,13 +1,4 @@
 {
-    "MOVE_": {
-        "code": "MOVE_",
-        "description": "― ― ―",
-        "name": "~~~~~~~~~~~~~~~",
-        "source": {
-            "description": "UsUmMoves",
-            "name": "UsUmMoves"
-        }
-    },
     "MOVE_10_000_000_VOLT_THUNDERBOLT": {
         "code": "MOVE_10_000_000_VOLT_THUNDERBOLT",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée.",
@@ -3239,6 +3230,15 @@
             "name": "SwShGMaxMoves"
         }
     },
+    "MOVE_G_MAX_WILDFIRE": {
+        "code": "MOVE_G_MAX_WILDFIRE",
+        "description": "Une attaque de type Feu que seul un Dracaufeu Gigamax peut utiliser. Pendant quatre tours, la cible continue de subir des dégâts.",
+        "name": "Fournaise G-Max",
+        "source": {
+            "description": "SwShGMaxMoves",
+            "name": "SwShGMaxMoves"
+        }
+    },
     "MOVE_G_MAX_WIND_RAGE": {
         "code": "MOVE_G_MAX_WIND_RAGE",
         "description": "Une attaque de type Vol que seul un Corvaillus Gigamax peut utiliser. Permet de briser les barrières comme Protection et Mur Lumière.",
@@ -5413,6 +5413,15 @@
         "source": {
             "description": "SVMoves",
             "name": "SVMoves"
+        }
+    },
+    "MOVE_POUND": {
+        "code": "MOVE_POUND",
+        "description": "Écrase l'ennemi avec les pattes avant ou la queue, par exemple.",
+        "name": "Écras'Face",
+        "source": {
+            "description": "UsUmMoves",
+            "name": "UsUmMoves"
         }
     },
     "MOVE_POWDER": {

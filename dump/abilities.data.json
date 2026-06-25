@@ -1,13 +1,4 @@
 {
-    "ABILITY_": {
-        "code": "ABILITY_",
-        "description": "~~~~~~~~~~~~~~~",
-        "name": "~~~~~~~~~~~~~~~",
-        "source": {
-            "description": "UsUmAbilities",
-            "name": "UsUmAbilities"
-        }
-    },
     "ABILITY_ADAPTABILITY": {
         "code": "ABILITY_ADAPTABILITY",
         "description": "Quand le Pokémon est apeuré, sa Vitesse augmente de 1 cran.",
@@ -2259,6 +2250,15 @@
         "source": {
             "description": "SVAbilities",
             "name": "SwShAbilities"
+        }
+    },
+    "ABILITY_STENCH": {
+        "code": "ABILITY_STENCH",
+        "description": "Le Pokémon émet une odeur si nauséabonde qu'il peut effrayer sa cible.",
+        "name": "Puanteur",
+        "source": {
+            "description": "UsUmAbilities",
+            "name": "UsUmAbilities"
         }
     },
     "ABILITY_STICKY_HOLD": {

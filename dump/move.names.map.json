@@ -327,6 +327,7 @@
     "G-Max Vine Lash": "Fouet G-Max",
     "G-Max Volcalith": "Téphra G-Max",
     "G-Max Volt Crash": "Foudre G-Max",
+    "G-Max Wildfire": "Fournaise G-Max",
     "G-Max Wind Rage": "Rafale G-Max",
     "Gastro Acid": "Suc Digestif",
     "Gear Grind": "Lancécrou",
@@ -600,6 +601,7 @@
     "Poltergeist": "Esprit Frappeur",
     "Population Bomb": "Prolifération",
     "Pounce": "Bond",
+    "Pound": "Écras'Face",
     "Powder": "Nuée de Poudre",
     "Powder Snow": "Poudreuse",
     "Power Gem": "Rayon Gemme",
@@ -932,6 +934,5 @@
     "Zap Cannon": "Élecanon",
     "Zen Headbutt": "Psykoud'Boul",
     "Zing Zap": "Électrikipik",
-    "Zippy Zap": "Pika-Sprint",
-    "~~~~~~~~~~~~~~~": "~~~~~~~~~~~~~~~"
+    "Zippy Zap": "Pika-Sprint"
 }

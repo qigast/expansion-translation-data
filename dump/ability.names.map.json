@@ -250,6 +250,7 @@
     "Steam Engine": "Turbine",
     "Steelworker": "Expert Acier",
     "Steely Spirit": "Boost Acier",
+    "Stench": "Puanteur",
     "Sticky Hold": "Glu",
     "Storm Drain": "Lavabo",
     "Strong Jaw": "Prognathe",
@@ -309,6 +310,5 @@
     "Wonder Guard": "Garde Mystik",
     "Wonder Skin": "Peau Miracle",
     "Zen Mode": "Mode Transe",
-    "Zero to Hero": "Supermutation",
-    "~~~~~~~~~~~~~~~": "~~~~~~~~~~~~~~~"
+    "Zero to Hero": "Supermutation"
 }

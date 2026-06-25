@@ -9854,6 +9854,15 @@
             "name": "SVItems"
         }
     },
+    "ITEM_MASTER_BALL": {
+        "code": "ITEM_MASTER_BALL",
+        "description": "Assurément la Ball la plus performante. Elle permet de capturer à coup sûr un Pokémon sauvage.",
+        "name": "Master Ball",
+        "source": {
+            "description": "UsUmItems",
+            "name": "UsUmItems"
+        }
+    },
     "ITEM_MAWILITE": {
         "code": "ITEM_MAWILITE",
         "description": "Une variété de Méga-Gemme. Tenue par un Mysdibule, elle lui permet de méga-évoluer durant un combat.",
