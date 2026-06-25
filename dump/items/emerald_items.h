@@ -1,0 +1,6070 @@
+const struct Item gItems[] =
+{
+    [ITEM_NONE] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Pokeballs
+
+    [ITEM_MASTER_BALL] =
+    {
+        .name = _("MASTER BALL"),
+        .itemId = ITEM_MASTER_BALL,
+        .price = 0,
+        .description = sMasterBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_MASTER_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_MASTER_BALL - FIRST_BALL,
+    },
+
+    [ITEM_ULTRA_BALL] =
+    {
+        .name = _("HYPER BALL"),
+        .itemId = ITEM_ULTRA_BALL,
+        .price = 1200,
+        .description = sUltraBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_ULTRA_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_ULTRA_BALL - FIRST_BALL,
+    },
+
+    [ITEM_GREAT_BALL] =
+    {
+        .name = _("SUPER BALL"),
+        .itemId = ITEM_GREAT_BALL,
+        .price = 600,
+        .description = sGreatBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_GREAT_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_GREAT_BALL - FIRST_BALL,
+    },
+
+    [ITEM_POKE_BALL] =
+    {
+        .name = _("POKé BALL"),
+        .itemId = ITEM_POKE_BALL,
+        .price = 200,
+        .description = sPokeBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_POKE_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_POKE_BALL - FIRST_BALL,
+    },
+
+    [ITEM_SAFARI_BALL] =
+    {
+        .name = _("SAFARI BALL"),
+        .itemId = ITEM_SAFARI_BALL,
+        .price = 0,
+        .description = sSafariBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_SAFARI_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_SAFARI_BALL - FIRST_BALL,
+    },
+
+    [ITEM_NET_BALL] =
+    {
+        .name = _("FILET BALL"),
+        .itemId = ITEM_NET_BALL,
+        .price = 1000,
+        .description = sNetBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_NET_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_NET_BALL - FIRST_BALL,
+    },
+
+    [ITEM_DIVE_BALL] =
+    {
+        .name = _("SCUBA BALL"),
+        .itemId = ITEM_DIVE_BALL,
+        .price = 1000,
+        .description = sDiveBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_DIVE_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_DIVE_BALL - FIRST_BALL,
+    },
+
+    [ITEM_NEST_BALL] =
+    {
+        .name = _("FAIBLO BALL"),
+        .itemId = ITEM_NEST_BALL,
+        .price = 1000,
+        .description = sNestBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_NEST_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_NEST_BALL - FIRST_BALL,
+    },
+
+    [ITEM_REPEAT_BALL] =
+    {
+        .name = _("BIS BALL"),
+        .itemId = ITEM_REPEAT_BALL,
+        .price = 1000,
+        .description = sRepeatBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_REPEAT_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_REPEAT_BALL - FIRST_BALL,
+    },
+
+    [ITEM_TIMER_BALL] =
+    {
+        .name = _("CHRONO BALL"),
+        .itemId = ITEM_TIMER_BALL,
+        .price = 1000,
+        .description = sTimerBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_TIMER_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_TIMER_BALL - FIRST_BALL,
+    },
+
+    [ITEM_LUXURY_BALL] =
+    {
+        .name = _("LUXE BALL"),
+        .itemId = ITEM_LUXURY_BALL,
+        .price = 1000,
+        .description = sLuxuryBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_LUXURY_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_LUXURY_BALL - FIRST_BALL,
+    },
+
+    [ITEM_PREMIER_BALL] =
+    {
+        .name = _("HONOR BALL"),
+        .itemId = ITEM_PREMIER_BALL,
+        .price = 200,
+        .description = sPremierBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_PREMIER_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_PREMIER_BALL - FIRST_BALL,
+    },
+
+// Medicine
+
+    [ITEM_POTION] =
+    {
+        .name = _("POTION"),
+        .itemId = ITEM_POTION,
+        .price = 300,
+        .holdEffectParam = 20,
+        .description = sPotionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_ANTIDOTE] =
+    {
+        .name = _("ANTIDOTE"),
+        .itemId = ITEM_ANTIDOTE,
+        .price = 100,
+        .description = sAntidoteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_BURN_HEAL] =
+    {
+        .name = _("ANTI-BRULE"),
+        .itemId = ITEM_BURN_HEAL,
+        .price = 250,
+        .description = sBurnHealDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_ICE_HEAL] =
+    {
+        .name = _("ANTIGEL"),
+        .itemId = ITEM_ICE_HEAL,
+        .price = 250,
+        .description = sIceHealDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_AWAKENING] =
+    {
+        .name = _("REVEIL"),
+        .itemId = ITEM_AWAKENING,
+        .price = 250,
+        .description = sAwakeningDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_PARALYZE_HEAL] =
+    {
+        .name = _("ANTI-PARA"),
+        .itemId = ITEM_PARALYZE_HEAL,
+        .price = 200,
+        .description = sParalyzeHealDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_FULL_RESTORE] =
+    {
+        .name = _("GUERISON"),
+        .itemId = ITEM_FULL_RESTORE,
+        .price = 3000,
+        .holdEffectParam = 255,
+        .description = sFullRestoreDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_MAX_POTION] =
+    {
+        .name = _("POTION MAX"),
+        .itemId = ITEM_MAX_POTION,
+        .price = 2500,
+        .holdEffectParam = 255,
+        .description = sMaxPotionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_HYPER_POTION] =
+    {
+        .name = _("HYPER POTION"),
+        .itemId = ITEM_HYPER_POTION,
+        .price = 1200,
+        .holdEffectParam = 200,
+        .description = sHyperPotionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_SUPER_POTION] =
+    {
+        .name = _("SUPER POTION"),
+        .itemId = ITEM_SUPER_POTION,
+        .price = 700,
+        .holdEffectParam = 50,
+        .description = sSuperPotionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_FULL_HEAL] =
+    {
+        .name = _("TOTAL SOIN"),
+        .itemId = ITEM_FULL_HEAL,
+        .price = 600,
+        .description = sFullHealDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_REVIVE] =
+    {
+        .name = _("RAPPEL"),
+        .itemId = ITEM_REVIVE,
+        .price = 1500,
+        .description = sReviveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_MAX_REVIVE] =
+    {
+        .name = _("RAPPEL MAX"),
+        .itemId = ITEM_MAX_REVIVE,
+        .price = 4000,
+        .description = sMaxReviveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_FRESH_WATER] =
+    {
+        .name = _("EAU FRAICHE"),
+        .itemId = ITEM_FRESH_WATER,
+        .price = 200,
+        .holdEffectParam = 50,
+        .description = sFreshWaterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_SODA_POP] =
+    {
+        .name = _("SODA COOL"),
+        .itemId = ITEM_SODA_POP,
+        .price = 300,
+        .holdEffectParam = 60,
+        .description = sSodaPopDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_LEMONADE] =
+    {
+        .name = _("LIMONADE"),
+        .itemId = ITEM_LEMONADE,
+        .price = 350,
+        .holdEffectParam = 80,
+        .description = sLemonadeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_MOOMOO_MILK] =
+    {
+        .name = _("LAIT MEUMEU"),
+        .itemId = ITEM_MOOMOO_MILK,
+        .price = 500,
+        .holdEffectParam = 100,
+        .description = sMoomooMilkDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_ENERGY_POWDER] =
+    {
+        .name = _("POUDRENERGIE"),
+        .itemId = ITEM_ENERGY_POWDER,
+        .price = 500,
+        .description = sEnergyPowderDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_ENERGY_ROOT] =
+    {
+        .name = _("RACINENERGIE"),
+        .itemId = ITEM_ENERGY_ROOT,
+        .price = 800,
+        .description = sEnergyRootDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_HEAL_POWDER] =
+    {
+        .name = _("POUDRE SOIN"),
+        .itemId = ITEM_HEAL_POWDER,
+        .price = 450,
+        .description = sHealPowderDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_REVIVAL_HERB] =
+    {
+        .name = _("HERBE RAPPEL"),
+        .itemId = ITEM_REVIVAL_HERB,
+        .price = 2800,
+        .description = sRevivalHerbDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_ETHER] =
+    {
+        .name = _("HUILE"),
+        .itemId = ITEM_ETHER,
+        .price = 1200,
+        .holdEffectParam = 10,
+        .description = sEtherDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_PPRecovery,
+    },
+
+    [ITEM_MAX_ETHER] =
+    {
+        .name = _("HUILE MAX"),
+        .itemId = ITEM_MAX_ETHER,
+        .price = 2000,
+        .holdEffectParam = 255,
+        .description = sMaxEtherDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_PPRecovery,
+    },
+
+    [ITEM_ELIXIR] =
+    {
+        .name = _("ELIXIR"),
+        .itemId = ITEM_ELIXIR,
+        .price = 3000,
+        .holdEffectParam = 10,
+        .description = sElixirDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_PPRecovery,
+    },
+
+    [ITEM_MAX_ELIXIR] =
+    {
+        .name = _("MAX ELIXIR"),
+        .itemId = ITEM_MAX_ELIXIR,
+        .price = 4500,
+        .holdEffectParam = 255,
+        .description = sMaxElixirDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_PPRecovery,
+    },
+
+    [ITEM_LAVA_COOKIE] =
+    {
+        .name = _("LAVA COOKIE"),
+        .itemId = ITEM_LAVA_COOKIE,
+        .price = 200,
+        .description = sLavaCookieDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_BLUE_FLUTE] =
+    {
+        .name = _("FLUTE BLEUE"),
+        .itemId = ITEM_BLUE_FLUTE,
+        .price = 100,
+        .description = sBlueFluteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_YELLOW_FLUTE] =
+    {
+        .name = _("FLUTE JAUNE"),
+        .itemId = ITEM_YELLOW_FLUTE,
+        .price = 200,
+        .description = sYellowFluteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_RED_FLUTE] =
+    {
+        .name = _("FLUTE ROUGE"),
+        .itemId = ITEM_RED_FLUTE,
+        .price = 300,
+        .description = sRedFluteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_BLACK_FLUTE] =
+    {
+        .name = _("FLUTE NOIRE"),
+        .itemId = ITEM_BLACK_FLUTE,
+        .price = 400,
+        .holdEffectParam = 50,
+        .description = sBlackFluteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_BlackWhiteFlute,
+    },
+
+    [ITEM_WHITE_FLUTE] =
+    {
+        .name = _("FLUTEBLANCHE"),
+        .itemId = ITEM_WHITE_FLUTE,
+        .price = 500,
+        .holdEffectParam = 150,
+        .description = sWhiteFluteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_BlackWhiteFlute,
+    },
+
+    [ITEM_BERRY_JUICE] =
+    {
+        .name = _("JUS DE BAIE"),
+        .itemId = ITEM_BERRY_JUICE,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_RESTORE_HP,
+        .holdEffectParam = 20,
+        .description = sBerryJuiceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_SACRED_ASH] =
+    {
+        .name = _("CENDRESACREE"),
+        .itemId = ITEM_SACRED_ASH,
+        .price = 200,
+        .description = sSacredAshDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_SacredAsh,
+    },
+
+// Collectibles
+
+    [ITEM_SHOAL_SALT] =
+    {
+        .name = _("SEL TREFONDS"),
+        .itemId = ITEM_SHOAL_SALT,
+        .price = 20,
+        .description = sShoalSaltDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SHOAL_SHELL] =
+    {
+        .name = _("CO. TREFONDS"),
+        .itemId = ITEM_SHOAL_SHELL,
+        .price = 20,
+        .description = sShoalShellDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_RED_SHARD] =
+    {
+        .name = _("TESSON ROUGE"),
+        .itemId = ITEM_RED_SHARD,
+        .price = 200,
+        .description = sRedShardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BLUE_SHARD] =
+    {
+        .name = _("TESSON BLEU"),
+        .itemId = ITEM_BLUE_SHARD,
+        .price = 200,
+        .description = sBlueShardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_YELLOW_SHARD] =
+    {
+        .name = _("TESSON JAUNE"),
+        .itemId = ITEM_YELLOW_SHARD,
+        .price = 200,
+        .description = sYellowShardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_GREEN_SHARD] =
+    {
+        .name = _("TESSON VERT"),
+        .itemId = ITEM_GREEN_SHARD,
+        .price = 200,
+        .description = sGreenShardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_034] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_035] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_036] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_037] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_038] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_039] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_03A] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_03B] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_03C] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_03D] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_03E] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Vitamins
+
+    [ITEM_HP_UP] =
+    {
+        .name = _("PV PLUS"),
+        .itemId = ITEM_HP_UP,
+        .price = 9800,
+        .description = sHPUpDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+    },
+
+    [ITEM_PROTEIN] =
+    {
+        .name = _("PROTEINE"),
+        .itemId = ITEM_PROTEIN,
+        .price = 9800,
+        .description = sProteinDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+    },
+
+    [ITEM_IRON] =
+    {
+        .name = _("FER"),
+        .itemId = ITEM_IRON,
+        .price = 9800,
+        .description = sIronDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+    },
+
+    [ITEM_CARBOS] =
+    {
+        .name = _("CARBONE"),
+        .itemId = ITEM_CARBOS,
+        .price = 9800,
+        .description = sCarbosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+    },
+
+    [ITEM_CALCIUM] =
+    {
+        .name = _("CALCIUM"),
+        .itemId = ITEM_CALCIUM,
+        .price = 9800,
+        .description = sCalciumDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+    },
+
+    [ITEM_RARE_CANDY] =
+    {
+        .name = _("SUPER BONBON"),
+        .itemId = ITEM_RARE_CANDY,
+        .price = 4800,
+        .description = sRareCandyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+    },
+
+    [ITEM_PP_UP] =
+    {
+        .name = _("PP PLUS"),
+        .itemId = ITEM_PP_UP,
+        .price = 9800,
+        .description = sPPUpDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPUp,
+    },
+
+    [ITEM_ZINC] =
+    {
+        .name = _("ZINC"),
+        .itemId = ITEM_ZINC,
+        .price = 9800,
+        .description = sZincDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+    },
+
+    [ITEM_PP_MAX] =
+    {
+        .name = _("PP MAX"),
+        .itemId = ITEM_PP_MAX,
+        .price = 9800,
+        .description = sPPMaxDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPUp,
+    },
+
+    [ITEM_048] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Battle items
+
+    [ITEM_GUARD_SPEC] =
+    {
+        .name = _("DEFENSE SPEC"),
+        .itemId = ITEM_GUARD_SPEC,
+        .price = 700,
+        .description = sGuardSpecDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_DIRE_HIT] =
+    {
+        .name = _("MUSCLE +"),
+        .itemId = ITEM_DIRE_HIT,
+        .price = 650,
+        .description = sDireHitDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_X_ATTACK] =
+    {
+        .name = _("ATTAQUE +"),
+        .itemId = ITEM_X_ATTACK,
+        .price = 500,
+        .description = sXAttackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_X_DEFEND] =
+    {
+        .name = _("DEFENSE +"),
+        .itemId = ITEM_X_DEFEND,
+        .price = 550,
+        .description = sXDefendDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_X_SPEED] =
+    {
+        .name = _("VITESSE +"),
+        .itemId = ITEM_X_SPEED,
+        .price = 350,
+        .description = sXSpeedDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_X_ACCURACY] =
+    {
+        .name = _("PRECISION +"),
+        .itemId = ITEM_X_ACCURACY,
+        .price = 950,
+        .description = sXAccuracyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_X_SPECIAL] =
+    {
+        .name = _("SPECIAL +"),
+        .itemId = ITEM_X_SPECIAL,
+        .price = 350,
+        .description = sXSpecialDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_StatIncrease,
+    },
+
+    [ITEM_POKE_DOLL] =
+    {
+        .name = _("POKéPOUPEE"),
+        .itemId = ITEM_POKE_DOLL,
+        .price = 1000,
+        .description = sPokeDollDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_Escape,
+    },
+
+    [ITEM_FLUFFY_TAIL] =
+    {
+        .name = _("QUEUE SKITTY"),
+        .itemId = ITEM_FLUFFY_TAIL,
+        .price = 1000,
+        .description = sFluffyTailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_Escape,
+    },
+
+    [ITEM_052] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Field items
+
+    [ITEM_SUPER_REPEL] =
+    {
+        .name = _("SUPEREPOUSSE"),
+        .itemId = ITEM_SUPER_REPEL,
+        .price = 500,
+        .holdEffectParam = 200,
+        .description = sSuperRepelDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Repel,
+    },
+
+    [ITEM_MAX_REPEL] =
+    {
+        .name = _("MAX REPOUSSE"),
+        .itemId = ITEM_MAX_REPEL,
+        .price = 700,
+        .holdEffectParam = 250,
+        .description = sMaxRepelDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Repel,
+    },
+
+    [ITEM_ESCAPE_ROPE] =
+    {
+        .name = _("CORDE SORTIE"),
+        .itemId = ITEM_ESCAPE_ROPE,
+        .price = 550,
+        .description = sEscapeRopeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_EscapeRope,
+    },
+
+    [ITEM_REPEL] =
+    {
+        .name = _("REPOUSSE"),
+        .itemId = ITEM_REPEL,
+        .price = 350,
+        .holdEffectParam = 100,
+        .description = sRepelDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Repel,
+    },
+
+    [ITEM_057] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_058] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_059] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_05A] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_05B] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_05C] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Evolution stones
+
+    [ITEM_SUN_STONE] =
+    {
+        .name = _("PIERRESOLEIL"),
+        .itemId = ITEM_SUN_STONE,
+        .price = 2100,
+        .description = sSunStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_MOON_STONE] =
+    {
+        .name = _("PIERRE LUNE"),
+        .itemId = ITEM_MOON_STONE,
+        .price = 0,
+        .description = sMoonStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_FIRE_STONE] =
+    {
+        .name = _("PIERRE FEU"),
+        .itemId = ITEM_FIRE_STONE,
+        .price = 2100,
+        .description = sFireStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_THUNDER_STONE] =
+    {
+        .name = _("PIERREFOUDRE"),
+        .itemId = ITEM_THUNDER_STONE,
+        .price = 2100,
+        .description = sThunderStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_WATER_STONE] =
+    {
+        .name = _("PIERRE EAU"),
+        .itemId = ITEM_WATER_STONE,
+        .price = 2100,
+        .description = sWaterStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_LEAF_STONE] =
+    {
+        .name = _("PIERREPLANTE"),
+        .itemId = ITEM_LEAF_STONE,
+        .price = 2100,
+        .description = sLeafStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_063] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_064] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_065] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_066] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Valuable items
+
+    [ITEM_TINY_MUSHROOM] =
+    {
+        .name = _("PETIT CHAMPI"),
+        .itemId = ITEM_TINY_MUSHROOM,
+        .price = 500,
+        .description = sTinyMushroomDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BIG_MUSHROOM] =
+    {
+        .name = _("GROS CHAMPI"),
+        .itemId = ITEM_BIG_MUSHROOM,
+        .price = 5000,
+        .description = sBigMushroomDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_069] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_PEARL] =
+    {
+        .name = _("PERLE"),
+        .itemId = ITEM_PEARL,
+        .price = 1400,
+        .description = sPearlDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BIG_PEARL] =
+    {
+        .name = _("GRANDE PERLE"),
+        .itemId = ITEM_BIG_PEARL,
+        .price = 7500,
+        .description = sBigPearlDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_STARDUST] =
+    {
+        .name = _("POUSS.ETOILE"),
+        .itemId = ITEM_STARDUST,
+        .price = 2000,
+        .description = sStardustDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_STAR_PIECE] =
+    {
+        .name = _("MORC. ETOILE"),
+        .itemId = ITEM_STAR_PIECE,
+        .price = 9800,
+        .description = sStarPieceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_NUGGET] =
+    {
+        .name = _("PEPITE"),
+        .itemId = ITEM_NUGGET,
+        .price = 10000,
+        .description = sNuggetDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_HEART_SCALE] =
+    {
+        .name = _("ECAILLECOEUR"),
+        .itemId = ITEM_HEART_SCALE,
+        .price = 100,
+        .description = sHeartScaleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_070] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_071] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_072] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_073] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_074] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_075] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_076] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_077] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_078] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Mail
+    [ITEM_ORANGE_MAIL] =
+    {
+        .name = _("LETTRE ORANJ"),
+        .itemId = ITEM_ORANGE_MAIL,
+        .price = 50,
+        .description = sOrangeMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_ORANGE_MAIL),
+    },
+
+    [ITEM_HARBOR_MAIL] =
+    {
+        .name = _("LETTRE PORT"),
+        .itemId = ITEM_HARBOR_MAIL,
+        .price = 50,
+        .description = sHarborMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_HARBOR_MAIL),
+    },
+
+    [ITEM_GLITTER_MAIL] =
+    {
+        .name = _("LETTRE BRILL"),
+        .itemId = ITEM_GLITTER_MAIL,
+        .price = 50,
+        .description = sGlitterMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_GLITTER_MAIL),
+    },
+
+    [ITEM_MECH_MAIL] =
+    {
+        .name = _("LETTRE MECA"),
+        .itemId = ITEM_MECH_MAIL,
+        .price = 50,
+        .description = sMechMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_MECH_MAIL),
+    },
+
+    [ITEM_WOOD_MAIL] =
+    {
+        .name = _("LETTRE BOIS"),
+        .itemId = ITEM_WOOD_MAIL,
+        .price = 50,
+        .description = sWoodMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_WOOD_MAIL),
+    },
+
+    [ITEM_WAVE_MAIL] =
+    {
+        .name = _("LETTRE VAGUE"),
+        .itemId = ITEM_WAVE_MAIL,
+        .price = 50,
+        .description = sWaveMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_WAVE_MAIL),
+    },
+
+    [ITEM_BEAD_MAIL] =
+    {
+        .name = _("LETTRE BULLE"),
+        .itemId = ITEM_BEAD_MAIL,
+        .price = 50,
+        .description = sBeadMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_BEAD_MAIL),
+    },
+
+    [ITEM_SHADOW_MAIL] =
+    {
+        .name = _("LETTRE OMBRE"),
+        .itemId = ITEM_SHADOW_MAIL,
+        .price = 50,
+        .description = sShadowMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_SHADOW_MAIL),
+    },
+
+    [ITEM_TROPIC_MAIL] =
+    {
+        .name = _("LETTRE TROPI"),
+        .itemId = ITEM_TROPIC_MAIL,
+        .price = 50,
+        .description = sTropicMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_TROPIC_MAIL),
+    },
+
+    [ITEM_DREAM_MAIL] =
+    {
+        .name = _("LETTRE SONGE"),
+        .itemId = ITEM_DREAM_MAIL,
+        .price = 50,
+        .description = sDreamMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_DREAM_MAIL),
+    },
+
+    [ITEM_FAB_MAIL] =
+    {
+        .name = _("LETTRE COOL"),
+        .itemId = ITEM_FAB_MAIL,
+        .price = 50,
+        .description = sFabMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_FAB_MAIL),
+    },
+
+    [ITEM_RETRO_MAIL] =
+    {
+        .name = _("LETTRE RETRO"),
+        .itemId = ITEM_RETRO_MAIL,
+        .price = 0,
+        .description = sRetroMailDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_MAIL,
+        .fieldUseFunc = ItemUseOutOfBattle_Mail,
+        .secondaryId = ITEM_TO_MAIL(ITEM_RETRO_MAIL),
+    },
+
+// Berries
+
+    [ITEM_CHERI_BERRY] =
+    {
+        .name = _("BAIE CERIZ"),
+        .itemId = ITEM_CHERI_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_PAR,
+        .description = sCheriBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_CHESTO_BERRY] =
+    {
+        .name = _("BAIE MARON"),
+        .itemId = ITEM_CHESTO_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_SLP,
+        .description = sChestoBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_PECHA_BERRY] =
+    {
+        .name = _("BAIE PECHA"),
+        .itemId = ITEM_PECHA_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_PSN,
+        .description = sPechaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_RAWST_BERRY] =
+    {
+        .name = _("BAIE FRAIVE"),
+        .itemId = ITEM_RAWST_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_BRN,
+        .description = sRawstBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_ASPEAR_BERRY] =
+    {
+        .name = _("BAIE WILLIA"),
+        .itemId = ITEM_ASPEAR_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_FRZ,
+        .description = sAspearBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_LEPPA_BERRY] =
+    {
+        .name = _("BAIE MEPO"),
+        .itemId = ITEM_LEPPA_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_RESTORE_PP,
+        .holdEffectParam = 10,
+        .description = sLeppaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_PPRecovery,
+    },
+
+    [ITEM_ORAN_BERRY] =
+    {
+        .name = _("BAIE ORAN"),
+        .itemId = ITEM_ORAN_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_RESTORE_HP,
+        .holdEffectParam = 10,
+        .description = sOranBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_PERSIM_BERRY] =
+    {
+        .name = _("BAIE KIKA"),
+        .itemId = ITEM_PERSIM_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_CONFUSION,
+        .description = sPersimBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_LUM_BERRY] =
+    {
+        .name = _("BAIE PRINE"),
+        .itemId = ITEM_LUM_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CURE_STATUS,
+        .description = sLumBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_SITRUS_BERRY] =
+    {
+        .name = _("BAIE SITRUS"),
+        .itemId = ITEM_SITRUS_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_RESTORE_HP,
+        .holdEffectParam = 30,
+        .description = sSitrusBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
+    [ITEM_FIGY_BERRY] =
+    {
+        .name = _("BAIE FIGUY"),
+        .itemId = ITEM_FIGY_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CONFUSE_SPICY,
+        .holdEffectParam = 8,
+        .description = sFigyBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_WIKI_BERRY] =
+    {
+        .name = _("BAIE WIKI"),
+        .itemId = ITEM_WIKI_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CONFUSE_DRY,
+        .holdEffectParam = 8,
+        .description = sWikiBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MAGO_BERRY] =
+    {
+        .name = _("BAIE MAGO"),
+        .itemId = ITEM_MAGO_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CONFUSE_SWEET,
+        .holdEffectParam = 8,
+        .description = sMagoBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_AGUAV_BERRY] =
+    {
+        .name = _("BAIE GOWAV"),
+        .itemId = ITEM_AGUAV_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CONFUSE_BITTER,
+        .holdEffectParam = 8,
+        .description = sAguavBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_IAPAPA_BERRY] =
+    {
+        .name = _("BAIE PAPAYA"),
+        .itemId = ITEM_IAPAPA_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CONFUSE_SOUR,
+        .holdEffectParam = 8,
+        .description = sIapapaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_RAZZ_BERRY] =
+    {
+        .name = _("BAIE FRAMBY"),
+        .itemId = ITEM_RAZZ_BERRY,
+        .price = 20,
+        .description = sRazzBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BLUK_BERRY] =
+    {
+        .name = _("BAIE REMU"),
+        .itemId = ITEM_BLUK_BERRY,
+        .price = 20,
+        .description = sBlukBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_NANAB_BERRY] =
+    {
+        .name = _("BAIE NANAB"),
+        .itemId = ITEM_NANAB_BERRY,
+        .price = 20,
+        .description = sNanabBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_WEPEAR_BERRY] =
+    {
+        .name = _("BAIE REPOI"),
+        .itemId = ITEM_WEPEAR_BERRY,
+        .price = 20,
+        .description = sWepearBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_PINAP_BERRY] =
+    {
+        .name = _("BAIE NANANA"),
+        .itemId = ITEM_PINAP_BERRY,
+        .price = 20,
+        .description = sPinapBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_POMEG_BERRY] =
+    {
+        .name = _("BAIE GRENA"),
+        .itemId = ITEM_POMEG_BERRY,
+        .price = 20,
+        .description = sPomegBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceEV,
+    },
+
+    [ITEM_KELPSY_BERRY] =
+    {
+        .name = _("BAIE ALGA"),
+        .itemId = ITEM_KELPSY_BERRY,
+        .price = 20,
+        .description = sKelpsyBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceEV,
+    },
+
+    [ITEM_QUALOT_BERRY] =
+    {
+        .name = _("BAIE QUALOT"),
+        .itemId = ITEM_QUALOT_BERRY,
+        .price = 20,
+        .description = sQualotBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceEV,
+    },
+
+    [ITEM_HONDEW_BERRY] =
+    {
+        .name = _("BAIE LONME"),
+        .itemId = ITEM_HONDEW_BERRY,
+        .price = 20,
+        .description = sHondewBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceEV,
+    },
+
+    [ITEM_GREPA_BERRY] =
+    {
+        .name = _("BAIE RESIN"),
+        .itemId = ITEM_GREPA_BERRY,
+        .price = 20,
+        .description = sGrepaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceEV,
+    },
+
+    [ITEM_TAMATO_BERRY] =
+    {
+        .name = _("BAIE TAMATO"),
+        .itemId = ITEM_TAMATO_BERRY,
+        .price = 20,
+        .description = sTamatoBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceEV,
+    },
+
+    [ITEM_CORNN_BERRY] =
+    {
+        .name = _("BAIE SIAM"),
+        .itemId = ITEM_CORNN_BERRY,
+        .price = 20,
+        .description = sCornnBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MAGOST_BERRY] =
+    {
+        .name = _("BAIE MANGOU"),
+        .itemId = ITEM_MAGOST_BERRY,
+        .price = 20,
+        .description = sMagostBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_RABUTA_BERRY] =
+    {
+        .name = _("BAIE RABUTA"),
+        .itemId = ITEM_RABUTA_BERRY,
+        .price = 20,
+        .description = sRabutaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_NOMEL_BERRY] =
+    {
+        .name = _("BAIE TRONCI"),
+        .itemId = ITEM_NOMEL_BERRY,
+        .price = 20,
+        .description = sNomelBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SPELON_BERRY] =
+    {
+        .name = _("BAIE KIWAN"),
+        .itemId = ITEM_SPELON_BERRY,
+        .price = 20,
+        .description = sSpelonBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_PAMTRE_BERRY] =
+    {
+        .name = _("BAIE PALMA"),
+        .itemId = ITEM_PAMTRE_BERRY,
+        .price = 20,
+        .description = sPamtreBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_WATMEL_BERRY] =
+    {
+        .name = _("BAIE STEKPA"),
+        .itemId = ITEM_WATMEL_BERRY,
+        .price = 20,
+        .description = sWatmelBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DURIN_BERRY] =
+    {
+        .name = _("BAIE DURIN"),
+        .itemId = ITEM_DURIN_BERRY,
+        .price = 20,
+        .description = sDurinBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BELUE_BERRY] =
+    {
+        .name = _("BAIE MYRTE"),
+        .itemId = ITEM_BELUE_BERRY,
+        .price = 20,
+        .description = sBelueBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LIECHI_BERRY] =
+    {
+        .name = _("BAIE LICHII"),
+        .itemId = ITEM_LIECHI_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_ATTACK_UP,
+        .holdEffectParam = 4,
+        .description = sLiechiBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_GANLON_BERRY] =
+    {
+        .name = _("BAIE LINGAN"),
+        .itemId = ITEM_GANLON_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_DEFENSE_UP,
+        .holdEffectParam = 4,
+        .description = sGanlonBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SALAC_BERRY] =
+    {
+        .name = _("BAIE SAILAK"),
+        .itemId = ITEM_SALAC_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_SPEED_UP,
+        .holdEffectParam = 4,
+        .description = sSalacBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_PETAYA_BERRY] =
+    {
+        .name = _("BAIE PITAYE"),
+        .itemId = ITEM_PETAYA_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_SP_ATTACK_UP,
+        .holdEffectParam = 4,
+        .description = sPetayaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_APICOT_BERRY] =
+    {
+        .name = _("BAIE ABRIKO"),
+        .itemId = ITEM_APICOT_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_SP_DEFENSE_UP,
+        .holdEffectParam = 4,
+        .description = sApicotBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LANSAT_BERRY] =
+    {
+        .name = _("BAIE LANSAT"),
+        .itemId = ITEM_LANSAT_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_CRITICAL_UP,
+        .holdEffectParam = 4,
+        .description = sLansatBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_STARF_BERRY] =
+    {
+        .name = _("BAIE FRISTA"),
+        .itemId = ITEM_STARF_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_RANDOM_STAT_UP,
+        .holdEffectParam = 4,
+        .description = sStarfBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ENIGMA_BERRY] =
+    {
+        .name = _("BAIE ENIGMA"),
+        .itemId = ITEM_ENIGMA_BERRY,
+        .price = 20,
+        .description = sEnigmaBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU, // Type handled by ItemUseOutOfBattle_EnigmaBerry
+        .fieldUseFunc = ItemUseOutOfBattle_EnigmaBerry,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_EnigmaBerry,
+    },
+
+    [ITEM_UNUSED_BERRY_1] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_UNUSED_BERRY_2] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_UNUSED_BERRY_3] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Hold items
+
+    [ITEM_BRIGHT_POWDER] =
+    {
+        .name = _("POUDRECLAIRE"),
+        .itemId = ITEM_BRIGHT_POWDER,
+        .price = 10,
+        .holdEffect = HOLD_EFFECT_EVASION_UP,
+        .holdEffectParam = 10,
+        .description = sBrightPowderDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_WHITE_HERB] =
+    {
+        .name = _("HERBEBLANCHE"),
+        .itemId = ITEM_WHITE_HERB,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_RESTORE_STATS,
+        .description = sWhiteHerbDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MACHO_BRACE] =
+    {
+        .name = _("BRAC. MACHO"),
+        .itemId = ITEM_MACHO_BRACE,
+        .price = 3000,
+        .holdEffect = HOLD_EFFECT_MACHO_BRACE,
+        .description = sMachoBraceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_EXP_SHARE] =
+    {
+        .name = _("MULTI EXP"),
+        .itemId = ITEM_EXP_SHARE,
+        .price = 3000,
+        .holdEffect = HOLD_EFFECT_EXP_SHARE,
+        .description = sExpShareDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_QUICK_CLAW] =
+    {
+        .name = _("VIVE GRIFFE"),
+        .itemId = ITEM_QUICK_CLAW,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_QUICK_CLAW,
+        .holdEffectParam = 20,
+        .description = sQuickClawDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SOOTHE_BELL] =
+    {
+        .name = _("GRELOT ZEN"),
+        .itemId = ITEM_SOOTHE_BELL,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_FRIENDSHIP_UP,
+        .description = sSootheBellDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MENTAL_HERB] =
+    {
+        .name = _("HERBE MENTAL"),
+        .itemId = ITEM_MENTAL_HERB,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_CURE_ATTRACT,
+        .description = sMentalHerbDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_CHOICE_BAND] =
+    {
+        .name = _("BAND. CHOIX"),
+        .itemId = ITEM_CHOICE_BAND,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_CHOICE_BAND,
+        .description = sChoiceBandDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_KINGS_ROCK] =
+    {
+        .name = _("ROCHE ROYALE"),
+        .itemId = ITEM_KINGS_ROCK,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_FLINCH,
+        .holdEffectParam = 10,
+        .description = sKingsRockDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SILVER_POWDER] =
+    {
+        .name = _("POUDRE ARG."),
+        .itemId = ITEM_SILVER_POWDER,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_BUG_POWER,
+        .holdEffectParam = 10,
+        .description = sSilverPowderDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_AMULET_COIN] =
+    {
+        .name = _("PIECE RUNE"),
+        .itemId = ITEM_AMULET_COIN,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_DOUBLE_PRIZE,
+        .holdEffectParam = 10,
+        .description = sAmuletCoinDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_CLEANSE_TAG] =
+    {
+        .name = _("RUNE PURIF."),
+        .itemId = ITEM_CLEANSE_TAG,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_REPEL,
+        .description = sCleanseTagDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SOUL_DEW] =
+    {
+        .name = _("ROSEE AME"),
+        .itemId = ITEM_SOUL_DEW,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_SOUL_DEW,
+        .description = sSoulDewDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DEEP_SEA_TOOTH] =
+    {
+        .name = _("DENT OCEAN"),
+        .itemId = ITEM_DEEP_SEA_TOOTH,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_DEEP_SEA_TOOTH,
+        .description = sDeepSeaToothDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DEEP_SEA_SCALE] =
+    {
+        .name = _("ECAILLEOCEAN"),
+        .itemId = ITEM_DEEP_SEA_SCALE,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_DEEP_SEA_SCALE,
+        .description = sDeepSeaScaleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SMOKE_BALL] =
+    {
+        .name = _("BOULE FUMEE"),
+        .itemId = ITEM_SMOKE_BALL,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_CAN_ALWAYS_RUN,
+        .description = sSmokeBallDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_EVERSTONE] =
+    {
+        .name = _("PIERRE STASE"),
+        .itemId = ITEM_EVERSTONE,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_PREVENT_EVOLVE,
+        .description = sEverstoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_FOCUS_BAND] =
+    {
+        .name = _("BANDEAU"),
+        .itemId = ITEM_FOCUS_BAND,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_FOCUS_BAND,
+        .holdEffectParam = 10,
+        .description = sFocusBandDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LUCKY_EGG] =
+    {
+        .name = _("OEUF CHANCE"),
+        .itemId = ITEM_LUCKY_EGG,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_LUCKY_EGG,
+        .description = sLuckyEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SCOPE_LENS] =
+    {
+        .name = _("LENTILSCOPE"),
+        .itemId = ITEM_SCOPE_LENS,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_SCOPE_LENS,
+        .description = sScopeLensDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_METAL_COAT] =
+    {
+        .name = _("PEAU METAL"),
+        .itemId = ITEM_METAL_COAT,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_STEEL_POWER,
+        .holdEffectParam = 10,
+        .description = sMetalCoatDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LEFTOVERS] =
+    {
+        .name = _("RESTES"),
+        .itemId = ITEM_LEFTOVERS,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_LEFTOVERS,
+        .holdEffectParam = 10,
+        .description = sLeftoversDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DRAGON_SCALE] =
+    {
+        .name = _("ECAILLEDRACO"),
+        .itemId = ITEM_DRAGON_SCALE,
+        .price = 2100,
+        .holdEffect = HOLD_EFFECT_DRAGON_SCALE,
+        .holdEffectParam = 10,
+        .description = sDragonScaleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LIGHT_BALL] =
+    {
+        .name = _("BALLELUMIERE"),
+        .itemId = ITEM_LIGHT_BALL,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_LIGHT_BALL,
+        .description = sLightBallDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SOFT_SAND] =
+    {
+        .name = _("SABLE DOUX"),
+        .itemId = ITEM_SOFT_SAND,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_GROUND_POWER,
+        .holdEffectParam = 10,
+        .description = sSoftSandDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_HARD_STONE] =
+    {
+        .name = _("PIERRE DURE"),
+        .itemId = ITEM_HARD_STONE,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_ROCK_POWER,
+        .holdEffectParam = 10,
+        .description = sHardStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MIRACLE_SEED] =
+    {
+        .name = _("GRAIN MIRACL"),
+        .itemId = ITEM_MIRACLE_SEED,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_GRASS_POWER,
+        .holdEffectParam = 10,
+        .description = sMiracleSeedDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BLACK_GLASSES] =
+    {
+        .name = _("LUNET.NOIRES"),
+        .itemId = ITEM_BLACK_GLASSES,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_DARK_POWER,
+        .holdEffectParam = 10,
+        .description = sBlackGlassesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BLACK_BELT] =
+    {
+        .name = _("CEINT.NOIRE"),
+        .itemId = ITEM_BLACK_BELT,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_FIGHTING_POWER,
+        .holdEffectParam = 10,
+        .description = sBlackBeltDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MAGNET] =
+    {
+        .name = _("AIMANT"),
+        .itemId = ITEM_MAGNET,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_ELECTRIC_POWER,
+        .holdEffectParam = 10,
+        .description = sMagnetDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MYSTIC_WATER] =
+    {
+        .name = _("EAU MYSTIQUE"),
+        .itemId = ITEM_MYSTIC_WATER,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_WATER_POWER,
+        .holdEffectParam = 10,
+        .description = sMysticWaterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SHARP_BEAK] =
+    {
+        .name = _("BEC POINTU"),
+        .itemId = ITEM_SHARP_BEAK,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_FLYING_POWER,
+        .holdEffectParam = 10,
+        .description = sSharpBeakDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_POISON_BARB] =
+    {
+        .name = _("PIC VENIN"),
+        .itemId = ITEM_POISON_BARB,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_POISON_POWER,
+        .holdEffectParam = 10,
+        .description = sPoisonBarbDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_NEVER_MELT_ICE] =
+    {
+        .name = _("GLACETERNEL"),
+        .itemId = ITEM_NEVER_MELT_ICE,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_ICE_POWER,
+        .holdEffectParam = 10,
+        .description = sNeverMeltIceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SPELL_TAG] =
+    {
+        .name = _("RUNE SORT"),
+        .itemId = ITEM_SPELL_TAG,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_GHOST_POWER,
+        .holdEffectParam = 10,
+        .description = sSpellTagDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_TWISTED_SPOON] =
+    {
+        .name = _("CUILLERTORDU"),
+        .itemId = ITEM_TWISTED_SPOON,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_PSYCHIC_POWER,
+        .holdEffectParam = 10,
+        .description = sTwistedSpoonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_CHARCOAL] =
+    {
+        .name = _("CHARBON"),
+        .itemId = ITEM_CHARCOAL,
+        .price = 9800,
+        .holdEffect = HOLD_EFFECT_FIRE_POWER,
+        .holdEffectParam = 10,
+        .description = sCharcoalDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DRAGON_FANG] =
+    {
+        .name = _("CROC DRAGON"),
+        .itemId = ITEM_DRAGON_FANG,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_DRAGON_POWER,
+        .holdEffectParam = 10,
+        .description = sDragonFangDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SILK_SCARF] =
+    {
+        .name = _("MOUCH. SOIE"),
+        .itemId = ITEM_SILK_SCARF,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_NORMAL_POWER,
+        .holdEffectParam = 10,
+        .description = sSilkScarfDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_UP_GRADE] =
+    {
+        .name = _("AMELIORATOR"),
+        .itemId = ITEM_UP_GRADE,
+        .price = 2100,
+        .holdEffect = HOLD_EFFECT_UP_GRADE,
+        .description = sUpGradeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SHELL_BELL] =
+    {
+        .name = _("GRELOT COQUE"),
+        .itemId = ITEM_SHELL_BELL,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_SHELL_BELL,
+        .holdEffectParam = 8,
+        .description = sShellBellDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SEA_INCENSE] =
+    {
+        .name = _("ENCENS MER"),
+        .itemId = ITEM_SEA_INCENSE,
+        .price = 9600,
+        .holdEffect = HOLD_EFFECT_WATER_POWER,
+        .holdEffectParam = 5,
+        .description = sSeaIncenseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LAX_INCENSE] =
+    {
+        .name = _("ENCENS DOUX"),
+        .itemId = ITEM_LAX_INCENSE,
+        .price = 9600,
+        .holdEffect = HOLD_EFFECT_EVASION_UP,
+        .holdEffectParam = 5,
+        .description = sLaxIncenseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LUCKY_PUNCH] =
+    {
+        .name = _("POING CHANCE"),
+        .itemId = ITEM_LUCKY_PUNCH,
+        .price = 10,
+        .holdEffect = HOLD_EFFECT_LUCKY_PUNCH,
+        .description = sLuckyPunchDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_METAL_POWDER] =
+    {
+        .name = _("POUDRE METAL"),
+        .itemId = ITEM_METAL_POWDER,
+        .price = 10,
+        .holdEffect = HOLD_EFFECT_METAL_POWDER,
+        .description = sMetalPowderDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_THICK_CLUB] =
+    {
+        .name = _("MASSE OS"),
+        .itemId = ITEM_THICK_CLUB,
+        .price = 500,
+        .holdEffect = HOLD_EFFECT_THICK_CLUB,
+        .description = sThickClubDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_STICK] =
+    {
+        .name = _("BATON"),
+        .itemId = ITEM_STICK,
+        .price = 200,
+        .holdEffect = HOLD_EFFECT_STICK,
+        .description = sStickDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E2] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E3] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E4] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E5] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E6] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E7] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E8] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0E9] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0EA] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0EB] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0EC] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0ED] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0EE] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0EF] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F0] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F1] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F2] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F3] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F4] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F5] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F6] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F7] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F8] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0F9] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0FA] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0FB] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0FC] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_0FD] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_RED_SCARF] =
+    {
+        .name = _("FOUL. ROUGE"),
+        .itemId = ITEM_RED_SCARF,
+        .price = 100,
+        .description = sRedScarfDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BLUE_SCARF] =
+    {
+        .name = _("FOUL. BLEU"),
+        .itemId = ITEM_BLUE_SCARF,
+        .price = 100,
+        .description = sBlueScarfDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_PINK_SCARF] =
+    {
+        .name = _("FOUL. ROSE"),
+        .itemId = ITEM_PINK_SCARF,
+        .price = 100,
+        .description = sPinkScarfDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_GREEN_SCARF] =
+    {
+        .name = _("FOUL. VERT"),
+        .itemId = ITEM_GREEN_SCARF,
+        .price = 100,
+        .description = sGreenScarfDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_YELLOW_SCARF] =
+    {
+        .name = _("FOUL. JAUNE"),
+        .itemId = ITEM_YELLOW_SCARF,
+        .price = 100,
+        .description = sYellowScarfDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Key items
+
+    [ITEM_MACH_BIKE] =
+    {
+        .name = _("VELO COURSE"),
+        .itemId = ITEM_MACH_BIKE,
+        .price = 0,
+        .description = sMachBikeDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Bike,
+        .secondaryId = MACH_BIKE,
+    },
+
+    [ITEM_COIN_CASE] =
+    {
+        .name = _("BOITE JETONS"),
+        .itemId = ITEM_COIN_CASE,
+        .price = 0,
+        .description = sCoinCaseDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CoinCase,
+    },
+
+    [ITEM_ITEMFINDER] =
+    {
+        .name = _("CHERCH'OBJET"),
+        .itemId = ITEM_ITEMFINDER,
+        .price = 0,
+        .description = sItemfinderDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Itemfinder,
+    },
+
+    [ITEM_OLD_ROD] =
+    {
+        .name = _("CANNE"),
+        .itemId = ITEM_OLD_ROD,
+        .price = 0,
+        .description = sOldRodDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Rod,
+        .secondaryId = OLD_ROD,
+    },
+
+    [ITEM_GOOD_ROD] =
+    {
+        .name = _("SUPER CANNE"),
+        .itemId = ITEM_GOOD_ROD,
+        .price = 0,
+        .description = sGoodRodDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Rod,
+        .secondaryId = GOOD_ROD,
+    },
+
+    [ITEM_SUPER_ROD] =
+    {
+        .name = _("MEGA CANNE"),
+        .itemId = ITEM_SUPER_ROD,
+        .price = 0,
+        .description = sSuperRodDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Rod,
+        .secondaryId = SUPER_ROD,
+    },
+
+    [ITEM_SS_TICKET] =
+    {
+        .name = _("PASSE BATEAU"),
+        .itemId = ITEM_SS_TICKET,
+        .price = 0,
+        .description = sSSTicketDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_CONTEST_PASS] =
+    {
+        .name = _("PASSECONCOUR"),
+        .itemId = ITEM_CONTEST_PASS,
+        .price = 0,
+        .description = sContestPassDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_10B] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_WAILMER_PAIL] =
+    {
+        .name = _("SEAU WAILMER"),
+        .itemId = ITEM_WAILMER_PAIL,
+        .price = 0,
+        .description = sWailmerPailDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_WailmerPail,
+    },
+
+    [ITEM_DEVON_GOODS] =
+    {
+        .name = _("PACK DEVON"),
+        .itemId = ITEM_DEVON_GOODS,
+        .price = 0,
+        .description = sDevonGoodsDesc,
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SOOT_SACK] =
+    {
+        .name = _("SAC A SUIE"),
+        .itemId = ITEM_SOOT_SACK,
+        .price = 0,
+        .description = sSootSackDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BASEMENT_KEY] =
+    {
+        .name = _("CLE SOUS-SOL"),
+        .itemId = ITEM_BASEMENT_KEY,
+        .price = 0,
+        .description = sBasementKeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ACRO_BIKE] =
+    {
+        .name = _("VELO CROSS"),
+        .itemId = ITEM_ACRO_BIKE,
+        .price = 0,
+        .description = sAcroBikeDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Bike,
+        .secondaryId = ACRO_BIKE,
+    },
+
+    [ITEM_POKEBLOCK_CASE] =
+    {
+        .name = _("BOITE {POKEBLOCK}S"),
+        .itemId = ITEM_POKEBLOCK_CASE,
+        .price = 0,
+        .description = sPokeblockCaseDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_PBLOCK_CASE,
+        .fieldUseFunc = ItemUseOutOfBattle_PokeblockCase,
+    },
+
+    [ITEM_LETTER] =
+    {
+        .name = _("LETTRE"),
+        .itemId = ITEM_LETTER,
+        .price = 0,
+        .description = sLetterDesc,
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_EON_TICKET] =
+    {
+        .name = _("PASSE EON"),
+        .itemId = ITEM_EON_TICKET,
+        .price = 0,
+        .description = sEonTicketDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 1,
+    },
+
+    [ITEM_RED_ORB] =
+    {
+        .name = _("ORBE ROUGE"),
+        .itemId = ITEM_RED_ORB,
+        .price = 0,
+        .description = sRedOrbDesc,
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BLUE_ORB] =
+    {
+        .name = _("ORBE BLEU"),
+        .itemId = ITEM_BLUE_ORB,
+        .price = 0,
+        .description = sBlueOrbDesc,
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SCANNER] =
+    {
+        .name = _("SCANNER"),
+        .itemId = ITEM_SCANNER,
+        .price = 0,
+        .description = sScannerDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_GO_GOGGLES] =
+    {
+        .name = _("LUNET. SABLE"),
+        .itemId = ITEM_GO_GOGGLES,
+        .price = 0,
+        .description = sGoGogglesDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_METEORITE] =
+    {
+        .name = _("METEORITE"),
+        .itemId = ITEM_METEORITE,
+        .price = 0,
+        .description = sMeteoriteDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ROOM_1_KEY] =
+    {
+        .name = _("CLE SALLE 1"),
+        .itemId = ITEM_ROOM_1_KEY,
+        .price = 0,
+        .description = sRoom1KeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ROOM_2_KEY] =
+    {
+        .name = _("CLE SALLE 2"),
+        .itemId = ITEM_ROOM_2_KEY,
+        .price = 0,
+        .description = sRoom2KeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ROOM_4_KEY] =
+    {
+        .name = _("CLE SALLE 4"),
+        .itemId = ITEM_ROOM_4_KEY,
+        .price = 0,
+        .description = sRoom4KeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ROOM_6_KEY] =
+    {
+        .name = _("CLE SALLE 6"),
+        .itemId = ITEM_ROOM_6_KEY,
+        .price = 0,
+        .description = sRoom6KeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_STORAGE_KEY] =
+    {
+        .name = _("CLE STOCKAGE"),
+        .itemId = ITEM_STORAGE_KEY,
+        .price = 0,
+        .description = sStorageKeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_ROOT_FOSSIL] =
+    {
+        .name = _("FOSS. RACINE"),
+        .itemId = ITEM_ROOT_FOSSIL,
+        .price = 0,
+        .description = sRootFossilDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_CLAW_FOSSIL] =
+    {
+        .name = _("FOSS. GRIFFE"),
+        .itemId = ITEM_CLAW_FOSSIL,
+        .price = 0,
+        .description = sClawFossilDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DEVON_SCOPE] =
+    {
+        .name = _("DEVON SCOPE"),
+        .itemId = ITEM_DEVON_SCOPE,
+        .price = 0,
+        .description = sDevonScopeDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// TMs/HMs
+
+    [ITEM_TM_FOCUS_PUNCH] =
+    {
+        .name = _("CT01"),
+        .itemId = ITEM_TM01,
+        .price = 3000,
+        .description = sTM01Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DRAGON_CLAW] =
+    {
+        .name = _("CT02"),
+        .itemId = ITEM_TM02,
+        .price = 3000,
+        .description = sTM02Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_WATER_PULSE] =
+    {
+        .name = _("CT03"),
+        .itemId = ITEM_TM03,
+        .price = 3000,
+        .description = sTM03Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_CALM_MIND] =
+    {
+        .name = _("CT04"),
+        .itemId = ITEM_TM04,
+        .price = 3000,
+        .description = sTM04Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_ROAR] =
+    {
+        .name = _("CT05"),
+        .itemId = ITEM_TM05,
+        .price = 1000,
+        .description = sTM05Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_TOXIC] =
+    {
+        .name = _("CT06"),
+        .itemId = ITEM_TM06,
+        .price = 3000,
+        .description = sTM06Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_HAIL] =
+    {
+        .name = _("CT07"),
+        .itemId = ITEM_TM07,
+        .price = 3000,
+        .description = sTM07Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_BULK_UP] =
+    {
+        .name = _("CT08"),
+        .itemId = ITEM_TM08,
+        .price = 3000,
+        .description = sTM08Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_BULLET_SEED] =
+    {
+        .name = _("CT09"),
+        .itemId = ITEM_TM09,
+        .price = 3000,
+        .description = sTM09Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_HIDDEN_POWER] =
+    {
+        .name = _("CT10"),
+        .itemId = ITEM_TM10,
+        .price = 3000,
+        .description = sTM10Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SUNNY_DAY] =
+    {
+        .name = _("CT11"),
+        .itemId = ITEM_TM11,
+        .price = 2000,
+        .description = sTM11Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_TAUNT] =
+    {
+        .name = _("CT12"),
+        .itemId = ITEM_TM12,
+        .price = 3000,
+        .description = sTM12Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_ICE_BEAM] =
+    {
+        .name = _("CT13"),
+        .itemId = ITEM_TM13,
+        .price = 3000,
+        .description = sTM13Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_BLIZZARD] =
+    {
+        .name = _("CT14"),
+        .itemId = ITEM_TM14,
+        .price = 5500,
+        .description = sTM14Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_HYPER_BEAM] =
+    {
+        .name = _("CT15"),
+        .itemId = ITEM_TM15,
+        .price = 7500,
+        .description = sTM15Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_LIGHT_SCREEN] =
+    {
+        .name = _("CT16"),
+        .itemId = ITEM_TM16,
+        .price = 3000,
+        .description = sTM16Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_PROTECT] =
+    {
+        .name = _("CT17"),
+        .itemId = ITEM_TM17,
+        .price = 3000,
+        .description = sTM17Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_RAIN_DANCE] =
+    {
+        .name = _("CT18"),
+        .itemId = ITEM_TM18,
+        .price = 2000,
+        .description = sTM18Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_GIGA_DRAIN] =
+    {
+        .name = _("CT19"),
+        .itemId = ITEM_TM19,
+        .price = 3000,
+        .description = sTM19Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SAFEGUARD] =
+    {
+        .name = _("CT20"),
+        .itemId = ITEM_TM20,
+        .price = 3000,
+        .description = sTM20Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_FRUSTRATION] =
+    {
+        .name = _("CT21"),
+        .itemId = ITEM_TM21,
+        .price = 1000,
+        .description = sTM21Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SOLAR_BEAM] =
+    {
+        .name = _("CT22"),
+        .itemId = ITEM_TM22,
+        .price = 3000,
+        .description = sTM22Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_IRON_TAIL] =
+    {
+        .name = _("CT23"),
+        .itemId = ITEM_TM23,
+        .price = 3000,
+        .description = sTM23Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_THUNDERBOLT] =
+    {
+        .name = _("CT24"),
+        .itemId = ITEM_TM24,
+        .price = 3000,
+        .description = sTM24Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_THUNDER] =
+    {
+        .name = _("CT25"),
+        .itemId = ITEM_TM25,
+        .price = 5500,
+        .description = sTM25Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_EARTHQUAKE] =
+    {
+        .name = _("CT26"),
+        .itemId = ITEM_TM26,
+        .price = 3000,
+        .description = sTM26Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_RETURN] =
+    {
+        .name = _("CT27"),
+        .itemId = ITEM_TM27,
+        .price = 1000,
+        .description = sTM27Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DIG] =
+    {
+        .name = _("CT28"),
+        .itemId = ITEM_TM28,
+        .price = 2000,
+        .description = sTM28Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_PSYCHIC] =
+    {
+        .name = _("CT29"),
+        .itemId = ITEM_TM29,
+        .price = 2000,
+        .description = sTM29Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SHADOW_BALL] =
+    {
+        .name = _("CT30"),
+        .itemId = ITEM_TM30,
+        .price = 3000,
+        .description = sTM30Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_BRICK_BREAK] =
+    {
+        .name = _("CT31"),
+        .itemId = ITEM_TM31,
+        .price = 3000,
+        .description = sTM31Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_DOUBLE_TEAM] =
+    {
+        .name = _("CT32"),
+        .itemId = ITEM_TM32,
+        .price = 2000,
+        .description = sTM32Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_REFLECT] =
+    {
+        .name = _("CT33"),
+        .itemId = ITEM_TM33,
+        .price = 3000,
+        .description = sTM33Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SHOCK_WAVE] =
+    {
+        .name = _("CT34"),
+        .itemId = ITEM_TM34,
+        .price = 3000,
+        .description = sTM34Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_FLAMETHROWER] =
+    {
+        .name = _("CT35"),
+        .itemId = ITEM_TM35,
+        .price = 3000,
+        .description = sTM35Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SLUDGE_BOMB] =
+    {
+        .name = _("CT36"),
+        .itemId = ITEM_TM36,
+        .price = 1000,
+        .description = sTM36Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SANDSTORM] =
+    {
+        .name = _("CT37"),
+        .itemId = ITEM_TM37,
+        .price = 2000,
+        .description = sTM37Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_FIRE_BLAST] =
+    {
+        .name = _("CT38"),
+        .itemId = ITEM_TM38,
+        .price = 5500,
+        .description = sTM38Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_ROCK_TOMB] =
+    {
+        .name = _("CT39"),
+        .itemId = ITEM_TM39,
+        .price = 3000,
+        .description = sTM39Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_AERIAL_ACE] =
+    {
+        .name = _("CT40"),
+        .itemId = ITEM_TM40,
+        .price = 3000,
+        .description = sTM40Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_TORMENT] =
+    {
+        .name = _("CT41"),
+        .itemId = ITEM_TM41,
+        .price = 3000,
+        .description = sTM41Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_FACADE] =
+    {
+        .name = _("CT42"),
+        .itemId = ITEM_TM42,
+        .price = 3000,
+        .description = sTM42Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SECRET_POWER] =
+    {
+        .name = _("CT43"),
+        .itemId = ITEM_TM43,
+        .price = 3000,
+        .description = sTM43Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_REST] =
+    {
+        .name = _("CT44"),
+        .itemId = ITEM_TM44,
+        .price = 3000,
+        .description = sTM44Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_ATTRACT] =
+    {
+        .name = _("CT45"),
+        .itemId = ITEM_TM45,
+        .price = 3000,
+        .description = sTM45Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_THIEF] =
+    {
+        .name = _("CT46"),
+        .itemId = ITEM_TM46,
+        .price = 3000,
+        .description = sTM46Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_STEEL_WING] =
+    {
+        .name = _("CT47"),
+        .itemId = ITEM_TM47,
+        .price = 3000,
+        .description = sTM47Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SKILL_SWAP] =
+    {
+        .name = _("CT48"),
+        .itemId = ITEM_TM48,
+        .price = 3000,
+        .description = sTM48Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_SNATCH] =
+    {
+        .name = _("CT49"),
+        .itemId = ITEM_TM49,
+        .price = 3000,
+        .description = sTM49Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_TM_OVERHEAT] =
+    {
+        .name = _("CT50"),
+        .itemId = ITEM_TM50,
+        .price = 3000,
+        .description = sTM50Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_CUT] =
+    {
+        .name = _("CS01"),
+        .itemId = ITEM_HM01,
+        .price = 0,
+        .description = sHM01Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_FLY] =
+    {
+        .name = _("CS02"),
+        .itemId = ITEM_HM02,
+        .price = 0,
+        .description = sHM02Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_SURF] =
+    {
+        .name = _("CS03"),
+        .itemId = ITEM_HM03,
+        .price = 0,
+        .description = sHM03Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_STRENGTH] =
+    {
+        .name = _("CS04"),
+        .itemId = ITEM_HM04,
+        .price = 0,
+        .description = sHM04Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_FLASH] =
+    {
+        .name = _("CS05"),
+        .itemId = ITEM_HM05,
+        .price = 0,
+        .description = sHM05Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_ROCK_SMASH] =
+    {
+        .name = _("CS06"),
+        .itemId = ITEM_HM06,
+        .price = 0,
+        .description = sHM06Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_WATERFALL] =
+    {
+        .name = _("CS07"),
+        .itemId = ITEM_HM07,
+        .price = 0,
+        .description = sHM07Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_HM_DIVE] =
+    {
+        .name = _("CS08"),
+        .itemId = ITEM_HM08,
+        .price = 0,
+        .description = sHM08Desc,
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
+
+    [ITEM_15B] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_15C] =
+    {
+        .name = _("????????"),
+        .itemId = ITEM_NONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// FireRed/LeafGreen key items
+
+    [ITEM_OAKS_PARCEL] =
+    {
+        .name = _("COLIS CHEN"),
+        .itemId = ITEM_OAKS_PARCEL,
+        .price = 0,
+        .description = sOaksParcelDesc,
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_POKE_FLUTE] =
+    {
+        .name = _("POKéFLUTE"),
+        .itemId = ITEM_POKE_FLUTE,
+        .price = 0,
+        .description = sPokeFluteDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SECRET_KEY] =
+    {
+        .name = _("CLE SECRETE"),
+        .itemId = ITEM_SECRET_KEY,
+        .price = 0,
+        .description = sSecretKeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BIKE_VOUCHER] =
+    {
+        .name = _("BON COMMANDE"),
+        .itemId = ITEM_BIKE_VOUCHER,
+        .price = 0,
+        .description = sBikeVoucherDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_GOLD_TEETH] =
+    {
+        .name = _("DENT D'OR"),
+        .itemId = ITEM_GOLD_TEETH,
+        .price = 0,
+        .description = sGoldTeethDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_OLD_AMBER] =
+    {
+        .name = _("VIEIL AMBRE"),
+        .itemId = ITEM_OLD_AMBER,
+        .price = 0,
+        .description = sOldAmberDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_CARD_KEY] =
+    {
+        .name = _("CARTE MAGN."),
+        .itemId = ITEM_CARD_KEY,
+        .price = 0,
+        .description = sCardKeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_LIFT_KEY] =
+    {
+        .name = _("CLE ASC."),
+        .itemId = ITEM_LIFT_KEY,
+        .price = 0,
+        .description = sLiftKeyDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_HELIX_FOSSIL] =
+    {
+        .name = _("NAUTILE"),
+        .itemId = ITEM_HELIX_FOSSIL,
+        .price = 0,
+        .description = sHelixFossilDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_DOME_FOSSIL] =
+    {
+        .name = _("FOSSILE DOME"),
+        .itemId = ITEM_DOME_FOSSIL,
+        .price = 0,
+        .description = sDomeFossilDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SILPH_SCOPE] =
+    {
+        .name = _("SCOPE SYLPHE"),
+        .itemId = ITEM_SILPH_SCOPE,
+        .price = 0,
+        .description = sSilphScopeDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BICYCLE] =
+    {
+        .name = _("BICYCLETTE"),
+        .itemId = ITEM_BICYCLE,
+        .price = 0,
+        .description = sBicycleDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_TOWN_MAP] =
+    {
+        .name = _("CARTE"),
+        .itemId = ITEM_TOWN_MAP,
+        .price = 0,
+        .description = sTownMapDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_VS_SEEKER] =
+    {
+        .name = _("CHERCHE VS"),
+        .itemId = ITEM_VS_SEEKER,
+        .price = 0,
+        .description = sVSSeekerDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_FAME_CHECKER] =
+    {
+        .name = _("MEMORYDEX"),
+        .itemId = ITEM_FAME_CHECKER,
+        .price = 0,
+        .description = sFameCheckerDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_TM_CASE] =
+    {
+        .name = _("BOITE CT"),
+        .itemId = ITEM_TM_CASE,
+        .price = 0,
+        .description = sTMCaseDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_BERRY_POUCH] =
+    {
+        .name = _("SAC A BAIES"),
+        .itemId = ITEM_BERRY_POUCH,
+        .price = 0,
+        .description = sBerryPouchDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_TEACHY_TV] =
+    {
+        .name = _("TV ABC"),
+        .itemId = ITEM_TEACHY_TV,
+        .price = 0,
+        .description = sTeachyTVDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_TRI_PASS] =
+    {
+        .name = _("TRI-PASSE"),
+        .itemId = ITEM_TRI_PASS,
+        .price = 0,
+        .description = sTriPassDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_RAINBOW_PASS] =
+    {
+        .name = _("PASSE PRISME"),
+        .itemId = ITEM_RAINBOW_PASS,
+        .price = 0,
+        .description = sRainbowPassDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_TEA] =
+    {
+        .name = _("THE"),
+        .itemId = ITEM_TEA,
+        .price = 0,
+        .description = sTeaDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_MYSTIC_TICKET] =
+    {
+        .name = _("TICKETMYSTIK"),
+        .itemId = ITEM_MYSTIC_TICKET,
+        .price = 0,
+        .description = sMysticTicketDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_AURORA_TICKET] =
+    {
+        .name = _("TICKETAURORA"),
+        .itemId = ITEM_AURORA_TICKET,
+        .price = 0,
+        .description = sAuroraTicketDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_POWDER_JAR] =
+    {
+        .name = _("POT POUDRE"),
+        .itemId = ITEM_POWDER_JAR,
+        .price = 0,
+        .description = sPowderJarDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PowderJar,
+    },
+
+    [ITEM_RUBY] =
+    {
+        .name = _("RUBIS"),
+        .itemId = ITEM_RUBY,
+        .price = 0,
+        .description = sRubyDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_SAPPHIRE] =
+    {
+        .name = _("SAPHIR"),
+        .itemId = ITEM_SAPPHIRE,
+        .price = 0,
+        .description = sSapphireDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+// Emerald-specific key items
+
+    [ITEM_MAGMA_EMBLEM] =
+    {
+        .name = _("SCEAU MAGMA"),
+        .itemId = ITEM_MAGMA_EMBLEM,
+        .price = 0,
+        .description = sMagmaEmblemDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_OLD_SEA_MAP] =
+    {
+        .name = _("VIEILLECARTE"),
+        .itemId = ITEM_OLD_SEA_MAP,
+        .price = 0,
+        .description = sOldSeaMapDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+};
+
+static const u8 sDummyDesc[] = _(
+    "?????");
+
+static const u8 sMasterBallDesc[] = _(
+    "La meilleure BALL.\n"
+    "Capture le POKéMON\n"
+    "à coup sûr.");
+
+static const u8 sUltraBallDesc[] = _(
+    "BALL au taux de\n"
+    "réussite supérieur\n"
+    "à la SUPER BALL.");
+
+static const u8 sGreatBallDesc[] = _(
+    "BALL au taux de\n"
+    "réussite supérieur\n"
+    "à la POKé BALL.");
+
+static const u8 sPokeBallDesc[] = _(
+    "Un objet qui permet\n"
+    "d'attraper les\n"
+    "POKéMON sauvages.");
+
+static const u8 sSafariBallDesc[] = _(
+    "Une BALL spéciale\n"
+    "utilisée juste\n"
+    "au PARC SAFARI.");
+
+static const u8 sNetBallDesc[] = _(
+    "Une BALL qui marche\n"
+    "bien sur un POKéMON\n"
+    "EAU ou INSECTE.");
+
+static const u8 sDiveBallDesc[] = _(
+    "Une BALL qui marche\n"
+    "mieux avec les\n"
+    "{PKMN} sous-marins.");
+
+static const u8 sNestBallDesc[] = _(
+    "Une BALL qui marche\n"
+    "mieux avec les\n"
+    "POKéMON faibles.");
+
+static const u8 sRepeatBallDesc[] = _(
+    "Une BALL qui marche\n"
+    "bien sur un POKéMON\n"
+    "déjà capturé.");
+
+static const u8 sTimerBallDesc[] = _(
+    "Plus efficace\n"
+    "pendant les\n"
+    "combats longs.");
+
+static const u8 sLuxuryBallDesc[] = _(
+    "Une BALL confor-\n"
+    "table qui rend les\n"
+    "POKéMON amicaux.");
+
+static const u8 sPremierBallDesc[] = _(
+    "Une BALL rare créée\n"
+    "à l'occasion d'un\n"
+    "grand évènement.");
+
+static const u8 sPotionDesc[] = _(
+    "Restaure les PV\n"
+    "d'un POKéMON\n"
+    "de 20 points.");
+
+static const u8 sAntidoteDesc[] = _(
+    "Soigne les POKéMON\n"
+    "empoisonnés.");
+
+static const u8 sBurnHealDesc[] = _(
+    "Soigne les POKéMON\n"
+    "de leurs brûlures.");
+
+static const u8 sIceHealDesc[] = _(
+    "Décongèle les\n"
+    "POKéMON gelés.");
+
+static const u8 sAwakeningDesc[] = _(
+    "Réveille les\n"
+    "POKéMON endormis.");
+
+static const u8 sParalyzeHealDesc[] = _(
+    "Soigne les POKéMON\n"
+    "paralysés.");
+
+static const u8 sFullRestoreDesc[] = _(
+    "Restaure tous les\n"
+    "PV et le statut\n"
+    "d'un POKéMON.");
+
+static const u8 sMaxPotionDesc[] = _(
+    "Restaure tous les\n"
+    "PV d'un POKéMON.");
+
+static const u8 sHyperPotionDesc[] = _(
+    "Restaure les PV\n"
+    "d'un POKéMON\n"
+    "de 200 points.");
+
+static const u8 sSuperPotionDesc[] = _(
+    "Restaure les PV\n"
+    "d'un POKéMON\n"
+    "de 50 points.");
+
+static const u8 sFullHealDesc[] = _(
+    "Soigne les change-\n"
+    "ments de statut \n"
+    "d'un POKéMON.");
+
+static const u8 sReviveDesc[] = _(
+    "Réanime un POKéMON\n"
+    "K.O. et restaure la\n"
+    "moitié de ses PV.");
+
+static const u8 sMaxReviveDesc[] = _(
+    "Réanime un POKéMON\n"
+    "K.O. et restaure\n"
+    "tous ses PV.");
+
+static const u8 sFreshWaterDesc[] = _(
+    "Une eau minérale\n"
+    "qui restaure 50 PV.");
+
+static const u8 sSodaPopDesc[] = _(
+    "Une boisson\n"
+    "pétillante qui\n"
+    "restaure 60 PV.");
+
+static const u8 sLemonadeDesc[] = _(
+    "Une boisson très\n"
+    "sucrée qui\n"
+    "restaure 80 PV.");
+
+static const u8 sMoomooMilkDesc[] = _(
+    "Un lait nourrissant\n"
+    "qui restaure les PV\n"
+    "de 100 points.");
+
+static const u8 sEnergyPowderDesc[] = _(
+    "Une poudre amère\n"
+    "qui restaure les PV\n"
+    "de 50 points.");
+
+static const u8 sEnergyRootDesc[] = _(
+    "Une racine amère\n"
+    "qui restaure les PV\n"
+    "de 200 points.");
+
+static const u8 sHealPowderDesc[] = _(
+    "Une poudre amère\n"
+    "soignant les chan-\n"
+    "gements de statut.");
+
+static const u8 sRevivalHerbDesc[] = _(
+    "Une herbe très\n"
+    "amère qui réanime\n"
+    "un POKéMON K.O.");
+
+static const u8 sEtherDesc[] = _(
+    "Restaure 10 PP\n"
+    "d'une attaque\n"
+    "sélectionnée.");
+
+static const u8 sMaxEtherDesc[] = _(
+    "Restaure tous les\n"
+    "PP d'une attaque\n"
+    "sélectionnée.");
+
+static const u8 sElixirDesc[] = _(
+    "Restaure 10 PP\n"
+    "de toutes les\n"
+    "attaques.");
+
+static const u8 sMaxElixirDesc[] = _(
+    "Restaure tous les\n"
+    "PP de toutes les\n"
+    "attaques.");
+
+static const u8 sLavaCookieDesc[] = _(
+    "Spécialité locale\n"
+    "soignant les chan-\n"
+    "gements de statut.");
+
+static const u8 sBlueFluteDesc[] = _(
+    "Une flûte en verre\n"
+    "qui réveille les\n"
+    "POKéMON endormis.");
+
+static const u8 sYellowFluteDesc[] = _(
+    "Une flûte en verre\n"
+    "qui sort un POKéMON\n"
+    "de sa confusion.");
+
+static const u8 sRedFluteDesc[] = _(
+    "Une flûte en verre\n"
+    "qui met fin à\n"
+    "l'attirance.");
+
+static const u8 sBlackFluteDesc[] = _(
+    "Une flûte en verre\n"
+    "qui repousse les\n"
+    "POKéMON sauvages.");
+
+static const u8 sWhiteFluteDesc[] = _(
+    "Une flûte en verre\n"
+    "qui attire les\n"
+    "POKéMON sauvages.");
+
+static const u8 sBerryJuiceDesc[] = _(
+    "Une boisson 100%\n"
+    "pur jus qui\n"
+    "restaure 20 PV.");
+
+static const u8 sSacredAshDesc[] = _(
+    "Réanime tous les\n"
+    "POKéMON K.O. et\n"
+    "restaure leurs PV.");
+
+static const u8 sShoalSaltDesc[] = _(
+    "Sel obtenu dans les\n"
+    "profondeurs de la\n"
+    "GROTTE TREFONDS.");
+
+static const u8 sShoalShellDesc[] = _(
+    "Coquillage trouvé\n"
+    "au fin fond de la\n"
+    "GROTTE TREFONDS.");
+
+static const u8 sRedShardDesc[] = _(
+    "Fragment d'objet\n"
+    "antique. Peut être\n"
+    "vendu à bas prix.");
+
+static const u8 sBlueShardDesc[] = _(
+    "Fragment d'objet\n"
+    "antique. Peut être\n"
+    "vendu à bas prix.");
+
+static const u8 sYellowShardDesc[] = _(
+    "Fragment d'objet\n"
+    "antique. Peut être\n"
+    "vendu à bas prix.");
+
+static const u8 sGreenShardDesc[] = _(
+    "Fragment d'objet\n"
+    "antique. Peut être\n"
+    "vendu à bas prix.");
+
+static const u8 sHPUpDesc[] = _(
+    "Monte les PV d'un\n"
+    "POKéMON.");
+
+static const u8 sProteinDesc[] = _(
+    "Monte l'ATTAQUE\n"
+    "d'un POKéMON.");
+
+static const u8 sIronDesc[] = _(
+    "Monte la DEFENSE\n"
+    "d'un POKéMON.");
+
+static const u8 sCarbosDesc[] = _(
+    "Monte la VITESSE\n"
+    "d'un POKéMON.");
+
+static const u8 sCalciumDesc[] = _(
+    "Monte l'ATQ. SPE.\n"
+    "d'un POKéMON.");
+
+static const u8 sRareCandyDesc[] = _(
+    "Fait progresser un\n"
+    "POKéMON d'un\n"
+    "niveau.");
+
+static const u8 sPPUpDesc[] = _(
+    "Monte les PP max.\n"
+    "d'une attaque\n"
+    "sélectionnée.");
+
+static const u8 sZincDesc[] = _(
+    "Monte la DEF. SPE.\n"
+    "d'un POKéMON.");
+
+static const u8 sPPMaxDesc[] = _(
+    "Monte les PP d'une\n"
+    "attaque à son\n"
+    "maximum.");
+
+static const u8 sGuardSpecDesc[] = _(
+    "Empêche la perte\n"
+    "de points de stats\n"
+    "pendant un combat.");
+
+static const u8 sDireHitDesc[] = _(
+    "Monte le taux de\n"
+    "critiques pendant\n"
+    "un combat.");
+
+static const u8 sXAttackDesc[] = _(
+    "Monte l'ATTAQUE\n"
+    "pendant un combat.");
+
+static const u8 sXDefendDesc[] = _(
+    "Monte la DEFENSE\n"
+    "pendant un combat.");
+
+static const u8 sXSpeedDesc[] = _(
+    "Monte la VITESSE\n"
+    "pendant un combat.");
+
+static const u8 sXAccuracyDesc[] = _(
+    "Monte la précision\n"
+    "des attaques\n"
+    "pendant un combat.");
+
+static const u8 sXSpecialDesc[] = _(
+    "Monte l'ATQ. SPE.\n"
+    "pendant un combat.");
+
+static const u8 sPokeDollDesc[] = _(
+    "Pour s'enfuir d'un\n"
+    "combat contre un\n"
+    "POKéMON sauvage.");
+
+static const u8 sFluffyTailDesc[] = _(
+    "Pour s'enfuir d'un\n"
+    "combat contre un\n"
+    "POKéMON sauvage.");
+
+static const u8 sSuperRepelDesc[] = _(
+    "Repousse les {PKMN}\n"
+    "sauvages faibles \n"
+    "durant 200 pas.");
+
+static const u8 sMaxRepelDesc[] = _(
+    "Repousse les {PKMN}\n"
+    "sauvages faibles \n"
+    "durant 250 pas.");
+
+static const u8 sEscapeRopeDesc[] = _(
+    "Pour sortir rapide-\n"
+    "ment d'une grotte\n"
+    "ou d'un souterrain.");
+
+static const u8 sRepelDesc[] = _(
+    "Repousse les {PKMN}\n"
+    "sauvages faibles \n"
+    "durant 100 pas.");
+
+static const u8 sSunStoneDesc[] = _(
+    "Fait évoluer\n"
+    "certaines espèces\n"
+    "de POKéMON.");
+
+static const u8 sMoonStoneDesc[] = _(
+    "Fait évoluer\n"
+    "certaines espèces\n"
+    "de POKéMON.");
+
+static const u8 sFireStoneDesc[] = _(
+    "Fait évoluer\n"
+    "certaines espèces\n"
+    "de POKéMON.");
+
+static const u8 sThunderStoneDesc[] = _(
+    "Fait évoluer\n"
+    "certaines espèces\n"
+    "de POKéMON.");
+
+static const u8 sWaterStoneDesc[] = _(
+    "Fait évoluer\n"
+    "certaines espèces\n"
+    "de POKéMON.");
+
+static const u8 sLeafStoneDesc[] = _(
+    "Fait évoluer\n"
+    "certaines espèces\n"
+    "de POKéMON.");
+
+static const u8 sTinyMushroomDesc[] = _(
+    "Un champignon or-\n"
+    "dinaire. Peut être\n"
+    "vendu à bas prix.");
+
+static const u8 sBigMushroomDesc[] = _(
+    "Un champignon rare.\n"
+    "Peut être vendu\n"
+    "à bon prix.");
+
+static const u8 sPearlDesc[] = _(
+    "Une jolie perle.\n"
+    "Peut être vendue\n"
+    "à bas prix.");
+
+static const u8 sBigPearlDesc[] = _(
+    "Une perle magni-\n"
+    "fique. Peut être\n"
+    "vendue à bon prix.");
+
+static const u8 sStardustDesc[] = _(
+    "Sable rouge très\n"
+    "fin. Peut être\n"
+    "vendu à bon prix.");
+
+static const u8 sStarPieceDesc[] = _(
+    "Fragment de gemme\n"
+    "rouge. Peut se ven-\n"
+    "dre à très bon prix.");
+
+static const u8 sNuggetDesc[] = _(
+    "Pépite d'or pur.\n"
+    "Peut être vendue\n"
+    "à bon prix.");
+
+static const u8 sHeartScaleDesc[] = _(
+    "Une jolie écaille\n"
+    "convoitée par les\n"
+    "collectionneurs.");
+
+static const u8 sOrangeMailDesc[] = _(
+    "Papier ZIGZATON\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sHarborMailDesc[] = _(
+    "Papier GOELISE\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sGlitterMailDesc[] = _(
+    "Papier PIKACHU\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sMechMailDesc[] = _(
+    "Papier MAGNETI\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sWoodMailDesc[] = _(
+    "Papier PARECOOL\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sWaveMailDesc[] = _(
+    "Papier WAILMER\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sBeadMailDesc[] = _(
+    "Du papier avec un\n"
+    "dessin du POKéMON\n"
+    "qui le tient.");
+
+static const u8 sShadowMailDesc[] = _(
+    "Papier SKELENOX\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sTropicMailDesc[] = _(
+    "Papier JOLIFLOR\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sDreamMailDesc[] = _(
+    "Du papier avec un\n"
+    "dessin du POKéMON\n"
+    "qui le tient.");
+
+static const u8 sFabMailDesc[] = _(
+    "Papier magnifique\n"
+    "pouvant être tenu\n"
+    "par un POKéMON.");
+
+static const u8 sRetroMailDesc[] = _(
+    "Du papier avec\n"
+    "les dessins de\n"
+    "trois POKéMON.");
+
+static const u8 sCheriBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "soigne la paralysie\n"
+    "pendant un combat.");
+
+static const u8 sChestoBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "réveille les {PKMN}\n"
+    "dormant au combat.");
+
+static const u8 sPechaBerryDesc[] = _(
+    "Objet tenu qui soi-\n"
+    "gne du poison\n"
+    "pendant un combat.");
+
+static const u8 sRawstBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "soigne une brûlure\n"
+    "pendant un combat.");
+
+static const u8 sAspearBerryDesc[] = _(
+    "Objet tenu qui dé-\n"
+    "congèle les {PKMN}\n"
+    "pendant un combat.");
+
+static const u8 sLeppaBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "restaure 10 PP\n"
+    "pendant un combat.");
+
+static const u8 sOranBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "restaure 10 PV\n"
+    "pendant un combat.");
+
+static const u8 sPersimBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "soigne la confusion\n"
+    "pendant un combat.");
+
+static const u8 sLumBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "restaure le statut\n"
+    "pendant un combat.");
+
+static const u8 sSitrusBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "restaure 30 PV\n"
+    "pendant un combat.");
+
+static const u8 sFigyBerryDesc[] = _(
+    "Objet tenu qui res-\n"
+    "taure les PV. Peut\n"
+    "rendre confus.");
+
+static const u8 sWikiBerryDesc[] = _(
+    "Objet tenu qui res-\n"
+    "taure les PV. Peut\n"
+    "rendre confus.");
+
+static const u8 sMagoBerryDesc[] = _(
+    "Objet tenu qui res-\n"
+    "taure les PV. Peut\n"
+    "rendre confus.");
+
+static const u8 sAguavBerryDesc[] = _(
+    "Objet tenu qui res-\n"
+    "taure les PV. Peut\n"
+    "rendre confus.");
+
+static const u8 sIapapaBerryDesc[] = _(
+    "Objet tenu qui res-\n"
+    "taure les PV. Peut\n"
+    "rendre confus.");
+
+static const u8 sRazzBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un FRAMBY.");
+
+static const u8 sBlukBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un REMU.");
+
+static const u8 sNanabBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un NANAB.");
+
+static const u8 sWepearBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un REPOI.");
+
+static const u8 sPinapBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un NANANA.");
+
+static const u8 sPomegBerryDesc[] = _(
+    "Rend un POKéMON\n"
+    "amical, baisse les\n"
+    "PV de base.");
+
+static const u8 sKelpsyBerryDesc[] = _(
+    "Rend un POKéMON\n"
+    "amical, baisse\n"
+    "l'ATTAQUE de base.");
+
+static const u8 sQualotBerryDesc[] = _(
+    "Rend un POKéMON\n"
+    "amical, baisse la\n"
+    "DEF. de base.");
+
+static const u8 sHondewBerryDesc[] = _(
+    "Rend un POKéMON\n"
+    "amical, baisse\n"
+    "l'ATQ. SPE. de base.");
+
+static const u8 sGrepaBerryDesc[] = _(
+    "Rend un POKéMON\n"
+    "amical, baisse la\n"
+    "DEF. SPE. de base.");
+
+static const u8 sTamatoBerryDesc[] = _(
+    "Rend un POKéMON\n"
+    "amical, baisse la\n"
+    "VITESSE de base.");
+
+static const u8 sCornnBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un SIAM.");
+
+static const u8 sMagostBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un MANGOU.");
+
+static const u8 sRabutaBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un RABUTA.");
+
+static const u8 sNomelBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un TRONCI.");
+
+static const u8 sSpelonBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un KIWAN.");
+
+static const u8 sPamtreBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un PALMA.");
+
+static const u8 sWatmelBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un STEKPA.");
+
+static const u8 sDurinBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un DURIN.");
+
+static const u8 sBelueBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un MYRTE.");
+
+static const u8 sLiechiBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "monte l'ATTAQUE\n"
+    "si nécessaire.");
+
+static const u8 sGanlonBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "monte la DEFENSE\n"
+    "si nécessaire.");
+
+static const u8 sSalacBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "monte la VITESSE\n"
+    "si nécessaire.");
+
+static const u8 sPetayaBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "monte l'ATQ. SPE.\n"
+    "si nécessaire.");
+
+static const u8 sApicotBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "monte la DEF. SPE.\n"
+    "si nécessaire.");
+
+static const u8 sLansatBerryDesc[] = _(
+    "Objet tenu qui mon-\n"
+    "te le taux de criti-\n"
+    "ques si nécessaire.");
+
+static const u8 sStarfBerryDesc[] = _(
+    "Objet tenu qui\n"
+    "booste une stat\n"
+    "si nécessaire.");
+
+static const u8 sEnigmaBerryDesc[] = _(
+    "Ingrédient {POKEBLOCK}.\n"
+    "Plantez-la pour\n"
+    "avoir un ENIGMA.");
+
+static const u8 sBrightPowderDesc[] = _(
+    "Objet tenu qui\n"
+    "éblouit et baisse\n"
+    "la précision.");
+
+static const u8 sWhiteHerbDesc[] = _(
+    "Objet tenu qui\n"
+    "restaure les stats\n"
+    "baissées.");
+
+static const u8 sMachoBraceDesc[] = _(
+    "Objet tenu augmen-\n"
+    "tant la croissance.\n"
+    "Baisse la VITESSE.");
+
+static const u8 sExpShareDesc[] = _(
+    "Objet tenu pour\n"
+    "partager l'EXP.\n"
+    "après un combat.");
+
+static const u8 sQuickClawDesc[] = _(
+    "Objet tenu qui\n"
+    "permet parfois de\n"
+    "frapper le premier.");
+
+static const u8 sSootheBellDesc[] = _(
+    "Objet tenu calmant\n"
+    "les esprits.\n"
+    "Favorise l'amitié.");
+
+static const u8 sMentalHerbDesc[] = _(
+    "Objet tenu qui\n"
+    "annule l'attirance\n"
+    "d'un POKéMON.");
+
+static const u8 sChoiceBandDesc[] = _(
+    "Monte la puissance\n"
+    "d'une attaque. Dés-\n"
+    "active les autres.");
+
+static const u8 sKingsRockDesc[] = _(
+    "Objet tenu pouvant\n"
+    "apeurer l'ennemi\n"
+    "s'il est touché.");
+
+static const u8 sSilverPowderDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques INSECTE.");
+
+static const u8 sAmuletCoinDesc[] = _(
+    "Double l'argent ga-\n"
+    "gné si le porteur\n"
+    "se bat aussi.");
+
+static const u8 sCleanseTagDesc[] = _(
+    "Objet tenu pour\n"
+    "repousser les\n"
+    "POKéMON sauvages.");
+
+static const u8 sSoulDewDesc[] = _(
+    "Objet tenu montant\n"
+    "ATQ SP et DEF SP de\n"
+    "LATIOS & LATIAS.");
+
+static const u8 sDeepSeaToothDesc[] = _(
+    "Objet tenu montant\n"
+    "l'ATQ. SPE. de\n"
+    "COQUIPERL.");
+
+static const u8 sDeepSeaScaleDesc[] = _(
+    "Objet tenu montant\n"
+    "la DEF. SPE. de\n"
+    "COQUIPERL.");
+
+static const u8 sSmokeBallDesc[] = _(
+    "Objet tenu, utilisé\n"
+    "pour fuir un\n"
+    "POKéMON sauvage.");
+
+static const u8 sEverstoneDesc[] = _(
+    "Pierre merveilleuse\n"
+    "& objet tenu empê-\n"
+    "chant l'évolution.");
+
+static const u8 sFocusBandDesc[] = _(
+    "Objet tenu pouvant\n"
+    "parfois empêcher\n"
+    "d'être mis K.O.");
+
+static const u8 sLuckyEggDesc[] = _(
+    "Objet tenu pour\n"
+    "augmenter l'EXP.\n"
+    "gagnée au combat.");
+
+static const u8 sScopeLensDesc[] = _(
+    "Objet tenu pour\n"
+    "monter le taux de\n"
+    "critiques.");
+
+static const u8 sMetalCoatDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques ACIER.");
+
+static const u8 sLeftoversDesc[] = _(
+    "Objet tenu permet-\n"
+    "tant de restaurer\n"
+    "les PV au combat.");
+
+static const u8 sDragonScaleDesc[] = _(
+    "Une étrange écaille\n"
+    "tenue par les\n"
+    "POKéMON DRAGON.");
+
+static const u8 sLightBallDesc[] = _(
+    "Objet tenu pour\n"
+    "monter l'ATQ. SPE.\n"
+    "de PIKACHU.");
+
+static const u8 sSoftSandDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques SOL.");
+
+static const u8 sHardStoneDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques ROCHE.");
+
+static const u8 sMiracleSeedDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques PLANTE.");
+
+static const u8 sBlackGlassesDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques TENEBRES.");
+
+static const u8 sBlackBeltDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques COMBAT.");
+
+static const u8 sMagnetDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques ELECTRIK.");
+
+static const u8 sMysticWaterDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques EAU.");
+
+static const u8 sSharpBeakDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques VOL.");
+
+static const u8 sPoisonBarbDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques POISON.");
+
+static const u8 sNeverMeltIceDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques GLACE.");
+
+static const u8 sSpellTagDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques SPECTRE.");
+
+static const u8 sTwistedSpoonDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques PSY.");
+
+static const u8 sCharcoalDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques FEU.");
+
+static const u8 sDragonFangDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques DRAGON.");
+
+static const u8 sSilkScarfDesc[] = _(
+    "Objet tenu montant\n"
+    "la puissance des\n"
+    "attaques NORMAL.");
+
+static const u8 sUpGradeDesc[] = _(
+    "Une drôle de boîte\n"
+    "fabriquée par la\n"
+    "SYLPHE SARL.");
+
+static const u8 sShellBellDesc[] = _(
+    "Objet tenu qui res-\n"
+    "taure les PV en\n"
+    "frappant l'ennemi.");
+
+static const u8 sSeaIncenseDesc[] = _(
+    "Objet tenu montant\n"
+    "un peu la puissance\n"
+    "des attaques EAU.");
+
+static const u8 sLaxIncenseDesc[] = _(
+    "Objet tenu bais-\n"
+    "sant un peu la pré-\n"
+    "cision de l'ennemi.");
+
+static const u8 sLuckyPunchDesc[] = _(
+    "Objet tenu montant\n"
+    "le taux de criti-\n"
+    "ques de LEVEINARD.");
+
+static const u8 sMetalPowderDesc[] = _(
+    "Objet tenu montant\n"
+    "la DEFENSE de\n"
+    "METAMORPH.");
+
+static const u8 sThickClubDesc[] = _(
+    "Objet tenu montant\n"
+    "l'ATQ. d'OSSELAIT\n"
+    "et d'OSSATUEUR.");
+
+static const u8 sStickDesc[] = _(
+    "Objet montant le\n"
+    "taux de critiques\n"
+    "de CANARTICHO.");
+
+static const u8 sRedScarfDesc[] = _(
+    "Objet tenu montant\n"
+    "la stat SANG-FROID\n"
+    "dans les CONCOURS.");
+
+static const u8 sBlueScarfDesc[] = _(
+    "Objet tenu montant\n"
+    "la stat BEAUTE\n"
+    "dans les CONCOURS.");
+
+static const u8 sPinkScarfDesc[] = _(
+    "Objet tenu montant\n"
+    "la stat GRACE\n"
+    "dans les CONCOURS.");
+
+static const u8 sGreenScarfDesc[] = _(
+    "Objet tenu montant\n"
+    "la stat INTEL.\n"
+    "dans les CONCOURS.");
+
+static const u8 sYellowScarfDesc[] = _(
+    "Objet tenu montant\n"
+    "la stat ROBUSTESSE\n"
+    "dans les CONCOURS.");
+
+static const u8 sMachBikeDesc[] = _(
+    "Un vélo pliable\n"
+    "pour aller 2 fois\n"
+    "plus vite qu'à pied.");
+
+static const u8 sCoinCaseDesc[] = _(
+    "Une boîte qui peut\n"
+    "contenir jusqu'à\n"
+    "9 999 JETONS.");
+
+static const u8 sItemfinderDesc[] = _(
+    "Un appareil qui sig-\n"
+    "nale les objets in-\n"
+    "visibles par un son.");
+
+static const u8 sOldRodDesc[] = _(
+    "Canne pour pêcher\n"
+    "des POKéMON\n"
+    "sauvages.");
+
+static const u8 sGoodRodDesc[] = _(
+    "Une bonne canne\n"
+    "pour pêcher des\n"
+    "POKéMON sauvages.");
+
+static const u8 sSuperRodDesc[] = _(
+    "La meilleure canne\n"
+    "pour pêcher des\n"
+    "POKéMON sauvages.");
+
+static const u8 sSSTicketDesc[] = _(
+    "Un ticket requis\n"
+    "pour embarquer\n"
+    "à bord d'un ferry.");
+
+static const u8 sContestPassDesc[] = _(
+    "La carte requise\n"
+    "pour participer aux\n"
+    "CONCOURS POKéMON.");
+
+static const u8 sWailmerPailDesc[] = _(
+    "Outil utilisé pour\n"
+    "arroser les BAIES\n"
+    "et les plantes.");
+
+static const u8 sDevonGoodsDesc[] = _(
+    "Un paquet avec des\n"
+    "pièces détachées\n"
+    "de chez DEVON.");
+
+static const u8 sSootSackDesc[] = _(
+    "Un sac utilisé pour\n"
+    "ramasser des cen-\n"
+    "dres volcaniques.");
+
+static const u8 sBasementKeyDesc[] = _(
+    "La clé de NEW\n"
+    "LAVANDIA, située\n"
+    "sous LAVANDIA.");
+
+static const u8 sAcroBikeDesc[] = _(
+    "Un vélo pliable\n"
+    "pour faire des\n"
+    "sauts.");
+
+static const u8 sPokeblockCaseDesc[] = _(
+    "Boîte pour ranger\n"
+    "les {POKEBLOCK}S créés\n"
+    "avec le MIXEUR.");
+
+static const u8 sLetterDesc[] = _(
+    "Lettre pour PIERRE\n"
+    "du PRESIDENT de la\n"
+    "DEVON SARL.");
+
+static const u8 sEonTicketDesc[] = _(
+    "Un ticket de ferry\n"
+    "pour une île\n"
+    "lointaine, au sud.");
+
+static const u8 sRedOrbDesc[] = _(
+    "Un globe rouge\n"
+    "censé abriter un\n"
+    "pouvoir antique.");
+
+static const u8 sBlueOrbDesc[] = _(
+    "Un globe bleu lumi-\n"
+    "neux censé abriter\n"
+    "un pouvoir antique.");
+
+static const u8 sScannerDesc[] = _(
+    "Un appareil trouvé\n"
+    "dans l'EPAVE.");
+
+static const u8 sGoGogglesDesc[] = _(
+    "Lunettes proté-\n"
+    "geant les yeux des\n"
+    "tempêtes de sable.");
+
+static const u8 sMeteoriteDesc[] = _(
+    "Météorite venant \n"
+    "du SITE METEORE.");
+
+static const u8 sRoom1KeyDesc[] = _(
+    "Une clé pour ouvrir\n"
+    "une des portes de\n"
+    "l'EPAVE.");
+
+static const u8 sRoom2KeyDesc[] = _(
+    "Une clé pour ouvrir\n"
+    "une des portes de\n"
+    "l'EPAVE.");
+
+static const u8 sRoom4KeyDesc[] = _(
+    "Une clé pour ouvrir\n"
+    "une des portes de\n"
+    "l'EPAVE.");
+
+static const u8 sRoom6KeyDesc[] = _(
+    "Une clé pour ouvrir\n"
+    "une des portes de\n"
+    "l'EPAVE.");
+
+static const u8 sStorageKeyDesc[] = _(
+    "La clé de\n"
+    "l'entrepôt\n"
+    "de l'EPAVE.");
+
+static const u8 sRootFossilDesc[] = _(
+    "Fossile d'un très\n"
+    "vieux POKéMON\n"
+    "sous-marin.");
+
+static const u8 sClawFossilDesc[] = _(
+    "Fossile d'un très\n"
+    "vieux POKéMON\n"
+    "sous-marin.");
+
+static const u8 sDevonScopeDesc[] = _(
+    "Un appareil DEVON\n"
+    "qui signale les\n"
+    "POKéMON invisibles.");
+
+static const u8 sTM01Desc[] = _(
+    "Puissant, mais peut\n"
+    "apeurer le lanceur\n"
+    "s'il est touché.");
+
+static const u8 sTM02Desc[] = _(
+    "Attrape l'ennemi et\n"
+    "le lacère d'un féro-\n"
+    "ce coup de griffe.");
+
+static const u8 sTM03Desc[] = _(
+    "Génère des ultra-\n"
+    "sons qui rendent\n"
+    "confus.");
+
+static const u8 sTM04Desc[] = _(
+    "Concentration pour\n"
+    "monter l'ATQ. SPE.\n"
+    "et la DEF. SPE.");
+
+static const u8 sTM05Desc[] = _(
+    "Un horrible hurle-\n"
+    "ment. Fait fuir pour\n"
+    "terminer le combat.");
+
+static const u8 sTM06Desc[] = _(
+    "Empoisonne l'ennemi\n"
+    "avec une toxine de\n"
+    "plus en plus forte.");
+
+static const u8 sTM07Desc[] = _(
+    "Lance une tempête\n"
+    "de grêle. Ne blesse\n"
+    "pas le type GLACE.");
+
+static const u8 sTM08Desc[] = _(
+    "Se gonfle pour\n"
+    "monter l'ATTAQUE\n"
+    "et la DEFENSE.");
+
+static const u8 sTM09Desc[] = _(
+    "Mitraille l'ennemi\n"
+    "avec 2 à 5 graines\n"
+    "de suite.");
+
+static const u8 sTM10Desc[] = _(
+    "La puissance de\n"
+    "l'attaque dépend\n"
+    "du POKéMON lanceur.");
+
+static const u8 sTM11Desc[] = _(
+    "Améliore les\n"
+    "attaques FEU\n"
+    "pendant 5 tours.");
+
+static const u8 sTM12Desc[] = _(
+    "Provoque l'ennemi.\n"
+    "L'oblige à utiliser\n"
+    "des attaques.");
+
+static const u8 sTM13Desc[] = _(
+    "Envoie un rayon\n"
+    "de glace pouvant\n"
+    "geler l'ennemi.");
+
+static const u8 sTM14Desc[] = _(
+    "Violente tempête\n"
+    "de neige pouvant\n"
+    "geler l'ennemi.");
+
+static const u8 sTM15Desc[] = _(
+    "Puissant. Oblige le\n"
+    "lanceur à rechar-\n"
+    "ger le tour suivant.");
+
+static const u8 sTM16Desc[] = _(
+    "Crée un mur lumi-\n"
+    "neux. Baisse les\n"
+    "dégâts d'ATQ. SPE.");
+
+static const u8 sTM17Desc[] = _(
+    "Ignore les dégâts,\n"
+    "mais peut échouer\n"
+    "si réutilisée.");
+
+static const u8 sTM18Desc[] = _(
+    "Améliore les\n"
+    "attaques EAU\n"
+    "pendant 5 tours.");
+
+static const u8 sTM19Desc[] = _(
+    "Une attaque qui\n"
+    "aspire la moitié des\n"
+    "dégâts infligés.");
+
+static const u8 sTM20Desc[] = _(
+    "Force mystique em-\n"
+    "pêchant tout chan-\n"
+    "gement de statut.");
+
+static const u8 sTM21Desc[] = _(
+    "Attaque plus puis-\n"
+    "sante si le lanceur\n"
+    "vous déteste.");
+
+static const u8 sTM22Desc[] = _(
+    "Absorbe la lumière\n"
+    "et attaque le tour\n"
+    "suivant.");
+
+static const u8 sTM23Desc[] = _(
+    "Frappe l'ennemi\n"
+    "avec sa queue. Peut\n"
+    "baisser la DEFENSE.");
+
+static const u8 sTM24Desc[] = _(
+    "Forte attaque\n"
+    "électrique pouvant\n"
+    "paralyser l'ennemi.");
+
+static const u8 sTM25Desc[] = _(
+    "Une attaque fou-\n"
+    "droyante pouvant\n"
+    "paralyser l'ennemi.");
+
+static const u8 sTM26Desc[] = _(
+    "Séisme sans effet\n"
+    "sur les adversaires\n"
+    "volants.");
+
+static const u8 sTM27Desc[] = _(
+    "Attaque dont la\n"
+    "puissance dépend\n"
+    "de l'amitié.");
+
+static const u8 sTM28Desc[] = _(
+    "Creuse sous terre\n"
+    "au 1{SUPER_ER} tour et\n"
+    "frappe au 2{SUPER_E}.");
+
+static const u8 sTM29Desc[] = _(
+    "Puissante attaque\n"
+    "PSY pouvant\n"
+    "baisser la DEF. SPE.");
+
+static const u8 sTM30Desc[] = _(
+    "Projette une gran-\n"
+    "de tache qui peut\n"
+    "baisser la DEF. SPE.");
+
+static const u8 sTM31Desc[] = _(
+    "Détruit les barriè-\n"
+    "res comme MUR\n"
+    "LUMIERE et blesse.");
+
+static const u8 sTM32Desc[] = _(
+    "Crée de fausses\n"
+    "copies pour aug-\n"
+    "menter l'esquive.");
+
+static const u8 sTM33Desc[] = _(
+    "Crée un mur lumi-\n"
+    "neux. Affaiblit les\n"
+    "att. physiques.");
+
+static const u8 sTM34Desc[] = _(
+    "Envoie un choc\n"
+    "électrique impos-\n"
+    "sible à esquiver.");
+
+static const u8 sTM35Desc[] = _(
+    "Envoie un torrent\n"
+    "de flammes pouvant\n"
+    "brûler l'ennemi.");
+
+static const u8 sTM36Desc[] = _(
+    "Envoie des détri-\n"
+    "tus pour blesser.\n"
+    "Peut empoisonner.");
+
+static const u8 sTM37Desc[] = _(
+    "Une tempête de\n"
+    "sable qui dure\n"
+    "plusieurs tours.");
+
+static const u8 sTM38Desc[] = _(
+    "Puissante attaque\n"
+    "enflammée pouvant\n"
+    "brûler l'ennemi.");
+
+static const u8 sTM39Desc[] = _(
+    "Bloque l'ennemi\n"
+    "avec des rocs. Peut\n"
+    "baisser la VITESSE.");
+
+static const u8 sTM40Desc[] = _(
+    "Une attaque\n"
+    "extrêmement rapide\n"
+    "et inévitable.");
+
+static const u8 sTM41Desc[] = _(
+    "Empêche la\n"
+    "réutilisation\n"
+    "d'une attaque.");
+
+static const u8 sTM42Desc[] = _(
+    "Améliore l'ATTAQUE\n"
+    "si brûlé, paralysé\n"
+    "ou empoisonné.");
+
+static const u8 sTM43Desc[] = _(
+    "Les effets\n"
+    "de l'attaque\n"
+    "dépendent du lieu.");
+
+static const u8 sTM44Desc[] = _(
+    "Le lanceur dort 2\n"
+    "tours et regagne\n"
+    "PV et statut.");
+
+static const u8 sTM45Desc[] = _(
+    "Le genre opposé\n"
+    "a moins de chances\n"
+    "d'attaquer.");
+
+static const u8 sTM46Desc[] = _(
+    "Peut voler l'objet\n"
+    "tenu par l'ennemi\n"
+    "pendant l'attaque.");
+
+static const u8 sTM47Desc[] = _(
+    "Frappe l'ennemi en\n"
+    "déployant ses ailes\n"
+    "d'acier.");
+
+static const u8 sTM48Desc[] = _(
+    "Le lanceur et\n"
+    "la cible échangent\n"
+    "leurs capacités.");
+
+static const u8 sTM49Desc[] = _(
+    "Vole les effets de\n"
+    "la prochaine\n"
+    "attaque ennemie.");
+
+static const u8 sTM50Desc[] = _(
+    "Attaque à pleine\n"
+    "puissance, mais\n"
+    "baisse ATQ. SPE.");
+
+static const u8 sHM01Desc[] = _(
+    "Coupe l'ennemi avec\n"
+    "des lames, des\n"
+    "griffes, etc.");
+
+static const u8 sHM02Desc[] = _(
+    "S'envole au premier\n"
+    "tour et frappe au\n"
+    "second.");
+
+static const u8 sHM03Desc[] = _(
+    "Crée une énorme\n"
+    "vague qui s'écrase\n"
+    "sur l'ennemi.");
+
+static const u8 sHM04Desc[] = _(
+    "Accumule de la\n"
+    "puissance, puis\n"
+    "frappe l'ennemi.");
+
+static const u8 sHM05Desc[] = _(
+    "Explosion lumi-\n"
+    "neuse baissant\n"
+    "la précision.");
+
+static const u8 sHM06Desc[] = _(
+    "Une attaque\n"
+    "puissante qui peut\n"
+    "baisser la DEFENSE.");
+
+static const u8 sHM07Desc[] = _(
+    "Attaque rapide qui\n"
+    "permet de franchir\n"
+    "des cascades.");
+
+static const u8 sHM08Desc[] = _(
+    "Plonge en apnée\n"
+    "au premier tour et\n"
+    "frappe au second.");
+
+static const u8 sOaksParcelDesc[] = _(
+    "Un paquet pour le\n"
+    "PROF. CHEN d'une\n"
+    "BOUTIQUE {PKMN}.");
+
+static const u8 sPokeFluteDesc[] = _(
+    "Une flûte pouvant\n"
+    "réveiller n'importe\n"
+    "quel POKéMON.");
+
+static const u8 sSecretKeyDesc[] = _(
+    "La clé de l'entrée\n"
+    "de l'ARENE de\n"
+    "CRAMOIS'ILE.");
+
+static const u8 sBikeVoucherDesc[] = _(
+    "Bon à échanger\n"
+    "contre un vélo aux\n"
+    "CYCLES A GOGO.");
+
+static const u8 sGoldTeethDesc[] = _(
+    "Une dent en or\n"
+    "du gardien du\n"
+    "PARC SAFARI.");
+
+static const u8 sOldAmberDesc[] = _(
+    "Une pierre\n"
+    "contenant l'ADN\n"
+    "d'un ancien {PKMN}.");
+
+static const u8 sCardKeyDesc[] = _(
+    "Carte magnétique\n"
+    "pouvant ouvrir\n"
+    "la SYLPHE SARL.");
+
+static const u8 sLiftKeyDesc[] = _(
+    "Clé pour l'ascen-\n"
+    "seur du REPAIRE\n"
+    "de la TEAM ROCKET.");
+
+static const u8 sHelixFossilDesc[] = _(
+    "Un fossile d'un\n"
+    "ancien POKéMON\n"
+    "aquatique.");
+
+static const u8 sDomeFossilDesc[] = _(
+    "Un fossile d'un\n"
+    "ancien POKéMON\n"
+    "aquatique.");
+
+static const u8 sSilphScopeDesc[] = _(
+    "Un appareil de la\n"
+    "SYLPHE pour voir\n"
+    "les {PKMN} invisibles.");
+
+static const u8 sBicycleDesc[] = _(
+    "Un vélo pour aller\n"
+    "plus vite qu'avec\n"
+    "les CHAUSSURES.");
+
+static const u8 sTownMapDesc[] = _(
+    "Carte pouvant être\n"
+    "lue partout. Montre\n"
+    "la position.");
+
+static const u8 sVSSeekerDesc[] = _(
+    "Montre ceux qui\n"
+    "veulent se battre.\n"
+    "Rechargeable.");
+
+static const u8 sFameCheckerDesc[] = _(
+    "Stocke les infos\n"
+    "sur les gens\n"
+    "importants.");
+
+static const u8 sTMCaseDesc[] = _(
+    "Une boîte pour\n"
+    "ranger les CT et\n"
+    "les CS.");
+
+static const u8 sBerryPouchDesc[] = _(
+    "Un petit sac pour\n"
+    "transporter les\n"
+    "BAIES.");
+
+static const u8 sTeachyTVDesc[] = _(
+    "Un programme qui\n"
+    "donne des conseils\n"
+    "aux DRESSEURS.");
+
+static const u8 sTriPassDesc[] = _(
+    "Un passe pour\n"
+    "accéder aux\n"
+    "ILES 1, 2 et 3.");
+
+static const u8 sRainbowPassDesc[] = _(
+    "Passe pour le ferry\n"
+    "de CARMIN SUR MER\n"
+    "aux ILES SEVII.");
+
+static const u8 sTeaDesc[] = _(
+    "Un thé préparé par\n"
+    "une vieille femme.\n"
+    "Etanche la soif.");
+
+static const u8 sMysticTicketDesc[] = _(
+    "Le ticket requis\n"
+    "pour aller au\n"
+    "ROC NOMBRI.");
+
+static const u8 sAuroraTicketDesc[] = _(
+    "Le ticket requis\n"
+    "pour aller sur\n"
+    "l'ILE AURORE.");
+
+static const u8 sPowderJarDesc[] = _(
+    "Un pot pour\n"
+    "conserver la\n"
+    "POUDRE BAIE.");
+
+static const u8 sRubyDesc[] = _(
+    "Une pierre rouge\n"
+    "qui symbolise\n"
+    "la passion.");
+
+static const u8 sSapphireDesc[] = _(
+    "Une pierre bleue\n"
+    "qui symbolise\n"
+    "l'honnêteté.");
+
+static const u8 sMagmaEmblemDesc[] = _(
+    "Un objet portant le\n"
+    "sceau de la\n"
+    "TEAM MAGMA.");
+
+static const u8 sOldSeaMapDesc[] = _(
+    "Une vieille carte\n"
+    "montrant la route\n"
+    "vers une île.");
+
