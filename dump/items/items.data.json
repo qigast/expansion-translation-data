@@ -2667,31 +2667,31 @@
         "id": 515,
         "code": "ITEM_ORANGE_MAIL",
         "name": "Lettre Oranj",
-        "description": ""
+        "description": "Papier Zigzaton pouvant être tenu par un Pokémon."
     },
     "ITEM_HARBOR_MAIL": {
         "id": 516,
         "code": "ITEM_HARBOR_MAIL",
         "name": "Lettre Port",
-        "description": ""
+        "description": "Papier Goelise pouvant être tenu par un Pokémon."
     },
     "ITEM_GLITTER_MAIL": {
         "id": 517,
         "code": "ITEM_GLITTER_MAIL",
         "name": "Lettre Brill",
-        "description": ""
+        "description": "Papier Pikachu pouvant être tenu par un Pokémon."
     },
     "ITEM_MECH_MAIL": {
         "id": 518,
         "code": "ITEM_MECH_MAIL",
         "name": "Lettre Méca",
-        "description": ""
+        "description": "Papier Magneti pouvant être tenu par un Pokémon."
     },
     "ITEM_WOOD_MAIL": {
         "id": 519,
         "code": "ITEM_WOOD_MAIL",
         "name": "Lettre Bois",
-        "description": ""
+        "description": "Papier Parecool pouvant être tenu par un Pokémon."
     },
     "ITEM_ZINC": {
         "id": 52,
@@ -2703,43 +2703,43 @@
         "id": 520,
         "code": "ITEM_WAVE_MAIL",
         "name": "Lettre Vague",
-        "description": ""
+        "description": "Papier Wailmer pouvant être tenu par un Pokémon."
     },
     "ITEM_BEAD_MAIL": {
         "id": 521,
         "code": "ITEM_BEAD_MAIL",
         "name": "Lettre Bulle",
-        "description": ""
+        "description": "Du papier avec un dessin du Pokémon qui le tient."
     },
     "ITEM_SHADOW_MAIL": {
         "id": 522,
         "code": "ITEM_SHADOW_MAIL",
         "name": "Lettre Ombre",
-        "description": ""
+        "description": "Papier Skelenox pouvant être tenu par un Pokémon."
     },
     "ITEM_TROPIC_MAIL": {
         "id": 523,
         "code": "ITEM_TROPIC_MAIL",
         "name": "Lettre Tropi",
-        "description": ""
+        "description": "Papier Joliflor pouvant être tenu par un Pokémon."
     },
     "ITEM_DREAM_MAIL": {
         "id": 524,
         "code": "ITEM_DREAM_MAIL",
         "name": "Lettre Songe",
-        "description": ""
+        "description": "Du papier avec un dessin du Pokémon qui le tient."
     },
     "ITEM_FAB_MAIL": {
         "id": 525,
         "code": "ITEM_FAB_MAIL",
         "name": "Lettre Cool",
-        "description": ""
+        "description": "Papier magnifique pouvant être tenu par un Pokémon."
     },
     "ITEM_RETRO_MAIL": {
         "id": 526,
         "code": "ITEM_RETRO_MAIL",
         "name": "Lettre Retro",
-        "description": ""
+        "description": "Du papier avec les dessins de trois Pokémon."
     },
     "ITEM_MACH_BIKE": {
         "id": 527,
@@ -2775,7 +2775,7 @@
         "id": 532,
         "code": "ITEM_POKEBLOCK_CASE",
         "name": "Boîte Pokéblocs",
-        "description": ""
+        "description": "Boîte pour ranger les {POKEBLOCK}S créés avec le Mixeur."
     },
     "ITEM_LETTER": {
         "id": 533,
@@ -2829,7 +2829,7 @@
         "id": 545,
         "code": "ITEM_BIKE_VOUCHER",
         "name": "Bon Commande",
-        "description": ""
+        "description": "Bon à échanger contre un vélo aux Cycles A Gogo."
     },
     "ITEM_GOLD_TEETH": {
         "id": 546,
@@ -2853,7 +2853,7 @@
         "id": 549,
         "code": "ITEM_FAME_CHECKER",
         "name": "Memorydex",
-        "description": ""
+        "description": "Stocke les infos sur les gens importants."
     },
     "ITEM_GUARD_SPEC": {
         "id": 55,
@@ -2871,25 +2871,25 @@
         "id": 551,
         "code": "ITEM_BERRY_POUCH",
         "name": "Sac à Baies",
-        "description": ""
+        "description": "Un petit sac pour transporter les Baies."
     },
     "ITEM_TEACHY_TV": {
         "id": 552,
         "code": "ITEM_TEACHY_TV",
         "name": "TV ABC",
-        "description": ""
+        "description": "Un programme qui donne des conseils aux Dresseurs."
     },
     "ITEM_TRI_PASS": {
         "id": 553,
         "code": "ITEM_TRI_PASS",
         "name": "Tri-Passe",
-        "description": ""
+        "description": "Un passe pour accéder aux Iles 1, 2 et 3."
     },
     "ITEM_RAINBOW_PASS": {
         "id": 554,
         "code": "ITEM_RAINBOW_PASS",
         "name": "Passe Prisme",
-        "description": ""
+        "description": "Passe pour le ferry de Carmin Sur Mer aux Iles Sevii."
     },
     "ITEM_TEA": {
         "id": 555,
@@ -2901,13 +2901,13 @@
         "id": 558,
         "code": "ITEM_POWDER_JAR",
         "name": "Pot Poudre",
-        "description": ""
+        "description": "Un pot pour conserver la Poudre Baie."
     },
     "ITEM_RUBY": {
         "id": 559,
         "code": "ITEM_RUBY",
         "name": "Rubis",
-        "description": ""
+        "description": "Une pierre rouge qui symbolise la passion."
     },
     "ITEM_DIRE_HIT": {
         "id": 56,
@@ -2919,19 +2919,19 @@
         "id": 560,
         "code": "ITEM_SAPPHIRE",
         "name": "Saphir",
-        "description": ""
+        "description": "Une pierre bleue qui symbolise l'honnêteté."
     },
     "ITEM_MAGMA_EMBLEM": {
         "id": 561,
         "code": "ITEM_MAGMA_EMBLEM",
         "name": "Sceau Magma",
-        "description": ""
+        "description": "Un objet portant le sceau de la Team Magma."
     },
     "ITEM_OLD_SEA_MAP": {
         "id": 562,
         "code": "ITEM_OLD_SEA_MAP",
         "name": "Vieillecarte",
-        "description": ""
+        "description": "Une vieille carte montrant la route vers une île."
     },
     "ITEM_DOUSE_DRIVE": {
         "id": 563,
@@ -4766,5 +4766,305 @@
         "code": "ITEM_ZYGARDITE",
         "name": "Zygardite",
         "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_AURORA_TICKET": {
+        "code": "ITEM_AURORA_TICKET",
+        "name": "Ticket Aurora",
+        "description": "Le ticket requis pour aller sur l'Ile Aurore."
+    },
+    "ITEM_HM_CUT": {
+        "code": "ITEM_HM_CUT",
+        "name": "CS01",
+        "description": "Coupe l'ennemi avec des lames, des griffes, etc."
+    },
+    "ITEM_HM_DIVE": {
+        "code": "ITEM_HM_DIVE",
+        "name": "CS08",
+        "description": "Plonge en apnée au premier tour et frappe au second."
+    },
+    "ITEM_HM_FLASH": {
+        "code": "ITEM_HM_FLASH",
+        "name": "CS05",
+        "description": "Explosion lumineuse baissant la précision."
+    },
+    "ITEM_HM_FLY": {
+        "code": "ITEM_HM_FLY",
+        "name": "CS02",
+        "description": "S'envole au premier tour et frappe au second."
+    },
+    "ITEM_HM_ROCK_SMASH": {
+        "code": "ITEM_HM_ROCK_SMASH",
+        "name": "CS06",
+        "description": "Une attaque puissante qui peut baisser la Défense."
+    },
+    "ITEM_HM_STRENGTH": {
+        "code": "ITEM_HM_STRENGTH",
+        "name": "CS04",
+        "description": "Accumule de la puissance, puis frappe l'ennemi."
+    },
+    "ITEM_HM_SURF": {
+        "code": "ITEM_HM_SURF",
+        "name": "CS03",
+        "description": "Crée une énorme vague qui s'écrase sur l'ennemi."
+    },
+    "ITEM_HM_WATERFALL": {
+        "code": "ITEM_HM_WATERFALL",
+        "name": "CS07",
+        "description": "Attaque rapide qui permet de franchir des cascades."
+    },
+    "ITEM_MYSTIC_TICKET": {
+        "code": "ITEM_MYSTIC_TICKET",
+        "name": "Ticket Mystik",
+        "description": "Le ticket requis pour aller au Roc Nombri."
+    },
+    "ITEM_TM_AERIAL_ACE": {
+        "code": "ITEM_TM_AERIAL_ACE",
+        "name": "CT40",
+        "description": "Une attaque extrêmement rapide et inévitable."
+    },
+    "ITEM_TM_ATTRACT": {
+        "code": "ITEM_TM_ATTRACT",
+        "name": "CT45",
+        "description": "Le genre opposé a moins de chances d'attaquer."
+    },
+    "ITEM_TM_BLIZZARD": {
+        "code": "ITEM_TM_BLIZZARD",
+        "name": "CT14",
+        "description": "Violente tempête de neige pouvant geler l'ennemi."
+    },
+    "ITEM_TM_BRICK_BREAK": {
+        "code": "ITEM_TM_BRICK_BREAK",
+        "name": "CT31",
+        "description": "Détruit les barrières comme Mur Lumiere et blesse."
+    },
+    "ITEM_TM_BULK_UP": {
+        "code": "ITEM_TM_BULK_UP",
+        "name": "CT08",
+        "description": "Se gonfle pour monter l'Attaque et la Défense."
+    },
+    "ITEM_TM_BULLET_SEED": {
+        "code": "ITEM_TM_BULLET_SEED",
+        "name": "CT09",
+        "description": "Mitraille l'ennemi avec 2 à 5 graines de suite."
+    },
+    "ITEM_TM_CALM_MIND": {
+        "code": "ITEM_TM_CALM_MIND",
+        "name": "CT04",
+        "description": "Concentration pour monter l'Atq. Spe. et la Def. Spe."
+    },
+    "ITEM_TM_DIG": {
+        "code": "ITEM_TM_DIG",
+        "name": "CT28",
+        "description": "Creuse sous terre au 1{SUPER_ER} tour et frappe au 2{SUPER_E}."
+    },
+    "ITEM_TM_DOUBLE_TEAM": {
+        "code": "ITEM_TM_DOUBLE_TEAM",
+        "name": "CT32",
+        "description": "Crée de fausses copies pour augmenter l'esquive."
+    },
+    "ITEM_TM_DRAGON_CLAW": {
+        "code": "ITEM_TM_DRAGON_CLAW",
+        "name": "CT02",
+        "description": "Attrape l'ennemi et le lacère d'un féroce coup de griffe."
+    },
+    "ITEM_TM_EARTHQUAKE": {
+        "code": "ITEM_TM_EARTHQUAKE",
+        "name": "CT26",
+        "description": "Séisme sans effet sur les adversaires volants."
+    },
+    "ITEM_TM_FACADE": {
+        "code": "ITEM_TM_FACADE",
+        "name": "CT42",
+        "description": "Améliore l'Attaque si brûlé, paralysé ou empoisonné."
+    },
+    "ITEM_TM_FIRE_BLAST": {
+        "code": "ITEM_TM_FIRE_BLAST",
+        "name": "CT38",
+        "description": "Puissante attaque enflammée pouvant brûler l'ennemi."
+    },
+    "ITEM_TM_FLAMETHROWER": {
+        "code": "ITEM_TM_FLAMETHROWER",
+        "name": "CT35",
+        "description": "Envoie un torrent de flammes pouvant brûler l'ennemi."
+    },
+    "ITEM_TM_FOCUS_PUNCH": {
+        "code": "ITEM_TM_FOCUS_PUNCH",
+        "name": "CT01",
+        "description": "Puissant, mais peut apeurer le lanceur s'il est touché."
+    },
+    "ITEM_TM_FRUSTRATION": {
+        "code": "ITEM_TM_FRUSTRATION",
+        "name": "CT21",
+        "description": "Attaque plus puissante si le lanceur vous déteste."
+    },
+    "ITEM_TM_GIGA_DRAIN": {
+        "code": "ITEM_TM_GIGA_DRAIN",
+        "name": "CT19",
+        "description": "Une attaque qui aspire la moitié des dégâts infligés."
+    },
+    "ITEM_TM_HAIL": {
+        "code": "ITEM_TM_HAIL",
+        "name": "CT07",
+        "description": "Lance une tempête de grêle. Ne blesse pas le type Glace."
+    },
+    "ITEM_TM_HIDDEN_POWER": {
+        "code": "ITEM_TM_HIDDEN_POWER",
+        "name": "CT10",
+        "description": "La puissance de l'attaque dépend du Pokémon lanceur."
+    },
+    "ITEM_TM_HYPER_BEAM": {
+        "code": "ITEM_TM_HYPER_BEAM",
+        "name": "CT15",
+        "description": "Puissant. Oblige le lanceur à recharger le tour suivant."
+    },
+    "ITEM_TM_ICE_BEAM": {
+        "code": "ITEM_TM_ICE_BEAM",
+        "name": "CT13",
+        "description": "Envoie un rayon de glace pouvant geler l'ennemi."
+    },
+    "ITEM_TM_IRON_TAIL": {
+        "code": "ITEM_TM_IRON_TAIL",
+        "name": "CT23",
+        "description": "Frappe l'ennemi avec sa queue. Peut baisser la Défense."
+    },
+    "ITEM_TM_LIGHT_SCREEN": {
+        "code": "ITEM_TM_LIGHT_SCREEN",
+        "name": "CT16",
+        "description": "Crée un mur lumineux. Baisse les dégâts d'Atq. Spe."
+    },
+    "ITEM_TM_OVERHEAT": {
+        "code": "ITEM_TM_OVERHEAT",
+        "name": "CT50",
+        "description": "Attaque à pleine puissance, mais baisse Atq. Spe."
+    },
+    "ITEM_TM_PROTECT": {
+        "code": "ITEM_TM_PROTECT",
+        "name": "CT17",
+        "description": "Ignore les dégâts, mais peut échouer si réutilisée."
+    },
+    "ITEM_TM_PSYCHIC": {
+        "code": "ITEM_TM_PSYCHIC",
+        "name": "CT29",
+        "description": "Puissante attaque Psy pouvant baisser la Def. Spe."
+    },
+    "ITEM_TM_RAIN_DANCE": {
+        "code": "ITEM_TM_RAIN_DANCE",
+        "name": "CT18",
+        "description": "Améliore les attaques Eau pendant 5 tours."
+    },
+    "ITEM_TM_REFLECT": {
+        "code": "ITEM_TM_REFLECT",
+        "name": "CT33",
+        "description": "Crée un mur lumineux. Affaiblit les att. physiques."
+    },
+    "ITEM_TM_REST": {
+        "code": "ITEM_TM_REST",
+        "name": "CT44",
+        "description": "Le lanceur dort 2 tours et regagne PV et statut."
+    },
+    "ITEM_TM_RETURN": {
+        "code": "ITEM_TM_RETURN",
+        "name": "CT27",
+        "description": "Attaque dont la puissance dépend de l'amitié."
+    },
+    "ITEM_TM_ROAR": {
+        "code": "ITEM_TM_ROAR",
+        "name": "CT05",
+        "description": "Un horrible hurlement. Fait fuir pour terminer le combat."
+    },
+    "ITEM_TM_ROCK_TOMB": {
+        "code": "ITEM_TM_ROCK_TOMB",
+        "name": "CT39",
+        "description": "Bloque l'ennemi avec des rocs. Peut baisser la Vitesse."
+    },
+    "ITEM_TM_SAFEGUARD": {
+        "code": "ITEM_TM_SAFEGUARD",
+        "name": "CT20",
+        "description": "Force mystique empêchant tout changement de statut."
+    },
+    "ITEM_TM_SANDSTORM": {
+        "code": "ITEM_TM_SANDSTORM",
+        "name": "CT37",
+        "description": "Une tempête de sable qui dure plusieurs tours."
+    },
+    "ITEM_TM_SECRET_POWER": {
+        "code": "ITEM_TM_SECRET_POWER",
+        "name": "CT43",
+        "description": "Les effets de l'attaque dépendent du lieu."
+    },
+    "ITEM_TM_SHADOW_BALL": {
+        "code": "ITEM_TM_SHADOW_BALL",
+        "name": "CT30",
+        "description": "Projette une grande tache qui peut baisser la Def. Spe."
+    },
+    "ITEM_TM_SHOCK_WAVE": {
+        "code": "ITEM_TM_SHOCK_WAVE",
+        "name": "CT34",
+        "description": "Envoie un choc électrique impossible à esquiver."
+    },
+    "ITEM_TM_SKILL_SWAP": {
+        "code": "ITEM_TM_SKILL_SWAP",
+        "name": "CT48",
+        "description": "Le lanceur et la cible échangent leurs capacités."
+    },
+    "ITEM_TM_SLUDGE_BOMB": {
+        "code": "ITEM_TM_SLUDGE_BOMB",
+        "name": "CT36",
+        "description": "Envoie des détritus pour blesser. Peut empoisonner."
+    },
+    "ITEM_TM_SNATCH": {
+        "code": "ITEM_TM_SNATCH",
+        "name": "CT49",
+        "description": "Vole les effets de la prochaine attaque ennemie."
+    },
+    "ITEM_TM_SOLAR_BEAM": {
+        "code": "ITEM_TM_SOLAR_BEAM",
+        "name": "CT22",
+        "description": "Absorbe la lumière et attaque le tour suivant."
+    },
+    "ITEM_TM_STEEL_WING": {
+        "code": "ITEM_TM_STEEL_WING",
+        "name": "CT47",
+        "description": "Frappe l'ennemi en déployant ses ailes d'acier."
+    },
+    "ITEM_TM_SUNNY_DAY": {
+        "code": "ITEM_TM_SUNNY_DAY",
+        "name": "CT11",
+        "description": "Améliore les attaques Feu pendant 5 tours."
+    },
+    "ITEM_TM_TAUNT": {
+        "code": "ITEM_TM_TAUNT",
+        "name": "CT12",
+        "description": "Provoque l'ennemi. L'oblige à utiliser des attaques."
+    },
+    "ITEM_TM_THIEF": {
+        "code": "ITEM_TM_THIEF",
+        "name": "CT46",
+        "description": "Peut voler l'objet tenu par l'ennemi pendant l'attaque."
+    },
+    "ITEM_TM_THUNDER": {
+        "code": "ITEM_TM_THUNDER",
+        "name": "CT25",
+        "description": "Une attaque foudroyante pouvant paralyser l'ennemi."
+    },
+    "ITEM_TM_THUNDERBOLT": {
+        "code": "ITEM_TM_THUNDERBOLT",
+        "name": "CT24",
+        "description": "Forte attaque électrique pouvant paralyser l'ennemi."
+    },
+    "ITEM_TM_TORMENT": {
+        "code": "ITEM_TM_TORMENT",
+        "name": "CT41",
+        "description": "Empêche la réutilisation d'une attaque."
+    },
+    "ITEM_TM_TOXIC": {
+        "code": "ITEM_TM_TOXIC",
+        "name": "CT06",
+        "description": "Empoisonne l'ennemi avec une toxine de plus en plus forte."
+    },
+    "ITEM_TM_WATER_PULSE": {
+        "code": "ITEM_TM_WATER_PULSE",
+        "name": "CT03",
+        "description": "Génère des ultra-sons qui rendent confus."
     }
 }
