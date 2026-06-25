@@ -32,70 +32,70 @@
         "code": "SPECIES_GHOLDENGO",
         "name": "Gromago",
         "category": "Trésor Animé",
-        "description": ""
+        "description": "Ses attributs correspondent à ceux d'une créature évoquée dans un récit d'exploration. On manque de données sur lui, car nul n'en a jamais attrapé."
     },
     "SPECIES_WO_CHIEN": {
         "id": 1001,
         "code": "SPECIES_WO_CHIEN",
         "name": "Chongjian",
         "category": "Fléau",
-        "description": ""
+        "description": "Il arrive que ce Pokémon se rende dans les villages pour fouiller les ateliers et les réserves à la recherche de métaux."
     },
     "SPECIES_CHIEN_PAO": {
         "id": 1002,
         "code": "SPECIES_CHIEN_PAO",
         "name": "Baojian",
         "category": "Fléau",
-        "description": ""
+        "description": "On manque d'informations à son sujet. Il ressemble à Motorizard, mais en bien plus fort et cruel."
     },
     "SPECIES_TING_LU": {
         "id": 1003,
         "code": "SPECIES_TING_LU",
         "name": "Dinglu",
         "category": "Fléau",
-        "description": ""
+        "description": "Il s'agirait d'« Ailes-Royales », une créature qui, d'après un vieux récit d'exploration, aurait fendu la terre par la force de ses poings."
     },
     "SPECIES_CHI_YU": {
         "id": 1004,
         "code": "SPECIES_CHI_YU",
         "name": "Yuyu",
         "category": "Fléau",
-        "description": ""
+        "description": "Ces Pokémon dirigent souvent des groupes de Forgerette et leur enseignent comment frapper le métal pour bien le façonner."
     },
     "SPECIES_ROARING_MOON": {
         "id": 1005,
         "code": "SPECIES_ROARING_MOON",
         "name": "Rugit-Lune",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il ressemble à l'athlète transformé en cyborg dont l'histoire avait été révélée en exclusivité dans une revue sur les phénomènes paranormaux."
     },
     "SPECIES_IRON_VALIANT": {
         "id": 1006,
         "code": "SPECIES_IRON_VALIANT",
         "name": "Garde-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Ce Pokémon manipule des flammes à 3 000 °C. Il nage tranquillement dans une mer de magma qu'il a créée en faisant fondre de la roche et du gravier."
     },
     "SPECIES_KORAIDON": {
         "id": 1007,
         "code": "SPECIES_KORAIDON",
         "name": "Koraidon",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Depuis très longtemps, les êtres humains apprécient ce Pokémon pour sa faculté à manipuler le feu."
     },
     "SPECIES_MIRAIDON": {
         "id": 1008,
         "code": "SPECIES_MIRAIDON",
         "name": "Miraidon",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Bien qu'il ait juré fidélité à son Dresseur ou à sa Dresseuse, il s'entraîne seul et sans relâche pour apprendre à maîtriser son énergie Psy."
     },
     "SPECIES_WALKING_WAKE": {
         "id": 1009,
         "code": "SPECIES_WALKING_WAKE",
         "name": "Serpente-Eau",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Ce Pokémon mystérieux présente des similitudes avec Rampe-Ailes, une créature évoquée dans un livre ancien."
     },
     "SPECIES_ELECTRODE": {
         "id": 101,
@@ -116,14 +116,14 @@
         "code": "SPECIES_IRON_LEAVES",
         "name": "Vert-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Son apparence partage des similarités avec celle qu'auront les Tyranocif dans un milliard d'années, selon une revue douteuse."
     },
     "SPECIES_DIPPLIN": {
         "id": 1011,
         "code": "SPECIES_DIPPLIN",
         "name": "Pomdramour",
         "category": "Sirop Pomme",
-        "description": ""
+        "description": "Il doit son apparence et sa voix majestueuses à la stimulation provoquée par les toxines qui s'échappent de la chaîne autour de son corps."
     },
     "SPECIES_POLTCHAGEIST": {
         "id": 1012,
@@ -172,84 +172,84 @@
         "code": "SPECIES_OKIDOGI",
         "name": "Félicanis",
         "category": "Serviteur",
-        "description": ""
+        "description": "On raconte que la foudre qui s'échappe de sa fourrure peut brûler tout ce qui l'entoure, mais on en sait peu sur lui."
     },
     "SPECIES_MUNKIDORI": {
         "id": 1015,
         "code": "SPECIES_MUNKIDORI",
         "name": "Fortusimia",
         "category": "Serviteur",
-        "description": ""
+        "description": "Ses muscles se sont tant développés qu'il est désormais capable de voler pendant deux semaines sans se reposer."
     },
     "SPECIES_FEZANDIPITI": {
         "id": 1016,
         "code": "SPECIES_FEZANDIPITI",
         "name": "Favianos",
         "category": "Serviteur",
-        "description": ""
+        "description": "Il ressemble à un Terrakium qui, selon une revue douteuse, aurait été modifié par une organisation maléfique."
     },
     "SPECIES_OGERPON": {
         "id": 1017,
         "code": "SPECIES_OGERPON",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_CORNERSTONE": {
         "id": 1017,
         "code": "SPECIES_OGERPON_CORNERSTONE",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_CORNERSTONE_TERA": {
         "id": 1017,
         "code": "SPECIES_OGERPON_CORNERSTONE_TERA",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_HEARTHFLAME": {
         "id": 1017,
         "code": "SPECIES_OGERPON_HEARTHFLAME",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_HEARTHFLAME_TERA": {
         "id": 1017,
         "code": "SPECIES_OGERPON_HEARTHFLAME_TERA",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_TEAL": {
         "id": 1017,
         "code": "SPECIES_OGERPON_TEAL",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_TEAL_TERA": {
         "id": 1017,
         "code": "SPECIES_OGERPON_TEAL_TERA",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_WELLSPRING": {
         "id": 1017,
         "code": "SPECIES_OGERPON_WELLSPRING",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_OGERPON_WELLSPRING_TERA": {
         "id": 1017,
         "code": "SPECIES_OGERPON_WELLSPRING_TERA",
         "name": "Ogerpon",
         "category": "Masque",
-        "description": ""
+        "description": "Ses robustes pattes arrière lui permettent d'amortir le recul de ses coups de canon, dont la puissance est comparable à celle d'un tank."
     },
     "SPECIES_ARCHALUDON": {
         "id": 1018,
@@ -263,7 +263,7 @@
         "code": "SPECIES_HYDRAPPLE",
         "name": "Pomdorochi",
         "category": "Hydre Pomme",
-        "description": ""
+        "description": "Cette créature n'a été que rarement aperçue, mais elle apparaît dans une courte vidéo où on la voit enrager et faire jaillir des piliers de feu."
     },
     "SPECIES_EXEGGCUTE": {
         "id": 102,
@@ -277,56 +277,56 @@
         "code": "SPECIES_GOUGING_FIRE",
         "name": "Feu-Perçant",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il se protège en transformant de l'énergie en cristal solide. Ce Pokémon est à l'origine du phénomène de Téracristallisation."
     },
     "SPECIES_RAGING_BOLT": {
         "id": 1021,
         "code": "SPECIES_RAGING_BOLT",
         "name": "Ire-Foudre",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il fait manger à sa cible un mochi empoisonné qui éveille les désirs et révèle le potentiel. Il la contrôle ensuite grâce à ses chaînes."
     },
     "SPECIES_IRON_BOULDER": {
         "id": 1022,
         "code": "SPECIES_IRON_BOULDER",
         "name": "Roc-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Ce Pokémon serait l'incarnation, sous la forme d'un pot de matcha, des regrets d'une personne décédée avant d'avoir maîtrisé l'art du thé."
     },
     "SPECIES_IRON_CROWN": {
         "id": 1023,
         "code": "SPECIES_IRON_CROWN",
         "name": "Chef-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il accumule l'électricité statique alentour. Le rayon qu'il tire quand il se met à quatre pattes est d'une puissance colossale."
     },
     "SPECIES_TERAPAGOS": {
         "id": 1024,
         "code": "SPECIES_TERAPAGOS",
         "name": "Terapagos",
         "category": "Téracristal",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_TERAPAGOS_NORMAL": {
         "id": 1024,
         "code": "SPECIES_TERAPAGOS_NORMAL",
         "name": "Terapagos",
         "category": "Téracristal",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_TERAPAGOS_STELLAR": {
         "id": 1024,
         "code": "SPECIES_TERAPAGOS_STELLAR",
         "name": "Terapagos",
         "category": "Téracristal",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_TERAPAGOS_TERASTAL": {
         "id": 1024,
         "code": "SPECIES_TERAPAGOS_TERASTAL",
         "name": "Terapagos",
         "category": "Téracristal",
-        "description": ""
+        "description": "Il se fait passer pour un bol de thé afin d'aspirer la force vitale de quiconque ferait l'erreur de le boire, mais en général, personne n'est dupe."
     },
     "SPECIES_PECHARUNT": {
         "id": 1025,
@@ -10154,7 +10154,7 @@
         "code": "SPECIES_WYRDEER",
         "name": "Cerbyllin",
         "category": "Maxi Corne",
-        "description": ""
+        "description": "Ses haches de pierre s'ébrèchent à mesure qu'il mène des combats violents, mais cela contribue à les rendre de plus en plus tranchantes."
     },
     "SPECIES_BLASTOISE": {
         "id": 9,
@@ -10189,91 +10189,91 @@
         "code": "SPECIES_KLEAVOR",
         "name": "Hachécateur",
         "category": "Hache",
-        "description": ""
+        "description": "Son corps est enveloppé des âmes de ses congénères qui ont perdu la vie sur le périlleux chemin menant à la rivière où ils sont nés."
     },
     "SPECIES_URSALUNA": {
         "id": 901,
         "code": "SPECIES_URSALUNA",
         "name": "Ursaking",
         "category": "Tourbe",
-        "description": ""
+        "description": "Même quand il dort, ses épines empoisonnées réagissent par réflexe à tout ce qui bouge et transpercent quiconque s'approche de trop près."
     },
     "SPECIES_URSALUNA_BLOODMOON": {
         "id": 901,
         "code": "SPECIES_URSALUNA_BLOODMOON",
         "name": "Ursaking",
         "category": "Tourbe",
-        "description": ""
+        "description": "Même quand il dort, ses épines empoisonnées réagissent par réflexe à tout ce qui bouge et transpercent quiconque s'approche de trop près."
     },
     "SPECIES_BASCULEGION_F": {
         "id": 902,
         "code": "SPECIES_BASCULEGION_F",
         "name": "Paragruel",
         "category": "Poissigrand",
-        "description": ""
+        "description": "Ce Pokémon lave assidûment son visage pour éviter qu'il ne s'assèche. La composition de son pelage soyeux est proche de celle des plantes."
     },
     "SPECIES_BASCULEGION_M": {
         "id": 902,
         "code": "SPECIES_BASCULEGION_M",
         "name": "Paragruel",
         "category": "Poissigrand",
-        "description": ""
+        "description": "Ce Pokémon lave assidûment son visage pour éviter qu'il ne s'assèche. La composition de son pelage soyeux est proche de celle des plantes."
     },
     "SPECIES_SNEASLER": {
         "id": 903,
         "code": "SPECIES_SNEASLER",
         "name": "Farfurex",
         "category": "Grimpeur",
-        "description": ""
+        "description": "Il manie avec habileté la liane dissimulée sous ses longs poils et frappe ses adversaires avec le bourgeon dur situé à son extrémité."
     },
     "SPECIES_OVERQWIL": {
         "id": 904,
         "code": "SPECIES_OVERQWIL",
         "name": "Qwilpik",
         "category": "Épineux",
-        "description": ""
+        "description": "Il se sert de la réverbération de la lumière sur la fourrure de sa cape pour camoufler sa tige, ce qui donne l'illusion que sa fleur flotte dans les airs."
     },
     "SPECIES_ENAMORUS_INCARNATE": {
         "id": 905,
         "code": "SPECIES_ENAMORUS_INCARNATE",
         "name": "Amovénus",
         "category": "Hainamour",
-        "description": ""
+        "description": "Il s'allonge sur des pierres chaudes et produit de l'énergie de type Feu grâce à la chaleur absorbée par ses écailles rectangulaires."
     },
     "SPECIES_ENAMORUS_THERIAN": {
         "id": 905,
         "code": "SPECIES_ENAMORUS_THERIAN",
         "name": "Amovénus",
         "category": "Hainamour",
-        "description": ""
+        "description": "Il s'allonge sur des pierres chaudes et produit de l'énergie de type Feu grâce à la chaleur absorbée par ses écailles rectangulaires."
     },
     "SPECIES_SPRIGATITO": {
         "id": 906,
         "code": "SPECIES_SPRIGATITO",
         "name": "Poussacha",
         "category": "Chat Plante",
-        "description": ""
+        "description": "La boule de feu en forme d'œuf qui surmonte sa tête résulte de la fusion entre son énergie de type Feu et son trop-plein de vitalité."
     },
     "SPECIES_FLORAGATO": {
         "id": 907,
         "code": "SPECIES_FLORAGATO",
         "name": "Matourgeon",
         "category": "Chat Plante",
-        "description": ""
+        "description": "Quand il chante, son oiseau de feu change de forme. Cet oiseau serait né lorsqu'une âme a pris possession de sa boule de feu."
     },
     "SPECIES_MEOWSCARADA": {
         "id": 908,
         "code": "SPECIES_MEOWSCARADA",
         "name": "Miascarade",
         "category": "Magicien",
-        "description": ""
+        "description": "Originaire d'une contrée lointaine, il est venu s'installer dans la région il y a longtemps. Ses ailes sécrètent un gel qui repousse l'eau et les saletés."
     },
     "SPECIES_FUECOCO": {
         "id": 909,
         "code": "SPECIES_FUECOCO",
         "name": "Chochodile",
         "category": "Croco Feu",
-        "description": ""
+        "description": "Ils courent dans les hauts-fonds pour renforcer les muscles de leurs pattes et rivalisent entre eux pour voir qui a le coup de pied le plus élégant."
     },
     "SPECIES_CLOYSTER": {
         "id": 91,
@@ -10287,84 +10287,84 @@
         "code": "SPECIES_CROCALOR",
         "name": "Crocogril",
         "category": "Croco Feu",
-        "description": ""
+        "description": "Il peut propulser un camion dans les airs d'un simple coup de pied. Ses puissantes pattes lui permettent aussi d'exécuter des danses insolites."
     },
     "SPECIES_SKELEDIRGE": {
         "id": 911,
         "code": "SPECIES_SKELEDIRGE",
         "name": "Flâmigator",
         "category": "Chanteur",
-        "description": ""
+        "description": "Il possède un sens de l'odorat développé qu'il utilise uniquement pour chercher de la nourriture, ce qu'il fait à longueur de journée."
     },
     "SPECIES_QUAXLY": {
         "id": 912,
         "code": "SPECIES_QUAXLY",
         "name": "Coiffeton",
         "category": "Caneton",
-        "description": ""
+        "description": "Sa peau lisse à l'aspect satiné fait sa fierté. Le bout de sa queue dégage un parfum puissant."
     },
     "SPECIES_QUAXWELL": {
         "id": 913,
         "code": "SPECIES_QUAXWELL",
         "name": "Canarbello",
         "category": "Leçon",
-        "description": ""
+        "description": "Il se sert de sa queue pour creuser son terrier dans les profondeurs rocheuses de la terre. Celui-ci peut faire jusqu'à 10 km de long."
     },
     "SPECIES_QUAQUAVAL": {
         "id": 914,
         "code": "SPECIES_QUAQUAVAL",
         "name": "Palmaval",
         "category": "Danseur",
-        "description": ""
+        "description": "La boule de fil qui entoure son corps est assez élastique pour repousser les faux d'Insécateur, son ennemi juré."
     },
     "SPECIES_LECHONK": {
         "id": 915,
         "code": "SPECIES_LECHONK",
         "name": "Gourmelet",
         "category": "Pourceau",
-        "description": ""
+        "description": "Ce Pokémon s'accroche aux branches ou aux plafonds grâce à son fil et se déplace en silence. Il élimine ses proies sans qu'elles le remarquent."
     },
     "SPECIES_OINKOLOGNE": {
         "id": 916,
         "code": "SPECIES_OINKOLOGNE",
         "name": "Fragroin",
         "category": "Pourceau",
-        "description": ""
+        "description": "Sa troisième paire de pattes est repliée. Il possède assez de force pour sauter à plus de dix mètres lorsqu'il est en difficulté."
     },
     "SPECIES_OINKOLOGNE_F": {
         "id": 916,
         "code": "SPECIES_OINKOLOGNE_F",
         "name": "Fragroin",
         "category": "Pourceau",
-        "description": ""
+        "description": "Sa troisième paire de pattes est repliée. Il possède assez de force pour sauter à plus de dix mètres lorsqu'il est en difficulté."
     },
     "SPECIES_OINKOLOGNE_M": {
         "id": 916,
         "code": "SPECIES_OINKOLOGNE_M",
         "name": "Fragroin",
         "category": "Pourceau",
-        "description": ""
+        "description": "Sa troisième paire de pattes est repliée. Il possède assez de force pour sauter à plus de dix mètres lorsqu'il est en difficulté."
     },
     "SPECIES_TAROUNTULA": {
         "id": 917,
         "code": "SPECIES_TAROUNTULA",
         "name": "Tissenboule",
         "category": "Boule de Fil",
-        "description": ""
+        "description": "Il confectionne une boule de boue en mélangeant de la terre, du sable et de l'énergie de type Psy. À ses yeux, elle importe plus que sa propre vie."
     },
     "SPECIES_SPIDOPS": {
         "id": 918,
         "code": "SPECIES_SPIDOPS",
         "name": "Filentrappe",
         "category": "Piège",
-        "description": ""
+        "description": "Le corps qui porte la sphère bouge à peine. On se demande donc si c'est bien lui qui contrôle les actions de ce Pokémon."
     },
     "SPECIES_NYMBLE": {
         "id": 919,
         "code": "SPECIES_NYMBLE",
         "name": "Lilliterelle",
         "category": "Sauterelle",
-        "description": ""
+        "description": "Les Tomberro sont devenus des Pokémon Spectre après avoir passé de nombreuses années à protéger la tombe de leurs défunts maîtres."
     },
     "SPECIES_GASTLY": {
         "id": 92,
@@ -10378,84 +10378,84 @@
         "code": "SPECIES_LOKIX",
         "name": "Gambex",
         "category": "Sauterelle",
-        "description": ""
+        "description": "Il passe la majeure partie de son temps à dormir dans des cimetières. C'est le Pokémon chien le plus loyal au monde."
     },
     "SPECIES_PAWMI": {
         "id": 921,
         "code": "SPECIES_PAWMI",
         "name": "Pohm",
         "category": "Souris",
-        "description": ""
+        "description": "Lorsqu'il gonfle son sac gulaire, l'intensité du courant électrique qu'il produit augmente. Il peut parcourir 700 km par jour en planant."
     },
     "SPECIES_PAWMO": {
         "id": 922,
         "code": "SPECIES_PAWMO",
         "name": "Pohmotte",
         "category": "Souris",
-        "description": ""
+        "description": "Ces Pokémon se regroupent selon leur couleur. Le plumage vert est le plus fréquent, car il est déterminé par un gène dominant."
     },
     "SPECIES_PAWMOT": {
         "id": 923,
         "code": "SPECIES_PAWMOT",
         "name": "Pohmarmotte",
         "category": "Pose Paume",
-        "description": ""
+        "description": "Une volée de Flamenroule peut dépasser les dix mille individus. Leurs mouvements synchronisés offrent un spectacle majestueux."
     },
     "SPECIES_TANDEMAUS": {
         "id": 924,
         "code": "SPECIES_TANDEMAUS",
         "name": "Compagnol",
         "category": "Couple",
-        "description": ""
+        "description": "Ce Pokémon s'arme d'un masque de glace et de lames sur sa crête, puis s'élance sur ses adversaires avec agilité pour les lacérer."
     },
     "SPECIES_MAUSHOLD": {
         "id": 925,
         "code": "SPECIES_MAUSHOLD",
         "name": "Famignol",
         "category": "Famille",
-        "description": ""
+        "description": "Il gèle l'air alentour pour protéger son visage avec un masque de glace et doter sa crête dorsale de lames gelées."
     },
     "SPECIES_MAUSHOLD_FOUR": {
         "id": 925,
         "code": "SPECIES_MAUSHOLD_FOUR",
         "name": "Famignol",
         "category": "Famille",
-        "description": ""
+        "description": "Il gèle l'air alentour pour protéger son visage avec un masque de glace et doter sa crête dorsale de lames gelées."
     },
     "SPECIES_MAUSHOLD_THREE": {
         "id": 925,
         "code": "SPECIES_MAUSHOLD_THREE",
         "name": "Famignol",
         "category": "Famille",
-        "description": ""
+        "description": "Il gèle l'air alentour pour protéger son visage avec un masque de glace et doter sa crête dorsale de lames gelées."
     },
     "SPECIES_FIDOUGH": {
         "id": 926,
         "code": "SPECIES_FIDOUGH",
         "name": "Pâtachiot",
         "category": "Chiot",
-        "description": ""
+        "description": "Ce Pokémon est né lorsque, portée par le vent, une âme incapable de trouver le repos s'est retrouvée empêtrée dans des herbes sèches."
     },
     "SPECIES_DACHSBUN": {
         "id": 927,
         "code": "SPECIES_DACHSBUN",
         "name": "Briochien",
         "category": "Chien",
-        "description": ""
+        "description": "Ce Pokémon vit caché dans un coffre robuste qui lui octroie une solide défense, mais dont le poids gêne ses déplacements."
     },
     "SPECIES_SMOLIV": {
         "id": 928,
         "code": "SPECIES_SMOLIV",
         "name": "Olivini",
         "category": "Olive",
-        "description": ""
+        "description": "Sa tête rouge convertit la substance piquante produite par son corps en énergie de type Feu et crache des flammes brûlantes."
     },
     "SPECIES_DOLLIV": {
         "id": 929,
         "code": "SPECIES_DOLLIV",
         "name": "Olivado",
         "category": "Olive",
-        "description": ""
+        "description": "Ce Pokémon produit de l'électricité en agitant sa queue. Lorsqu'il perçoit un danger, sa tête clignote pour avertir ses congénères."
     },
     "SPECIES_HAUNTER": {
         "id": 93,
@@ -10469,98 +10469,98 @@
         "code": "SPECIES_ARBOLIVA",
         "name": "Arboliva",
         "category": "Olive",
-        "description": ""
+        "description": "Lorsque ce Pokémon allonge et contracte son corps élastique, son nombril-dynamo produit une quantité d'électricité colossale."
     },
     "SPECIES_SQUAWKABILLY": {
         "id": 931,
         "code": "SPECIES_SQUAWKABILLY",
         "name": "Tapatoès",
         "category": "Perroquet",
-        "description": ""
+        "description": "Il projette du sel pour en recouvrir ses proies. Celles-ci subissent alors un processus de salaison et se déshydratent."
     },
     "SPECIES_SQUAWKABILLY_BLUE": {
         "id": 931,
         "code": "SPECIES_SQUAWKABILLY_BLUE",
         "name": "Tapatoès",
         "category": "Perroquet",
-        "description": ""
+        "description": "Il projette du sel pour en recouvrir ses proies. Celles-ci subissent alors un processus de salaison et se déshydratent."
     },
     "SPECIES_SQUAWKABILLY_GREEN": {
         "id": 931,
         "code": "SPECIES_SQUAWKABILLY_GREEN",
         "name": "Tapatoès",
         "category": "Perroquet",
-        "description": ""
+        "description": "Il projette du sel pour en recouvrir ses proies. Celles-ci subissent alors un processus de salaison et se déshydratent."
     },
     "SPECIES_SQUAWKABILLY_WHITE": {
         "id": 931,
         "code": "SPECIES_SQUAWKABILLY_WHITE",
         "name": "Tapatoès",
         "category": "Perroquet",
-        "description": ""
+        "description": "Il projette du sel pour en recouvrir ses proies. Celles-ci subissent alors un processus de salaison et se déshydratent."
     },
     "SPECIES_SQUAWKABILLY_YELLOW": {
         "id": 931,
         "code": "SPECIES_SQUAWKABILLY_YELLOW",
         "name": "Tapatoès",
         "category": "Perroquet",
-        "description": ""
+        "description": "Il projette du sel pour en recouvrir ses proies. Celles-ci subissent alors un processus de salaison et se déshydratent."
     },
     "SPECIES_NACLI": {
         "id": 932,
         "code": "SPECIES_NACLI",
         "name": "Selutin",
         "category": "Halite",
-        "description": ""
+        "description": "Lorsqu'il détecte un danger, il ouvre ses pétales cristallins et son corps conique tire un rayon laser."
     },
     "SPECIES_NACLSTACK": {
         "id": 933,
         "code": "SPECIES_NACLSTACK",
         "name": "Amassel",
         "category": "Halite",
-        "description": ""
+        "description": "Ce Pokémon est d'un naturel doux, mais lorsqu'il se met en colère, il mord à l'aide de ses incisives acérées et imprégnées de venin paralysant."
     },
     "SPECIES_GARGANACL": {
         "id": 934,
         "code": "SPECIES_GARGANACL",
         "name": "Gigansel",
         "category": "Halite",
-        "description": ""
+        "description": "Ce Pokémon cultive de la levure dans son corps. Depuis très longtemps, il cohabite avec les êtres humains et les aide à cuisiner."
     },
     "SPECIES_CHARCADET": {
         "id": 935,
         "code": "SPECIES_CHARCADET",
         "name": "Charbambin",
         "category": "Enfant Feu",
-        "description": ""
+        "description": "Ces Pokémon vivent en colonies au fin fond des bois. Ils détestent au plus haut point que des personnes inconnues s'approchent d'eux."
     },
     "SPECIES_ARMAROUGE": {
         "id": 936,
         "code": "SPECIES_ARMAROUGE",
         "name": "Carmadura",
         "category": "Feu Guerrier",
-        "description": ""
+        "description": "Seul un Scalproie qui s'est hissé au plus haut rang d'une grande armée peut évoluer en Scalpereur."
     },
     "SPECIES_CERULEDGE": {
         "id": 937,
         "code": "SPECIES_CERULEDGE",
         "name": "Malvalame",
         "category": "Feu Bretteur",
-        "description": ""
+        "description": "Il a évolué en Courrousinge grâce à une utilisation acharnée de la même capacité, à tel point que les veines sur son front ont failli exploser."
     },
     "SPECIES_TADBULB": {
         "id": 938,
         "code": "SPECIES_TADBULB",
         "name": "Têtampoule",
         "category": "Électêtard",
-        "description": ""
+        "description": "Lorsqu'on l'attaque, ce Pokémon se sert de ses poils comme de poings pour rouer de coups ses adversaires."
     },
     "SPECIES_BELLIBOLT": {
         "id": 939,
         "code": "SPECIES_BELLIBOLT",
         "name": "Ampibidou",
         "category": "Élecrapaud",
-        "description": ""
+        "description": "Ces Pokémon travaillent en équipe. À l'aide de leur incisive, ils extraient les matériaux nécessaires pour construire leur nid, puis ils les emportent."
     },
     "SPECIES_GENGAR": {
         "id": 94,
@@ -10588,70 +10588,70 @@
         "code": "SPECIES_WATTREL",
         "name": "Zapétrel",
         "category": "Océanite",
-        "description": ""
+        "description": "On pense qu'il fait un nœud à la base de son cou afin d'empêcher l'énergie qu'il accumule dans son ventre de s'échapper par son bec."
     },
     "SPECIES_KILOWATTREL": {
         "id": 941,
         "code": "SPECIES_KILOWATTREL",
         "name": "Fulgulairo",
         "category": "Frégate",
-        "description": ""
+        "description": "Ce Pokémon laisse des grains de sel dans son sillage. Cette trace est depuis longtemps surnommée « route du sel »."
     },
     "SPECIES_MASCHIFF": {
         "id": 942,
         "code": "SPECIES_MASCHIFF",
         "name": "Grondogue",
         "category": "Jeunot",
-        "description": ""
+        "description": "Ce Pokémon aime les lieux animés. Il arrive de croiser des Gromago sauvages vivant au beau milieu de la ville."
     },
     "SPECIES_MABOSSTIFF": {
         "id": 943,
         "code": "SPECIES_MABOSSTIFF",
         "name": "Dogrino",
         "category": "Parrain",
-        "description": ""
+        "description": "Son corps serait composé de 1 000 pièces. Sociable, il peut se lier d'amitié très rapidement avec n'importe qui."
     },
     "SPECIES_SHROODLE": {
         "id": 944,
         "code": "SPECIES_SHROODLE",
         "name": "Gribouraigne",
         "category": "Souris Venin",
-        "description": ""
+        "description": "Il affiche toujours un air renfrogné pour qu'on le prenne au sérieux, mais même les enfants en pleurs éclatent de rire lorsqu'ils voient sa tête."
     },
     "SPECIES_GRAFAIAI": {
         "id": 945,
         "code": "SPECIES_GRAFAIAI",
         "name": "Tag-Tag",
         "category": "Singe Venin",
-        "description": ""
+        "description": "Ce Pokémon emmagasine de l'énergie dans ses grandes bajoues. Il la libère ensuite d'un coup pour balayer ses adversaires au loin."
     },
     "SPECIES_BRAMBLIN": {
         "id": 946,
         "code": "SPECIES_BRAMBLIN",
         "name": "Virovent",
         "category": "Virevoltant",
-        "description": ""
+        "description": "Ce Pokémon a été aperçu à plusieurs reprises ces dernières années. Son nom s'inspire d'une créature évoquée dans un certain livre."
     },
     "SPECIES_BRAMBLEGHAST": {
         "id": 947,
         "code": "SPECIES_BRAMBLEGHAST",
         "name": "Virevorreur",
         "category": "Virevoltant",
-        "description": ""
+        "description": "Il est possible que ce Pokémon soit la créature évoquée sous le nom de « Fongus-Furie » dans un certain livre."
     },
     "SPECIES_TOEDSCOOL": {
         "id": 948,
         "code": "SPECIES_TOEDSCOOL",
         "name": "Terracool",
         "category": "Champiméduse",
-        "description": ""
+        "description": "Quand sa colère a franchi un seuil critique, il a acquis une puissance qui l'a émancipé des limites de son corps."
     },
     "SPECIES_TOEDSCRUEL": {
         "id": 949,
         "code": "SPECIES_TOEDSCRUEL",
         "name": "Terracruel",
         "category": "Champiméduse",
-        "description": ""
+        "description": "Son type change selon le masque qu'il porte. Son agilité et ses coups de pied habiles lui permettent de malmener ses adversaires."
     },
     "SPECIES_ONIX": {
         "id": 95,
@@ -10665,77 +10665,77 @@
         "code": "SPECIES_KLAWF",
         "name": "Craparoi",
         "category": "Embuscade",
-        "description": ""
+        "description": "Il fait éclore une grande fleur composée d'une substance toxique, et repousse ses adversaires en s'alliant avec les Germéclat."
     },
     "SPECIES_CAPSAKID": {
         "id": 951,
         "code": "SPECIES_CAPSAKID",
         "name": "Pimito",
         "category": "Habanero",
-        "description": ""
+        "description": "On raconte qu'il est né lorsqu'un mystérieux Pokémon Poison a pris possession d'un moteur laissé à l'abandon dans une casse."
     },
     "SPECIES_SCOVILLAIN": {
         "id": 952,
         "code": "SPECIES_SCOVILLAIN",
         "name": "Scovilain",
         "category": "Habanero",
-        "description": ""
+        "description": "Il produit de l'énergie en faisant exploser dans ses huit cylindres un mélange gazeux qui contient une substance toxique et des minéraux."
     },
     "SPECIES_SCOVILLAIN_MEGA": {
         "id": 952,
         "code": "SPECIES_SCOVILLAIN_MEGA",
         "name": "Scovilain",
         "category": "Habanero",
-        "description": ""
+        "description": "Il produit de l'énergie en faisant exploser dans ses huit cylindres un mélange gazeux qui contient une substance toxique et des minéraux."
     },
     "SPECIES_RELLOR": {
         "id": 953,
         "code": "SPECIES_RELLOR",
         "name": "Léboulérou",
         "category": "Rouleur",
-        "description": ""
+        "description": "Il lévite à un centimètre du sol grâce à l'énergie psychique qui émane des volants de son abdomen."
     },
     "SPECIES_RABSCA": {
         "id": 954,
         "code": "SPECIES_RABSCA",
         "name": "Bérasca",
         "category": "Rouleur",
-        "description": ""
+        "description": "Ce Pokémon immobilise ses adversaires grâce à l'énergie psychique qui émane de ses grands yeux. Il est beaucoup plus violent qu'il n'en a l'air."
     },
     "SPECIES_FLITTLE": {
         "id": 955,
         "code": "SPECIES_FLITTLE",
         "name": "Flotillon",
         "category": "Froufrou",
-        "description": ""
+        "description": "Ce Pokémon est beaucoup plus violent qu'il n'y paraît. Il enroule son long corps autour de ses proies pour les attirer dans son nid."
     },
     "SPECIES_ESPATHRA": {
         "id": 956,
         "code": "SPECIES_ESPATHRA",
         "name": "Cléopsytra",
         "category": "Autruche",
-        "description": ""
+        "description": "Comme il n'est pas très doué pour attraper ses proies, ce Pokémon vorace fait équipe avec Nigirigon pour chasser."
     },
     "SPECIES_TINKATINK": {
         "id": 957,
         "code": "SPECIES_TINKATINK",
         "name": "Forgerette",
         "category": "Forge",
-        "description": ""
+        "description": "Il a évolué grâce à l'armure d'une illustre âme guerrière. Ce Pokémon est extrêmement loyal."
     },
     "SPECIES_TINKATUFF": {
         "id": 958,
         "code": "SPECIES_TINKATUFF",
         "name": "Forgella",
         "category": "Marteau",
-        "description": ""
+        "description": "Les flammes de ses épées sont animées par la rancœur d'une âme guerrière qui a péri avant de pouvoir accomplir son but."
     },
     "SPECIES_TINKATON": {
         "id": 959,
         "code": "SPECIES_TINKATON",
         "name": "Forgelina",
         "category": "Marteau",
-        "description": ""
+        "description": "Il vit dans les forêts humides. La partie ondulée qui entoure son abdomen peut se détacher. Elle est croquante et délicieuse."
     },
     "SPECIES_DROWZEE": {
         "id": 96,
@@ -10749,84 +10749,84 @@
         "code": "SPECIES_WIGLETT",
         "name": "Taupikeau",
         "category": "Congre",
-        "description": ""
+        "description": "Il aime utiliser l'anneau d'eau de sa queue quand il joue avec ses congénères et se sert d'ultrasons pour comprendre les émotions des autres."
     },
     "SPECIES_WUGTRIO": {
         "id": 961,
         "code": "SPECIES_WUGTRIO",
         "name": "Triopikeau",
         "category": "Congre",
-        "description": ""
+        "description": "Il change de forme dès qu'il entend les cris de détresse de ses congénères, mais il ne laissera jamais personne assister à sa transformation."
     },
     "SPECIES_BOMBIRDIER": {
         "id": 962,
         "code": "SPECIES_BOMBIRDIER",
         "name": "Lestombaile",
         "category": "Délesteur",
-        "description": ""
+        "description": "Ce Pokémon est né dans des couches souterraines de sel gemme. Connu pour partager son précieux sel, il était très apprécié autrefois."
     },
     "SPECIES_FINIZEN": {
         "id": 963,
         "code": "SPECIES_FINIZEN",
         "name": "Dofin",
         "category": "Dauphin",
-        "description": ""
+        "description": "Calme et bienveillant, il partage son huile délicieuse et riche en nutriments avec les Pokémon affaiblis."
     },
     "SPECIES_PALAFIN": {
         "id": 964,
         "code": "SPECIES_PALAFIN",
         "name": "Superdofin",
         "category": "Dauphin/Super Héros",
-        "description": ""
+        "description": "Plus ce Pokémon s'expose au soleil, plus son corps produit une substance piquante, ce qui apporte un peu de piment à ses capacités."
     },
     "SPECIES_PALAFIN_HERO": {
         "id": 964,
         "code": "SPECIES_PALAFIN_HERO",
         "name": "Superdofin",
         "category": "Dauphin/Super Héros",
-        "description": ""
+        "description": "Plus ce Pokémon s'expose au soleil, plus son corps produit une substance piquante, ce qui apporte un peu de piment à ses capacités."
     },
     "SPECIES_PALAFIN_ZERO": {
         "id": 964,
         "code": "SPECIES_PALAFIN_ZERO",
         "name": "Superdofin",
         "category": "Dauphin/Super Héros",
-        "description": ""
+        "description": "Plus ce Pokémon s'expose au soleil, plus son corps produit une substance piquante, ce qui apporte un peu de piment à ses capacités."
     },
     "SPECIES_VAROOM": {
         "id": 965,
         "code": "SPECIES_VAROOM",
         "name": "Vrombi",
         "category": "Monocylindre",
-        "description": ""
+        "description": "Ils construisent des nids gigantesques divisés en espaces distincts qui répondent à différents besoins, comme dormir ou s'alimenter."
     },
     "SPECIES_REVAVROOM": {
         "id": 966,
         "code": "SPECIES_REVAVROOM",
         "name": "Vrombotor",
         "category": "Polycylindre",
-        "description": ""
+        "description": "Ce Pokémon a quitté le milieu marin il y a fort longtemps pour s'installer sur la terre ferme. Il appartiendrait à une espèce proche des Wailmer."
     },
     "SPECIES_CYCLIZAR": {
         "id": 967,
         "code": "SPECIES_CYCLIZAR",
         "name": "Motorizard",
         "category": "Monture",
-        "description": ""
+        "description": "Les os de ses ailes produisent de l'électricité grâce au vent. Pour chasser, ce Pokémon plonge dans la mer et électrocute ses proies."
     },
     "SPECIES_ORTHWORM": {
         "id": 968,
         "code": "SPECIES_ORTHWORM",
         "name": "Ferdeter",
         "category": "Ver de Terre",
-        "description": ""
+        "description": "Il est doté d'une crête dorsale qui peut geler l'air en convertissant la chaleur des capacités Feu en énergie de type Glace."
     },
     "SPECIES_GLIMMET": {
         "id": 969,
         "code": "SPECIES_GLIMMET",
         "name": "Germéclat",
         "category": "Minerai",
-        "description": ""
+        "description": "Le parfum délicieux de son corps provoque chez ses adversaires une faim irrésistible qui diminue leur volonté et leur endurance."
     },
     "SPECIES_HYPNO": {
         "id": 97,
@@ -10840,119 +10840,119 @@
         "code": "SPECIES_GLIMMORA",
         "name": "Floréclat",
         "category": "Minerai",
-        "description": ""
+        "description": "Ces Pokémon forment des meutes solidaires. Ils affichent un regard méchant pour intimider leurs adversaires."
     },
     "SPECIES_GLIMMORA_MEGA": {
         "id": 970,
         "code": "SPECIES_GLIMMORA_MEGA",
         "name": "Floréclat",
         "category": "Minerai",
-        "description": ""
+        "description": "Ces Pokémon forment des meutes solidaires. Ils affichent un regard méchant pour intimider leurs adversaires."
     },
     "SPECIES_GREAVARD": {
         "id": 971,
         "code": "SPECIES_GREAVARD",
         "name": "Toutombe",
         "category": "Fantôchien",
-        "description": ""
+        "description": "Grâce à la synchronisation des ondes cérébrales de sa tête et de sa queue, ses pouvoirs psychiques sont dix fois plus puissants que ceux de Girafarig."
     },
     "SPECIES_HOUNDSTONE": {
         "id": 972,
         "code": "SPECIES_HOUNDSTONE",
         "name": "Tomberro",
         "category": "Fantôchien",
-        "description": ""
+        "description": "Il détecte l'odeur de Délestin à plus de vingt mètres, ce qui lui donne le temps de s'enfouir dans le sable."
     },
     "SPECIES_FLAMIGO": {
         "id": 973,
         "code": "SPECIES_FLAMIGO",
         "name": "Flamenroule",
         "category": "Synchro",
-        "description": ""
+        "description": "Le sel dont il saupoudre les Pokémon blessés en frottant le bout de ses doigts guérit aussitôt toutes les blessures, même les plus graves."
     },
     "SPECIES_CETODDLE": {
         "id": 974,
         "code": "SPECIES_CETODDLE",
         "name": "Piétacé",
         "category": "Baleinapied",
-        "description": ""
+        "description": "L'air qu'il crache est tellement froid qu'il peut geler instantanément du magma en fusion."
     },
     "SPECIES_CETITAN": {
         "id": 975,
         "code": "SPECIES_CETITAN",
         "name": "Balbalèze",
         "category": "Baleinapied",
-        "description": ""
+        "description": "Ce petit Pokémon Dragon vit dans la gueule d'Oyacata, à l'abri de ses adversaires."
     },
     "SPECIES_VELUZA": {
         "id": 976,
         "code": "SPECIES_VELUZA",
         "name": "Délestin",
         "category": "Décharné",
-        "description": ""
+        "description": "Ce Pokémon partage volontiers son huile fraîche et délicieuse. Il vit en harmonie avec les êtres humains depuis les temps anciens."
     },
     "SPECIES_DONDOZO": {
         "id": 977,
         "code": "SPECIES_DONDOZO",
         "name": "Oyacata",
         "category": "Grand Silure",
-        "description": ""
+        "description": "Le fruit qui surmonte sa tête sécrète une huile qui le protège de ses adversaires. Ce liquide a un goût si désagréable qu'il fait grimacer."
     },
     "SPECIES_TATSUGIRI": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_TATSUGIRI_CURLY": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI_CURLY",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_TATSUGIRI_CURLY_MEGA": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI_CURLY_MEGA",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_TATSUGIRI_DROOPY": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI_DROOPY",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_TATSUGIRI_DROOPY_MEGA": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI_DROOPY_MEGA",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_TATSUGIRI_STRETCHY": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI_STRETCHY",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_TATSUGIRI_STRETCHY_MEGA": {
         "id": 978,
         "code": "SPECIES_TATSUGIRI_STRETCHY_MEGA",
         "name": "Nigirigon",
         "category": "Mimétisme",
-        "description": ""
+        "description": "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair."
     },
     "SPECIES_ANNIHILAPE": {
         "id": 979,
         "code": "SPECIES_ANNIHILAPE",
         "name": "Courrousinge",
         "category": "Singe Furax",
-        "description": ""
+        "description": "Les toxines de la chaîne empoisonnée autour de son cou ont stimulé tous ses muscles et son corps est devenu massif."
     },
     "SPECIES_KRABBY": {
         "id": 98,
@@ -10966,84 +10966,84 @@
         "code": "SPECIES_CLODSIRE",
         "name": "Terraiste",
         "category": "Poissépine",
-        "description": ""
+        "description": "Sept « Verochi » vivent dans une pomme composée de nectar. Celui qui se trouve au centre est le chef du groupe."
     },
     "SPECIES_FARIGIRAF": {
         "id": 981,
         "code": "SPECIES_FARIGIRAF",
         "name": "Farigiraf",
         "category": "Long-Cou",
-        "description": ""
+        "description": "Pour aiguiser son esprit et renforcer ses pouvoirs psychiques, il se défait de sa chair en trop. Celle-ci a un goût léger, mais exquis."
     },
     "SPECIES_DUDUNSPARCE": {
         "id": 982,
         "code": "SPECIES_DUDUNSPARCE",
         "name": "Deusolourdo",
         "category": "Serpent",
-        "description": ""
+        "description": "Quand les choses deviennent sérieuses, il passe en mode assaut et se tient sur son autre paire de pattes. Il neutralise ses ennemis en un clin d'œil."
     },
     "SPECIES_DUDUNSPARCE_THREE_SEGMENT": {
         "id": 982,
         "code": "SPECIES_DUDUNSPARCE_THREE_SEGMENT",
         "name": "Deusolourdo",
         "category": "Serpent",
-        "description": ""
+        "description": "Quand les choses deviennent sérieuses, il passe en mode assaut et se tient sur son autre paire de pattes. Il neutralise ses ennemis en un clin d'œil."
     },
     "SPECIES_DUDUNSPARCE_TWO_SEGMENT": {
         "id": 982,
         "code": "SPECIES_DUDUNSPARCE_TWO_SEGMENT",
         "name": "Deusolourdo",
         "category": "Serpent",
-        "description": ""
+        "description": "Quand les choses deviennent sérieuses, il passe en mode assaut et se tient sur son autre paire de pattes. Il neutralise ses ennemis en un clin d'œil."
     },
     "SPECIES_KINGAMBIT": {
         "id": 983,
         "code": "SPECIES_KINGAMBIT",
         "name": "Scalpereur",
         "category": "Pourfendant",
-        "description": ""
+        "description": "Ce Pokémon est composé de deux individus. Il a évolué grâce à une pomme spéciale qui n'est cultivée que dans une certaine région."
     },
     "SPECIES_GREAT_TUSK": {
         "id": 984,
         "code": "SPECIES_GREAT_TUSK",
         "name": "Fort-Ivoire",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Ce Pokémon n'avait été aperçu qu'une seule fois jusqu'ici. Il ressemble à une créature mystérieuse évoquée dans un vieux récit d'exploration."
     },
     "SPECIES_SCREAM_TAIL": {
         "id": 985,
         "code": "SPECIES_SCREAM_TAIL",
         "name": "Hurle-Queue",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il ressemble beaucoup à une arme sophistiquée qui serait d'origine extraterrestre, selon une revue consacrée aux phénomènes paranormaux."
     },
     "SPECIES_BRUTE_BONNET": {
         "id": 986,
         "code": "SPECIES_BRUTE_BONNET",
         "name": "Fongus-Furie",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Ce Pokémon a des caractéristiques semblables à celles d'une créature évoquée dans un certain livre sous le nom de « Flotte-Mèche »."
     },
     "SPECIES_FLUTTER_MANE": {
         "id": 987,
         "code": "SPECIES_FLUTTER_MANE",
         "name": "Flotte-Mèche",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il présente de nombreuses similitudes avec le Viridium du futur évoqué dans une revue sur les phénomènes paranormaux."
     },
     "SPECIES_SLITHER_WING": {
         "id": 988,
         "code": "SPECIES_SLITHER_WING",
         "name": "Rampe-Ailes",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il ressemble à une entité étrange décrite dans une revue sur les phénomènes paranormaux. D'après celle-ci, ce serait un ovni qui épie la race humaine."
     },
     "SPECIES_SANDY_SHOCKS": {
         "id": 989,
         "code": "SPECIES_SANDY_SHOCKS",
         "name": "Pelage-Sablé",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il pourrait s'agir de la créature nommée « Rugit-Lune », qui apparaît dans un récit d'exploration très mystérieux."
     },
     "SPECIES_KINGLER": {
         "id": 99,
@@ -11064,90 +11064,90 @@
         "code": "SPECIES_IRON_TREADS",
         "name": "Roue-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il ressemble à un Pokémon qui serait l'enfant d'un Trioxhydre amoureux d'un robot, selon une revue consacrée aux phénomènes paranormaux."
     },
     "SPECIES_IRON_BUNDLE": {
         "id": 991,
         "code": "SPECIES_IRON_BUNDLE",
         "name": "Hotte-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "La rancœur d'un être humain puni pour avoir noté les méfaits d'un roi sur des tablettes en bois s'est mêlée à des feuilles mortes et a pris vie."
     },
     "SPECIES_IRON_HANDS": {
         "id": 992,
         "code": "SPECIES_IRON_HANDS",
         "name": "Paume-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Il ressemble un peu à l'invention d'un cerveau dément mentionnée dans une revue consacrée aux phénomènes paranormaux."
     },
     "SPECIES_IRON_JUGULIS": {
         "id": 993,
         "code": "SPECIES_IRON_JUGULIS",
         "name": "Têtes-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "La peur déversée dans un réceptacle utilisé lors de rites anciens s'est mêlée à de la terre et à des pierres et a pris vie."
     },
     "SPECIES_IRON_MOTH": {
         "id": 994,
         "code": "SPECIES_IRON_MOTH",
         "name": "Mite-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Sa forme est similaire à celle d'un robot créé par une civilisation antique, d'après un article d'une revue consacrée aux phénomènes paranormaux."
     },
     "SPECIES_IRON_THORNS": {
         "id": 995,
         "code": "SPECIES_IRON_THORNS",
         "name": "Épine-de-Fer",
         "category": "Paradoxe",
-        "description": ""
+        "description": "Ce Pokémon peut contrôler 100 tonnes de neige tombée. Il s'amuse en sautant joyeusement dans les avalanches qu'il provoque."
     },
     "SPECIES_FRIGIBAX": {
         "id": 996,
         "code": "SPECIES_FRIGIBAX",
         "name": "Frigodo",
         "category": "Glaçaileron",
-        "description": ""
+        "description": "Des fresques vieilles de 10 000 ans laissent penser que ce Pokémon transporte des êtres humains sur son dos depuis les temps anciens."
     },
     "SPECIES_ARCTIBAX": {
         "id": 997,
         "code": "SPECIES_ARCTIBAX",
         "name": "Cryodo",
         "category": "Glaçaileron",
-        "description": ""
+        "description": "Les poches sur ses joues sont peu développées. Elles ne produisent de l'électricité que lorsqu'il les frotte avec ses coussinets."
     },
     "SPECIES_BAXCALIBUR": {
         "id": 998,
         "code": "SPECIES_BAXCALIBUR",
         "name": "Glaivodo",
         "category": "Dragon Glace",
-        "description": ""
+        "description": "Quand on attaque son groupe, ce Pokémon est le premier à riposter. Il défait ses adversaires avec un art martial qui repose sur l'électricité."
     },
     "SPECIES_BAXCALIBUR_MEGA": {
         "id": 998,
         "code": "SPECIES_BAXCALIBUR_MEGA",
         "name": "Glaivodo",
         "category": "Dragon Glace",
-        "description": ""
+        "description": "Quand on attaque son groupe, ce Pokémon est le premier à riposter. Il défait ses adversaires avec un art martial qui repose sur l'électricité."
     },
     "SPECIES_GIMMIGHOUL": {
         "id": 999,
         "code": "SPECIES_GIMMIGHOUL",
         "name": "Mordudor",
         "category": "Coffrotrésor/Chassotrésor",
-        "description": ""
+        "description": "Cette créature violente entourée de mystère tire son nom d'un monstre aquatique évoqué dans un vieux récit d'exploration."
     },
     "SPECIES_GIMMIGHOUL_CHEST": {
         "id": 999,
         "code": "SPECIES_GIMMIGHOUL_CHEST",
         "name": "Mordudor",
         "category": "Coffrotrésor/Chassotrésor",
-        "description": ""
+        "description": "Cette créature violente entourée de mystère tire son nom d'un monstre aquatique évoqué dans un vieux récit d'exploration."
     },
     "SPECIES_GIMMIGHOUL_ROAMING": {
         "id": 999,
         "code": "SPECIES_GIMMIGHOUL_ROAMING",
         "name": "Mordudor",
         "category": "Coffrotrésor/Chassotrésor",
-        "description": ""
+        "description": "Cette créature violente entourée de mystère tire son nom d'un monstre aquatique évoqué dans un vieux récit d'exploration."
     }
 }
