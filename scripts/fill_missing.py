@@ -38,6 +38,39 @@ def build_reverse_name_map(
     }
 
 
+def find_provider_species(
+    code: str,
+    provider: dict[str, Any],
+) -> tuple[str, dict[str, Any]] | None:
+    if code in provider:
+        return code, provider[code]
+
+    parts = code.split("_")
+
+    while len(parts) > 2:
+        parts.pop()
+        candidate = "_".join(parts)
+
+        if candidate in provider:
+            return candidate, provider[candidate]
+
+    return None
+
+
+def resolve_provider_entry(
+    code: str,
+    provider: dict[str, Any],
+    species_mode: bool,
+) -> tuple[str, dict[str, Any]] | None:
+    if code in provider:
+        return code, provider[code]
+
+    if species_mode and code.startswith("SPECIES_"):
+        return find_provider_species(code, provider)
+
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("missing", type=Path)
@@ -45,6 +78,10 @@ def main() -> None:
     parser.add_argument("provider_json", type=Path)
     parser.add_argument("target_name_map", type=Path)
     parser.add_argument("provider_name_map", type=Path)
+    parser.add_argument(
+        "--species",
+        action="store_true",
+    )
 
     args = parser.parse_args()
 
@@ -71,10 +108,17 @@ def main() -> None:
             field = match.group("field")
             code = match.group("code")
 
-            provider_obj = provider.get(code)
-            if provider_obj is None:
+            resolved = resolve_provider_entry(
+                code=code,
+                provider=provider,
+                species_mode=args.species,
+            )
+
+            if resolved is None:
                 remaining_lines.append(line)
                 continue
+
+            _, provider_obj = resolved
 
             if field not in provider_obj:
                 remaining_lines.append(line)
