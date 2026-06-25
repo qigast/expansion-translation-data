@@ -789,7 +789,7 @@
         "id": 1659,
         "code": "ITEM_ADAMANT_CRYSTAL",
         "name": "Globe Adamant",
-        "description": ""
+        "description": "Ce grand cristal brillant débordant de puissance permet à Dialga de changer de forme."
     },
     "ITEM_CHOPLE_BERRY": {
         "id": 166,
@@ -801,25 +801,25 @@
         "id": 1660,
         "code": "ITEM_LUSTROUS_GLOBE",
         "name": "Globe Perlé",
-        "description": ""
+        "description": "Cette grande sphère brillante débordant de puissance permet à Palkia de changer de forme."
     },
     "ITEM_GRISEOUS_CORE": {
         "id": 1661,
         "code": "ITEM_GRISEOUS_CORE",
         "name": "Globe Platiné",
-        "description": ""
+        "description": "Ce grand cristal brillant débordant de puissance permet à Giratina de changer de forme."
     },
     "ITEM_STRANGE_BALL": {
         "id": 1663,
         "code": "ITEM_STRANGE_BALL",
         "name": "Étrange Ball",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_TERA_ORB": {
         "id": 1669,
         "code": "ITEM_TERA_ORB",
         "name": "Orbe Téracristal",
-        "description": ""
+        "description": "Une tablette en pierre imprégnée d'une puissance suprême. Lorsqu'elle est utilisée sur un certain Pokémon, celui-ci obtient les pouvoirs de n'importe quel type."
     },
     "ITEM_KEBIA_BERRY": {
         "id": 167,
@@ -831,43 +831,43 @@
         "id": 1673,
         "code": "ITEM_TINY_BAMBOO_SHOOT",
         "name": "Petit Bambou",
-        "description": ""
+        "description": "Une Poké Ball qui peut contenir le mystérieux Pokémon Miraidon. Elle vous a été confiée par un garçon du nom de Pepper."
     },
     "ITEM_BIG_BAMBOO_SHOOT": {
         "id": 1674,
         "code": "ITEM_BIG_BAMBOO_SHOOT",
         "name": "Gros Bambou",
-        "description": ""
+        "description": "Un orbe qui renferme le pouvoir de la cristallisation. Quand il est chargé d'énergie, il permet à un Pokémon de se téracristalliser."
     },
     "ITEM_SCROLL_OF_DARKNESS": {
         "id": 1675,
         "code": "ITEM_SCROLL_OF_DARKNESS",
         "name": "Rouleau des Ténèbres",
-        "description": ""
+        "description": "Un récit d'exploration du Cratère de Paldea signé par un certain Bruyer. Quelqu'un y a inscrit le nom « Olim » d'une écriture maladroite."
     },
     "ITEM_SCROLL_OF_WATERS": {
         "id": 1676,
         "code": "ITEM_SCROLL_OF_WATERS",
         "name": "Rouleau de l'Eau",
-        "description": ""
+        "description": "Un récit d'exploration du Cratère de Paldea signé par un certain Bruyer. Quelqu'un y a inscrit le nom « Turum » d'une écriture maladroite."
     },
     "ITEM_MALICIOUS_ARMOR": {
         "id": 1677,
         "code": "ITEM_MALICIOUS_ARMOR",
         "name": "Armure de la Rancune",
-        "description": ""
+        "description": "Un portefeuille oublié par Kombu, le Champion de l'Arène de Jarramanca. Vous devez vous rendre au marché de Porto Marinada pour le lui rendre."
     },
     "ITEM_NORMAL_TERA_SHARD": {
         "id": 1678,
         "code": "ITEM_NORMAL_TERA_SHARD",
         "name": "Téra-Éclat Normal",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_FIRE_TERA_SHARD": {
         "id": 1679,
         "code": "ITEM_FIRE_TERA_SHARD",
         "name": "Téra-Éclat Feu",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_SHUCA_BERRY": {
         "id": 168,
@@ -879,61 +879,61 @@
         "id": 1680,
         "code": "ITEM_WATER_TERA_SHARD",
         "name": "Téra-Éclat Eau",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_ELECTRIC_TERA_SHARD": {
         "id": 1681,
         "code": "ITEM_ELECTRIC_TERA_SHARD",
         "name": "Téra-Éclat Électrik",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_GRASS_TERA_SHARD": {
         "id": 1682,
         "code": "ITEM_GRASS_TERA_SHARD",
         "name": "Téra-Éclat Plante",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_ICE_TERA_SHARD": {
         "id": 1683,
         "code": "ITEM_ICE_TERA_SHARD",
         "name": "Téra-Éclat Glace",
-        "description": ""
+        "description": "Une petite pousse de bambou assez rare. Elle est plutôt populaire auprès de certains gourmets."
     },
     "ITEM_FIGHTING_TERA_SHARD": {
         "id": 1684,
         "code": "ITEM_FIGHTING_TERA_SHARD",
         "name": "Téra-Éclat Combat",
-        "description": ""
+        "description": "Une grosse pousse de bambou assez rare. Elle est très populaire auprès de certains gourmets."
     },
     "ITEM_POISON_TERA_SHARD": {
         "id": 1685,
         "code": "ITEM_POISON_TERA_SHARD",
         "name": "Téra-Éclat Poison",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_GROUND_TERA_SHARD": {
         "id": 1686,
         "code": "ITEM_GROUND_TERA_SHARD",
         "name": "Téra-Éclat Sol",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_FLYING_TERA_SHARD": {
         "id": 1687,
         "code": "ITEM_FLYING_TERA_SHARD",
         "name": "Téra-Éclat Vol",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_PSYCHIC_TERA_SHARD": {
         "id": 1688,
         "code": "ITEM_PSYCHIC_TERA_SHARD",
         "name": "Téra-Éclat Psy",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_BUG_TERA_SHARD": {
         "id": 1689,
         "code": "ITEM_BUG_TERA_SHARD",
         "name": "Téra-Éclat Insecte",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_COBA_BERRY": {
         "id": 169,
@@ -945,61 +945,61 @@
         "id": 1690,
         "code": "ITEM_ROCK_TERA_SHARD",
         "name": "Téra-Éclat Roche",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_GHOST_TERA_SHARD": {
         "id": 1691,
         "code": "ITEM_GHOST_TERA_SHARD",
         "name": "Téra-Éclat Spectre",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_DRAGON_TERA_SHARD": {
         "id": 1692,
         "code": "ITEM_DRAGON_TERA_SHARD",
         "name": "Téra-Éclat Dragon",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_DARK_TERA_SHARD": {
         "id": 1693,
         "code": "ITEM_DARK_TERA_SHARD",
         "name": "Téra-Éclat Ténèbres",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_STEEL_TERA_SHARD": {
         "id": 1694,
         "code": "ITEM_STEEL_TERA_SHARD",
         "name": "Téra-Éclat Acier",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_FAIRY_TERA_SHARD": {
         "id": 1695,
         "code": "ITEM_FAIRY_TERA_SHARD",
         "name": "Téra-Éclat Fée",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_BOOSTER_ENERGY": {
         "id": 1696,
         "code": "ITEM_BOOSTER_ENERGY",
         "name": "Énergie Booster",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_ABILITY_SHIELD": {
         "id": 1697,
         "code": "ITEM_ABILITY_SHIELD",
         "name": "Garde-Talent",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_CLEAR_AMULET": {
         "id": 1698,
         "code": "ITEM_CLEAR_AMULET",
         "name": "Talisman Sain",
-        "description": ""
+        "description": "Un rouleau mystérieux pouvant faire évoluer un certain Pokémon. Tous les secrets de la voie des Ténèbres y sont inscrits."
     },
     "ITEM_MIRROR_HERB": {
         "id": 1699,
         "code": "ITEM_MIRROR_HERB",
         "name": "Feuille Copieuse",
-        "description": ""
+        "description": "Un rouleau mystérieux pouvant faire évoluer un certain Pokémon. Tous les secrets de la voie de l'Eau y sont inscrits."
     },
     "ITEM_POTION": {
         "id": 17,
@@ -1017,19 +1017,19 @@
         "id": 1700,
         "code": "ITEM_PUNCHING_GLOVE",
         "name": "Gant de Boxe",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_COVERT_CLOAK": {
         "id": 1701,
         "code": "ITEM_COVERT_CLOAK",
         "name": "Cape Obscure",
-        "description": ""
+        "description": "N/A"
     },
     "ITEM_LOADED_DICE": {
         "id": 1702,
         "code": "ITEM_LOADED_DICE",
         "name": "Dé Pipé",
-        "description": ""
+        "description": "Une armure mystérieuse pouvant faire évoluer un certain Pokémon. Une grande rancune y est enfermée."
     },
     "ITEM_TANGA_BERRY": {
         "id": 171,
@@ -1185,7 +1185,7 @@
         "id": 1938,
         "code": "ITEM_GIMMIGHOUL_COIN",
         "name": "Pièce de Mordudor",
-        "description": ""
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
     },
     "ITEM_QUICK_CLAW": {
         "id": 194,
@@ -1269,7 +1269,7 @@
         "id": 2045,
         "code": "ITEM_AUSPICIOUS_ARMOR",
         "name": "Armure de la Fortune",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_LEADERS_CREST": {
         "id": 2046,
@@ -1323,37 +1323,37 @@
         "id": 2103,
         "code": "ITEM_GLIMMERING_CHARM",
         "name": "Charme Éclatant",
-        "description": ""
+        "description": "Une assiette de pique-nique. Il en existe de nombreuses couleurs pour les accorder à l'ambiance ou au menu. L'orange est un des modèles les plus appréciés."
     },
     "ITEM_FAIRY_FEATHER": {
         "id": 2105,
         "code": "ITEM_FAIRY_FEATHER",
         "name": "Plume Enchantée",
-        "description": ""
+        "description": "Une gourde à losanges avec une petite tasse assortie. Petite et légère, elle est facile à emporter avec soi en balade grâce à sa lanière détachable."
     },
     "ITEM_WELLSPRING_MASK": {
         "id": 2106,
         "code": "ITEM_WELLSPRING_MASK",
         "name": "Masque du Puits",
-        "description": ""
+        "description": "Une nappe fournie par l'académie. Grâce aux dernières technologies textiles, elle est ignifugée et assez solide pour résister aux coups d'une Griffe Rasoir."
     },
     "ITEM_HEARTHFLAME_MASK": {
         "id": 2107,
         "code": "ITEM_HEARTHFLAME_MASK",
         "name": "Masque du Fourneau",
-        "description": ""
+        "description": "Une nappe fournie par l'académie. Grâce aux dernières technologies textiles, elle est ignifugée et assez solide pour résister aux coups d'une Griffe Rasoir."
     },
     "ITEM_CORNERSTONE_MASK": {
         "id": 2108,
         "code": "ITEM_CORNERSTONE_MASK",
         "name": "Masque de la Pierre",
-        "description": ""
+        "description": "Une tasse à pique-nique très légère et solide, destinée aux enfants. On peut les empiler facilement, ce qui les rend faciles à transporter."
     },
     "ITEM_SYRUPY_APPLE": {
         "id": 2109,
         "code": "ITEM_SYRUPY_APPLE",
         "name": "Pomme Nectar",
-        "description": ""
+        "description": "Une tasse fournie par l'académie pour les pique-niques. Le soin apporté à ses rebords la rend populaire parmi les élèves, mais aussi en dehors de l'école."
     },
     "ITEM_LEFTOVERS": {
         "id": 211,
@@ -1365,55 +1365,55 @@
         "id": 2110,
         "code": "ITEM_UNREMARKABLE_TEACUP",
         "name": "Bol Médiocre",
-        "description": ""
+        "description": "Une tasse fournie par l'académie pour les pique-niques. Le soin apporté à ses rebords la rend populaire parmi les élèves, mais aussi en dehors de l'école."
     },
     "ITEM_MASTERPIECE_TEACUP": {
         "id": 2111,
         "code": "ITEM_MASTERPIECE_TEACUP",
         "name": "Bol Exceptionnel",
-        "description": ""
+        "description": "Une tasse à pique-nique très légère et solide, destinée aux enfants. On peut les empiler facilement, ce qui les rend faciles à transporter."
     },
     "ITEM_HEALTH_MOCHI": {
         "id": 2112,
         "code": "ITEM_HEALTH_MOCHI",
         "name": "Mochi Santé",
-        "description": ""
+        "description": "Une nappe pop art sur laquelle des visages de Pokémon flottent sur un fond bleu nuit. Un accessoire indispensable à tout fan de Pokémon Spectre qui se respecte."
     },
     "ITEM_MUSCLE_MOCHI": {
         "id": 2113,
         "code": "ITEM_MUSCLE_MOCHI",
         "name": "Mochi Force",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_RESIST_MOCHI": {
         "id": 2114,
         "code": "ITEM_RESIST_MOCHI",
         "name": "Mochi Armure",
-        "description": ""
+        "description": "Un ballon distribué par l'académie, de taille moyenne. Beaucoup d'élèves pensent qu'il faut le taper juste sur le blason de l'académie pour le faire voler droit."
     },
     "ITEM_GENIUS_MOCHI": {
         "id": 2115,
         "code": "ITEM_GENIUS_MOCHI",
         "name": "Mochi Esprit",
-        "description": ""
+        "description": "Un ballon distribué par l'académie, de taille moyenne. Beaucoup d'élèves pensent qu'il faut le taper juste sur le blason de l'académie pour le faire voler droit."
     },
     "ITEM_CLEVER_MOCHI": {
         "id": 2116,
         "code": "ITEM_CLEVER_MOCHI",
         "name": "Mochi Mental",
-        "description": ""
+        "description": "Un ballon doux et rebondissant qui ressemble comme deux gouttes d'eau à un Marill. Faites attention à ne pas le confondre avec le vrai !"
     },
     "ITEM_SWIFT_MOCHI": {
         "id": 2117,
         "code": "ITEM_SWIFT_MOCHI",
         "name": "Mochi Sprint",
-        "description": ""
+        "description": "Une petite balle en laine. Le fil est comprimé pour ne pas se défaire... Mais même si cela devait arriver, il est toujours possible d'utiliser la laine pour tricoter."
     },
     "ITEM_FRESH_START_MOCHI": {
         "id": 2118,
         "code": "ITEM_FRESH_START_MOCHI",
         "name": "Mochi Renouveau",
-        "description": ""
+        "description": "Une assiette de pique-nique. Il en existe de nombreuses couleurs pour les accorder à l'ambiance ou au menu. La bleue se vend comme des petits pains."
     },
     "ITEM_DRAGON_SCALE": {
         "id": 212,
@@ -1449,7 +1449,7 @@
         "id": 2160,
         "code": "ITEM_LINKING_CORD",
         "name": "Fil de Liaison",
-        "description": ""
+        "description": "Un fil qui semble abriter une étrange énergie capable de nouer des liens entre les êtres. Il est apprécié de certains Pokémon."
     },
     "ITEM_BLACK_GLASSES": {
         "id": 217,
@@ -1503,19 +1503,19 @@
         "id": 2230,
         "code": "ITEM_BLACK_AUGURITE",
         "name": "Obsidienne",
-        "description": ""
+        "description": "Lorsqu'on brise cette pierre noire semblable à du verre, on obtient des éclats très coupants. Elle est appréciée d'un certain Pokémon."
     },
     "ITEM_PEAT_BLOCK": {
         "id": 2231,
         "code": "ITEM_PEAT_BLOCK",
         "name": "Bloc de Tourbe",
-        "description": ""
+        "description": "Un Bloc de Tourbe similaire à de la boue qu'on peut utiliser comme combustible une fois séché. Il est apprécié d'un certain Pokémon."
     },
     "ITEM_METAL_ALLOY": {
         "id": 2232,
         "code": "ITEM_METAL_ALLOY",
         "name": "Métal Composite",
-        "description": ""
+        "description": "Une assiette de pique-nique. Il en existe de nombreuses couleurs pour les accorder à l'ambiance ou au menu. La rouge se vend très bien d'une année sur l'autre."
     },
     "ITEM_SPELL_TAG": {
         "id": 224,
@@ -4246,5 +4246,525 @@
         "code": "ITEM_ROOT_FOSSIL",
         "name": "Fossile Racine",
         "description": "Le fossile d'un ancien Pokémon aquatique. On dirait un morceau de racine."
+    },
+    "ITEM_ABSOLITE_Z": {
+        "code": "ITEM_ABSOLITE_Z",
+        "name": "Absolite Z",
+        "description": "Une pique ornée d'un Maganon. Plantée dans un Sandwich, elle le rend tout chaud comme s'il venait d'être préparé."
+    },
+    "ITEM_ALORAICHIUM_Z": {
+        "code": "ITEM_ALORAICHIUM_Z",
+        "name": "Aloraïzélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Tonnerre d'un Raichu de la région d'Alola en capacité Z."
+    },
+    "ITEM_AUX_EVASION": {
+        "code": "ITEM_AUX_EVASION",
+        "name": "Esquive Extra",
+        "description": "Méthode pour Esquive Extra. Ressources requises : 2 Champinjas et 1 Truffe Sucrée."
+    },
+    "ITEM_AUX_GUARD": {
+        "code": "ITEM_AUX_GUARD",
+        "name": "Défense Extra",
+        "description": "Méthode pour Défense Extra. Ressources requises : 2 Carapachampis et 1 Plante PP."
+    },
+    "ITEM_AUX_POWER": {
+        "code": "ITEM_AUX_POWER",
+        "name": "Offensive Extra",
+        "description": "Méthode pour Offensive Extra. Ressources requises : 2 Fortichampis et 1 Plante PP."
+    },
+    "ITEM_AUX_POWERGUARD": {
+        "code": "ITEM_AUX_POWERGUARD",
+        "name": "Double Extra",
+        "description": "Augmente beaucoup la puissance offensive et la puissance défensive pendant un combat. L'effet disparaît si le Pokémon est retiré."
+    },
+    "ITEM_BARBARACITE": {
+        "code": "ITEM_BARBARACITE",
+        "name": "Golgopathite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_BAXCALIBRITE": {
+        "code": "ITEM_BAXCALIBRITE",
+        "name": "Glaivodite",
+        "description": "Donnez cette étrange graine à une certaine personne pour changer les capacités de vos Pokémon en capacités Plus."
+    },
+    "ITEM_BUGINIUM_Z": {
+        "code": "ITEM_BUGINIUM_Z",
+        "name": "Insectozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Insecte en capacité Z."
+    },
+    "ITEM_CHANDELURITE": {
+        "code": "ITEM_CHANDELURITE",
+        "name": "Lugulabrite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_CHESNAUGHTITE": {
+        "code": "ITEM_CHESNAUGHTITE",
+        "name": "Blindépiquite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_CHIMECHITE": {
+        "code": "ITEM_CHIMECHITE",
+        "name": "Éokite",
+        "description": "Un disque mystérieux aux beaux reflets indigo que la Maîtresse en Chef vous a confié. Il semble avoir un lien avec la Zone Zéro."
+    },
+    "ITEM_CHOICE_DUMPLING": {
+        "code": "ITEM_CHOICE_DUMPLING",
+        "name": "Papillote Choix",
+        "description": "Méthode pour Papillote Choix. Ressources requises : 3 Feuilles Rondes, 1 Fortichampi, 1 Champiscoto et 2 épis de Riz Zélé."
+    },
+    "ITEM_CLEFABLITE": {
+        "code": "ITEM_CLEFABLITE",
+        "name": "Mélodelfite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_CLEVER_FEATHER": {
+        "code": "ITEM_CLEVER_FEATHER",
+        "name": "Plume Mental",
+        "description": "Objet à utiliser sur un Pokémon pour un peu augmenter sa Défense Spéciale de base."
+    },
+    "ITEM_CRABOMINITE": {
+        "code": "ITEM_CRABOMINITE",
+        "name": "Crabominablite",
+        "description": "Une pierre venue de l'espace, qui permet à un certain Pokémon de changer d'apparence. Elle est légèrement tiède au toucher."
+    },
+    "ITEM_DARKINIUM_Z": {
+        "code": "ITEM_DARKINIUM_Z",
+        "name": "Ténébrozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Ténèbres en capacité Z."
+    },
+    "ITEM_DARKRANITE": {
+        "code": "ITEM_DARKRANITE",
+        "name": "Darkraïte",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_DECIDIUM_Z": {
+        "code": "ITEM_DECIDIUM_Z",
+        "name": "Archézélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Tisse Ombre d'un Archéduc en capacité Z."
+    },
+    "ITEM_DELPHOXITE": {
+        "code": "ITEM_DELPHOXITE",
+        "name": "Goupelinite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_DRAGALGITE": {
+        "code": "ITEM_DRAGALGITE",
+        "name": "Kravarekite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_DRAGONINITE": {
+        "code": "ITEM_DRAGONINITE",
+        "name": "Dracolossite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_DRAGONIUM_Z": {
+        "code": "ITEM_DRAGONIUM_Z",
+        "name": "Dracozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Dragon en capacité Z."
+    },
+    "ITEM_DRAMPANITE": {
+        "code": "ITEM_DRAMPANITE",
+        "name": "Draïeulite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_EELEKTROSSITE": {
+        "code": "ITEM_EELEKTROSSITE",
+        "name": "Ohmassacrite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_EEVIUM_Z": {
+        "code": "ITEM_EEVIUM_Z",
+        "name": "Évolizélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Dernier Recours d'un Évoli en capacité Z."
+    },
+    "ITEM_ELECTRIUM_Z": {
+        "code": "ITEM_ELECTRIUM_Z",
+        "name": "Voltazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Électrik en capacité Z."
+    },
+    "ITEM_EMBOARITE": {
+        "code": "ITEM_EMBOARITE",
+        "name": "Roitiflamite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_EXCADRITE": {
+        "code": "ITEM_EXCADRITE",
+        "name": "Minotaupite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_FAIRIUM_Z": {
+        "code": "ITEM_FAIRIUM_Z",
+        "name": "Nymphézélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Fée en capacité Z."
+    },
+    "ITEM_FALINKSITE": {
+        "code": "ITEM_FALINKSITE",
+        "name": "Hexadronite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_FERALIGITE": {
+        "code": "ITEM_FERALIGITE",
+        "name": "Aligatueurite",
+        "description": "Une perche compatible avec les Motismart. Elle permet de se photographier d'un peu plus loin lorsqu'on prend des selfies."
+    },
+    "ITEM_FIGHTINIUM_Z": {
+        "code": "ITEM_FIGHTINIUM_Z",
+        "name": "Combazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Combat en capacité Z."
+    },
+    "ITEM_FINE_REMEDY": {
+        "code": "ITEM_FINE_REMEDY",
+        "name": "Super Remède",
+        "description": "Méthode pour Super Remède. Ressources requises : 1 Remède et 1 Plante PP."
+    },
+    "ITEM_FIRIUM_Z": {
+        "code": "ITEM_FIRIUM_Z",
+        "name": "Pyrozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Feu en capacité Z."
+    },
+    "ITEM_FLOETTITE": {
+        "code": "ITEM_FLOETTITE",
+        "name": "Floettite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_FLYINIUM_Z": {
+        "code": "ITEM_FLYINIUM_Z",
+        "name": "Aérozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Vol en capacité Z."
+    },
+    "ITEM_FROSLASSITE": {
+        "code": "ITEM_FROSLASSITE",
+        "name": "Momartikite",
+        "description": "Un morceau de métal étrange qui permet de faire évoluer une certaine espèce de Pokémon. Il est composé de plusieurs couches."
+    },
+    "ITEM_GARCHOMPITE_Z": {
+        "code": "ITEM_GARCHOMPITE_Z",
+        "name": "Carchacrokite Z",
+        "description": "Une Baie Pêcha exceptionnelle au lustre particulier. Il faut des années d'entretien méticuleux avant qu'un arbre Pêcha en produise ne serait-ce qu'une seule."
+    },
+    "ITEM_GENIUS_FEATHER": {
+        "code": "ITEM_GENIUS_FEATHER",
+        "name": "Plume Esprit",
+        "description": "Objet à utiliser sur un Pokémon pour un peu augmenter son Attaque Spéciale de base."
+    },
+    "ITEM_GHOSTIUM_Z": {
+        "code": "ITEM_GHOSTIUM_Z",
+        "name": "Spectrozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Spectre en capacité Z."
+    },
+    "ITEM_GLIMMORANITE": {
+        "code": "ITEM_GLIMMORANITE",
+        "name": "Floréclatite",
+        "description": "Une variété de Méga-Gemme. Tenue par un Empiflor, elle lui permet de méga-évoluer durant un combat."
+    },
+    "ITEM_GOLISOPITE": {
+        "code": "ITEM_GOLISOPITE",
+        "name": "Sarmuraïte",
+        "description": "Un récit d'exploration du Cratère de Paldea que la Professeure Olim vous a donné. Son nom y est inscrit d'une écriture maladroite."
+    },
+    "ITEM_GOLURKITE": {
+        "code": "ITEM_GOLURKITE",
+        "name": "Golemastokite",
+        "description": "Des sièges parfaits pour les pique-niques. Leur design est inspiré de la Nappe Myrtille."
+    },
+    "ITEM_GRASSIUM_Z": {
+        "code": "ITEM_GRASSIUM_Z",
+        "name": "Florazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Plante en capacité Z."
+    },
+    "ITEM_GRENINJITE": {
+        "code": "ITEM_GRENINJITE",
+        "name": "Amphinolite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_GROUNDIUM_Z": {
+        "code": "ITEM_GROUNDIUM_Z",
+        "name": "Terrazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Sol en capacité Z."
+    },
+    "ITEM_HAWLUCHANITE": {
+        "code": "ITEM_HAWLUCHANITE",
+        "name": "Brutalibrite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_HEALTH_FEATHER": {
+        "code": "ITEM_HEALTH_FEATHER",
+        "name": "Plume Santé",
+        "description": "Objet à utiliser sur un Pokémon pour un peu augmenter ses PV de base."
+    },
+    "ITEM_HEATRANITE": {
+        "code": "ITEM_HEATRANITE",
+        "name": "Heatranite",
+        "description": "Une carte permettant d'accéder à un plus vaste choix d'articles dans les boutiques chics et à davantage de coupes de cheveux dans les salons de coiffure."
+    },
+    "ITEM_ICIUM_Z": {
+        "code": "ITEM_ICIUM_Z",
+        "name": "Cryozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Glace en capacité Z."
+    },
+    "ITEM_INCINIUM_Z": {
+        "code": "ITEM_INCINIUM_Z",
+        "name": "Félinozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Dark Lariat d'un Félinferno en capacité Z."
+    },
+    "ITEM_JUBILIFE_MUFFIN": {
+        "code": "ITEM_JUBILIFE_MUFFIN",
+        "name": "Rusti-Muffin",
+        "description": "Méthode pour Rusti-Muffin. Ressources requises : 2 épis de Riz Zélé, 2 Baies Bouhlon, 1 Baie Framby et 1 boule d'Appâte."
+    },
+    "ITEM_KOMMONIUM_Z": {
+        "code": "ITEM_KOMMONIUM_Z",
+        "name": "Ékaïzélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer la capacité Vibrécaille d'un Ékaïser en capacité Z."
+    },
+    "ITEM_LEEK": {
+        "code": "ITEM_LEEK",
+        "name": "Poireau",
+        "description": "Objet à faire tenir à Canarticho. Un poireau très long et solide qui augmente son taux de critiques."
+    },
+    "ITEM_LUCARIONITE_Z": {
+        "code": "ITEM_LUCARIONITE_Z",
+        "name": "Lucarite Z",
+        "description": "Une nappe fournie par l'Institut Myrtille. Grâce aux dernières technologies textiles, elle est ignifugée et assez solide pour résister aux coups d'un Croc Rasoir."
+    },
+    "ITEM_LUNALIUM_Z": {
+        "code": "ITEM_LUNALIUM_Z",
+        "name": "Lunazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Rayon Spectral de Lunala en capacité Z."
+    },
+    "ITEM_LYCANIUM_Z": {
+        "code": "ITEM_LYCANIUM_Z",
+        "name": "Lougarozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer la capacité Lame de Roc d'un Lougaroc en capacité Z."
+    },
+    "ITEM_MAGEARNITE": {
+        "code": "ITEM_MAGEARNITE",
+        "name": "Magearnite",
+        "description": "Un récit d'exploration du Cratère de Paldea que le Professeur Turum vous a donné. Son nom y est inscrit d'une écriture maladroite."
+    },
+    "ITEM_MALAMARITE": {
+        "code": "ITEM_MALAMARITE",
+        "name": "Sepiatrocite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_MARSHADIUM_Z": {
+        "code": "ITEM_MARSHADIUM_Z",
+        "name": "Marshadozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Clepto-Mânes de Marshadow en capacité Z."
+    },
+    "ITEM_MEGANIUMITE": {
+        "code": "ITEM_MEGANIUMITE",
+        "name": "Méganiumite",
+        "description": "Un mochi contenant des Baies qui réinitialise tous les points de base d'un Pokémon."
+    },
+    "ITEM_MEOWSTICITE": {
+        "code": "ITEM_MEOWSTICITE",
+        "name": "Mistigrixite",
+        "description": "Un appareil permettant de synchroniser ses pensées avec un Pokémon et de le guider dans ses mouvements. Ce prototype a une apparence encore rudimentaire."
+    },
+    "ITEM_MEWNIUM_Z": {
+        "code": "ITEM_MEWNIUM_Z",
+        "name": "Mewzélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Psyko de Mew en capacité Z."
+    },
+    "ITEM_MIMIKIUM_Z": {
+        "code": "ITEM_MIMIKIUM_Z",
+        "name": "Mimiquizélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer la capacité Câlinerie d'un Mimiqui en capacité Z."
+    },
+    "ITEM_MUSCLE_FEATHER": {
+        "code": "ITEM_MUSCLE_FEATHER",
+        "name": "Plume Force",
+        "description": "Objet à utiliser sur un Pokémon pour un peu augmenter son Attaque de base."
+    },
+    "ITEM_NORMALIUM_Z": {
+        "code": "ITEM_NORMALIUM_Z",
+        "name": "Normazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Normal en capacité Z."
+    },
+    "ITEM_N_LUNARIZER": {
+        "code": "ITEM_N_LUNARIZER",
+        "name": "Necroluna",
+        "description": "Un appareil permettant à un Necrozma assoiffé de lumière de fusionner avec Lunala."
+    },
+    "ITEM_N_SOLARIZER": {
+        "code": "ITEM_N_SOLARIZER",
+        "name": "Necrosol",
+        "description": "Un appareil permettant à un Necrozma assoiffé de lumière de fusionner avec Solgaleo."
+    },
+    "ITEM_PIKANIUM_Z": {
+        "code": "ITEM_PIKANIUM_Z",
+        "name": "Pikazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer l'Électacle d'un Pikachu en capacité Z."
+    },
+    "ITEM_PIKASHUNIUM_Z": {
+        "code": "ITEM_PIKASHUNIUM_Z",
+        "name": "Pikachazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Tonnerre du Pikachu à casquette en capacité Z."
+    },
+    "ITEM_POISONIUM_Z": {
+        "code": "ITEM_POISONIUM_Z",
+        "name": "Toxizélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Poison en capacité Z."
+    },
+    "ITEM_POKESHI_DOLL": {
+        "code": "ITEM_POKESHI_DOLL",
+        "name": "Poupée Pokéshi",
+        "description": "Méthode pour Poupée Pokéshi. Ressources requises : 3 morceaux de Bois."
+    },
+    "ITEM_PRETTY_FEATHER": {
+        "code": "ITEM_PRETTY_FEATHER",
+        "name": "Jolie Plume",
+        "description": "Une plume très jolie, mais ordinaire et sans effet particulier."
+    },
+    "ITEM_PRIMARIUM_Z": {
+        "code": "ITEM_PRIMARIUM_Z",
+        "name": "Oratozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer l'Aria de l'Écume d'un Oratoria en capacité Z."
+    },
+    "ITEM_PSYCHIUM_Z": {
+        "code": "ITEM_PSYCHIUM_Z",
+        "name": "Psychézélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Psy en capacité Z."
+    },
+    "ITEM_PYROARITE": {
+        "code": "ITEM_PYROARITE",
+        "name": "Néméliosite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_RAICHUNITE_X": {
+        "code": "ITEM_RAICHUNITE_X",
+        "name": "Raichuïte X",
+        "description": "Une friandise préparée avec les ingrédients favoris du Pokémon légendaire Blizzeval."
+    },
+    "ITEM_RAICHUNITE_Y": {
+        "code": "ITEM_RAICHUNITE_Y",
+        "name": "Raichuïte Y",
+        "description": "Une friandise préparée avec les ingrédients favoris du Pokémon légendaire Spectreval."
+    },
+    "ITEM_REMEDY": {
+        "code": "ITEM_REMEDY",
+        "name": "Remède",
+        "description": "Méthode pour Remède. Ressources requises : 2 Plantes Répulsives."
+    },
+    "ITEM_RESIST_FEATHER": {
+        "code": "ITEM_RESIST_FEATHER",
+        "name": "Plume Armure",
+        "description": "Objet à utiliser sur un Pokémon pour un peu augmenter sa Défense de base."
+    },
+    "ITEM_ROCKIUM_Z": {
+        "code": "ITEM_ROCKIUM_Z",
+        "name": "Rocazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Roche en capacité Z."
+    },
+    "ITEM_SCOLIPITE": {
+        "code": "ITEM_SCOLIPITE",
+        "name": "Brutapodite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_SCOVILLAINITE": {
+        "code": "ITEM_SCOVILLAINITE",
+        "name": "Scovilainite",
+        "description": "Un exemplaire du récit d'exploration de l'Abîme Zéro, rédigé par madame Bria. Elle y partage ses réflexions et décrit en détail les évènements de l'expédition."
+    },
+    "ITEM_SCRAFTINITE": {
+        "code": "ITEM_SCRAFTINITE",
+        "name": "Baggaïdite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_SKARMORITE": {
+        "code": "ITEM_SKARMORITE",
+        "name": "Airmurite",
+        "description": "Un mystérieux charme éclatant qui permet d'obtenir davantage de Téra-Éclats lors des raids Téracristal."
+    },
+    "ITEM_SNORLIUM_Z": {
+        "code": "ITEM_SNORLIUM_Z",
+        "name": "Ronflézélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Giga Impact d'un Ronflex en capacité Z."
+    },
+    "ITEM_SOLGANIUM_Z": {
+        "code": "ITEM_SOLGANIUM_Z",
+        "name": "Solgazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Choc Météore de Solgaleo en capacité Z."
+    },
+    "ITEM_STARAPTITE": {
+        "code": "ITEM_STARAPTITE",
+        "name": "Étouraptorite",
+        "description": "Un fragment cristallisé qui se forme rarement lors de l'éclatement d'un Joyau Téracristal après qu'un Pokémon Téracristal a été mis K.O."
+    },
+    "ITEM_STARMINITE": {
+        "code": "ITEM_STARMINITE",
+        "name": "Starossite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_STEELIUM_Z": {
+        "code": "ITEM_STEELIUM_Z",
+        "name": "Métallozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Acier en capacité Z."
+    },
+    "ITEM_STELLAR_TERA_SHARD": {
+        "code": "ITEM_STELLAR_TERA_SHARD",
+        "name": "Téra-Éclat Stellaire",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_SUPERB_REMEDY": {
+        "code": "ITEM_SUPERB_REMEDY",
+        "name": "Hyper Remède",
+        "description": "Méthode pour Hyper Remède. Ressources requises : 1 Super Remède et 1 Bourgeon Vivace."
+    },
+    "ITEM_SWAP_SNACK": {
+        "code": "ITEM_SWAP_SNACK",
+        "name": "En-cas Contraire",
+        "description": "Ce curieux en-cas permet d'inverser temporairement la puissance offensive et la puissance défensive d'un Pokémon."
+    },
+    "ITEM_SWIFT_FEATHER": {
+        "code": "ITEM_SWIFT_FEATHER",
+        "name": "Plume Sprint",
+        "description": "Objet à utiliser sur un Pokémon pour un peu augmenter sa Vitesse de base."
+    },
+    "ITEM_TAPUNIUM_Z": {
+        "code": "ITEM_TAPUNIUM_Z",
+        "name": "Tokozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer l'Ire de la Nature d'un Toko en capacité Z."
+    },
+    "ITEM_TATSUGIRINITE": {
+        "code": "ITEM_TATSUGIRINITE",
+        "name": "Nigirigonite",
+        "description": "Une variété de Méga-Gemme. Tenue par un Mélodelfe, elle lui permet de méga-évoluer durant un combat."
+    },
+    "ITEM_TWICE_SPICED_RADISH": {
+        "code": "ITEM_TWICE_SPICED_RADISH",
+        "name": "Bouchée Double",
+        "description": "Ce mets permet à un Pokémon de frapper une fois et demie plus fort temporairement. Les effets sont similaires à ceux de la capacité Coup Double."
+    },
+    "ITEM_ULTRANECROZIUM_Z": {
+        "code": "ITEM_ULTRANECROZIUM_Z",
+        "name": "Ultranécrozélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer le Photo-Geyser de Necrozma en capacité Z."
+    },
+    "ITEM_UPGRADE": {
+        "code": "ITEM_UPGRADE",
+        "name": "Améliorator",
+        "description": "Un dispositif transparent rempli de données diverses et variées. Fabriqué par la Sylphe SARL."
+    },
+    "ITEM_VICTREEBELITE": {
+        "code": "ITEM_VICTREEBELITE",
+        "name": "Empiflorite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_WATERIUM_Z": {
+        "code": "ITEM_WATERIUM_Z",
+        "name": "Aquazélite",
+        "description": "Une cristallisation de la Force Z, permettant de transformer les capacités de type Eau en capacité Z."
+    },
+    "ITEM_ZERAORITE": {
+        "code": "ITEM_ZERAORITE",
+        "name": "Zeraorite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
+    },
+    "ITEM_ZYGARDITE": {
+        "code": "ITEM_ZYGARDITE",
+        "name": "Zygardite",
+        "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
     }
 }
