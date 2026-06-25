@@ -1,0 +1,19 @@
+No matching template found for message: Nature Power turned into Nature Power!
+No matching template found for message: Normal Gem strengthened Wobbuffet's power!
+No matching template found for message: Parasect restored HP using its Dry Skin!
+No matching template found for message: SILPH SCOPE unveiled the GHOST's identity!
+No matching template found for message: The GHOST appeared! Darn! The GHOST can't be ID'd!
+No matching template found for message: The opposing Kecleon's Color Change made it the Normal type!
+No matching template found for message: The opposing Raichu's Lightning Rod took the attack
+No matching template found for message: The opposing Ralts Traced Palafin's Zero to Hero!
+No matching template found for message: The opposing Slowbro's Color Change made it the Psychic type!
+No matching template found for message: The opposing Slowpoke's Own Tempo prevents confusion!
+No matching template found for message: The rest of your team gained EXP. Points thanks to the Exp. Share!
+No matching template found for message: Wild Lanturn restored HP using its Volt Absorb!
+No matching template found for message: Wobbuffet dug a hole!
+No matching template found for message: Wobbuffet is glowing!
+No matching template found for message: Wobbuffet is healed by the Grassy Terrain!
+No matching template found for message: Wobbuffet lowered its head!
+No matching template found for message: Wobbuffet snapped out of confusion!
+No matching template found for message: Wynaut, good! Come back!
+No matching template found for message: Wynaut, OK! Come back!
