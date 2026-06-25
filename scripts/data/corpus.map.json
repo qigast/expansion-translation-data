@@ -82,6 +82,13 @@
                 "end": 14788,
                 "prefix": "SPECIES_"
             },
+            "ChampionsPokemon": {
+                "en": "Champions/en_common.txt",
+                "fr": "Champions/fr_common.txt",
+                "beg": 6114,
+                "end": 7138,
+                "prefix": "SPECIES_"
+            },
             "UsUmAbilities": {
                 "en": "UltraSunUltraMoon/en_common.txt",
                 "fr": "UltraSunUltraMoon/fr_common.txt",
@@ -117,6 +124,13 @@
                 "end": 8322,
                 "prefix": "ABILITY_"
             },
+            "ChampionsAbilities": {
+                "en": "Champions/en_common.txt",
+                "fr": "Champions/fr_common.txt",
+                "beg": 8395,
+                "end": 8712,
+                "prefix": "ABILITY_"
+            },
             "UsUmItems": {
                 "en": "UltraSunUltraMoon/en_common.txt",
                 "fr": "UltraSunUltraMoon/fr_common.txt",
@@ -150,6 +164,13 @@
                 "fr": "LegendsZA/fr_common.txt",
                 "beg": 11054,
                 "end": 13737,
+                "prefix": "ITEM_"
+            },
+            "ChampionsItems": {
+                "en": "Champions/en_common.txt",
+                "fr": "Champions/fr_common.txt",
+                "beg": 3932,
+                "end": 4549,
                 "prefix": "ITEM_"
             },
             "UsUmMoves": {
@@ -191,6 +212,13 @@
                 "fr": "LegendsZA/fr_common.txt",
                 "beg": 16318,
                 "end": 17237,
+                "prefix": "MOVE_"
+            },
+            "ChampionsMoves": {
+                "en": "Champions/en_common.txt",
+                "fr": "Champions/fr_common.txt",
+                "beg": 10009,
+                "end": 10928,
                 "prefix": "MOVE_"
             }
         },
@@ -234,6 +262,11 @@
                 "en": "LegendsZA/en_common.txt",
                 "fr": "LegendsZA/fr_common.txt",
                 "beg": 30224
+            },
+            "ChampionsAbilities": {
+                "en": "Champions/en_common.txt",
+                "fr": "Champions/fr_common.txt",
+                "beg": 8716
             },
             "UsUmItems": {
                 "en": "UltraSunUltraMoon/en_common.txt",
