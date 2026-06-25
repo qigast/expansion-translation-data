@@ -100,8 +100,8 @@ def process(
         en_lines = get_lines(source["en"])
         fr_lines = get_lines(source["fr"])
 
-        beg = source["beg"]
-        end = source["end"]
+        beg = source["beg"] - 1
+        end = source["end"] - 1
         prefix = source.get("prefix")
 
         codes: list[str] = []
@@ -150,7 +150,7 @@ def process(
                 continue
 
             fr_lines = get_lines(source["fr"])
-            beg = source["beg"]
+            beg = source["beg"] - 1
 
             data_file, _ = source_to_outputs[source_name]
 
