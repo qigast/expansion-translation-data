@@ -75,6 +75,13 @@
                 "end": 11529,
                 "prefix": "SPECIES_"
             },
+            "LegendsZAPokemon": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 13764,
+                "end": 14788,
+                "prefix": "SPECIES_"
+            },
             "UsUmAbilities": {
                 "en": "UltraSunUltraMoon/en_common.txt",
                 "fr": "UltraSunUltraMoon/fr_common.txt",
@@ -103,6 +110,13 @@
                 "end": 6549,
                 "prefix": "ABILITY_"
             },
+            "LegendsZAAbilities": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 8013,
+                "end": 8322,
+                "prefix": "ABILITY_"
+            },
             "UsUmItems": {
                 "en": "UltraSunUltraMoon/en_common.txt",
                 "fr": "UltraSunUltraMoon/fr_common.txt",
@@ -129,6 +143,13 @@
                 "fr": "LegendsArceus/fr_common.txt",
                 "beg": 8767,
                 "end": 10594,
+                "prefix": "ITEM_"
+            },
+            "LegendsZAItems": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 11054,
+                "end": 13737,
                 "prefix": "ITEM_"
             },
             "UsUmMoves": {
@@ -164,6 +185,13 @@
                 "beg": 12793,
                 "end": 13642,
                 "prefix": "MOVE_"
+            },
+            "LegendsZAMoves": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 16318,
+                "end": 17237,
+                "prefix": "MOVE_"
             }
         },
         "description": {
@@ -176,6 +204,11 @@
                 "en": "ScarletViolet/en_common.txt",
                 "fr": "ScarletViolet/fr_common.txt",
                 "beg": 43344
+            },
+            "LegendsZAPokemon": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 38152
             },
             "UsUmAbilities": {
                 "en": "UltraSunUltraMoon/en_common.txt",
@@ -197,6 +230,11 @@
                 "fr": "LegendsArceus/fr_common.txt",
                 "beg": 20759
             },
+            "LegendsZAAbilities": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 30224
+            },
             "UsUmItems": {
                 "en": "UltraSunUltraMoon/en_common.txt",
                 "fr": "UltraSunUltraMoon/fr_common.txt",
@@ -216,6 +254,11 @@
                 "en": "LegendsArceus/en_common.txt",
                 "fr": "LegendsArceus/fr_common.txt",
                 "beg": 6935
+            },
+            "LegendsZAItems": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 8366
             },
             "UsUmMoves": {
                 "en": "UltraSunUltraMoon/en_common.txt",
@@ -241,6 +284,11 @@
                 "en": "LegendsArceus/en_common.txt",
                 "fr": "LegendsArceus/fr_common.txt",
                 "beg": 11939
+            },
+            "LegendsZAMoves": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 15393
             }
         },
         "category": {
@@ -263,6 +311,11 @@
                 "en": "LegendsArceus/en_common.txt",
                 "fr": "LegendsArceus/fr_common.txt",
                 "beg": 14954
+            },
+            "LegendsZAPokemon": {
+                "en": "LegendsZA/en_common.txt",
+                "fr": "LegendsZA/fr_common.txt",
+                "beg": 18771
             }
         }
     }
