@@ -2,20 +2,20 @@
     "root": "~/Corpus",
     "outputs": {
         ".*Pokemon": [
-            "species.data.json",
-            "species.names.map.json"
+            "species/species.data.json",
+            "species/species.names.map.json"
         ],
         ".*Abilities": [
-            "abilities.data.json",
-            "ability.names.map.json"
+            "abilities/abilities.data.json",
+            "abilities/ability.names.map.json"
         ],
         ".*Items": [
-            "items.data.json",
-            "item.names.map.json"
+            "items/items.data.json",
+            "items/item.names.map.json"
         ],
         ".*Moves": [
-            "moves.data.json",
-            "move.names.map.json"
+            "moves/moves.data.json",
+            "moves/move.names.map.json"
         ]
     },
     "rules": {
