@@ -5181,25 +5181,25 @@
         "id": 896,
         "code": "MOVE_BLAZING_TORQUE",
         "name": "Crash Brûlant",
-        "description": ""
+        "description": "Le lanceur projette de l'eau pressurisée qui entaille la cible comme une lame. Taux de critiques élevé."
     },
     "MOVE_WICKED_TORQUE": {
         "id": 897,
         "code": "MOVE_WICKED_TORQUE",
         "name": "Crash Obscur",
-        "description": ""
+        "description": "- - -"
     },
     "MOVE_NOXIOUS_TORQUE": {
         "id": 898,
         "code": "MOVE_NOXIOUS_TORQUE",
         "name": "Crash Toxique",
-        "description": ""
+        "description": "- - -"
     },
     "MOVE_COMBAT_TORQUE": {
         "id": 899,
         "code": "MOVE_COMBAT_TORQUE",
         "name": "Crash Musclé",
-        "description": ""
+        "description": "- - -"
     },
     "MOVE_THUNDER_PUNCH": {
         "id": 9,
@@ -5217,7 +5217,7 @@
         "id": 900,
         "code": "MOVE_MAGICAL_TORQUE",
         "name": "Crash Magique",
-        "description": ""
+        "description": "- - -"
     },
     "MOVE_BLOOD_MOON": {
         "id": 901,
@@ -5386,5 +5386,175 @@
         "code": "MOVE_RAGE",
         "name": "Frénésie",
         "description": "Une fois activée, cette capacité augmente l'Attaque du lanceur à mesure que celui-ci subit des attaques."
+    },
+    "MOVE_G_MAX_BEFUDDLE": {
+        "code": "MOVE_G_MAX_BEFUDDLE",
+        "name": "Illusion G-Max",
+        "description": "Une attaque de type Insecte que seul un Papilusion Gigamax peut utiliser. Empoisonne, paralyse ou endort la cible."
+    },
+    "MOVE_G_MAX_CANNONADE": {
+        "code": "MOVE_G_MAX_CANNONADE",
+        "name": "Canonnade G-Max",
+        "description": "Une attaque de type Eau que seul un Tortank Gigamax peut utiliser. Inflige des dégâts à la cible pendant quatre tours."
+    },
+    "MOVE_G_MAX_CENTIFERNO": {
+        "code": "MOVE_G_MAX_CENTIFERNO",
+        "name": "Combustion G-Max",
+        "description": "Une attaque de type Feu que seul un Scolocendre Gigamax peut utiliser. Emprisonne la cible dans un tourbillon de flammes qui dure de quatre à cinq tours."
+    },
+    "MOVE_G_MAX_CHI_STRIKE": {
+        "code": "MOVE_G_MAX_CHI_STRIKE",
+        "name": "Frappe G-Max",
+        "description": "Une attaque de type Combat que seul un Mackogneur Gigamax peut utiliser. Augmente le taux de critiques du lanceur et de ses alliés."
+    },
+    "MOVE_G_MAX_CUDDLE": {
+        "code": "MOVE_G_MAX_CUDDLE",
+        "name": "Câlin G-Max",
+        "description": "Une attaque de type Normal que seul un Évoli Gigamax peut utiliser. Rend la cible amoureuse."
+    },
+    "MOVE_G_MAX_DEPLETION": {
+        "code": "MOVE_G_MAX_DEPLETION",
+        "name": "Usure G-Max",
+        "description": "Une attaque de type Dragon que seul un Duralugon Gigamax peut utiliser. Baisse les PP de la dernière capacité utilisée par la cible."
+    },
+    "MOVE_G_MAX_DRUM_SOLO": {
+        "code": "MOVE_G_MAX_DRUM_SOLO",
+        "name": "Percussion G-Max",
+        "description": "Une attaque de type Plante que seul un Gorythmic Gigamax peut utiliser. Ignore le talent de la cible."
+    },
+    "MOVE_G_MAX_FINALE": {
+        "code": "MOVE_G_MAX_FINALE",
+        "name": "Cure G-Max",
+        "description": "Une attaque de type Fée que seul un Charmilly Gigamax peut utiliser. Restaure des PV aux alliés."
+    },
+    "MOVE_G_MAX_FIREBALL": {
+        "code": "MOVE_G_MAX_FIREBALL",
+        "name": "Pyroball G-Max",
+        "description": "Une attaque de type Feu que seul un Pyrobut Gigamax peut utiliser. Ignore le talent de la cible."
+    },
+    "MOVE_G_MAX_FOAM_BURST": {
+        "code": "MOVE_G_MAX_FOAM_BURST",
+        "name": "Bulles G-Max",
+        "description": "Une attaque de type Eau que seul un Krabboss Gigamax peut utiliser. Réduit beaucoup la Vitesse de la cible."
+    },
+    "MOVE_G_MAX_GOLD_RUSH": {
+        "code": "MOVE_G_MAX_GOLD_RUSH",
+        "name": "Pactole G-Max",
+        "description": "Une attaque de type Normal que seul un Miaouss Gigamax peut utiliser. Rend la cible confuse et permet d'obtenir de l'argent à la fin du combat."
+    },
+    "MOVE_G_MAX_GRAVITAS": {
+        "code": "MOVE_G_MAX_GRAVITAS",
+        "name": "Ondes G-Max",
+        "description": "Une attaque de type Psy que seul un Astronelle Gigamax peut utiliser. Intensifie la gravité pendant cinq tours."
+    },
+    "MOVE_G_MAX_HYDROSNIPE": {
+        "code": "MOVE_G_MAX_HYDROSNIPE",
+        "name": "Gâchette G-Max",
+        "description": "Une attaque de type Eau que seul un Lézargus Gigamax peut utiliser. Ignore le talent de la cible."
+    },
+    "MOVE_G_MAX_MALODOR": {
+        "code": "MOVE_G_MAX_MALODOR",
+        "name": "Pestilence G-Max",
+        "description": "Une attaque de type Poison que seul un Miasmax Gigamax peut utiliser. Empoisonne la cible."
+    },
+    "MOVE_G_MAX_MELTDOWN": {
+        "code": "MOVE_G_MAX_MELTDOWN",
+        "name": "Fonte G-Max",
+        "description": "Une attaque de type Acier que seul un Melmetal Gigamax peut utiliser. Empêche la cible d'utiliser la même capacité deux fois de suite."
+    },
+    "MOVE_G_MAX_ONE_BLOW": {
+        "code": "MOVE_G_MAX_ONE_BLOW",
+        "name": "Coup Final G-Max",
+        "description": "Une attaque de type Ténèbres que seul un Shifours Gigamax peut utiliser. Cette frappe unique permet d'ignorer la capacité Gardomax."
+    },
+    "MOVE_G_MAX_RAPID_FLOW": {
+        "code": "MOVE_G_MAX_RAPID_FLOW",
+        "name": "Multicoup G-Max",
+        "description": "Une attaque de type Eau que seul un Shifours Gigamax peut utiliser. Cet enchaînement de coups permet d'ignorer la capacité Gardomax."
+    },
+    "MOVE_G_MAX_REPLENISH": {
+        "code": "MOVE_G_MAX_REPLENISH",
+        "name": "Récolte G-Max",
+        "description": "Une attaque de type Normal que seul un Ronflex Gigamax peut utiliser. Restaure une Baie tenue qui a déjà été mangée."
+    },
+    "MOVE_G_MAX_RESONANCE": {
+        "code": "MOVE_G_MAX_RESONANCE",
+        "name": "Résonance G-Max",
+        "description": "Une attaque de type Glace que seul un Lokhlass Gigamax peut utiliser. Réduit les dégâts causés par des capacités pendant cinq tours."
+    },
+    "MOVE_G_MAX_SANDBLAST": {
+        "code": "MOVE_G_MAX_SANDBLAST",
+        "name": "Enlisement G-Max",
+        "description": "Une attaque de type Sol que seul un Dunaconda Gigamax peut utiliser. Emprisonne la cible dans une tempête de sable qui dure de quatre à cinq tours."
+    },
+    "MOVE_G_MAX_SMITE": {
+        "code": "MOVE_G_MAX_SMITE",
+        "name": "Sentence G-Max",
+        "description": "Une attaque de type Fée que seul un Sorcilence Gigamax peut utiliser. Rend la cible confuse."
+    },
+    "MOVE_G_MAX_SNOOZE": {
+        "code": "MOVE_G_MAX_SNOOZE",
+        "name": "Torpeur G-Max",
+        "description": "Une attaque de type Ténèbres que seul un Angoliath Gigamax peut utiliser. Fait bâiller la cible qui s'endort au tour suivant."
+    },
+    "MOVE_G_MAX_STEELSURGE": {
+        "code": "MOVE_G_MAX_STEELSURGE",
+        "name": "Percée G-Max",
+        "description": "Une attaque de type Acier que seul un Pachyradjah Gigamax peut utiliser. Disperse des pics aiguisés sur le terrain."
+    },
+    "MOVE_G_MAX_STONESURGE": {
+        "code": "MOVE_G_MAX_STONESURGE",
+        "name": "Récif G-Max",
+        "description": "Une attaque de type Eau que seul un Torgamord Gigamax peut utiliser. Disperse des pierres aiguisées sur le terrain."
+    },
+    "MOVE_G_MAX_STUN_SHOCK": {
+        "code": "MOVE_G_MAX_STUN_SHOCK",
+        "name": "Choc G-Max",
+        "description": "Une attaque de type Électrik que seul un Salarsen Gigamax peut utiliser. Empoisonne ou paralyse la cible."
+    },
+    "MOVE_G_MAX_SWEETNESS": {
+        "code": "MOVE_G_MAX_SWEETNESS",
+        "name": "Nectar G-Max",
+        "description": "Une attaque de type Plante que seul un Dratatin Gigamax peut utiliser. Soigne les altérations de statut des alliés."
+    },
+    "MOVE_G_MAX_TARTNESS": {
+        "code": "MOVE_G_MAX_TARTNESS",
+        "name": "Corrosion G-Max",
+        "description": "Une attaque de type Plante que seul un Pomdrapi Gigamax peut utiliser. Réduit l'Esquive de la cible."
+    },
+    "MOVE_G_MAX_TERROR": {
+        "code": "MOVE_G_MAX_TERROR",
+        "name": "Hantise G-Max",
+        "description": "Une attaque de type Spectre que seul un Ectoplasma Gigamax peut utiliser. Empêche les Pokémon ennemis de quitter le combat."
+    },
+    "MOVE_G_MAX_VINE_LASH": {
+        "code": "MOVE_G_MAX_VINE_LASH",
+        "name": "Fouet G-Max",
+        "description": "Une attaque de type Plante que seul un Florizarre Gigamax peut utiliser. Inflige des dégâts à la cible pendant quatre tours."
+    },
+    "MOVE_G_MAX_VOLCALITH": {
+        "code": "MOVE_G_MAX_VOLCALITH",
+        "name": "Téphra G-Max",
+        "description": "Une attaque de type Roche que seul un Monthracite Gigamax peut utiliser. Pendant quatre tours, la cible continue de subir des dégâts."
+    },
+    "MOVE_G_MAX_VOLT_CRASH": {
+        "code": "MOVE_G_MAX_VOLT_CRASH",
+        "name": "Foudre G-Max",
+        "description": "Une attaque de type Électrik que seul un Pikachu Gigamax peut utiliser. Paralyse la cible."
+    },
+    "MOVE_G_MAX_WILDFIRE": {
+        "code": "MOVE_G_MAX_WILDFIRE",
+        "name": "Fournaise G-Max",
+        "description": "Une attaque de type Feu que seul un Dracaufeu Gigamax peut utiliser. Pendant quatre tours, la cible continue de subir des dégâts."
+    },
+    "MOVE_G_MAX_WIND_RAGE": {
+        "code": "MOVE_G_MAX_WIND_RAGE",
+        "name": "Rafale G-Max",
+        "description": "Une attaque de type Vol que seul un Corvaillus Gigamax peut utiliser. Permet de briser les barrières comme Protection et Mur Lumière."
+    },
+    "MOVE_VISE_GRIP": {
+        "code": "MOVE_VISE_GRIP",
+        "name": "Force Poigne",
+        "description": "L'ennemi est attrapé et compressé par les côtés."
     }
 }
