@@ -1127,6 +1127,12 @@
         "name": "Baie Enigma",
         "description": "Tenue, cette Baie restaure les PV du Pokémon s'il subit une attaque super efficace."
     },
+    "ITEM_ENIGMA_BERRY_E_READER": {
+        "id": 185,
+        "code": "ITEM_ENIGMA_BERRY_E_READER",
+        "name": "Baie Enigma",
+        "description": "Tenue, cette Baie restaure les PV du Pokémon s'il subit une attaque super efficace."
+    },
     "ITEM_MICLE_BERRY": {
         "id": 186,
         "code": "ITEM_MICLE_BERRY",
@@ -1259,9 +1265,21 @@
         "name": "Dent Océan",
         "description": "Objet à faire tenir à Coquiperl. Dent de couleur argent montant son Attaque Spéciale."
     },
+    "ITEM_DEEPSEATOOTH": {
+        "id": 203,
+        "code": "ITEM_DEEPSEATOOTH",
+        "name": "Dent Océan",
+        "description": "Objet à faire tenir à Coquiperl. Dent de couleur argent montant son Attaque Spéciale."
+    },
     "ITEM_DEEP_SEA_SCALE": {
         "id": 204,
         "code": "ITEM_DEEP_SEA_SCALE",
+        "name": "Écaille Océan",
+        "description": "Objet à faire tenir à Coquiperl. Écaille de couleur rose montant sa Défense Spéciale."
+    },
+    "ITEM_DEEPSEASCALE": {
+        "id": 204,
+        "code": "ITEM_DEEPSEASCALE",
         "name": "Écaille Océan",
         "description": "Objet à faire tenir à Coquiperl. Écaille de couleur rose montant sa Défense Spéciale."
     },
@@ -1275,7 +1293,7 @@
         "id": 2046,
         "code": "ITEM_LEADERS_CREST",
         "name": "Emblème du Général",
-        "description": ""
+        "description": "- - -"
     },
     "ITEM_SMOKE_BALL": {
         "id": 205,
@@ -5066,5 +5084,10 @@
         "code": "ITEM_TM_WATER_PULSE",
         "name": "CT03",
         "description": "Génère des ultra-sons qui rendent confus."
+    },
+    "ITEM_BERSERK_GENE": {
+        "code": "ITEM_BERSERK_GENE",
+        "name": "ADN Berzerk",
+        "description": "Booste l'attaque mais rend confus."
     }
 }

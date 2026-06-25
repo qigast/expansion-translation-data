@@ -1,9 +1,0 @@
-Missing French name for ITEM_BERSERK_GENE
-Missing French description for ITEM_BERSERK_GENE
-Missing French name for ITEM_DEEPSEASCALE
-Missing French description for ITEM_DEEPSEASCALE
-Missing French name for ITEM_DEEPSEATOOTH
-Missing French description for ITEM_DEEPSEATOOTH
-Missing French name for ITEM_ENIGMA_BERRY_E_READER
-Missing French description for ITEM_ENIGMA_BERRY_E_READER
-Missing French description for ITEM_LEADERS_CREST
