@@ -2649,7 +2649,7 @@
         "id": 5,
         "code": "ITEM_SAFARI_BALL",
         "name": "Safari Ball",
-        "description": "- - -"
+        "description": "Une Poké Ball spéciale anciennement utilisée au Parc Safari de Kanto et au Grand Marais de Sinnoh."
     },
     "ITEM_RARE_CANDY": {
         "id": 50,
@@ -3243,7 +3243,7 @@
         "id": 63,
         "code": "ITEM_POKE_DOLL",
         "name": "Poké Poupée",
-        "description": "- - -"
+        "description": "Une poupée qui attire les Pokémon. Permet de s'enfuir d'un combat contre un Pokémon sauvage."
     },
     "ITEM_RELIC_STATUE": {
         "id": 630,
