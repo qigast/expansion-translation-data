@@ -1413,13 +1413,13 @@
         "id": 308,
         "code": "ABILITY_PIERCING_DRILL",
         "name": "Transperceuse",
-        "description": ""
+        "description": "Le Pokémon ignore les effets de protection des adversaires."
     },
     "ABILITY_DRAGONIZE": {
         "id": 309,
         "code": "ABILITY_DRAGONIZE",
         "name": "Peau Draconique",
-        "description": ""
+        "description": "Les capacités de type Normal du Pokémon prennent le type Dragon et leur puissance est multipliée par 1,2."
     },
     "ABILITY_LIGHTNING_ROD": {
         "id": 31,
@@ -1431,13 +1431,13 @@
         "id": 310,
         "code": "ABILITY_MEGA_SOL",
         "name": "Méga-Soleil",
-        "description": ""
+        "description": "Le Pokémon peut utiliser ses capacités comme si le soleil brillait, même si ce n'est pas le cas."
     },
     "ABILITY_SPICY_SPRAY": {
         "id": 311,
         "code": "ABILITY_SPICY_SPRAY",
         "name": "Habanéruption",
-        "description": ""
+        "description": "Quand le Pokémon subit des dégâts d'une capacité, il brûle l'adversaire."
     },
     "ABILITY_SERENE_GRACE": {
         "id": 32,
