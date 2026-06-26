@@ -1,0 +1,50 @@
+{
+    ".*abilities.data.json": {
+        "name": {
+            "font": "FONT_NORMAL",
+            "column": 144,
+            "line": 1
+        },
+        "description": {
+            "font": "FONT_SMALL_NARROWER",
+            "column": 146,
+            "line": 4
+        }
+    },
+    ".*items.data.json": {
+        "name": {
+            "font": "FONT_NARROWER",
+            "column": 66,
+            "line": 1
+        },
+        "description": {
+            "font": "FONT_SMALL_NARROWER",
+            "column": 102,
+            "line": 6
+        }
+    },
+    ".*moves.data.json": {
+        "name": {
+            "font": "FONT_NARROWER",
+            "column": 59,
+            "line": 1
+        },
+        "description": {
+            "font": "FONT_SMALL_NARROWER",
+            "column": 152,
+            "line": 4
+        }
+    },
+    ".*species.data.json": {
+        "name": {
+            "font": "FONT_NARROWER",
+            "column": 49,
+            "line": 1
+        },
+        "description": {
+            "font": "FONT_NARROWER",
+            "column": 224,
+            "line": 4
+        }
+    }
+}
