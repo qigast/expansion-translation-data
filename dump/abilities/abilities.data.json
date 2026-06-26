@@ -993,7 +993,7 @@
         "id": 248,
         "code": "ABILITY_ICE_FACE",
         "name": "Tête de Gel",
-        "description": "Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon, mais sa destruction modifie son apparence. Le glaçon se reforme quand il grêle."
+        "description": "Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon. Le glaçon se reforme quand il grêle."
     },
     "ABILITY_POWER_SPOT": {
         "id": 249,
@@ -1029,7 +1029,7 @@
         "id": 253,
         "code": "ABILITY_PERISH_BODY",
         "name": "Corps Condamné",
-        "description": "Lorsque le Pokémon est directement touché par une attaque, l'assaillant et lui tomberont K.O. dans trois tours, à moins qu'ils ne soient remplacés entre temps."
+        "description": "Lorsque le Pokémon est directement touché par une attaque, l'assaillant et lui tomberont K.O. dans trois tours."
     },
     "ABILITY_WANDERING_SPIRIT": {
         "id": 254,
@@ -1149,7 +1149,7 @@
         "id": 271,
         "code": "ABILITY_ANGER_SHELL",
         "name": "Courroupace",
-        "description": "Le Pokémon enrage s'il a moins de la moitié de ses PV après avoir subi une attaque. Sa Déf. et sa Déf. Spé. baissent, et son Atq., son Atq. Spé. et sa Vit. augmentent."
+        "description": "Le Pokémon enrage s'il a moins de la moitié de ses PV après avoir subi une attaque. Sa Déf., Déf. Spé. baissent, et son Atq., Atq. Spé., Vit. augmentent."
     },
     "ABILITY_PURIFYING_SALT": {
         "id": 272,
@@ -1167,7 +1167,7 @@
         "id": 274,
         "code": "ABILITY_WIND_RIDER",
         "name": "Aéroporté",
-        "description": "L'Attaque du Pokémon augmente si un vent arrière souffle ou s'il est touché par une capacité faisant appel au vent. Dans ce dernier cas, il ne subit aucun dégât."
+        "description": "L'Attaque du Pokémon augmente si un vent arrière souffle ou s'il est touché par une capacité faisant appel au vent."
     },
     "ABILITY_GUARD_DOG": {
         "id": 275,
@@ -1329,7 +1329,7 @@
         "id": 299,
         "code": "ABILITY_MINDS_EYE",
         "name": "Œil Révélateur",
-        "description": "Le Pokémon ignore les changements d'Esquive des cibles et peut toucher les Pokémon Spectre avec des capacités Normal ou Combat. Sa Précision ne peut pas baisser."
+        "description": "Le Pokémon ignore les changements d'Esquive des cibles et peut toucher les Pokémon Spectre avec des capacités Normal ou Combat."
     },
     "ABILITY_SPEED_BOOST": {
         "id": 3,
@@ -1395,7 +1395,7 @@
         "id": 305,
         "code": "ABILITY_TERA_SHELL",
         "name": "Téra-Carapace",
-        "description": "Grâce à sa carapace qui renferme l'énergie de tous les types, les capacités subies par ce Pokémon quand ses PV sont au maximum ne sont pas très efficaces."
+        "description": "Grâce à sa carapace, les capacités subies par ce Pokémon quand ses PV sont au maximum ne sont pas très efficaces."
     },
     "ABILITY_TERAFORM_ZERO": {
         "id": 306,
