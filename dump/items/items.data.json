@@ -771,7 +771,7 @@
         "id": 1655,
         "code": "ITEM_DYNITE_ORE",
         "name": "Dynamaxium",
-        "description": "Un minerai mystérieux que l'on trouve dans le Grand Antre Dynamax. Vous pourriez avoir une bonne surprise en le donnant à un collectionneur de Couronneige."
+        "description": "Un minerai mystérieux que l'on trouve dans le Grand Antre Dynamax."
     },
     "ITEM_ABILITY_PATCH": {
         "id": 1657,
@@ -819,7 +819,7 @@
         "id": 1669,
         "code": "ITEM_TERA_ORB",
         "name": "Orbe Téracristal",
-        "description": "Une tablette en pierre imprégnée d'une puissance suprême. Lorsqu'elle est utilisée sur un certain Pokémon, celui-ci obtient les pouvoirs de n'importe quel type."
+        "description": "Lorsqu'elle est utilisée sur un certain Pokémon, celui-ci obtient les pouvoirs de n'importe quel type."
     },
     "ITEM_KEBIA_BERRY": {
         "id": 167,
@@ -842,19 +842,19 @@
     "ITEM_SCROLL_OF_DARKNESS": {
         "id": 1675,
         "code": "ITEM_SCROLL_OF_DARKNESS",
-        "name": "Rouleau des Ténèbres",
-        "description": "Un récit d'exploration du Cratère de Paldea signé par un certain Bruyer. Quelqu'un y a inscrit le nom « Olim » d'une écriture maladroite."
+        "name": "Rouleau Ténèbres",
+        "description": "Un récit d'exploration du Cratère de Paldea signé par un certain Bruyer. Quelqu'un y a inscrit le nom “ Olim ” d'une écriture maladroite."
     },
     "ITEM_SCROLL_OF_WATERS": {
         "id": 1676,
         "code": "ITEM_SCROLL_OF_WATERS",
         "name": "Rouleau de l'Eau",
-        "description": "Un récit d'exploration du Cratère de Paldea signé par un certain Bruyer. Quelqu'un y a inscrit le nom « Turum » d'une écriture maladroite."
+        "description": "Un récit d'exploration du Cratère de Paldea signé par un certain Bruyer. Quelqu'un y a inscrit le nom “ Turum ” d'une écriture maladroite."
     },
     "ITEM_MALICIOUS_ARMOR": {
         "id": 1677,
         "code": "ITEM_MALICIOUS_ARMOR",
-        "name": "Armure de la Rancune",
+        "name": "Armure Rancune",
         "description": "Un portefeuille oublié par Kombu, le Champion de l'Arène de Jarramanca. Vous devez vous rendre au marché de Porto Marinada pour le lui rendre."
     },
     "ITEM_NORMAL_TERA_SHARD": {
@@ -884,7 +884,7 @@
     "ITEM_ELECTRIC_TERA_SHARD": {
         "id": 1681,
         "code": "ITEM_ELECTRIC_TERA_SHARD",
-        "name": "Téra-Éclat Électrik",
+        "name": "Téra-Écl. Élect.",
         "description": "N/A"
     },
     "ITEM_GRASS_TERA_SHARD": {
@@ -932,7 +932,7 @@
     "ITEM_BUG_TERA_SHARD": {
         "id": 1689,
         "code": "ITEM_BUG_TERA_SHARD",
-        "name": "Téra-Éclat Insecte",
+        "name": "Téra-Écl. Insect.",
         "description": "N/A"
     },
     "ITEM_COBA_BERRY": {
@@ -950,7 +950,7 @@
     "ITEM_GHOST_TERA_SHARD": {
         "id": 1691,
         "code": "ITEM_GHOST_TERA_SHARD",
-        "name": "Téra-Éclat Spectre",
+        "name": "Téra-Écl. Spectr.",
         "description": "N/A"
     },
     "ITEM_DRAGON_TERA_SHARD": {
@@ -962,7 +962,7 @@
     "ITEM_DARK_TERA_SHARD": {
         "id": 1693,
         "code": "ITEM_DARK_TERA_SHARD",
-        "name": "Téra-Éclat Ténèbres",
+        "name": "Téra-Écl. Ténèbr.",
         "description": "N/A"
     },
     "ITEM_STEEL_TERA_SHARD": {
@@ -1286,7 +1286,7 @@
     "ITEM_AUSPICIOUS_ARMOR": {
         "id": 2045,
         "code": "ITEM_AUSPICIOUS_ARMOR",
-        "name": "Armure de la Fortune",
+        "name": "Armure Fortune",
         "description": "- - -"
     },
     "ITEM_LEADERS_CREST": {
@@ -1352,26 +1352,26 @@
     "ITEM_WELLSPRING_MASK": {
         "id": 2106,
         "code": "ITEM_WELLSPRING_MASK",
-        "name": "Masque du Puits",
-        "description": "Une nappe fournie par l'académie. Grâce aux dernières technologies textiles, elle est ignifugée et assez solide pour résister aux coups d'une Griffe Rasoir."
+        "name": "Masque Puits",
+        "description": "- - -"
     },
     "ITEM_HEARTHFLAME_MASK": {
         "id": 2107,
         "code": "ITEM_HEARTHFLAME_MASK",
-        "name": "Masque du Fourneau",
-        "description": "Une nappe fournie par l'académie. Grâce aux dernières technologies textiles, elle est ignifugée et assez solide pour résister aux coups d'une Griffe Rasoir."
+        "name": "Masque Fourneau",
+        "description": "- - -"
     },
     "ITEM_CORNERSTONE_MASK": {
         "id": 2108,
         "code": "ITEM_CORNERSTONE_MASK",
-        "name": "Masque de la Pierre",
-        "description": "Une tasse à pique-nique très légère et solide, destinée aux enfants. On peut les empiler facilement, ce qui les rend faciles à transporter."
+        "name": "Masque Pierre",
+        "description": "- - -"
     },
     "ITEM_SYRUPY_APPLE": {
         "id": 2109,
         "code": "ITEM_SYRUPY_APPLE",
         "name": "Pomme Nectar",
-        "description": "Une tasse fournie par l'académie pour les pique-niques. Le soin apporté à ses rebords la rend populaire parmi les élèves, mais aussi en dehors de l'école."
+        "description": "Le soin apporté à ses rebords la rend populaire parmi les élèves, mais aussi en dehors de l'école."
     },
     "ITEM_LEFTOVERS": {
         "id": 211,
@@ -1383,7 +1383,7 @@
         "id": 2110,
         "code": "ITEM_UNREMARKABLE_TEACUP",
         "name": "Bol Médiocre",
-        "description": "Une tasse fournie par l'académie pour les pique-niques. Le soin apporté à ses rebords la rend populaire parmi les élèves, mais aussi en dehors de l'école."
+        "description": "Le soin apporté à ses rebords la rend populaire parmi les élèves, mais aussi en dehors de l'école."
     },
     "ITEM_MASTERPIECE_TEACUP": {
         "id": 2111,
@@ -1395,7 +1395,7 @@
         "id": 2112,
         "code": "ITEM_HEALTH_MOCHI",
         "name": "Mochi Santé",
-        "description": "Une nappe pop art sur laquelle des visages de Pokémon flottent sur un fond bleu nuit. Un accessoire indispensable à tout fan de Pokémon Spectre qui se respecte."
+        "description": "- - -"
     },
     "ITEM_MUSCLE_MOCHI": {
         "id": 2113,
@@ -4458,7 +4458,7 @@
     "ITEM_GARCHOMPITE_Z": {
         "code": "ITEM_GARCHOMPITE_Z",
         "name": "Carchacrokite Z",
-        "description": "Une Baie Pêcha exceptionnelle au lustre particulier. Il faut des années d'entretien méticuleux avant qu'un arbre Pêcha en produise ne serait-ce qu'une seule."
+        "description": "Une variété de Méga-Gemme."
     },
     "ITEM_GENIUS_FEATHER": {
         "code": "ITEM_GENIUS_FEATHER",
@@ -4513,7 +4513,7 @@
     "ITEM_HEATRANITE": {
         "code": "ITEM_HEATRANITE",
         "name": "Heatranite",
-        "description": "Une carte permettant d'accéder à un plus vaste choix d'articles dans les boutiques chics et à davantage de coupes de cheveux dans les salons de coiffure."
+        "description": "Une variété de Méga-Gemme."
     },
     "ITEM_ICIUM_Z": {
         "code": "ITEM_ICIUM_Z",
@@ -4543,7 +4543,7 @@
     "ITEM_LUCARIONITE_Z": {
         "code": "ITEM_LUCARIONITE_Z",
         "name": "Lucarite Z",
-        "description": "Une nappe fournie par l'Institut Myrtille. Grâce aux dernières technologies textiles, elle est ignifugée et assez solide pour résister aux coups d'un Croc Rasoir."
+        "description": "Une variété de Méga-Gemme."
     },
     "ITEM_LUNALIUM_Z": {
         "code": "ITEM_LUNALIUM_Z",
@@ -4578,7 +4578,7 @@
     "ITEM_MEOWSTICITE": {
         "code": "ITEM_MEOWSTICITE",
         "name": "Mistigrixite",
-        "description": "Un appareil permettant de synchroniser ses pensées avec un Pokémon et de le guider dans ses mouvements. Ce prototype a une apparence encore rudimentaire."
+        "description": "Une variété de Méga-Gemme."
     },
     "ITEM_MEWNIUM_Z": {
         "code": "ITEM_MEWNIUM_Z",
@@ -4683,7 +4683,7 @@
     "ITEM_SCOVILLAINITE": {
         "code": "ITEM_SCOVILLAINITE",
         "name": "Scovilainite",
-        "description": "Un exemplaire du récit d'exploration de l'Abîme Zéro, rédigé par madame Bria. Elle y partage ses réflexions et décrit en détail les évènements de l'expédition."
+        "description": "Une variété de Méga-Gemme."
     },
     "ITEM_SCRAFTINITE": {
         "code": "ITEM_SCRAFTINITE",
@@ -4722,7 +4722,7 @@
     },
     "ITEM_STELLAR_TERA_SHARD": {
         "code": "ITEM_STELLAR_TERA_SHARD",
-        "name": "Téra-Éclat Stellaire",
+        "name": "Téra-Écl. Stellr.",
         "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des CT."
     },
     "ITEM_SUPERB_REMEDY": {
