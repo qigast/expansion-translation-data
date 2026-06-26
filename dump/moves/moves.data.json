@@ -680,7 +680,7 @@
     "MOVE_SANDSTORM": {
         "id": 201,
         "code": "MOVE_SANDSTORM",
-        "name": "Tempête de Sable",
+        "name": "Tempête Sable",
         "description": "Une tempête de sable de 5 tours qui blesse tous les Pokémon sauf les types Roche, Sol et Acier."
     },
     "MOVE_GIGA_DRAIN": {
@@ -914,7 +914,7 @@
     "MOVE_HIDDEN_POWER": {
         "id": 237,
         "code": "MOVE_HIDDEN_POWER",
-        "name": "Puissance Cachée",
+        "name": "Puiss. Cachée",
         "description": "Attaque dont le type dépend du Pokémon qui l'utilise."
     },
     "MOVE_CROSS_CHOP": {
@@ -1688,7 +1688,7 @@
     "MOVE_DOOM_DESIRE": {
         "id": 353,
         "code": "MOVE_DOOM_DESIRE",
-        "name": "Vœu Destructeur",
+        "name": "Vœu Destruct.",
         "description": "Le lanceur génère une sphère lumineuse qu'il projette sur l'ennemi 2 tours plus tard."
     },
     "MOVE_PSYCHO_BOOST": {
@@ -3392,7 +3392,7 @@
     "MOVE_NUZZLE": {
         "id": 609,
         "code": "MOVE_NUZZLE",
-        "name": "Frotte-Frimousse",
+        "name": "Frotte-Frimous.",
         "description": "Le lanceur attaque en frottant ses bajoues chargées d'électricité. Paralyse l'ennemi."
     },
     "MOVE_BUBBLE_BEAM": {
@@ -3440,13 +3440,13 @@
     "MOVE_LANDS_WRATH": {
         "id": 616,
         "code": "MOVE_LANDS_WRATH",
-        "name": "Force Chtonienne",
+        "name": "Force Chton.",
         "description": "Utilise la puissance du sol et la concentre sur l'ennemi pour infliger des dégâts."
     },
     "MOVE_LIGHT_OF_RUIN": {
         "id": 617,
         "code": "MOVE_LIGHT_OF_RUIN",
-        "name": "Lumière du Néant",
+        "name": "Lumière Néant",
         "description": "Utilise la puissance de la Fleur Éternelle pour lancer un formidable rayon d'énergie. Blesse aussi gravement le lanceur."
     },
     "MOVE_ORIGIN_PULSE": {
@@ -3482,25 +3482,25 @@
     "MOVE_BREAKNECK_BLITZ": {
         "id": 622,
         "code": "MOVE_BREAKNECK_BLITZ",
-        "name": "Turbo-Charge Bulldozer",
+        "name": "TurbChrg Bulldzr",
         "description": "Le Pokémon utilise la Force Z pour s'élancer à toute vitesse sur l'adversaire. La puissance varie selon celle de la capacité originale."
     },
     "MOVE_ALL_OUT_PUMMELING": {
         "id": 624,
         "code": "MOVE_ALL_OUT_PUMMELING",
-        "name": "Combo Hyper-Furie",
+        "name": "Combo HyprFurie",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_SUPERSONIC_SKYSTRIKE": {
         "id": 626,
         "code": "MOVE_SUPERSONIC_SKYSTRIKE",
-        "name": "Piqué Supersonique",
+        "name": "Piqué Supersonik",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_ACID_DOWNPOUR": {
         "id": 628,
         "code": "MOVE_ACID_DOWNPOUR",
-        "name": "Déluge Causti-Toxique",
+        "name": "Déluge Toxik",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_HYPER_BEAM": {
@@ -3512,13 +3512,13 @@
     "MOVE_TECTONIC_RAGE": {
         "id": 630,
         "code": "MOVE_TECTONIC_RAGE",
-        "name": "Éruption Géo-Sismique",
+        "name": "Érupt. GéoSismik",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_CONTINENTAL_CRUSH": {
         "id": 632,
         "code": "MOVE_CONTINENTAL_CRUSH",
-        "name": "Apocalypse Gigalithique",
+        "name": "Apocal. Gigalit.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_SAVAGE_SPIN_OUT": {
@@ -3530,7 +3530,7 @@
     "MOVE_NEVER_ENDING_NIGHTMARE": {
         "id": 636,
         "code": "MOVE_NEVER_ENDING_NIGHTMARE",
-        "name": "Appel des Ombres Éternelles",
+        "name": "Ombres Étern.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_CORKSCREW_CRASH": {
@@ -3548,31 +3548,31 @@
     "MOVE_INFERNO_OVERDRIVE": {
         "id": 640,
         "code": "MOVE_INFERNO_OVERDRIVE",
-        "name": "Pyro-Explosion Cataclysmique",
+        "name": "PyroExpl. Cata.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_HYDRO_VORTEX": {
         "id": 642,
         "code": "MOVE_HYDRO_VORTEX",
-        "name": "Super Tourbillon Abyssal",
+        "name": "Tourbi. Abyss.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_BLOOM_DOOM": {
         "id": 644,
         "code": "MOVE_BLOOM_DOOM",
-        "name": "Pétalexplosion Éblouissante",
+        "name": "Pétalexplosion",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_GIGAVOLT_HAVOC": {
         "id": 646,
         "code": "MOVE_GIGAVOLT_HAVOC",
-        "name": "Fulguro-Lance Gigavolt",
+        "name": "FulgroLnc GigaV",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_SHATTERED_PSYCHE": {
         "id": 648,
         "code": "MOVE_SHATTERED_PSYCHE",
-        "name": "Psycho-Pulvérisation EX",
+        "name": "PsychoPlvrstn",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_DRILL_PECK": {
@@ -3584,31 +3584,31 @@
     "MOVE_SUBZERO_SLAMMER": {
         "id": 650,
         "code": "MOVE_SUBZERO_SLAMMER",
-        "name": "Laser Cryogénique",
+        "name": "Laser Cryogén.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_DEVASTATING_DRAKE": {
         "id": 652,
         "code": "MOVE_DEVASTATING_DRAKE",
-        "name": "Chaos Draconique",
+        "name": "Chaos Draco.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_BLACK_HOLE_ECLIPSE": {
         "id": 654,
         "code": "MOVE_BLACK_HOLE_ECLIPSE",
-        "name": "Trou Noir des Ombres",
+        "name": "TrouNoirOmbr.",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_TWINKLE_TACKLE": {
         "id": 656,
         "code": "MOVE_TWINKLE_TACKLE",
-        "name": "Impact Choupinova",
+        "name": "Ipct Choupnva",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_CATASTROPIKA": {
         "id": 658,
         "code": "MOVE_CATASTROPIKA",
-        "name": "Pikachute Foudroyante",
+        "name": "Pkchute Foudr.",
         "description": "Pikachu utilise la Force Z pour concentrer toute son électricité avant de se jeter à toute vitesse sur l'adversaire."
     },
     "MOVE_SHORE_UP": {
@@ -3656,7 +3656,7 @@
     "MOVE_ICE_HAMMER": {
         "id": 665,
         "code": "MOVE_ICE_HAMMER",
-        "name": "Marteau de Glace",
+        "name": "Marteau Glace",
         "description": "Le lanceur donne un puissant coup de poing à l'ennemi. Réduit la Vitesse du lanceur."
     },
     "MOVE_FLORAL_HEALING": {
@@ -3800,7 +3800,7 @@
     "MOVE_CORE_ENFORCER": {
         "id": 687,
         "code": "MOVE_CORE_ENFORCER",
-        "name": "Sanction Suprême",
+        "name": "Sanct. Suprême",
         "description": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent."
     },
     "MOVE_TROP_KICK": {
@@ -3854,7 +3854,7 @@
     "MOVE_SINISTER_ARROW_RAID": {
         "id": 695,
         "code": "MOVE_SINISTER_ARROW_RAID",
-        "name": "Fureur des Plumes Spectrales",
+        "name": "FurPlumeSpect.",
         "description": "Archéduc utilise la Force Z pour créer un nuage de flèches qui transpercent la cible."
     },
     "MOVE_MALICIOUS_MOONSAULT": {
@@ -3866,19 +3866,19 @@
     "MOVE_OCEANIC_OPERETTA": {
         "id": 697,
         "code": "MOVE_OCEANIC_OPERETTA",
-        "name": "Symphonie des Ondines",
+        "name": "SymphoOndines",
         "description": "Oratoria utilise la Force Z pour rassembler une grande quantité d'eau et la projeter sur la cible à pleine puissance."
     },
     "MOVE_GUARDIAN_OF_ALOLA": {
         "id": 698,
         "code": "MOVE_GUARDIAN_OF_ALOLA",
-        "name": "Colère du Gardien d'Alola",
+        "name": "Colr. Gardien",
         "description": "Cette capacité ne peut pas être utilisée. Il est recommandé de l'oublier, même s'il sera impossible de se la remémorer une fois oubliée."
     },
     "MOVE_SOUL_STEALING_7_STAR_STRIKE": {
         "id": 699,
         "code": "MOVE_SOUL_STEALING_7_STAR_STRIKE",
-        "name": "Fauche-Âme des Sept Étoiles",
+        "name": "Fch-Âme 7 Étl.",
         "description": "Marshadow concentre toute la Force Z dans ses poings et ses pieds pour infliger un déluge de coups à la cible."
     },
     "MOVE_FIRE_PUNCH": {
@@ -3896,7 +3896,7 @@
     "MOVE_STOKED_SPARKSURFER": {
         "id": 700,
         "code": "MOVE_STOKED_SPARKSURFER",
-        "name": "Électro-Surf Survolté",
+        "name": "ÉlctrSurf SurV",
         "description": "Le Raichu de la région d'Alola utilise la Force Z pour frapper la cible et la paralyser."
     },
     "MOVE_PULVERIZING_PANCAKE": {
@@ -3914,7 +3914,7 @@
     "MOVE_GENESIS_SUPERNOVA": {
         "id": 703,
         "code": "MOVE_GENESIS_SUPERNOVA",
-        "name": "Supernova Originelle",
+        "name": "Suprnova Org.",
         "description": "Mew utilise la Force Z pour attaquer la cible. Le terrain devient un Champ Psychique."
     },
     "MOVE_SHELL_TRAP": {
@@ -4040,37 +4040,37 @@
     "MOVE_LIGHT_THAT_BURNS_THE_SKY": {
         "id": 723,
         "code": "MOVE_LIGHT_THAT_BURNS_THE_SKY",
-        "name": "Apocalypsis Luminis",
+        "name": "Apclpsis Lumins",
         "description": "Compare l'Attaque et l'Attaque Spéciale, et utilise celle qui infligera le plus de dégâts. Ignore le talent de la cible."
     },
     "MOVE_SEARING_SUNRAZE_SMASH": {
         "id": 724,
         "code": "MOVE_SEARING_SUNRAZE_SMASH",
-        "name": "Hélio-Choc Dévastateur",
+        "name": "HélioChoc Dévas.",
         "description": "Baigné dans la Force Z, Solgaleo attaque en déchaînant toute sa puissance. Ignore le talent de la cible."
     },
     "MOVE_MENACING_MOONRAZE_MAELSTROM": {
         "id": 725,
         "code": "MOVE_MENACING_MOONRAZE_MAELSTROM",
-        "name": "Rayons Séléno-Explosifs",
+        "name": "Rayons SélénoEX",
         "description": "Baigné dans la Force Z, Lunala attaque en déchaînant toute sa puissance. Ignore le talent de la cible."
     },
     "MOVE_LETS_SNUGGLE_FOREVER": {
         "id": 726,
         "code": "MOVE_LETS_SNUGGLE_FOREVER",
-        "name": "Patati-Patattrape",
+        "name": "Patati-Pattrape",
         "description": "Mimiqui concentre toute la Force Z dans son corps, et attaque dans le plus grand fracas !"
     },
     "MOVE_SPLINTERED_STORMSHARDS": {
         "id": 727,
         "code": "MOVE_SPLINTERED_STORMSHARDS",
-        "name": "Hurlement des Roches-Lames",
+        "name": "Hurlmt RchLames",
         "description": "Lougaroc utilise la Force Z pour attaquer la cible de toutes ses forces. Efface aussi tout Champ existant."
     },
     "MOVE_CLANGOROUS_SOULBLAZE": {
         "id": 728,
         "code": "MOVE_CLANGOROUS_SOULBLAZE",
-        "name": "Dracacophonie Flamboyante",
+        "name": "Dracacoph. FL",
         "description": "Ékaïser utilise la Force Z pour frapper l'ennemi de toutes ses forces. Augmente aussi ses stats."
     },
     "MOVE_ZIPPY_ZAP": {
@@ -4491,7 +4491,7 @@
         "id": 792,
         "code": "MOVE_OBSTRUCT",
         "name": "Blocage",
-        "description": "Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite. Baisse beaucoup la Défense de l'assaillant s'il utilise une attaque directe."
+        "description": "Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite."
     },
     "MOVE_FALSE_SURRENDER": {
         "id": 793,
@@ -4521,7 +4521,7 @@
         "id": 797,
         "code": "MOVE_EXPANDING_FORCE",
         "name": "Vaste Pouvoir",
-        "description": "Le lanceur attaque la cible avec ses pouvoirs psychiques. Si un Champ Psychique est actif, la puissance de cette capacité augmente et elle touche tous les ennemis."
+        "description": "Le lanceur attaque la cible avec ses pouvoirs psychiques."
     },
     "MOVE_STEEL_ROLLER": {
         "id": 798,
@@ -4659,12 +4659,12 @@
         "id": 817,
         "code": "MOVE_WICKED_BLOW",
         "name": "Poing Obscur",
-        "description": "Le lanceur assène un coup puissant à l'ennemi. Cette technique qui inflige toujours un coup critique est réservée à ceux qui maîtrisent la puissance des Ténèbres."
+        "description": "Le lanceur assène un coup puissant à l'ennemi. Cette technique est réservée à ceux qui maîtrisent la puissance des Ténèbres."
     },
     "MOVE_SURGING_STRIKES": {
         "id": 818,
         "code": "MOVE_SURGING_STRIKES",
-        "name": "Torrent de Coups",
+        "name": "Torrent Coups",
         "description": "Le lanceur assène trois coups fluides à l'ennemi. Cette technique qui inflige toujours un coup critique est réservée à ceux qui maîtrisent la puissance de l'Eau."
     },
     "MOVE_THUNDER_CAGE": {
@@ -4724,7 +4724,7 @@
     "MOVE_DIRE_CLAW": {
         "id": 827,
         "code": "MOVE_DIRE_CLAW",
-        "name": "Griffes Funestes",
+        "name": "Griff. Funestes",
         "description": "Le lanceur attaque avec des griffes destructrices en visant les points faibles. La cible peut aussi être empoisonnée, paralysée, ou endormie."
     },
     "MOVE_PSYSHIELD_BASH": {
@@ -4754,7 +4754,7 @@
     "MOVE_SPRINGTIDE_STORM": {
         "id": 831,
         "code": "MOVE_SPRINGTIDE_STORM",
-        "name": "Typhon Passionné",
+        "name": "Typhon Passion.",
         "description": "Le lanceur déclenche un violent typhon de haine et d'amour qui s'abat sur la cible. Peut baisser l'Attaque de celle-ci."
     },
     "MOVE_MYSTICAL_POWER": {
@@ -4820,7 +4820,7 @@
     "MOVE_BITTER_MALICE": {
         "id": 841,
         "code": "MOVE_BITTER_MALICE",
-        "name": "Cœur de Rancœur",
+        "name": "Cœur Rancœur",
         "description": "Une rancœur glaciale frappe la cible et baisse son Attaque."
     },
     "MOVE_SHELTER": {
@@ -4856,13 +4856,13 @@
     "MOVE_WILDBOLT_STORM": {
         "id": 847,
         "code": "MOVE_WILDBOLT_STORM",
-        "name": "Typhon Fulgurant",
+        "name": "Typhon Fulgrnt",
         "description": "Le lanceur déclenche un violent typhon orageux dont les rafales et la foudre frappent l'ennemi. Peut aussi paralyser la cible."
     },
     "MOVE_SANDSEAR_STORM": {
         "id": 848,
         "code": "MOVE_SANDSEAR_STORM",
-        "name": "Typhon Pyrosable",
+        "name": "Typhon Pyrsble",
         "description": "Le lanceur déclenche un violent typhon mêlé à du sable ardent qui s'abat sur l'ennemi. Brûle la cible."
     },
     "MOVE_LUNAR_BLESSING": {
@@ -4887,13 +4887,13 @@
         "id": 851,
         "code": "MOVE_TERA_BLAST",
         "name": "Téra Explosion",
-        "description": "Si le lanceur est Téracristallisé, il libère l'énergie de son Type Téracristal. Cette capacité inflige des dégâts en utilisant l'Attaque ou l'Attaque Spéciale du lanceur, selon la statistique la plus élevée."
+        "description": "Le lanceur libère l'énergie de son Type Téracristal. Cette capacité inflige des dégâts en utilisant la statistique la plus élevée."
     },
     "MOVE_SILK_TRAP": {
         "id": 852,
         "code": "MOVE_SILK_TRAP",
         "name": "Piège de Fil",
-        "description": "Le lanceur déploie un piège de fil pour se protéger contre les attaques, et si un assaillant utilise une attaque directe contre lui, la Vitesse de l'assaillant baisse."
+        "description": "Le lanceur déploie un piège de fil pour se protéger contre les attaques."
     },
     "MOVE_AXE_KICK": {
         "id": 853,
@@ -4904,7 +4904,7 @@
     "MOVE_LAST_RESPECTS": {
         "id": 854,
         "code": "MOVE_LAST_RESPECTS",
-        "name": "Hommage Posthume",
+        "name": "Hommg. Posthume",
         "description": "Le lanceur attaque pour venger ses alliés. Plus le nombre de Pokémon alliés mis K.O. est élevé, plus la puissance de cette capacité augmente."
     },
     "MOVE_LUMINA_CRASH": {
@@ -4917,7 +4917,7 @@
         "id": 856,
         "code": "MOVE_ORDER_UP",
         "name": "Plat du Jour",
-        "description": "Le lanceur attaque avec grâce et élégance. Si le lanceur a un Nigirigon dans sa bouche, cette capacité augmente une des statistiques du lanceur selon la forme du Nigirigon."
+        "description": "Le lanceur attaque avec grâce et élégance. Si le lanceur a un Nigirigon dans sa bouche, cette capacité augmente une de ses statistiques."
     },
     "MOVE_JET_PUNCH": {
         "id": 857,
@@ -4935,7 +4935,7 @@
         "id": 859,
         "code": "MOVE_SPIN_OUT",
         "name": "Dérapage",
-        "description": "Le lanceur met tout son poids sur ses pattes et effectue de violentes rotations, ce qui inflige des dégâts à la cible, mais baisse beaucoup la Vitesse du lanceur."
+        "description": "Le lanceur met tout son poids sur ses pattes et effectue de violentes rotations, mais sa Vitesse baisse beaucoup."
     },
     "MOVE_THUNDER_WAVE": {
         "id": 86,
@@ -4959,7 +4959,7 @@
         "id": 862,
         "code": "MOVE_GLAIVE_RUSH",
         "name": "Charge Glaive",
-        "description": "Le lanceur se jette dans une charge inconsciente sur la cible. Une fois cette capacité utilisée, toute attaque sur le lanceur inflige le double de dégâts et n'échoue jamais."
+        "description": "Le lanceur se jette dans une charge inconsciente sur la cible."
     },
     "MOVE_REVIVAL_BLESSING": {
         "id": 863,
@@ -5018,8 +5018,8 @@
     "MOVE_TORCH_SONG": {
         "id": 871,
         "code": "MOVE_TORCH_SONG",
-        "name": "Chant Flamboyant",
-        "description": "Le lanceur carbonise la cible en projetant sur elle de vives flammes créées par un chant. Cette capacité augmente l'Attaque Spéciale du lanceur."
+        "name": "Chant Flamboy.",
+        "description": "Le lanceur carbonise la cible en projetant sur elle de vives flammes créées par un chant."
     },
     "MOVE_AQUA_STEP": {
         "id": 872,
@@ -5031,7 +5031,7 @@
         "id": 873,
         "code": "MOVE_RAGING_BULL",
         "name": "Taurogne",
-        "description": "Le lanceur effectue un plaquage comme un taureau enragé. Le type de cette capacité dépend de la forme du lanceur. Peut aussi briser les barrières comme Mur Lumière et Protection."
+        "description": "Le lanceur effectue un plaquage comme un taureau enragé. Le type de cette capacité dépend de la forme du lanceur."
     },
     "MOVE_MAKE_IT_RAIN": {
         "id": 874,
@@ -5049,7 +5049,7 @@
         "id": 876,
         "code": "MOVE_HYDRO_STEAM",
         "name": "Hydrovapeur",
-        "description": "Le lanceur asperge la cible avec un puissant jet d'eau bouillante. Quand le soleil brille, la puissance de cette capacité augmente de 50 % au lieu de baisser."
+        "description": "Le lanceur asperge la cible avec un puissant jet d'eau bouillante."
     },
     "MOVE_RUINATION": {
         "id": 877,
@@ -5067,7 +5067,7 @@
         "id": 879,
         "code": "MOVE_ELECTRO_DRIFT",
         "name": "Turbo Volt",
-        "description": "Le lanceur change de forme et fonce sur la cible en la perforant d'électricité futuriste. Si la capacité est super efficace, sa puissance augmente encore plus."
+        "description": "Le lanceur change de forme et fonce sur la cible en la perforant d'électricité futuriste."
     },
     "MOVE_ROCK_THROW": {
         "id": 88,
@@ -5085,13 +5085,13 @@
         "id": 881,
         "code": "MOVE_CHILLY_RECEPTION",
         "name": "Neigeux de Mots",
-        "description": "Le lanceur fait un si mauvais jeu de mots qu'il jette un froid et échange sa place avec un Pokémon de l'équipe prêt à combattre. La neige tombe pendant cinq tours."
+        "description": "Le lanceur fait un si mauvais jeu de mots qu'il jette un froid et échange sa place avec un Pokémon de l'équipe prêt à combattre."
     },
     "MOVE_TIDY_UP": {
         "id": 882,
         "code": "MOVE_TIDY_UP",
         "name": "Grand Nettoyage",
-        "description": "Le lanceur fait le ménage sur le terrain, ce qui annule les effets de Picots, Piège de Roc, Toile Gluante, Pics Toxik, et Clonage. Augmente l'Attaque et la Vitesse du lanceur."
+        "description": "Le lanceur fait le ménage sur le terrain, ce qui annule les effets de Picots, Piège de Roc, Toile Gluante, Pics Toxik, et Clonage."
     },
     "MOVE_SNOWSCAPE": {
         "id": 883,
@@ -5151,7 +5151,7 @@
         "id": 891,
         "code": "MOVE_BITTER_BLADE",
         "name": "Lame en Peine",
-        "description": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses épées et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur."
+        "description": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses épées et tranche la cible."
     },
     "MOVE_DOUBLE_SHOCK": {
         "id": 892,
@@ -5241,19 +5241,19 @@
         "id": 904,
         "code": "MOVE_IVY_CUDGEL",
         "name": "Massue Liane",
-        "description": "Le lanceur frappe avec un gourdin enveloppé de lierre. Le type de cette capacité change selon le masque porté par le lanceur, et a un taux de critiques élevé."
+        "description": "Le lanceur frappe avec un gourdin enveloppé de lierre. Le type de cette capacité change selon le masque porté par le lanceur."
     },
     "MOVE_ELECTRO_SHOT": {
         "id": 905,
         "code": "MOVE_ELECTRO_SHOT",
         "name": "Fulgurayon",
-        "description": "Le lanceur absorbe de l'électricité au premier tour, ce qui augmente son Attaque Spéciale, et envoie une puissante décharge au second. S'il pleut, il l'envoie au premier tour."
+        "description": "Le lanceur absorbe de l'électricité au premier tour, ce qui augmente son Attaque Spéciale, et envoie une puissante décharge au second."
     },
     "MOVE_TERA_STARSTORM": {
         "id": 906,
         "code": "MOVE_TERA_STARSTORM",
         "name": "Pluie Térastrale",
-        "description": "Le lanceur bombarde la cible afin de l'éliminer grâce au pouvoir des cristaux. Si le lanceur est Terapagos sous sa Forme Stellaire, la capacité touche tous les ennemis."
+        "description": "Le lanceur bombarde la cible afin de l'éliminer grâce au pouvoir des cristaux."
     },
     "MOVE_FICKLE_BEAM": {
         "id": 907,
@@ -5288,13 +5288,13 @@
     "MOVE_TACHYON_CUTTER": {
         "id": 911,
         "code": "MOVE_TACHYON_CUTTER",
-        "name": "Lame Tachyonique",
+        "name": "Lame Tachyonik",
         "description": "Le lanceur concentre des particules élémentaires pour créer une lame qui inflige des dégâts à la cible deux fois d'affilée. N'échoue jamais."
     },
     "MOVE_HARD_PRESS": {
         "id": 912,
         "code": "MOVE_HARD_PRESS",
-        "name": "Pression Extrême",
+        "name": "Pression Xtrm",
         "description": "Le lanceur écrase la cible avec ses bras ou ses pinces. Plus il reste de PV à la cible, plus la puissance de la capacité augmente."
     },
     "MOVE_DRAGON_CHEER": {
@@ -5331,7 +5331,7 @@
         "id": 918,
         "code": "MOVE_UPPER_HAND",
         "name": "Prio-Parade",
-        "description": "Le lanceur réagit instinctivement au moindre mouvement et donne un coup de paume qui apeure la cible. Échoue si cette dernière n'a pas utilisé une attaque prioritaire."
+        "description": "Le lanceur réagit instinctivement au moindre mouvement et donne un coup de paume qui apeure la cible."
     },
     "MOVE_MALIGNANT_CHAIN": {
         "id": 919,
@@ -5399,7 +5399,7 @@
     },
     "MOVE_G_MAX_CENTIFERNO": {
         "code": "MOVE_G_MAX_CENTIFERNO",
-        "name": "Combustion G-Max",
+        "name": "Combust. G-Max",
         "description": "Une attaque de type Feu que seul un Scolocendre Gigamax peut utiliser. Emprisonne la cible dans un tourbillon de flammes qui dure de quatre à cinq tours."
     },
     "MOVE_G_MAX_CHI_STRIKE": {
@@ -5419,7 +5419,7 @@
     },
     "MOVE_G_MAX_DRUM_SOLO": {
         "code": "MOVE_G_MAX_DRUM_SOLO",
-        "name": "Percussion G-Max",
+        "name": "Percu. G-Max",
         "description": "Une attaque de type Plante que seul un Gorythmic Gigamax peut utiliser. Ignore le talent de la cible."
     },
     "MOVE_G_MAX_FINALE": {
