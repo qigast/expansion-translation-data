@@ -120,7 +120,6 @@ static const u8 sText_TerrainReturnedToNormal[] = _("Le terrain revient à la no
 
 const u8 *const gBattleStringsTable[STRINGID_COUNT] =
 {
-    [STRINGID_TRAINER1LOSETEXT]                     = COMPOUND_STRING("{B_TRAINER1_LOSE_TEXT}"),
     [STRINGID_PKMNGAINEDEXP]                        = COMPOUND_STRING("{B_BUFF1} a gagné{B_BUFF2} {B_BUFF3} points EXP.!"),
     [STRINGID_PKMNGREWTOLV]                         = COMPOUND_STRING("{B_BUFF1} monte au\nN. {B_BUFF2}!{WAIT_SE}"),
     [STRINGID_PKMNLEARNEDMOVE]                      = COMPOUND_STRING("{B_BUFF1} apprend\n{B_BUFF2}!{WAIT_SE}"),
@@ -438,7 +437,6 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNOBTAINEDXYOBTAINEDZ]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} obtient {B_BUFF1}.{B_DEF_NAME_WITH_PREFIX} obtient {B_BUFF2}."),
     [STRINGID_BUTNOEFFECT]                          = COMPOUND_STRING("Mais ça n'a aucun effet!"),
     [STRINGID_TWOENEMIESDEFEATED]                   = sText_TwoInGameTrainersDefeated,
-    [STRINGID_TRAINER2LOSETEXT]                     = COMPOUND_STRING("{B_TRAINER2_LOSE_TEXT}"),
     [STRINGID_PKMNINCAPABLEOFPOWER]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} n'arrive pas à se motiver!"),
     [STRINGID_GLINTAPPEARSINEYE]                    = COMPOUND_STRING("Une lueur apparaît dans les yeux de {B_SCR_NAME_WITH_PREFIX2}!"),
     [STRINGID_PKMNGETTINGINTOPOSITION]              = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} se prépare à donner le meilleur de lui-même!"),
