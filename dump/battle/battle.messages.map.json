@@ -1,0 +1,19 @@
+{
+    "drastically": "énormément",
+    "sharply": "beaucoup",
+    "the opposing team": "l'équipe ennemie",
+    "The opposing team": "L'équipe ennemie",
+    "your team": "votre équipe",
+    "Your team": "Votre équipe",
+    "The wild (.+)": "\\1 sauvage",
+    "The opposing (.+)": "\\1 ennemi",
+    "the opposing (.+)": "\\1 ennemi",
+    "HP": "PV",
+    "Attack": "Attaque",
+    "Defense": "Défense",
+    "Speed": "Vitesse",
+    "Sp. Atk": "Atq Spé",
+    "Sp. Def": "Déf Spé",
+    "accuracy": "précision",
+    "evasiveness": "esquive"
+}
