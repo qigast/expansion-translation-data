@@ -53,7 +53,7 @@
         "code": "SPECIES_TING_LU",
         "name": "Dinglu",
         "category": "Fléau",
-        "description": "Il s'agirait d'« Ailes-Royales », une créature qui, d'après un vieux récit d'exploration, aurait fendu la terre par la force de ses poings."
+        "description": "Il s'agirait d'“ Ailes-Royales ”, une créature qui, d'après un vieux récit d'exploration, aurait fendu la terre par la force de ses poings."
     },
     "SPECIES_CHI_YU": {
         "id": 1004,
@@ -74,7 +74,7 @@
         "code": "SPECIES_IRON_VALIANT",
         "name": "Garde-de-Fer",
         "category": "Paradoxe",
-        "description": "Ce Pokémon manipule des flammes à 3 000 °C. Il nage tranquillement dans une mer de magma qu'il a créée en faisant fondre de la roche et du gravier."
+        "description": "Ce Pokémon manipule des flammes à 3 000 ºC. Il nage tranquillement dans une mer de magma qu'il a créée en faisant fondre de la roche et du gravier."
     },
     "SPECIES_KORAIDON": {
         "id": 1007,
@@ -571,7 +571,7 @@
         "code": "SPECIES_MAGMAR",
         "name": "Magmar",
         "category": "Crache-Feu",
-        "description": "On trouve ce Pokémon près des bouches de volcans. Son corps incandescent atteint 1 200 °C."
+        "description": "On trouve ce Pokémon près des bouches de volcans. Son corps incandescent atteint 1 200 ºC."
     },
     "SPECIES_PINSIR": {
         "id": 127,
@@ -704,7 +704,7 @@
         "code": "SPECIES_FLAREON",
         "name": "Pyroli",
         "category": "Flamme",
-        "description": "Son corps contient une glande enflammée. Sa température monte à 900 °C avant le combat."
+        "description": "Son corps contient une glande enflammée. Sa température monte à 900 ºC avant le combat."
     },
     "SPECIES_PORYGON": {
         "id": 137,
@@ -1257,7 +1257,7 @@
         "code": "SPECIES_YANMA",
         "name": "Yanma",
         "category": "Translaile",
-        "description": "Il voit à 360° sans avoir à tourner la tête. Il ne loupe jamais une proie, même dans son dos."
+        "description": "Il voit à 360º sans avoir à tourner la tête. Il ne loupe jamais une proie, même dans son dos."
     },
     "SPECIES_WOOPER": {
         "id": 194,
@@ -1901,7 +1901,7 @@
         "code": "SPECIES_MAGBY",
         "name": "Magby",
         "category": "Charbon",
-        "description": "Son sang est chaud comme du magma et la température de son corps peut atteindre 600 °C."
+        "description": "Son sang est chaud comme du magma et la température de son corps peut atteindre 600 ºC."
     },
     "SPECIES_MILTANK": {
         "id": 241,
@@ -2146,7 +2146,7 @@
         "code": "SPECIES_TORCHIC",
         "name": "Poussifeu",
         "category": "Poussin",
-        "description": "Ses câlins réchauffent car il renferme une fournaise. Il envoie des boules de feu à 1 000 °C."
+        "description": "Ses câlins réchauffent car il renferme une fournaise. Il envoie des boules de feu à 1 000 ºC."
     },
     "SPECIES_COMBUSKEN": {
         "id": 256,
@@ -3322,7 +3322,7 @@
         "code": "SPECIES_REGICE",
         "name": "Regice",
         "category": "Iceberg",
-        "description": "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C."
+        "description": "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 ºC."
     },
     "SPECIES_REGISTEEL": {
         "id": 379,
@@ -4190,7 +4190,7 @@
         "code": "SPECIES_MAGMORTAR",
         "name": "Maganon",
         "category": "Explosion",
-        "description": "Quand il lance des boules de feu à plus de 2 000 °C, son corps est comme chauffé à blanc."
+        "description": "Quand il lance des boules de feu à plus de 2 000 ºC, son corps est comme chauffé à blanc."
     },
     "SPECIES_TOGEKISS": {
         "id": 468,
@@ -4281,14 +4281,14 @@
         "code": "SPECIES_FROSLASS",
         "name": "Momartik",
         "category": "Enneigement",
-        "description": "Momartik gèle ses ennemis grâce à son souffle à -50 °C. Ça ne se voit pas, mais son corps est creux."
+        "description": "Momartik gèle ses ennemis grâce à son souffle à -50 ºC. Ça ne se voit pas, mais son corps est creux."
     },
     "SPECIES_FROSLASS_MEGA": {
         "id": 478,
         "code": "SPECIES_FROSLASS_MEGA",
         "name": "Momartik",
         "category": "Enneigement",
-        "description": "Momartik gèle ses ennemis grâce à son souffle à -50 °C. Ça ne se voit pas, mais son corps est creux."
+        "description": "Momartik gèle ses ennemis grâce à son souffle à -50 ºC. Ça ne se voit pas, mais son corps est creux."
     },
     "SPECIES_ROTOM": {
         "id": 479,
@@ -4792,7 +4792,7 @@
         "code": "SPECIES_PANSEAR",
         "name": "Flamajou",
         "category": "Brûlant",
-        "description": "Il vit dans les cratères des volcans. L'intérieur de la mèche qu'il a sur la tête peut atteindre 300 °C."
+        "description": "Il vit dans les cratères des volcans. L'intérieur de la mèche qu'il a sur la tête peut atteindre 300 ºC."
     },
     "SPECIES_SIMISEAR": {
         "id": 514,
@@ -5177,42 +5177,42 @@
         "code": "SPECIES_DARUMAKA",
         "name": "Darumarond",
         "category": "Daruma",
-        "description": "Quand il dort, ses pattes se rétractent et les flammes qui brûlent à 600 °C dans son corps s'apaisent."
+        "description": "Quand il dort, ses pattes se rétractent et les flammes qui brûlent à 600 ºC dans son corps s'apaisent."
     },
     "SPECIES_DARUMAKA_GALAR": {
         "id": 554,
         "code": "SPECIES_DARUMAKA_GALAR",
         "name": "Darumarond",
         "category": "Daruma",
-        "description": "Quand il dort, ses pattes se rétractent et les flammes qui brûlent à 600 °C dans son corps s'apaisent."
+        "description": "Quand il dort, ses pattes se rétractent et les flammes qui brûlent à 600 ºC dans son corps s'apaisent."
     },
     "SPECIES_DARMANITAN_GALAR_STANDARD": {
         "id": 555,
         "code": "SPECIES_DARMANITAN_GALAR_STANDARD",
         "name": "Darumacho",
         "category": "Enflammé",
-        "description": "Il entretient des flammes à 1 400 °C dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
+        "description": "Il entretient des flammes à 1 400 ºC dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
     },
     "SPECIES_DARMANITAN_GALAR_ZEN": {
         "id": 555,
         "code": "SPECIES_DARMANITAN_GALAR_ZEN",
         "name": "Darumacho",
         "category": "Enflammé",
-        "description": "Il entretient des flammes à 1 400 °C dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
+        "description": "Il entretient des flammes à 1 400 ºC dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
     },
     "SPECIES_DARMANITAN_STANDARD": {
         "id": 555,
         "code": "SPECIES_DARMANITAN_STANDARD",
         "name": "Darumacho",
         "category": "Enflammé",
-        "description": "Il entretient des flammes à 1 400 °C dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
+        "description": "Il entretient des flammes à 1 400 ºC dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
     },
     "SPECIES_DARMANITAN_ZEN": {
         "id": 555,
         "code": "SPECIES_DARMANITAN_ZEN",
         "name": "Darumacho",
         "category": "Enflammé",
-        "description": "Il entretient des flammes à 1 400 °C dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
+        "description": "Il entretient des flammes à 1 400 ºC dans son corps. De quoi détruire un camion-benne d'un coup de poing!"
     },
     "SPECIES_MARACTUS": {
         "id": 556,
@@ -5464,7 +5464,7 @@
         "code": "SPECIES_VANILLITE",
         "name": "Sorbébé",
         "category": "Poudreuse",
-        "description": "Il exhale une haleine à -50 °C. Il fabrique des cristaux de neige et fait neiger autour de lui."
+        "description": "Il exhale une haleine à -50 ºC. Il fabrique des cristaux de neige et fait neiger autour de lui."
     },
     "SPECIES_VANILLISH": {
         "id": 583,
@@ -7396,7 +7396,7 @@
         "code": "SPECIES_BERGMITE",
         "name": "Grelaçon",
         "category": "Glaçon",
-        "description": "Grâce à son souffle glacé à - 100 °C, il peut geler l'humidité dans l'air et se façonner une carapace de glace."
+        "description": "Grâce à son souffle glacé à - 100 ºC, il peut geler l'humidité dans l'air et se façonner une carapace de glace."
     },
     "SPECIES_AVALUGG": {
         "id": 713,
@@ -8054,7 +8054,7 @@
         "code": "SPECIES_PALOSSAND",
         "name": "Trépassable",
         "category": "Châtod'Sable",
-        "description": "On l'appelle aussi le « cauchemar des plages ». Il contrôle le sable pour ensevelir ses proies et aspirer leur âme."
+        "description": "On l'appelle aussi le “ cauchemar des plages ”. Il contrôle le sable pour ensevelir ses proies et aspirer leur âme."
     },
     "SPECIES_PYUKUMUKU": {
         "id": 771,
@@ -8530,14 +8530,14 @@
         "code": "SPECIES_SOLGALEO",
         "name": "Solgaleo",
         "category": "Halo Solaire",
-        "description": "Des documents extrêmement anciens le décrivent comme « celui qui dévore le soleil »."
+        "description": "Des documents extrêmement anciens le décrivent comme “ celui qui dévore le soleil ”."
     },
     "SPECIES_LUNALA": {
         "id": 792,
         "code": "SPECIES_LUNALA",
         "name": "Lunala",
         "category": "Halo Lunaire",
-        "description": "Des documents extrêmement anciens le décrivent comme « celui qui invite la lune »."
+        "description": "Des documents extrêmement anciens le décrivent comme “ celui qui invite la lune ”."
     },
     "SPECIES_NIHILEGO": {
         "id": 793,
@@ -9013,21 +9013,21 @@
         "code": "SPECIES_CARKOL",
         "name": "Wagomine",
         "category": "Charbon",
-        "description": "Il peut faire tourner ses pattes très vite pour se déplacer à une vitesse de 30 km/h. Il peut aussi souffler des flammes à 1 000 °C."
+        "description": "Il peut faire tourner ses pattes très vite pour se déplacer à une vitesse de 30 km/h. Il peut aussi souffler des flammes à 1 000 ºC."
     },
     "SPECIES_COALOSSAL": {
         "id": 839,
         "code": "SPECIES_COALOSSAL",
         "name": "Monthracite",
         "category": "Charbon",
-        "description": "Il est d'une nature paisible, mais si les humains tentent de piller ses mines, il enrage et brûle tout avec des flammes à 1 500 °C."
+        "description": "Il est d'une nature paisible, mais si les humains tentent de piller ses mines, il enrage et brûle tout avec des flammes à 1 500 ºC."
     },
     "SPECIES_COALOSSAL_GMAX": {
         "id": 839,
         "code": "SPECIES_COALOSSAL_GMAX",
         "name": "Monthracite",
         "category": "Charbon",
-        "description": "Il est d'une nature paisible, mais si les humains tentent de piller ses mines, il enrage et brûle tout avec des flammes à 1 500 °C."
+        "description": "Il est d'une nature paisible, mais si les humains tentent de piller ses mines, il enrage et brûle tout avec des flammes à 1 500 ºC."
     },
     "SPECIES_DODUO": {
         "id": 84,
@@ -9832,7 +9832,7 @@
         "code": "SPECIES_FROSMOTH",
         "name": "Beldeneige",
         "category": "Mite Givre",
-        "description": "La température de ses ailes est de - 180 °C. Quand il vole, ses écailles gelées tombent sur le paysage comme des flocons de neige."
+        "description": "La température de ses ailes est de - 180 ºC. Quand il vole, ses écailles gelées tombent sur le paysage comme des flocons de neige."
     },
     "SPECIES_STONJOURNER": {
         "id": 874,
@@ -10000,14 +10000,14 @@
         "code": "SPECIES_ZACIAN_CROWNED",
         "name": "Zacian",
         "category": "Valeureux",
-        "description": "Également surnommé « héros légendaire », ce Pokémon absorbe du métal et se change en arme pour se battre."
+        "description": "Également surnommé “ héros légendaire ”, ce Pokémon absorbe du métal et se change en arme pour se battre."
     },
     "SPECIES_ZACIAN_HERO": {
         "id": 888,
         "code": "SPECIES_ZACIAN_HERO",
         "name": "Zacian",
         "category": "Valeureux",
-        "description": "Également surnommé « héros légendaire », ce Pokémon absorbe du métal et se change en arme pour se battre."
+        "description": "Également surnommé “ héros légendaire ”, ce Pokémon absorbe du métal et se change en arme pour se battre."
     },
     "SPECIES_ZAMAZENTA_CROWNED": {
         "id": 889,
@@ -10595,7 +10595,7 @@
         "code": "SPECIES_KILOWATTREL",
         "name": "Fulgulairo",
         "category": "Frégate",
-        "description": "Ce Pokémon laisse des grains de sel dans son sillage. Cette trace est depuis longtemps surnommée « route du sel »."
+        "description": "Ce Pokémon laisse des grains de sel dans son sillage. Cette trace est depuis longtemps surnommée “ route du sel ”."
     },
     "SPECIES_MASCHIFF": {
         "id": 942,
@@ -10637,7 +10637,7 @@
         "code": "SPECIES_BRAMBLEGHAST",
         "name": "Virevorreur",
         "category": "Virevoltant",
-        "description": "Il est possible que ce Pokémon soit la créature évoquée sous le nom de « Fongus-Furie » dans un certain livre."
+        "description": "Il est possible que ce Pokémon soit la créature évoquée sous le nom de “ Fongus-Furie ” dans un certain livre."
     },
     "SPECIES_TOEDSCOOL": {
         "id": 948,
@@ -10966,7 +10966,7 @@
         "code": "SPECIES_CLODSIRE",
         "name": "Terraiste",
         "category": "Poissépine",
-        "description": "Sept « Verochi » vivent dans une pomme composée de nectar. Celui qui se trouve au centre est le chef du groupe."
+        "description": "Sept “ Verochi ” vivent dans une pomme composée de nectar. Celui qui se trouve au centre est le chef du groupe."
     },
     "SPECIES_FARIGIRAF": {
         "id": 981,
@@ -11022,7 +11022,7 @@
         "code": "SPECIES_BRUTE_BONNET",
         "name": "Fongus-Furie",
         "category": "Paradoxe",
-        "description": "Ce Pokémon a des caractéristiques semblables à celles d'une créature évoquée dans un certain livre sous le nom de « Flotte-Mèche »."
+        "description": "Ce Pokémon a des caractéristiques semblables à celles d'une créature évoquée dans un certain livre sous le nom de “ Flotte-Mèche ”."
     },
     "SPECIES_FLUTTER_MANE": {
         "id": 987,
@@ -11043,7 +11043,7 @@
         "code": "SPECIES_SANDY_SHOCKS",
         "name": "Pelage-Sablé",
         "category": "Paradoxe",
-        "description": "Il pourrait s'agir de la créature nommée « Rugit-Lune », qui apparaît dans un récit d'exploration très mystérieux."
+        "description": "Il pourrait s'agir de la créature nommée “ Rugit-Lune ”, qui apparaît dans un récit d'exploration très mystérieux."
     },
     "SPECIES_KINGLER": {
         "id": 99,
